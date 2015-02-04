@@ -205,7 +205,10 @@ function smashburger_scripts() {
 		wp_enqueue_script( 'datamaps', get_template_directory_uri() . '/js/datamaps.js', array(), '1', true );	
 		wp_enqueue_script( 'datamap-init', get_template_directory_uri() . '/js/wereGrowing.js', array(), '1', true );
 	}
+	if (is_page(array('franchising'))) {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+		wp_enqueue_script( 'franchise.js', get_template_directory_uri() . '/js/franchise.js', array(), '1',  true);
+	}
 		wp_enqueue_script( 'comment-reply' );
 	}
 }

@@ -19,7 +19,7 @@ get_header(); ?>
 			  <img src="<?php echo $image2['url']; ?>" alt="<?php echo $image2['alt']; ?>">
 			</div>
 			<p class="brown-text small-12 row"><?php echo get_field('page_info'); ?></p>
-			<iframe src="<?php echo get_field('iframe_url'); ?>" width="60%" height="1500"></iframe>
+			<iframe src="<?php echo get_field('iframe_url'); ?>" width="60%" height="700"></iframe>
 			<div class="hide-for-small-only">
 				<div class="medium-12">
 					<img src="<?php echo $image1['url']; ?>" alt="<?php echo $image1['alt']; ?>">
