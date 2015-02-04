@@ -1432,7 +1432,7 @@ aside#comments h4 {
 	opacity: 0;
 }
 /*==== Our Story / food Story ====*/
-.bodypage-template-template-our_story-php,
+body.page-template-template-our_story-php,
 body.page-template-template-food-story-php {
 	background: url(../img/sky_background.jpg) 10% center repeat fixed;
 	background-size: cover;
