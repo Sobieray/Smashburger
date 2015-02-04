@@ -1432,49 +1432,49 @@ aside#comments h4 {
 	opacity: 0;
 }
 /*==== Our Story / food Story ====*/
-body.page-template-template-our_story,
-body.page-template-template-food-story {
+.bodypage-template-template-our_story-php,
+body.page-template-template-food-story-php {
 	background: url(../img/sky_background.jpg) 10% center repeat fixed;
 	background-size: cover;
 }
-.page-template-template-our_story #primary img,
-.page-template-template-food-story #primary img {
+.page-template-template-our_story-php #primary img,
+.page-template-template-food-story-php #primary img {
 	width: 100%;
 	height: 100%;
 }
-.page-template-template-our_story p,
-.page-template-template-food-story p {
+.page-template-template-our_story-php p,
+.page-template-template-food-story-php p {
 	font-size: 100%;
 	text-transform: uppercase;
   font-weight: 900;
   margin: 35% 5%;
 }
-.page-template-template-our_story #primary section div,
-.page-template-template-food-story #primary section div {
+.page-template-template-our_story-php #primary section div,
+.page-template-template-food-story-php #primary section div {
 	max-height: 480px;
 }
-.page-template-template-our_story #primary {
+.page-template-template-our_story-php #primary {
 	text-align: center;
 }
-.page-template-template-our_story #first p,
-.page-template-template-our_story #secondary p,
-.page-template-template-food-story #first p,
-.page-template-template-food-story #fourth p,
-.page-template-template-food-story #secondary p {
+.page-template-template-our_story-php #first p,
+.page-template-template-our_story-php #secondary p,
+.page-template-template-food-story-php #first p,
+.page-template-template-food-story-php #fourth p,
+.page-template-template-food-story-php #secondary p {
 	font-weight: normal;
 	text-transform: none;
 	margin: 13% 5%;
 }
-.page-template-template-food-story #first {
+.page-template-template-food-story-php #first {
 	background-image: url(../img/food_story_bg.jpg);
 	background-position: right center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.page-template-template-our_story #first p {
+.page-template-template-our_story-php #first p {
 	margin: 8% 5% 8% 0%;
 }
-.page-template-template-food-story #first p {
+.page-template-template-food-story-php #first p {
 	margin: 15% 5% 15% 0%;
 	text-align: justify;
 }
@@ -1494,27 +1494,27 @@ div.css-triangle.right:before {
 	border-left-color: #4b5f8a; 
 	border-right-color: transparent;
 }
-.page-template-template-food-story div.css-triangle.right:before {
+.page-template-template-food-story-php div.css-triangle.right:before {
 	border-left-color: #492e1e;
 	border-right-color: transparent;
 }
-.page-template-template-food-story div.css-triangle:before {
+.page-template-template-food-story-php div.css-triangle:before {
 		border-right-color: #855438;
 }
-.page-template-template-our_story h2,
-.page-template-template-food-story h2 {
+.page-template-template-our_story-php h2,
+.page-template-template-food-story-php h2 {
 	margin-top: 41%;
 	text-transform: uppercase;
 	font-weight: 900;
 	text-align: center;
 	font-size: 140%;
 }
-.page-template-template-our_story #first {
+.page-template-template-our_story-php #first {
 	overflow: visible;
 	text-align: left;
 
 }
-.page-template-template-our_story #first img {
+.page-template-template-our_story-php #first img {
 	width: auto;
 	height: auto;
 	position: absolute;
@@ -1522,12 +1522,12 @@ div.css-triangle.right:before {
 	bottom: -10px;
 
 }
-.page-template-template-food-story #first img {
+.page-template-template-food-story-php #first img {
 	position: absolute;
 	left: -20px;
 	height: auto;
 }
-.page-template-template-food-story #first span {
+.page-template-template-food-story-php #first span {
 	color: #c4161c;
 	font-size: 430%;
 	border: 8px solid;
@@ -1538,8 +1538,8 @@ div.css-triangle.right:before {
 	margin-right: .1em;
 	line-height: 75px;
 }
-.page-template-template-food-story #secondary span,
-.page-template-template-food-story #fourth span {
+.page-template-template-food-story-php #secondary span,
+.page-template-template-food-story-php #fourth span {
 	float: left;
 	font-size: 300%;
 	position: relative;
@@ -1547,47 +1547,47 @@ div.css-triangle.right:before {
 	margin-right: .1em;
 	line-height: 65px;
 }
-.page-template-template-our_story #primary #secondary div img {
+.page-template-template-our_story-php #primary #secondary div img {
 	position: absolute;
 	bottom: 30px;
 	width: auto;
 	height: auto;
 }
-.page-template-template-our_story #fourth img,
-.page-template-template-our_story #nine img,
-.page-template-template-food-story #fifth div:first-child img {
+.page-template-template-our_story-php #fourth img,
+.page-template-template-our_story-php #nine img,
+.page-template-template-food-story-php #fifth div:first-child img {
 	position: absolute;
 	left: 0;
 }
-.page-template-template-our_story #nine div:last-child img {
+.page-template-template-our_story-php #nine div:last-child img {
 	width: 80%;
 	height: auto;
 	z-index: 99;
 }
-.page-template-template-our_story #fourth h2 {
+.page-template-template-our_story-php #fourth h2 {
 	margin-top: 44%;
 }
-.page-template-template-our_story .blue-bg p {
+.page-template-template-our_story-php .blue-bg p {
   color: #4b5f8a;
 }
-.page-template-template-our_story #fourth .tan-bg p {
+.page-template-template-our_story-php #fourth .tan-bg p {
 	color: #4a3223;
 }
-.page-template-template-our_story #sixth p,
-.page-template-template-our_story #eight .red-secondary p {
+.page-template-template-our_story-php #sixth p,
+.page-template-template-our_story-php #eight .red-secondary p {
 	margin: 18% 3%;
 }
-.page-template-template-our_story #fifth .red-secondary p {
+.page-template-template-our_story-php #fifth .red-secondary p {
 	margin: 18% 5%;
 }
-.page-template-template-our_story #sixth .no-padding img {
+.page-template-template-our_story-php #sixth .no-padding img {
 	position: relative;
 	left: 30px;
 }
-.page-template-template-our_story #seventh p.tan-bg,
-.page-template-template-our_story #seventh p.red-secondary,
-.page-template-template-food-story #fifth p.tan-bg,
-.page-template-template-food-story #fifth p.red-secondary {
+.page-template-template-our_story-php #seventh p.tan-bg,
+.page-template-template-our_story-php #seventh p.red-secondary,
+.page-template-template-food-story-php #fifth p.tan-bg,
+.page-template-template-food-story-php #fifth p.red-secondary {
 	background: transparent url(../img/beige-arrow-bg.png) left center no-repeat;
 	background-size: cover;
 	width: 90%;
@@ -1598,45 +1598,45 @@ div.css-triangle.right:before {
 	margin: 0;
 	text-align: center;
 }
-.page-template-template-our_story #seventh p.tan-bg,
-.page-template-template-food-story #fifth p.tan-bg {
+.page-template-template-our_story-php #seventh p.tan-bg,
+.page-template-template-food-story-php #fifth p.tan-bg {
 	right: 8%;
 }
-.page-template-template-our_story #seventh p.red-secondary,
-.page-template-template-food-story #fifth p.red-secondary {
+.page-template-template-our_story-php #seventh p.red-secondary,
+.page-template-template-food-story-php #fifth p.red-secondary {
 	background-image: url(../img/red-arrow-bg.png);
 }
-.page-template-template-our_story #eight,
-.page-template-template-our_story #nine {
+.page-template-template-our_story-php #eight,
+.page-template-template-our_story-php #nine {
 	overflow: visible;
 }
-.page-template-template-our_story #eight .light-brown-bg img {
+.page-template-template-our_story-php #eight .light-brown-bg img {
 	position: absolute;
 	left: 30px;
 	width: 70%;
 	top: -60%;
 }
-.page-template-template-our_story #eight .light-brown-bg p,
-.page-template-template-our_story #eight .dark-blue-bg p,
-.page-template-template-our_story #nine .tan-bg p {
+.page-template-template-our_story-php #eight .light-brown-bg p,
+.page-template-template-our_story-php #eight .dark-blue-bg p,
+.page-template-template-our_story-php #nine .tan-bg p {
 	font-size: 160%;
 } 
-.page-template-template-our_story #nine .tan-bg p,
-.page-template-template-our_story #eight .dark-blue-bg p,
-.page-template-template-our_story #eight .light-brown-bg p {
+.page-template-template-our_story-php #nine .tan-bg p,
+.page-template-template-our_story-php #eight .dark-blue-bg p,
+.page-template-template-our_story-php #eight .light-brown-bg p {
 	margin-top: 45%;
 }
-.page-template-template-our_story #eleven div:nth-child(1) img,
-.page-template-template-our_story #ten div:nth-child(2) img,
-.page-template-template-food-story #fourth img,
-.page-template-template-food-story #third div:nth-child(3) img,
-.page-template-template-food-story #secondary div:nth-child(3) img {
+.page-template-template-our_story-php #eleven div:nth-child(1) img,
+.page-template-template-our_story-php #ten div:nth-child(2) img,
+.page-template-template-food-story-php #fourth img,
+.page-template-template-food-story-php #third div:nth-child(3) img,
+.page-template-template-food-story-php #secondary div:nth-child(3) img {
 	position: absolute;
 	height: auto;
 	bottom: 0;
 
 }
-.page-template-template-food-story #secondary {
+.page-template-template-food-story-php #secondary {
 	overflow: visible;
 }
 /*==== Menu ====*/
@@ -1768,7 +1768,7 @@ div.css-triangle.right:before {
 	right: 5%;
 	left: auto;
 }
-.page-template-template-menu .slick-slider {
+.page-template-template-menu-php .slick-slider {
 	margin-bottom: 0;
 	padding: 0;
 }
@@ -1779,11 +1779,11 @@ div.css-triangle.right:before {
 	width: 100%;
 	height: 100%;
 }
-.page-template-template-menu .slick-dots {
+.page-template-template-menu-php .slick-dots {
 	bottom: 0;
 	left: 35%;
 }
-.page-template-template-menu select {
+.page-template-template-menu-php select {
 	position: absolute;
 	width: 100%;
 	right: 0;
@@ -1931,7 +1931,7 @@ footer {
 
 /*==== Media Queries ====*/
 @media (min-width: 1700px) {
-	.page-template-template-food-story #first img {
+	.page-template-template-food-story-php #first img {
 		width: 85%;
 	}
 }
@@ -1939,11 +1939,11 @@ footer {
 	body {
 		font-size: 130%;
 	}
-	.page-template-template-our_story #primary #secondary div img {
+	.page-template-template-our_story-php #primary #secondary div img {
 		top: 0;
 		bottom: auto; 
 	}
-	.page-template-template-our_story #sixth .no-padding img {
+	.page-template-template-our_story-php #sixth .no-padding img {
 		left: 50px;
 	}
 }
@@ -1971,7 +1971,7 @@ footer {
 	.blog article .entry-meta li:nth-child(3), .archive article .entry-meta li:nth-child(3) p {
 		text-align: right;
 	}
-	.page-template-template-our_story #first img {
+	.page-template-template-our_story-php #first img {
 		bottom: -40px;
 	}
 } 
@@ -2054,17 +2054,17 @@ footer {
 		border: 10px solid transparent;
 		border-right-color: #492e1e;
 	}
-	.page-template-template-our_story section#eight.flex,
-	.page-template-template-our_story section#nine.flex  {
+	.page-template-template-our_story-php section#eight.flex,
+	.page-template-template-our_story-php section#nine.flex  {
 		display: block;
 	}
-	.page-template-template-our_story #nine .tan-bg p, 
-	.page-template-template-our_story #eight .dark-blue-bg p, 
-	.page-template-template-our_story #eight .light-brown-bg p {
+	.page-template-template-our_story-php #nine .tan-bg p, 
+	.page-template-template-our_story-php #eight .dark-blue-bg p, 
+	.page-template-template-our_story-php #eight .light-brown-bg p {
 		margin: 25% 5%;
 	}
-	.page-template-template-our_story #seventh p.tan-bg, 
-	.page-template-template-our_story #seventh p.red-secondary {
+	.page-template-template-our_story-php #seventh p.tan-bg, 
+	.page-template-template-our_story-php #seventh p.red-secondary {
 		position: relative;
 		margin: 35% 5%;
 		top: 0;
