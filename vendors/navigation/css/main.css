@@ -32,8 +32,8 @@ a.symbol:before {
 /*==== Universal Styles ====*/
 
 body {
-	height: auto;
-	font-family: 'Montserrat', sans-serif;
+	height: 100%;
+	font-family: 'Gotham SSm a','Gotham SSm b', 'Gotham' sans-serif;
 	font-size: 100%;
 	background: rgb(243,241,234); /* Old browsers */
 	-webkit-text-rendering: optimizeLegibility;
@@ -53,7 +53,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Gotham SSm a', 'Gotaham SSm b', 'Gotham' sans-serif;
 }
 a {
 
@@ -71,7 +71,7 @@ a:hover {
 }
 nav#site-navigation {
 	padding-bottom: 5em;
-	background: url(../img/sky_background.jpg) center no-repeat;
+	/*background: url(../img/sky_background.jpg) center no-repeat;*/
 	background-size: cover;
 }
 header .site-branding h1,
@@ -81,6 +81,29 @@ header .site-branding h2,
 	text-indent: -99999px;
 	z-index: -99999;
 	position: absolute;
+}
+.header {
+	background: url(../img/sky_background.jpg) no-repeat;
+	background-size: 100%;
+	width: 100%;
+	text-align: center;
+	top: 0;
+	z-index: -1;
+	height: 190px;
+	position: absolute;
+}
+.header h1 {
+	font-family: 'Gotham A', 'Gotham B', 'Gotham'; 
+	font-weight: 900;
+	margin: 0;
+	border-bottom: 10px solid #c4161c;
+	color: #c4161c;
+	line-height: 29px;
+	text-transform: uppercase;
+	font-weight: 900;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 .tan-text {
 	color: #ebe4d4;
