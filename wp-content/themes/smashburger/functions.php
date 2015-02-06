@@ -177,6 +177,9 @@ function smashburger_scripts() {
 	if (is_page(array('contacts'))) {
 		wp_enqueue_script( 'foundation-tabs', get_template_directory_uri() . '/foundation/js/foundation/foundation.tab.js', array(), '1', true );
 	}
+	if (is_page(array('meet-us'))) {
+		wp_enqueue_script( 'foundation-accordion', get_template_directory_uri() . '/foundation/js/foundation/foundation.accordion.js', array(), '1',  true);
+	}
 	wp_enqueue_script( 'foundation-equalizer', get_template_directory_uri() . '/foundation/js/foundation/foundation.equalizer.js', array(), '1', true );
 	if (is_page(array('home'))) {
 		wp_enqueue_script( 'smashburger-parallax', get_template_directory_uri() . '/js/parallax.js', array(), '1', true );
@@ -189,12 +192,12 @@ function smashburger_scripts() {
 
 	if (is_page(array('home'))) {
 		wp_enqueue_script( 'smashburger-parallax', get_template_directory_uri() . '/js/parallax.js', array(), '1', true );
-		wp_enqueue_script( 'foundation-tabs', get_template_directory_uri() . '/foundation/js/foundation/foundation.abide.js', array(), '1', true );
+		//wp_enqueue_script( 'foundation-tabs', get_template_directory_uri() . '/foundation/js/foundation/foundation.abide.js', array(), '1', true );
 		wp_enqueue_script( 'homepage.js', get_template_directory_uri() . '/js/homepage.js', array(), '1',  true);
 	}
 
 
-	if (is_page(array('nutrition-dietary', 'menu'))) {
+	if (is_page(array('nutrition-dietary', 'menu', 'meet-us'))) {
 		wp_enqueue_style( 'slick-style', get_template_directory_uri() . '/slick/slick.css' );
 		wp_enqueue_script( 'slick.init.js', get_template_directory_uri() . '/slick/slick.init.js', array(), '1',  true);
 		wp_enqueue_script( 'slick.js', get_template_directory_uri() . '/slick/slick.min.js', array(), '1',  true);
@@ -206,9 +209,9 @@ function smashburger_scripts() {
 		wp_enqueue_script( 'datamap-init', get_template_directory_uri() . '/js/wereGrowing.js', array(), '1', true );
 	}
 	if (is_page(array('franchising'))) {
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'franchise.js', get_template_directory_uri() . '/js/franchise.js', array(), '1',  true);
 	}
+	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }

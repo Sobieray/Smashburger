@@ -12,6 +12,7 @@
 }
 .symbol, a.symbol:before {
     font-family: 'Mono Social Icons Font';
+    font-weight: normal;
     -webkit-text-rendering: optimizeLegibility;
     -moz-text-rendering: optimizeLegibility;
     -ms-text-rendering: optimizeLegibility;
@@ -44,7 +45,7 @@ a.symbol:before {
 body {
 	height: auto;
 	font-family: 'Gotham SSm A', 'Gotham SSm B', 'Gotham'; 
-	font-weight: 400; 
+	font-weight: 600; 
 	font-style: normal;
 	font-size: 100%;
 	background: rgb(243,241,234); /* Old browsers */
@@ -65,7 +66,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', 'Gotham HTF', sans-serif;
 }
 a {
 
@@ -1167,7 +1168,7 @@ input[type=range][orient=vertical] {
 	position: relative;
 }
 .header h1 {
-	font-family: 'Gotham A', 'Gotham B'; 
+	font-family: 'Gotham A', 'Gotham B', 'Gotham'; 
 	font-weight: 900;
 	margin: 0;
 	border-bottom: 10px solid #c4161c;
@@ -1908,6 +1909,45 @@ ul.main-contact li a:focus {
 	color: #ffffff;
 }
 /*==== Smashclub ====*/
+.franchise-menu-interior {
+	border-bottom: 3px solid #c5beaf;
+}
+.franchise-menu-interior h6 {
+	color: #840c10;
+	text-transform: uppercase;
+	font-weight: 800;
+	padding-left: 2em;
+	font-size: 18px;
+	float: left;
+	line-height: 3em;
+	margin: 0;
+}
+.franchise-menu-interior ul {
+	float: left;
+	margin-bottom: 0;
+	margin-left: 2em;
+	width: 79%;
+}
+.franchise-menu-interior li {
+	list-style: none;
+	float: left;
+}
+.franchise-menu-interior li a {
+	color: #492e1e;
+	text-align: center;
+	font-weight: normal;
+	padding: 1em 1.5em;
+	display: inline-block;
+}
+.franchise-menu-interior li.current_page_item a {
+	background-color: #c5beaf;
+}
+.franchise-menu-interior li.current_page_item a {
+	color: #c4161c;
+}
+.franchise-menu-interior li a:hover {
+	background-color: #c5beaf;
+}
 body.page-template-template_smashclub-php  {
 	background-color: #EBE8DE;
 }
@@ -1935,13 +1975,14 @@ body.page-template-template_smashclub-php  {
 .page-template-template-franchise-php #franchising {
 	background: url(../img/franchise_lp_hero.jpg) top center no-repeat;
 	background-size: cover;
-	padding: 10% 0;
+	padding: 10em 0 8em 0;
 }
 .page-template-template-franchise-php h2 {
+	font-family: 'Gotham SSm a', 'Gotham SSm b', 'Gotham';
 	text-align: center;
 	margin-bottom: 0;
 	line-height: 36px;
-	font-weight: 900;
+	font-weight: 800;
 	text-transform: uppercase;
 	font-size: 250%;
 }
@@ -2028,6 +2069,169 @@ body.page-template-template_smashclub-php  {
 }
 .page-template-template-franchise-php article ul li.active{
 	display: list-item;
+}
+/*==== Meet Us ====*/
+#meet-us h4 {
+	color:#ffffff;
+	padding-left: 2em;
+	text-transform: uppercase;
+	font-size: 120%;
+	font-weight: 800; 
+	line-height: 3em;
+	margin:0;
+}
+
+.accordion {
+	overflow: auto;
+	max-height: 566px;
+}
+.accordion .accordion-navigation>a img, .accordion dd>a img {
+	float: left;
+	margin-right: 2em;
+}
+.accordion .accordion-navigation> a h6, .accordion dd> a h6 {
+	margin-top: 4%;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 110%;
+	color: #c4171d;
+}
+.accordion .accordion-navigation> a p, .accordion dd> a p {
+	font-weight: 500;
+	margin-top: 0;
+}
+.accordion .accordion-navigation>a, .accordion dd>a,
+.accordion .accordion-navigation>a:hover, .accordion dd>a:hover {
+	background: #ece7d7 url(../img/accordion_down_arrow.png) 95% center no-repeat;
+	color: #c4171d;
+	font-weight: 500;
+	padding: 1em 2em 1em 5em;
+}
+.accordion .accordion-navigation:nth-child(2n)>a, .accordion dd:nth-child(2n)>a {
+	background-color: #d9d0bd;
+}
+.accordion .accordion-navigation>a:hover, .accordion dd>a:hover {
+	background-color: rgba(236,231,215,.1);
+}
+.accordion .accordion-navigation.active > a, .accordion dd.active > a {
+	background: #ece7d7 url(../img/accordion_up_arrow.png) 95% center no-repeat;
+}
+.accordion .accordion-navigation:nth-child(2n).active > a, .accordion dd:nth-child(2n).active > a {
+	background-color: #d9d0bd;
+}
+.accordion .accordion-navigation>.content.active, .accordion dd>.content.active {
+	background-color: #ece7d7;
+	color: #60412d;
+	padding: 1em 2em 1em 5em;
+}
+.accordion .accordion-navigation:nth-child(2n)>.content.active, .accordion dd:nth-child(2n)>.content.active {
+	background-color: #d9d0bd;
+}
+
+aside.events ul {
+  margin: 0;
+  overflow: auto;
+  height: 400px;
+}
+aside.events li {
+	background-color: #c4171d;
+	list-style: none;
+}
+aside.events li:hover,
+aside.events li:nth-child(odd):hover {
+	background-color: #df3627; 
+}
+aside.events li a h5 {
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 115%;
+	padding: 1em 2em 0em 2em;
+	margin: 0;
+}
+aside.events li a p {
+	padding: 0em 2em 1em 2em;
+	margin: 0;
+	font-size: 100%;
+	font-weight: normal;
+}
+aside.events li a {
+	color: #ffffff;
+	display: block;
+}
+aside.events li:nth-child(odd) {
+	background-color: #980d12;
+}
+aside.events a.brown-text {
+	background-color: #d9d0bd;
+	display: block;
+	padding:1em 2em;
+	width: 80%;
+	margin: 2.5em auto;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 80%;
+	font-weight: 800; 
+}
+#franchise-quotes h3 {
+	text-align: center;
+	font-size: 160%;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-top: 2em;
+	margin-top: 0;
+}
+div.franchise.slider {
+	background-color: transparent;
+	margin-bottom: 0;
+}
+.franchise.slider .slick-prev {
+	left: 0;
+}
+.franchise.slider .slick-next {
+	right: 0;
+}
+.franchise.slider blockquote {
+	font-size: 100%;
+	font-weight: normal;
+	border: none;
+	text-align: center;
+	width: 75%;
+	color: #ffffff;
+	font-style: italic;
+	margin: 0 auto;
+
+}
+.franchise.slider h5,
+.franchise.slider p {
+	color: #ffffff;
+	font-weight: 800;
+	font-size: 120%;
+	text-transform: uppercase;
+	width: 75%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 2em;
+}
+.franchise.slider p {
+	font-weight: 500;
+	font-size: 105%;
+	text-transform: none;
+	margin-top: 0;
+}
+#franchise-quotes a {
+	padding: 2%;
+	display: block;
+	margin: 0 auto;
+	width: 30%;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+#franchise-quotes a:hover {
+	/*background-color: #492e1e;*/
+	color: #c4171d;
 }
 
 /*==== Footer ====*/

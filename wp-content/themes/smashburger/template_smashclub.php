@@ -8,7 +8,7 @@
 get_header(); ?>
 <?php
 	$image1 = get_field('footer_image');
-	$image2 = get_field('header_image')
+	$image2 = get_field('header_image');
  ?>
 	<div class="header">
 		<h1><?php echo get_field('page_title'); ?></h1>

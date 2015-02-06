@@ -25,12 +25,10 @@ $(document).ready(function() {
 			console.log("pause");
 		}
 	});
-		
-		/*onInit: function(e){
-		    $el2.append('<div class="slick-counter">'+ parseInt(e.currentSlide + 1, 10) +' of '+ e.slideCount +'</div>');
-		},
-		onAfterChange: function(e){
-		  $el2.find('.slick-counter').html(e.currentSlide + 1 +' of '+e.slideCount);
-		}*/
-
+	var $el3 = $('.franchise.slider');	
+	$el3.slick({
+		dots: false,
+		arrows: true,
+		autoplay: false
+	});
 });
