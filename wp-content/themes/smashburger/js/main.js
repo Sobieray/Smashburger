@@ -1,7 +1,7 @@
 $(document).foundation();
 $(document).ready(function() {
-	var windowHeight =$(window).height();
-	$('.page-template-template-nutritiondietary-php #main, .page-template-template-angus-php #main').css({paddingTop: windowHeight - 125, marginTop: "-96px"});
+	var windowHeight = $(window).height();
+	$('.page-template-template-nutritiondietary-php #main, .page-template-template-angus-php #main, .page-template-template-why-us-php #primary ').css({paddingTop: windowHeight - 125, marginTop: "-96px"});
 	//Menu Locate and Search widget
 	$("#menu-item-6488").append('<div id="geolocation"><div class="located"><h6>closest to you</h6><img src="../wp-content/themes/smashburger/img/logo.svg" /></div><div class="search"><h6>Find another</h6><form id="locations-search" action="http://locations.smashburger.com/search" method="get"><input class="form-text" type="text" id="q" name="q" value="Enter ZIP, City, or State"><input class="form-submit" type="submit" value="FIND"></form></div></div>');
 	//Clear Input Values

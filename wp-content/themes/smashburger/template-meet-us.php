@@ -17,7 +17,7 @@ get_header(); ?>
 	</div>
 	<div id="primary" class="content-area">
 		<div class="franchise-menu-interior clear">
-			<h6 class="hide-for-small-only">Franchising</h6>
+			<h6 class="hide-for-medium-down">Franchising</h6>
 			<?php wp_nav_menu( array( 'menu' => 'franchise-interior') ); ?>
 		</div>
 		<main id="meet-us" class="clear" data-equalizer>
@@ -61,12 +61,12 @@ get_header(); ?>
 					$evnet5_url = get_field('event5_link');
 				?>
 				<ul>
-					<li><a href='<?php echo $evnet1_url;?>'><?php echo get_field('event1'); ?></a></li>
-					<li><a href="<?php echo $evnet2_url;?>"><?php echo get_field('event2'); ?></a></li>
-					<li><a href="<?php echo $evnet3_url;?>"><?php echo get_field('event3'); ?></a></li>
-					<li><a href="<?php echo $evnet4_url;?>"><?php echo get_field('event4'); ?></a></li>
-					<li><a href="<?php echo $evnet5_url;?>"><?php echo get_field('event5'); ?></a></li>
-					<li><a href="<?php echo $evnet6_url;?>"><?php echo get_field('event6'); ?></a></li>
+					<li><a href='<?php echo $evnet1_url;?>' target="_blank"><?php echo get_field('event1'); ?></a></li>
+					<li><a href="<?php echo $evnet2_url;?>" target="_blank"><?php echo get_field('event2'); ?></a></li>
+					<li><a href="<?php echo $evnet3_url;?>" target="_blank"><?php echo get_field('event3'); ?></a></li>
+					<li><a href="<?php echo $evnet4_url;?>" target="_blank"><?php echo get_field('event4'); ?></a></li>
+					<li><a href="<?php echo $evnet5_url;?>" target="_blank"><?php echo get_field('event5'); ?></a></li>
+					<li><a href="<?php echo $evnet6_url;?>" target="_blank"><?php echo get_field('event6'); ?></a></li>
 				</ul>
 				<a class="brown-text" href="#">schedule an in-person meeting</a>
 			</aside>

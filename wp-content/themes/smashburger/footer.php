@@ -12,7 +12,11 @@
 
 		<footer id="colophon" class="site-footer brown tan-text" role="contentinfo">
 			<div class="site-info">
-				<?php wp_nav_menu( array( 'theme_location' => 'footer' ) ); ?>
+				<nav id="site-navigation" class="top-bar tab-bar" data-topbar role="navigation">	
+					<section class="top-bar-section clear">
+						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'container_class' => 'clear', 'menu_class' => 'show-for-medium-up clear' , 'walker' => new top_bar_walker()) ); ?>
+					</section>
+				</nav><!-- #site-navigation -->
 				<div id="social-media">
 					<ul>
 						<li><a href="" class='symbol' title='circlefacebook'></a></li>
