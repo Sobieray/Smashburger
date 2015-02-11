@@ -2484,23 +2484,28 @@ article#steps footer a:hover, #inquiry-submit a:hover  {
 }
 #awards span {
 	position: absolute;
-	top: 7%;
-	font-size: 200%;
-	left: 45%;
+	top: 0;
+	right: 0;
+	font-size: 500%;
+	line-height: 90%;
+	width: 100%;
 	font-weight: 600;
 }
 #awards div > div {
 	text-align: center;
-	padding: 4% 0 12% 0;
+	padding: 6% 0 12% 0;
 }
-#awards h2 {
-	position: absolute;
-	padding: 1%;
-	left: 37.5%;
-	top: 42%;
+#awards .featured-title {
+	top: 47.5%;
 	z-index: 2;
+}
+#awards .featured-title h2 {
 	text-transform: uppercase;
 	font-weight: 800;
+	width: 40%;
+	font-size: 40%;
+	text-align: center;
+	margin: 0 auto;
 }
 #awards div h3 {
 	margin: 0;
@@ -2514,44 +2519,86 @@ article#steps footer a:hover, #inquiry-submit a:hover  {
 #awards div h3:nth-of-type(2) {
 	padding-top: 0;
 }
-#awards div:nth-child(1) div:nth-of-type(1), #awards div:nth-child(2) div:nth-of-type(2) {
+#awards div:nth-child(2) div:nth-of-type(1), #awards div:nth-child(3) div:nth-of-type(2) {
 	background: #87afd1;
 }
-#awards div:nth-child(1) div:nth-of-type(1) h3, #awards div:nth-child(2) div:nth-of-type(2) h3  {
+#awards div:nth-child(2) div:nth-of-type(1) h3, #awards div:nth-child(3) div:nth-of-type(2) h3  {
 	background-color: #7395b2;
 }
-#awards div:nth-child(1) div:nth-of-type(1) span, #awards div:nth-child(2) div:nth-of-type(2) span {
+#awards div:nth-child(2) div:nth-of-type(1) span, #awards div:nth-child(3) div:nth-of-type(2) span {
 	color: #7395b2;
 }
-#awards div:nth-child(1) div:nth-of-type(2) h3, #awards div:nth-child(2) div:nth-of-type(1) h3 {
+#awards div:nth-child(2) div:nth-of-type(2) h3, #awards div:nth-child(3) div:nth-of-type(1) h3 {
 	background-color: #394868;
 }
-#awards div:nth-child(1) div:nth-of-type(2) span, #awards div:nth-child(2) div:nth-of-type(1) span {
+#awards div:nth-child(2) div:nth-of-type(2) span, #awards div:nth-child(3) div:nth-of-type(1) span {
 	color: #394868;
 }
-#awards div:nth-child(1) div:nth-of-type(1) {
+#awards div:nth-child(2) div:nth-of-type(1) {
 	background-image: url(../img/forbes.jpg);
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	background-size: 100% 57%;
 }
-#awards div:nth-child(1) div:nth-of-type(2) {
+#awards div:nth-child(2) div:nth-of-type(2) {
 	background-image: url(../img/fast_casual.jpg);
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	background-size: 75%;
 }
-#awards div:nth-child(2) div:nth-of-type(1) {
+#awards div:nth-child(3) div:nth-of-type(1) {
 	background-image: url(../img/qsr.jpg);
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	background-size: 102% 57%;
 }
-#awards div:nth-child(2) div:nth-of-type(2) {
+#awards div:nth-child(3) div:nth-of-type(2) {
 	background-image: url(../img/icsc.jpg);
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	background-size: 80%;
+}
+#award_tiles div p {
+	margin-top: 5%;
+	font-size: 100%;
+	text-transform: uppercase;
+	font-weight: 600;
+	position: absolute;
+	right: 0;
+	width: 100%;
+}
+#award_tiles div {
+	line-height: 190px;
+	min-height: 190px;
+	padding-bottom: 10%;
+}
+#award_tiles div h4 {
+	font-size: 120%;
+	font-weight: 700;
+	text-transform: uppercase;
+	display: inline-block;
+	line-height: normal;
+	vertical-align: middle;
+	z-index: 2;
+	position: relative;
+	top: 35%;
+}
+#award_tiles div span {
+	position: absolute;
+	bottom: 0;
+	font-size: 600%;
+	line-height: 73%;
+	width: 100%;
+	text-align: center;
+	right:0;
+	color: #272727;
+	opacity: .15;
+	z-index: 1;
+
+}
+/*==== Inquire ====*/
+#inquire {
+	background: url(../img/inquire_bg.png) left bottom no-repeat;
 }
 /*==== Footer ====*/
 footer#colophon {
