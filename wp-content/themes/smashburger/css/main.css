@@ -1658,7 +1658,10 @@ div.css-triangle.right:before {
 .tabs {
 	border-bottom: 3px solid #c5beaf;
 }
-.tabs-content>.content {
+.tabs-content {
+	margin-bottom: 0;
+}
+.tabs-content > .content {
 	padding: 0;
 }
 .tabs dd, .tabs .tab-title {
@@ -1787,12 +1790,101 @@ div.css-triangle.right:before {
 	margin-bottom: 0;
 	padding: 0;
 }
+.menu.slider .slick-dots li button:before {
+	font-size: 16px;
+	line-height: 16px;
+	color: #2e2424;
+	border: 3px solid #ffffff;
+	border-radius: 10px;
+	left: -4px;
+	top: -3px;
+}
+.menu.slider li button {
+	border: 3px solid rgba(255,255,255,.6);
+	border-radius: 10px;
+}
+.menu.slider .slick-dots li.slick-active button:before {
+	color: #c4171d;
+	opacity: 1;
+}
+.flip {
+	transition: 0.6s !important;
+	transform-style: preserve-3d;
+}
+.front {
+	z-index: 2;
+	transform: rotateY(0deg);
+}
+.front img {
+	padding-top: 15%;
+}
+.front, .back {
+	backface-visibility: hidden;
+	/*top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;*/
+}
+.back {
+	transform: rotateY(180deg);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.flip-container:hover .flip, .flip-container.hover .flip {
+transform: rotateY(180deg);
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+/*box-shadow: 0px 5px 0px rgba(0,0,0,.1);*/
+}
+/*.back {
+	display: none;
+}*/
+.back p {
+	position: absolute;
+	top: 25%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	color: #ffffff;
+}
+/* Burgers */
+
 .menu .slide {
 	display: none
 }
 .row1 div:first-child img {
 	width: 100%;
 	height: 100%;
+}
+
+.page-template-template-menu-php h4 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: #e9e2d2;
+	font-size: 120%;
+	padding: 0 .5em;
+	position: absolute;
+	width: 100%;
+
+}
+.page-template-template-menu-php h4:before, .page-template-template-menu-php h4:after  {
+	content: "•" ;
+	color: #4a2e1e;
+	position: absolute;
+	top: 0;
+}
+.page-template-template-menu-php h4:before {
+	left: 5%;
+}
+.page-template-template-menu-php h4:after {
+	right: 5%;
 }
 .page-template-template-menu-php .slick-dots {
 	bottom: 0;
@@ -1812,6 +1904,40 @@ div.css-triangle.right:before {
 	height: 50px;
 	padding: 1em 25%;
 }
+.menu-locate {
+	background: url(../img/menu_location_bg.jpg) 57% -50px no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #e9e2d2;
+}
+.menu-locate img, .puzzle img {
+	display: block;
+	margin: 0 auto;
+	margin-top: 20%;
+}
+.menu-locate p {
+	margin-bottom: 0;
+	margin-top: .5em;
+	font-size: 125%;
+	font-weight: 600;
+}
+.menu-locate h6 {
+	font-size: 230%;
+	line-height: 70%;
+	text-transform: uppercase;
+	color: #e9e2d2;
+	font-weight: 800;
+}
+.menu-locate.chicken h6 {
+	font-size: 160%;
+}
+.local-burger {
+	background: #980d12 url(../img/question_mark.svg) center no-repeat;
+}
+.local-burger h4 {
+	position: relative;
+	margin-top: 50%;
+}
 select option {
 	color: #f8f7f4;
 	padding: .5em;
@@ -1824,6 +1950,104 @@ select option:hover {
 }
 select optgroup {
 	padding-left: 1em;
+}
+
+/*Create Your Own*/
+.puzzle {
+	background: url(../img/puzzle_bg.jpg) center no-repeat;
+	background-size: cover;
+}
+.puzzle h6 {
+	text-align: center;
+	font-size: 230%;
+	font-weight: 900;
+	line-height: 40px;
+}
+.puzzle h6:nth-child(3) {
+	font-size: 250%;
+}
+.puzzle img {
+	margin-bottom: 10%;
+}
+.create h6, .options h6 {
+	font-size: 230%;
+	text-transform: uppercase;
+	font-weight: 900;
+	text-align: center;
+	color: #0e0e0e;
+	opacity: .15;
+}
+.create ul, .options ul {
+	list-style: none;
+	text-align: center;
+	color: #e9e2d2;
+	font-size: 120%;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-top: 10%;
+}
+.create ul li {
+	line-height: 200%;
+}
+.options ul {
+	margin-top: 5%;
+	font-size: 90%;
+	font-weight: 600;
+}
+.options ul li {
+	line-height: 150%;
+
+}
+#toppings {
+	margin-bottom: 30%;
+}
+#toppings li {
+	float: left;
+	width: 50%;
+	font-size: 80%;
+}
+.options i {
+position: absolute;
+bottom: 0;
+font-size: 70%;
+font-style: normal;
+color: #e9e2d2;
+width: 70%;
+text-align: center;
+margin: 0 auto;
+display: block;
+left: 0;
+right: 0;
+padding-bottom: 5%;
+font-weight: normal;
+}
+/*Salads*/
+.salads, .kids {
+	background: url(../img/salad_bg.jpg) center no-repeat;
+	background-size: cover;
+	padding-top: 8%;
+}
+.salads h6, .kids h6 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 200%;
+	font-weight: 900;
+	line-height: 100%;
+	margin: 0;
+}
+.salads h6:nth-of-type(2), .kids h6:nth-of-type(2)  {
+	font-size: 370%;
+}
+.salads p {
+	text-align: center;
+	margin-top: 2%;
+	font-size: 120%;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+.kids {
+	background: url(../img/kids_menu_bg.jpg) center no-repeat;
+	background-size: cover;
 }
 /*==== Contacts ====*/
 .contacts h2 {

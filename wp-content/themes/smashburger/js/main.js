@@ -71,5 +71,10 @@ $(document).ready(function() {
 	  //$("aside div.placeable-img").append('<img src="wp-content/themes/smashburger/img/store_front.jpg" alt="smasheburger Logo"/>');
 	};
 
-	navigator.geolocation.getCurrentPosition(success, error, options);
+	//navigator.geolocation.getCurrentPosition(success, error, options);
+	function GetCurrentLocation() {
+    navigator.geolocation.getCurrentPosition(success, error, options);  
+  };
+  GetCurrentLocation();
+
 });
