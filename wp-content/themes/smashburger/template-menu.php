@@ -533,7 +533,7 @@ get_header(); ?>
 								</div>
 								<div class="back">
 									<h4>Smash Fries</h4>
-									<p>test</p>
+									<p>Our signature fries are tossed in Italian olive oil, rosemary &amp; garlic.</p>
 									<a href="" class="blue-btn">Hungry?<span></span></a>
 								</div>
 					  	</div>
@@ -546,7 +546,7 @@ get_header(); ?>
 								</div>
 								<div class="back">
 									<h4>French Fries</h4>
-									<p>test</p>
+									<p>French fries perfectly seasoned with salt.</p>
 									<a href="" class="red-btn">Hungry?<span></span></a>
 								</div>
 							</div>
@@ -559,7 +559,7 @@ get_header(); ?>
 								</div>
 								<div class="back">
 									<h4>Sweet Potato Fries</h4>
-									<p>BBQ sauce, applewood smoked bacon, cheddar &amp; haystack onions on an egg bun.</p>
+									<p>Sweet Potato Fries perfectly seasoned with salt</p>
 									<a class="brown-btn">Hungry ?<span></span></a>
 								</div>
 							</div>
@@ -572,7 +572,7 @@ get_header(); ?>
 								</div>
 								<div class="back">
 									<h4>Haystack Onions</h4>
-									<p>BBQ sauce, applewood smoked bacon, cheddar &amp; haystack onions on an egg bun.</p>
+									<p>Thin yellow onion slices battered &amp; fried.</p>
 									<a class="red-btn">Hungry?<span></span></a>
 								</div>
 							</div>
@@ -587,7 +587,7 @@ get_header(); ?>
 					  		</div>
 					  		<div class="back">
 					  			<h4>Spicy Buffalo Fries</h4>
-					  			<p>BBQ sauce, applewood smoked bacon, cheddar &amp; haystack onions on an egg bun.</p>
+					  			<p>Dry seasoned with Frank&rsquo;s&reg; RedHot&reg; &amp; served with a side of ranch dressing.</p>
 					  			<a class="brown-btn">Hungry?<span></span></a>
 					  		</div>
 					  	</div>
@@ -600,7 +600,7 @@ get_header(); ?>
 					  		</div>
 					  		<div class="back">
 					  			<h4>Fried Pickles</h4>
-					  			<p>BBQ sauce, applewood smoked bacon, cheddar &amp; haystack onions on an egg bun.</p>
+					  			<p>Garlic pickles battered &amp; fried.</p>
 					  			<a class="red-btn">Hungry?<span></span></a>
 					  		</div>
 					  	</div>
@@ -613,7 +613,7 @@ get_header(); ?>
 					  		</div>
 					  		<div class="back">
 					  			<h4>Veggie Frites</h4>
-					  			<p>BBQ sauce, applewood smoked bacon, cheddar &amp; haystack onions on an egg bun.</p>
+					  			<p>Fresh green beans &amp; carrot strips, flash fried.</p>
 					  			<a class="red-btn">Hungry?<span></span></a>
 					  		</div>
 					  	</div>
@@ -626,7 +626,7 @@ get_header(); ?>
 					  		</div>
 					  		<div class="back">
 					  			<h4>Side Garden Salad</h4>
-					  			<p>BBQ sauce, applewood smoked bacon, cheddar &amp; haystack onions on an egg bun.</p>
+					  			<p>A mix of fresh greens, tomatoes, cucumbers, onions &amp; shredded cheddar with choice of dressing.</p>
 					  			<a class="red-btn">Hungry?<span></span></a>
 					  		</div>
 			    	</div>

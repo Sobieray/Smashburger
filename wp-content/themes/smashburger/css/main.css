@@ -1820,11 +1820,6 @@ div.css-triangle.right:before {
 }
 .front, .back {
 	backface-visibility: hidden;
-	/*top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	width: 100%;*/
 }
 .back {
 	transform: rotateY(180deg);
@@ -1840,11 +1835,8 @@ top: 0;
 bottom: 0;
 right: 0;
 left: 0;
-/*box-shadow: 0px 5px 0px rgba(0,0,0,.1);*/
+
 }
-/*.back {
-	display: none;
-}*/
 .back p {
 	position: absolute;
 	top: 25%;
@@ -1852,6 +1844,7 @@ left: 0;
 	width: 100%;
 	text-align: center;
 	color: #ffffff;
+	padding: 0 5%;
 }
 /* Burgers */
 
