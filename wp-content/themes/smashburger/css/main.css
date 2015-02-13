@@ -158,7 +158,7 @@ header .site-branding h2,
 	text-align: center;
 }
 /*==== Buttons ====*/
-.tan-btn, .red-btn, .brown-btn, .blue-btn {
+.tan-btn, .red-btn, .brown-btn, .blue-btn, .darkred-btn {
 	position: absolute;
 	text-transform: uppercase;
 	font-weight: 900;
@@ -177,20 +177,24 @@ header .site-branding h2,
 	overflow: hidden;
 	z-index: 99;
 }
+.darkred-btn {
+	background-color: #c4161c;
+	color: #e9e2d2;
+}
 .blue-btn {
-	background-color: #4b5f8a;
+	background-color: #87afd1;
 	color: #f7f4ee;
 }
 
 .red-btn {
-	background-color: #980d12;
+	background-color: #df3627;
 	color: #ebe4d4;
 }
 .brown-btn {
-	background-color: #492e1e;
+	background-color: #6f4b35;
 	color: #fdfdfd;
 }
-.tan-btn:before, .brown-btn:before, .red-btn:before, .blue-btn:before {
+.tan-btn:before, .brown-btn:before, .red-btn:before, .blue-btn:before, .darkred-btn:before {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -199,8 +203,7 @@ header .site-branding h2,
 	text-align: center;
 	width: 100%;
 	height: 100%;
-	background: #658097;
-	color: #0f7c67;
+	background: #374665;
 	content: attr(data-hover);
 	-webkit-transition: -webkit-transform 0.3s;
 	-moz-transition: -moz-transform 0.3s;
@@ -209,19 +212,17 @@ header .site-branding h2,
 	-moz-transform: translateX(-100%);
 	transform: translateX(-100%);
 }
-.brown-btn:before {
-	background: #6f4b35;
-}
-.tan-btn:hover, .brown-btn:hover, .red-btn:hover, .blue-btn:hover{
+
+.tan-btn:hover, .brown-btn:hover, .red-btn:hover, .blue-btn:hover, .darkred-btn:hover {
 	-webkit-transform: translateX(0%);
 	-moz-transform: translateX(0%);
 	transform: translateX(0%);
 	color: #fdfdfd
 }
-.tan-btn img, .red-btn img, .brown-btn img, .blue-btn img {
+.tan-btn img, .red-btn img, .brown-btn img, .blue-btn img, .darkred-btn img {
 	width: 10%;
 }
-.tan-btn span, .red-btn span, .brown-btn span, .blue-btn span {
+.tan-btn span, .red-btn span, .brown-btn span, .blue-btn span, .darkred-btn span {
 	background: url(../img/arrow_btn.svg) -200% center no-repeat;
 	background-size: 45%;
 	position: absolute;
@@ -236,16 +237,38 @@ header .site-branding h2,
 	-moz-transform: translateX(100%);
 	transform: translateX(100%);
 }
-.blue-btn span {
-	background-color: #91b8d9;
+.brown-btn:before {
+	background: #4a2e1e;
 }
-.tan-btn:hover span, .brown-btn:hover span, .red-btn:hover span, .blue-btn:hover span {
+.brown-btn span {
+	background-color: #6f4b35;
+	background-image: url(../img/arrow_btn_brown.svg);
+}
+.blue-btn span {
+	background-color: #87afd1;
+	background-image: url(../img/arrow_btn_blue.svg);
+}
+.red-btn span {
+	background-color: #df3627;
+	background-image: url(../img/arrow_btn_lightred.svg);
+}
+.red-btn:before {
+	background-color: #980d12;
+}
+.darkred-btn span {
+	background-color: #c4161c;
+	background-image: url(../img/arrow_btn_red.svg);
+}
+.darkred-btn:before {
+	background-color: #750102;
+}
+.tan-btn:hover span, .brown-btn:hover span, .red-btn:hover span, .blue-btn:hover span, .darkred-btn:hover span {
 	-webkit-transform: translateX(0%);
 	-moz-transform: translateX(0%);
 	transform: translateX(0%);
 	background-position: 50% center;
 }
-.tan-btn:hover:before, .brown-btn:hover:before, .red-btn:hover:before, .blue-btn:hover:before {
+.tan-btn:hover:before, .brown-btn:hover:before, .red-btn:hover:before, .blue-btn:hover:before, .darkred-btn:hover:before {
 	-webkit-transform: translateX(0%);
 	-moz-transform: translateX(0%);
 	transform: translateX(0%);
@@ -2018,7 +2041,7 @@ font-weight: normal;
 .salads, .kids {
 	background: url(../img/salad_bg.jpg) center no-repeat;
 	background-size: cover;
-	padding-top: 8%;
+	padding-top: 5em;
 }
 .salads h6, .kids h6 {
 	text-align: center;

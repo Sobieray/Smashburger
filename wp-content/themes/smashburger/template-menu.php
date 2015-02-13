@@ -122,7 +122,7 @@ get_header(); ?>
 								<div class="back">
 									<h4>Bacon Cheeseburger</h4>
 									<p>Applewood smoked bacon, American cheese, mustard, ketchup, pickles &amp; onion on an egg bun.</p>
-									<a href="" class="red-btn">Hungry?<span></span></a>
+									<a href="" class="darkred-btn">Hungry?<span></span></a>
 								</div>
 							</div>
 				  	</div>
@@ -150,7 +150,7 @@ get_header(); ?>
 					  		<div class="back">
 					  			<h4>Spicy Jalape&Ntilde;o Baja</h4>
 					  			<p>Fresh jalape&ntilde;os, guacamole, pepper jack, lettuce, tomato, onion &amp; chipotle mayo on a spicy chipotle bun.</p>
-					  			<a class="red-btn">Hungry?<span></span></a>
+					  			<a class="darkred-btn">Hungry?<span></span></a>
 					  		</div>
 					  	</div>
 			    	</div>
@@ -163,7 +163,7 @@ get_header(); ?>
 					  		<div class="back">
 					  			<h4>Spinach, cucumber &amp; Goat Cheese</h4>
 					  			<p>Cucumbers, spinach, goat cheese, tomato, onion &amp; balsamic vinaigrette on a multi-grain bun.</p>
-					  			<a href="" class="red-btn">Hungry?<span></span></a>
+					  			<a href="" class="blue-btn">Hungry?<span></span></a>
 					  		</div>
 					  	</div>
 			    	</div>
@@ -273,7 +273,7 @@ get_header(); ?>
 								<div class="back">
 									<h4>Bacon Cheeseburger</h4>
 									<p>BBQ sauce, applewood smoked bacon, cheddar &amp; haystack onions on an egg bun.</p>
-									<a class="red-btn">Hungry?<span></span></a>
+									<a class="darkred-btn">Hungry?<span></span></a>
 								</div>
 							</div>
 				  	</div>
@@ -301,7 +301,7 @@ get_header(); ?>
 					  		<div class="back">
 					  			<h4>Spicy Jalape&Ntilde;o Baja</h4>
 					  			<p>Fresh jalape&ntilde;os, guacamole, pepper jack, lettuce, tomato, onion &amp; chipotle mayo on a spicy chipotle bun.  Choice of tender marinated grilled or crispy chicken.</p>
-					  			<a href="" class="red-btn">Hungry?<span></span></a>
+					  			<a href="" class="darkred-btn">Hungry?<span></span></a>
 					  		</div>
 					  	</div>
 			    	</div>
@@ -314,7 +314,7 @@ get_header(); ?>
 					  		<div class="back">
 					  			<h4>Spinach, cucumber &amp; Goat Cheese</h4>
 					  			<p>Cucumbers, spinach, goat cheese, tomato, onion &amp; balsamic vinaigrette on a multi-grain bun. Choice of tender marinated grilled or crispy chicken.</p>
-					  			<a href="" class="red-btn">Hungry?<span></span></a>
+					  			<a href="" class="blue-btn">Hungry?<span></span></a>
 					  		</div>
 					  	</div>
 			    	</div>
@@ -475,7 +475,7 @@ get_header(); ?>
 	  						<div class="back">
 	  							<h4>Baja Cobb Salad</h4>
 	  							<p>Fresh greens, sharp cheddar, applewood smoked bacon, sliced jalape&ntilde;os, guacamole, tomatoes &amp; onions with spicy chipotle dressing. Choice to add tender marinated grilled or crispy chicken.</p>
-	  							<a href="" class="red-btn" href="">Hungry?<span></span></a>
+	  							<a href="" class="darkred-btn" href="">Hungry?<span></span></a>
 	  						</div>
 	  					</div>
 	  		  	</div>
@@ -573,7 +573,7 @@ get_header(); ?>
 								<div class="back">
 									<h4>Haystack Onions</h4>
 									<p>Thin yellow onion slices battered &amp; fried.</p>
-									<a class="red-btn">Hungry?<span></span></a>
+									<a class="darkred-btn">Hungry?<span></span></a>
 								</div>
 							</div>
 				  	</div>
@@ -601,7 +601,7 @@ get_header(); ?>
 					  		<div class="back">
 					  			<h4>Fried Pickles</h4>
 					  			<p>Garlic pickles battered &amp; fried.</p>
-					  			<a class="red-btn">Hungry?<span></span></a>
+					  			<a class="darkred-btn">Hungry?<span></span></a>
 					  		</div>
 					  	</div>
 			    	</div>
@@ -614,7 +614,7 @@ get_header(); ?>
 					  		<div class="back">
 					  			<h4>Veggie Frites</h4>
 					  			<p>Fresh green beans &amp; carrot strips, flash fried.</p>
-					  			<a class="red-btn">Hungry?<span></span></a>
+					  			<a class="blue-btn">Hungry?<span></span></a>
 					  		</div>
 					  	</div>
 			    	</div>
@@ -691,7 +691,7 @@ get_header(); ?>
 								<div class="back">
 									<h4>Vanilla</h4>
 									<p>Hand-spun with vanilla H&auml;agen-Dazs ice cream</p>
-									<a href="" class="red-btn">Hungry?<span></span></a>
+									<a href="" class="darkred-btn">Hungry?<span></span></a>
 								</div>
 							</div>
 				  	</div>
@@ -758,7 +758,7 @@ get_header(); ?>
 					  		<div class="back">
 					  			<h4>Salted Carmel</h4>
 					  			<p>Hand-spun with vanilla H&auml;agen-Dazs ice cream &amp; Salted caramel syrup.</p>
-					  			<a class="red-btn">thirsty?<span></span></a>
+					  			<a class="blue-btn">thirsty?<span></span></a>
 					  		</div>
 					  	</div>
 			    	</div>
@@ -771,7 +771,7 @@ get_header(); ?>
 					  		<div class="back">
 					  			<h4>Chocolate Oreo</h4>
 					  			<p>Hand-spun with vanilla H&auml;agen-Dazs ice cream, chocolate syrup &amp; crushed Oreos.</p>
-					  			<a class="red-btn">thirsty?<span></span></a>
+					  			<a class="darkred-btn">thirsty?<span></span></a>
 					  		</div>
 			    	</div>
 			    </section>
@@ -843,7 +843,7 @@ get_header(); ?>
 	  						<div class="back">
 	  							<h4>Grilled Cheese</h4>
 	  							<p> American cheese on buttered loaf bread, served with fries &amp; a kid&rsquo;s fountain drink.</p>
-	  							<a class="red-btn" href="">Hungry?<span></span></a>
+	  							<a class="darkred-btn" href="">Hungry?<span></span></a>
 	  						</div>
 	  					</div>
 	  		  	</div>
