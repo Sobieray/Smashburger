@@ -73,8 +73,12 @@ $(document).ready(function() {
 
 	//navigator.geolocation.getCurrentPosition(success, error, options);
 	function GetCurrentLocation() {
-    navigator.geolocation.getCurrentPosition(success, error, options);  
-  };
-  GetCurrentLocation();
+		try {
+		navigator.geolocation.getCurrentPosition(success, error, options); 
+		} catch (err) {
+
+		}
+	};
+	GetCurrentLocation();
 
 });

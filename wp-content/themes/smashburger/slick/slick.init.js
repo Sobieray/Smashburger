@@ -37,4 +37,10 @@ $(document).ready(function() {
 		arrows: true,
 		autoplay: false
 	});
+	var $el4 = $('.jobs.slider');
+	$el4.slick({
+		dots: false,
+		arrows: true,
+		autoplay: false
+	});
 });

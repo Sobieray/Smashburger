@@ -2842,6 +2842,172 @@ article#steps footer a:hover, #inquiry-submit a:hover  {
 #inquire {
 	background: url(../img/inquire_bg.png) left bottom no-repeat;
 }
+/*==== Jobs ====*/
+#jobs .chevron {
+	background: url(../img/blue_chevron.png) center no-repeat;
+	background-size: 100% 100%;
+	float: right;
+	margin-right: 5%;
+	position: relative;
+	text-align: center;
+	padding: 1em 1em 10em 1em;
+}
+#jobs .chevron h2 {
+	text-transform: uppercase;
+	font-weight: 900;
+}
+#jobs .chevron p {
+	margin-bottom: 0;
+	line-height: 30px;
+}
+#jobs {
+	background: url(../img/jobs_hero.jpg) center no-repeat;
+	background-size: cover;
+	padding: 3% 0 5% 0;
+}
+#job-types .small-padding {
+	padding: 4%;
+}
+#job-types .small-padding p {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 110%;
+	font-weight: 800;
+}
+#job-types .apply {
+	text-align: center;
+}
+#job-types .row {
+	max-width: 100%;
+	margin: 0;
+}
+#job-types img {
+	width: 100%;
+	height: 100%;
+}
+#job-types .drink img, #job-types .fresh img  {
+	width: 65%;
+	display: block;
+	margin: 0 auto;
+}
+#job-types .fresh img {
+	width: 90%;
+}
+#job-types .grow {
+	padding: 10% 5% 5% 5%;
+}
+#job-types .grow h3 {
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 150%;
+}
+#job-types .grow p {
+	font-size: 100%;
+}
+.testimonials h3 {
+	text-align: center;
+	font-size: 180%;
+	font-weight: 800;
+	text-transform: uppercase;
+	padding: 5% 0 3% 0;
+	margin-top: 0;
+}
+.jobs.slider {
+	background: none;
+	color:#ffffff;
+	text-align: center;
+	padding-bottom: 10%;
+	margin-bottom: 0;
+}
+.jobs.slider p {
+	margin-top: 6%;
+	font-style: italic;
+	font-weight: normal;
+}
+.slick-next, .slick-prev {
+	opacity: .3;
+}
+#job-openings {
+	padding-top: 5%;
+	background-color: #ece7d7;
+}
+#job-openings h2, #job-openings h3 {
+	text-align: center;
+	font-weight: 700;
+	color: #482e1f;
+	text-transform: uppercase;
+}
+#job-openings h2 {
+	font-size: 180%;
+	margin-bottom: 5%;
+}
+ #job-openings h3 {
+ 	margin: 3% 0;
+ }
+ #job-openings ul li { 
+ 	padding: 2%;
+ 	line-height: 20px;
+ }
+  #job-openings ul li:nth-child(odd){
+  	background-color: #d9d0bd;
+  }
+ #job-openings ul {
+ 	list-style: none;
+ 	margin: 0;
+ }
+ #job-openings ul li p {
+ 	float: left;
+ 	margin-bottom: 0;
+ 	margin-top:  1%;
+ 	color: #482e1f;
+ }
+ #job-openings ul li a {
+ 	float: right;
+ 	min-width: 20%;
+ }
+ /*==== Community & Partnerships ====*/
+.page-template-template-community-php #main h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+	font-size: 230%;
+	margin-bottom: 5%;
+	color: #492e1e;
+}
+.page-template-template-community-php #main p {
+	color: #492e1e;
+}
+.page-template-template-community-php img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.page-template-template-community-php #secondary {
+	text-align: center;
+}
+.page-template-template-community-php #secondary p {
+	width: 60%;
+	margin: 3% auto;
+	color: #492e1e;
+}
+.page-template-template-community-php #secondary p:last-child {
+	width: 100%;
+	margin-bottom: 0;
+}
+.page-template-template-community-php #secondary h3 {
+	color: #492e1e;
+	margin: 3% 0;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 180%;
+}
+.page-template-template-community-php #secondary h4 {
+	color: #492e1e;
+	font-weight: 600;
+}
+.page-template-template-community-php .small-padding img {
+	width: auto;
+	height: auto;
+}
 /*==== Footer ====*/
 footer#colophon {
 	padding: 5% 15%;

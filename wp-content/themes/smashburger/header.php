@@ -20,9 +20,6 @@
 <!--[if lt IE 10]>
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . '/css/ie9-and-down.css' ?>" />
 <![endif]-->
-<!--[if IE]>
-  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
 </head>
 
 <body <?php body_class(); ?>>
