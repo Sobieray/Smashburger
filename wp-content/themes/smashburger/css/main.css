@@ -3066,15 +3066,6 @@ footer#colophon {
 .top-bar-section #menu-primary-2 li.active:not(.has-form) > ul li.active:not(.has-form) > a:not(.button) {
 	background-color: #c4161c !important;
 }
-/*#menu-primary-2 ul.sub-menu li {
-	position: relative;
-	text-align: left;
-
-}
-#menu-primary-2 li:hover .sub-menu {
-	display: block;
-	list-style: none;
-}*/
 #small-print p {
 	font-style: italic;
 	font-size: 80%;
