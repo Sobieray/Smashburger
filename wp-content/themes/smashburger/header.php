@@ -18,7 +18,7 @@
 
 <?php wp_head(); ?>
 <!--[if lt IE 10]>
-	<link rel="stylesheet" type="text/css" href="/css/ie9-and-down.css" />
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . '/css/ie9-and-down.css' ?>" />
 <![endif]-->
 </head>
 
