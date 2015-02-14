@@ -39,7 +39,7 @@ $(document).ready(function() {
 
 
 	$.ajax({
-	    url: 'http://localhost:8888/wp-content/themes/smashburger/data/smash2.json',
+	    url: 'http://smashwebadmin.wpengine.com/data/smash2.json',
 	    dataType:'json',
 	    success:function(locations) {
 	    	var smashburgerLocations = [];
