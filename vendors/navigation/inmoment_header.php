@@ -34,7 +34,7 @@
                         <ul id="menu-primary" class="right">
                             <li id="menu-item-6495" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has-dropdown menu-item-6495 not-click"><a target="_parent">Locations</a>
                                 <ul class="sub-menu dropdown">
-                                    <li id="menu-item-6488" class="menu-item  menu-item-6488"><a href="http://locations.smashburger.com/" target="_parent">Search</a>
+                                    <li id="menu-item-6488" class="menu-item menu-item-6488"><a href="http://locations.smashburger.com/" target="_parent">Search</a>
                                     </li>
                                     <li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a target="_parent" href="http://smashburger.com/locations/growing/">We’re Growing</a></li>
                                 </ul>
@@ -55,9 +55,9 @@
                             </li>
                             <li id="menu-item-6490" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children active has-dropdown menu-item-6490 not-click"><a target="_parent">Club &amp; Cards</a>
                                 <ul class="sub-menu dropdown">
-                                    <li id="menu-item-6491" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children active has-dropdown menu-item-6491 not-click"><a target="_parent">SmashClub</a>
+                                    <li id="menu-item-6491" class="menu-item current-menu-ancestor current-menu-parent menu-item-has-children has-dropdown menu-item-6491 not-click"><a href="http://smashburger.com/club-cards/smashclub" target="_parent">SmashClub</a>
                                         <ul class="sub-menu dropdown">
-                                            <li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-113 current_page_item active menu-item-125"><a target="_parent" href="http://smashburger.com/club-cards/smashclub/update-profile/">Update My Profile</a></li>
+                                            <li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-113 menu-item-125"><a target="_parent" href="http://smashburger.com/club-cards/smashclub/update-profile/">Update My Profile</a></li>
                                         </ul>
                                     </li>
                                     <li id="menu-item-6492" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has-dropdown menu-item-6492 not-click"><a target="_parent">Gift Cards</a>
