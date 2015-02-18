@@ -34,17 +34,21 @@
                         <ul id="menu-primary" class="right">
                             <li id="menu-item-6495" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has-dropdown menu-item-6495 not-click"><a target="_parent">Locations</a>
                                 <ul class="sub-menu dropdown">
-                                    <li id="menu-item-6488" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6488"><a target="_parent">Search</a>
+                                    <li id="menu-item-6488" class="menu-item  menu-item-6488"><a href="http://locations.smashburger.com/" target="_parent">Search</a>
                                     </li>
                                     <li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a target="_parent" href="http://smashburger.com/locations/growing/">We’re Growing</a></li>
                                 </ul>
                             </li>
                             <li id="menu-item-6489" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has-dropdown menu-item-6489 not-click"><a target="_parent">Eat</a>
                                 <ul class="sub-menu dropdown">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6511"><a href="http://smashburger.com/eat/menu/">Menu</a></li>
                                     <li id="menu-item-58" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58"><a target="_parent" href="http://smashburger.com/eat/nutrition-dietary/">Nutrition &amp; Dietary</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6512"><a href="http://smashburger.com/eat/order-online/">Order Online</a></li>
                                     <li id="menu-item-6496" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children has-dropdown menu-item-6496 not-click"><a target="_parent">Our Food</a>
                                         <ul class="sub-menu dropdown">
-                                            <li id="menu-item-54" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-54"><a target="_parent" href="http://smashburger.com/eat/our-food/angus-beef/">Angus Beef</a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6508"><a href="http://smashburger.com/eat/our-food/story/">Story</a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6509"><a href="http://smashburger.com/eat/our-food/smash-course/">Smash Course</a></li>
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-54"><a href="http://smashburger.com/eat/our-food/angus-beef/">Angus Beef</a></li>
                                         </ul>
                                     </li>
                                 </ul>

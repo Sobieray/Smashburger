@@ -30,12 +30,11 @@ a.symbol:before {
     font-size: 300%;
 }
 /*==== Universal Styles ====*/
-
 body {
 	height: 100%;
 	font-family: 'Gotham SSm a','Gotham SSm b', 'Gotham' sans-serif;
 	font-size: 100%;
-	background: rgb(243,241,234); /* Old browsers */
+	background-color: #ECE7DB;
 	-webkit-text-rendering: optimizeLegibility;
 	-moz-text-rendering: optimizeLegibility;
 	-ms-text-rendering: optimizeLegibility;
