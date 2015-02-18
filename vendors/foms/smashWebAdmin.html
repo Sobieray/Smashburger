@@ -1,0 +1,56 @@
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="SmashWebAdmin.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="//cloud.typography.com/7448754/657486/css/fonts.css" />
+		<title>SmashFranchise - Smashburger</title>
+	</head>
+	<body>
+		<div class="container">
+			<p id="addinfo">If you would like additional information about franchising opportunities at Smashburger, please complete the inquiry form below and someone from our franchise sales team will be in touch with you shortly</p>
+			<!--here is the form-->
+			<form action="demo_form.asp" method="get">
+				<input value="First Name" type="text" name="fname" required><br>
+				<input value="Last Name" type="text" name="lname" required><br>
+				<input value="Email" type="email" name="email" required><br>
+				<input value="Confirm Email" type="email" name="cemail" required><br>
+				<input value="Phone Number" type="text" name="number" required>
+				<h3>LOCATION YOU'RE INTERESTED IN</h3>
+				<select>
+					<option selected>Country</option>
+					<!-- Add Countries -->
+				</select>
+				<select>
+					<option selected>State</option>
+					<!-- Add States -->
+				</select>
+				<input value="City" name="city" type="text"> 
+				<input id="criteria" type="checkbox">
+
+				<label for="criteria">Yes, I have read and met the criteria for becoming a franchise owner. Haven't read the criteria? <a href="http://smashburger.com/franchising/criteria">Go here.</a></label>
+				
+
+				<input type="submit" value="Submit">
+			</form>
+		</div><!-- .container -->
+
+		<script type="text/javascript">
+			$('input').each(function(){
+				var default_value = this.value;
+				$(this).focus(function(){
+					if(this.value == default_value){
+						this.value = '';
+					}
+				});
+				$(this).blur(function(){
+					if(this.value == ''){
+						this.value = default_value;
+					}
+				});
+			});
+		</script>
+	</body>
+
+</html>
