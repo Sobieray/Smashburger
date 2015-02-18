@@ -53,7 +53,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li id="menu-item-6490" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children active has-dropdown menu-item-6490 not-click"><a target="_parent">Club &amp; Cards</a>
+                            <li id="menu-item-6490" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children has-dropdown menu-item-6490 not-click"><a target="_parent">Club &amp; Cards</a>
                                 <ul class="sub-menu dropdown">
                                     <li id="menu-item-6491" class="menu-item current-menu-ancestor current-menu-parent menu-item-has-children has-dropdown menu-item-6491 not-click"><a href="http://smashburger.com/club-cards/smashclub" target="_parent">SmashClub</a>
                                         <ul class="sub-menu dropdown">
