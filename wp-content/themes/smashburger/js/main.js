@@ -3,7 +3,7 @@ $(document).ready(function() {
 	var windowHeight = $(window).height();
 	$('.page-template-template-nutritiondietary-php #main, .page-template-template-angus-php #main, .page-template-template-why-us-php #primary ').css({paddingTop: windowHeight - 125, marginTop: "-96px"});
 	//Menu Locate and Search widget
-	$("#menu-item-6488").append('<div id="geolocation"><div class="located"><h6>closest to you</h6><img src="http://smashwebadmin.wpengine.com/wp-content/themes/smashburger/img/logo.svg" /></div><div class="search"><h6>Find another</h6><form id="locations-search" action="http://locations.smashburger.com/search" method="get"><input class="form-text" type="text" id="q" name="q" value="Enter ZIP, City, or State"><input class="form-submit" type="submit" value="FIND"></form></div></div>');
+	$('#menu-item-6488').append('<div id="geolocation"><div class="located"><h6>closest to you</h6><img src="http://smashwebadmin.wpengine.com/wp-content/themes/smashburger/img/logo.svg" /></div><div class="search"><h6>Find another</h6><form id="locations-search" action="http://locations.smashburger.com/search" method="get"><input class="form-text" type="text" id="q" name="q" value="Enter ZIP, City, or State"><input class="form-submit" type="submit" value="FIND"></form></div></div>');
 	//Clear Input Values
 	$('input[type="text"], input[type="email"]').each(function() {
 	       var default_value = this.value;
@@ -39,6 +39,7 @@ $(document).ready(function() {
 	      	var hourInfo = eval("(" + hours + ")");
 	      	var newDate = new Date();
 	      	var today = newDate.getDay();
+	      	//var locationDescription =	jsonData.[location description];      	
 	      	var jsonHours = hourInfo[today];
 	      	//var jsonOpen = hourInfo[today].open.hour;
 	      	console.log(hourInfo);
@@ -53,6 +54,7 @@ $(document).ready(function() {
 	      	$("#geolocation .located img").fadeOut(500);
 	      	$("#geolocation .located").append('<ul><li>'+jsonData.name+'</li><li>'+jsonData.streetAddress+'</li><li>'+jsonData.city+', '+jsonData.state+' '+jsonData.postal+'</li><li><a href=http://locations.smashburger.com/'+jsonData.detailsUrl+'>check it out</a></li>');
 	      	$("aside div.placeable").append('<ul><li>'+jsonData.name+'</li><li>'+jsonData.streetAddress+'</li><li>'+jsonData.city+', '+jsonData.state+'</li></ul><a class="darkred-btn" href=http://locations.smashburger.com/'+jsonData.detailsUrl+'>view location<span></span></a>');
+	      	//$('.page-template-template-menu-php .local-burger').append('<p>'+locationDescription+'</p>');
 	      	//$("aside div.placeable-img").append('<img src="'+jsonData['Location Photo']+'" alt="smasheburger store front"/>');
 	      	isOpen();
 	      }

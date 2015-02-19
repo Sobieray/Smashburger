@@ -114,7 +114,6 @@ header .site-branding h2,
 .light-brown-bg {
 	background-color: #855438;
 }
-
 .red-primary {
 	background-color: #df3627;
 }
@@ -3007,6 +3006,296 @@ article#steps footer a:hover, #inquiry-submit a:hover  {
 .page-template-template-community-php .small-padding img {
 	width: auto;
 	height: auto;
+}
+/*==== Smash Course ====*/
+.page-template-template-smashcourse-php #page {
+	position: fixed;
+}
+.page-template-template-smashcourse-php #main {
+	width: 960px;
+	height: 638px;
+	margin: 0 auto;
+}
+h3#intro-scroll {
+	background: url(../img/smahcourse_start_bg.svg) center no-repeat;
+	padding: 97px 60px 60px;
+	text-align: center;
+	left: 30%;
+	right: 30%;
+	font-size: 26px;
+	text-transform: uppercase;
+	font-weight: 800;
+	line-height: 150%;
+	color: #ffffff;
+	margin-top: 10%;
+	position: absolute;
+}
+#smash-brush {
+	margin-top: 5%;
+	position: absolute;
+	opacity: 0;
+}
+#the-grill {
+	position: absolute;
+	margin-top: 17%;
+	left: 20%;
+	right: 20%;
+	text-align: center;
+	padding: 30px;
+	opacity: 0;
+}
+#the-grill h3 {
+	text-transform: uppercase;
+	color:#ffffff;
+	font-weight: 800;
+}
+#degrees {
+	background: url(../img/385_bg.png) center no-repeat;
+	position: absolute;
+	top: 100px;
+	left: 10%;
+	padding: 55px 43px 58px 100px;
+	text-align: center;
+	color: #ffffff;
+	font-weight: 600px;
+	opacity: 0;
+	margin-top: -6px;
+}
+#degrees h4 {
+	color: #FFFFFF;
+	font-weight: 800;
+	font-size: 26px;
+}
+.smashtext, #degrees p, #butter p, #buttery p, #non-stick p, #flavor p, #pasture p, #frozen p, #natural p, #smash-time p, #seared p, #heatup p, #salt p, #secret p, #dissolve p, #laser p {
+	font-weight: 600;
+	margin-bottom: 0;
+	color: #FFFFFF;
+}
+#butter {
+	background: url(../img/butter_bg.png) center no-repeat;
+	padding: 59px 15px 49px 4px;
+	text-align: center;
+	color: #ffffff;
+	position: absolute;
+	top: 100px;
+	left: 34.1%;
+	margin-top: 8px;
+	opacity: 0;
+}
+#butter p, #buttery p {
+	width: 150px;
+}
+#buttery {
+	background: url(../img/buttery_bg.png) center no-repeat;
+	background-size: 100%;
+	padding: 5px 10px 61px 0px;
+	text-align: center;
+	color: #ffffff;
+	position: absolute;
+	top: 100px;
+	left: 50.2%;
+	opacity: 0;
+	margin-top: 8px;
+}
+#buttery p {
+	padding: 57px 10px 0px 21px;
+}
+#non-stick {
+	background: url(../img/non-stick.png) center no-repeat;
+	text-align: center;
+	color: #ffffff;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	opacity: 0;
+	background-size: 100%;
+}
+ #non-stick p {
+ 	width: auto;
+ 	padding: 56px 17px 55px 40px;
+ }
+ img#angus-logo {
+	position: absolute;
+	top: 17%;
+	left: 34%;
+}
+.smash-opacity, #flavor, #pasture, #frozen, #natural , #smash-time, #heatup, #salt, #secret, #dissolve, #laser  {
+	opacity: 0;
+}
+.smash-bg, #flavor, #pasture, #frozen, #natural, #smash-time, #seared, #heatup, #salt, #secret, #dissolve, #laser {
+	background: url(../img/flavor_bg.png)center no-repeat;
+	background-size: 100%;
+	text-align: center;
+	position: absolute;
+	top: 5.5%;
+}
+.smash-padding, #flavor p, #pasture p, #frozen p, #natural p, #smash-time p, #seared p, #heatup p, #salt p, #secret p, #dissolve p, #laser p {
+	padding: 80px 50px 80px 25px;
+	width: 200px;
+}
+#pasture {
+	background-image: url(../img/pasture_bg.png);
+	top: 35%;
+	right: 5.7%
+}
+#pasture p {
+	padding: 80px 25px 80px 50px;
+}
+#frozen, #secret, #toast {
+	background-image: url(../img/frozen_bg.png);
+	top: 35%;
+}
+#natural {
+	background-image: url(../img/natural_bg.png);
+	right: 0%;
+	padding: 80px 25px 80px 50px;
+}
+#natural p {
+	padding: 10px 90px 10px 5px;
+}
+#mask {
+	height: 0px;
+	width: 100%;
+	background-color: rgb(243,241,234);
+	position: absolute;
+}
+#smasher {
+	position: absolute;
+	top: -100%;
+	opacity: 0;
+	left: 30%;
+	width: 40%;
+}
+#steam {
+	opacity: 0;
+	height: 420px;
+	bottom: 30%;
+	left: 27%;
+	top: -20px;
+	width: 50%;
+	position: absolute;
+}
+#smash-time {
+	background-image: url(../img/smash_time.png);
+	padding: 80px 50px 80px 50px;
+	right: 0;
+	top: 21%;
+}
+#smash-time p {
+	padding: 80px 71px 80px 0px;
+}
+#seared {
+	top: 29%;
+}
+#seared p {
+	width: 220px;
+}
+#heatup {
+	background-image: url(../img/heatup.png);
+	right: 0;
+	top: 35%;
+}
+#heatup p {
+	padding: 80px 40px 80px 55px;
+}
+.arrow {
+	opacity: 0;
+	position: absolute;
+	bottom: 28%;
+	left: 34%;
+}
+#arrow2 {
+	left: 43%;
+	bottom: 26%;
+
+}
+#arrow3 {
+	left: 52%;
+	bottom: 27%;
+	
+}
+#arrow4 {
+	left: 59%;
+	bottom: 30%;
+	
+}
+#burger-paddy {
+	position: absolute;
+	top: 48%;
+	left: 25%;
+	width: 46%;
+	z-index: -1;
+}
+#seasoning {
+	opacity: 0;
+	position: absolute;
+	left: 32%;
+}
+#salt {
+	top: 10%;
+	left: 14%;
+}
+#secret {
+	top: 7.8%;
+	left: 32.7%;
+}
+#secret p {
+	padding-right: 48px;
+}
+#dissolve {
+	background-image: url(../img/buttery_bg.png);
+	background-size: 100% 100%;
+	padding: 0;
+	top: 14.5%;
+	left: 51.3%;
+}
+#dissolve p {
+	padding: 25px 5px 53px 5px;
+line-height: 1.3;
+}
+.buns {
+	position: absolute;
+	left: 31.5%;
+
+}
+#bun-bottom {
+	left: 32%;
+	z-index: -2;
+}
+#laser {
+	background-image: url(../img/laser_bg.png);
+	padding: 10px 60px 10px 55px;
+	top: 19%;
+	left: 4%;
+	z-index: -1;
+}
+#laser p {
+	padding: 76px 0px 80px 66px;
+}
+#toast {
+	top: 20.5%;
+	left: 34.4%;
+	z-index: -1;
+	padding: 11px;
+}
+#sealed {
+	background-image: url(../img/bun_bg.png);
+	left: 55.19%;
+	padding: 49px 80px 49px 0px;
+	top: 7.5%;
+	z-index: -1;
+}
+#accessories {
+	position: absolute;
+	left: 27%;
+	bottom: 40%;
+	z-index: -1;
+}
+#flavor-pin {
+	opacity: 1;
+	position: absolute;
+	left: 49%;
+	top: 3%;
 }
 /*==== Footer ====*/
 footer#colophon {

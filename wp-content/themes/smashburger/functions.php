@@ -214,6 +214,9 @@ function smashburger_scripts() {
 	if (is_page(array('criteria'))) {
 		wp_enqueue_script( 'criteria.js', get_template_directory_uri() . '/js/criteria.js', array(), '1',  true);
 	}
+	if (is_page(array('smash-course'))) {
+		wp_enqueue_script( 'skrollr.js', get_template_directory_uri() . '/js/skrollr.min.js', array(), '1',  true);
+	}
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}

@@ -411,6 +411,7 @@ footer#colophon {
 }
 footer nav#site-navigation {
 	padding-bottom: 0em;
+	margin-bottom: 0;
 }
 /*#menu-primary-2 ul.sub-menu li {
 	position: relative;
