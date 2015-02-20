@@ -66,11 +66,11 @@ get_header(); ?>
 				   			<option>Georgia</option>
 				   		</select>
 				   	</div>
-				   	<div class="red-secondary small-6 medium-3 column no-padding local-burger">
+				   	<div class="red-secondary small-6 medium-3 column no-padding local-burger burgers">
 				   		<div class="flip">
 					   		<div class="vertical-align front">
 					   			<h4 class="white-text">your local burger</h4>
-					   			<img src="<?php echo get_template_directory_uri() . '/img/question_mark.svg' ?>" alt="finding your local smashburger">
+					   			<img class="question" src="<?php echo get_template_directory_uri() . '/img/question_mark.svg' ?>" alt="finding your local smashburger">
 					   		</div>
 					   		<div class="back">
 					   			<a class="red-btn" href="">Hungry?<span></span></a>
@@ -222,11 +222,11 @@ get_header(); ?>
 				   			<option>Georgia</option>
 				   		</select>
 				   	</div>
-				   	<div class="red-secondary small-6 medium-3 column no-padding local-burger smashchicken">
+				   	<div class="red-secondary small-6 medium-3 column no-padding local-burger chicken">
 				   		<div class="flip">
 					   		<div class="vertical-align front">
 					   			<h4 class="white-text">your local smashchicken</h4>
-					   			<img src="<?php echo get_template_directory_uri() . '/img/question_mark.svg' ?>" alt="finding your local smashburger">
+					   			<img class="question" src="<?php echo get_template_directory_uri() . '/img/question_mark.svg' ?>" alt="finding your local smashburger">
 					   		</div>
 					   		<div class="back">
 					   			<a class="red-btn" href="">Hungry?<span></span></a>
@@ -501,7 +501,7 @@ get_header(); ?>
 		   					<img src="<?php echo get_template_directory_uri() . '/img/onion_rings.jpg' ?>" alt="smashburger haystack onion rings">
 		   				</div>
 		   			</div>
-				   	<div class="small-6 medium-3 column red-primary menu-locate">
+				   	<div class="small-6 medium-3 column red-primary menu-locate sides">
 				   		<img src="<?php echo get_template_directory_uri() . '/img/sides_pin.png' ?>" alt="smashburger local sides">
 				   		<p>Finding Your Local</p>
 				   		<h6>Side</h6>
@@ -527,11 +527,11 @@ get_header(); ?>
 				   			<option>Georgia</option>
 				   		</select>
 				   	</div>
-				   	<div class="red-secondary small-6 medium-3 column no-padding local-burger local-sides">
+				   	<div class="red-secondary small-6 medium-3 column no-padding local-burger sides">
 				   		<div class="flip">
 					   		<div class="vertical-align front">
 					   			<h4 class="white-text">your local side</h4>
-					   			<img src="<?php echo get_template_directory_uri() . '/img/question_mark.svg' ?>" alt="finding your local smashburger">
+					   			<img class="question" src="<?php echo get_template_directory_uri() . '/img/question_mark.svg' ?>" alt="finding your local smashburger">
 					   		</div>
 					   		<div class="back">
 					   			<a class="red-btn" href="">Hungry?<span></span></a>
@@ -652,7 +652,7 @@ get_header(); ?>
 				    <div class="menu small-12 medium-6 column no-padding">
 		   				<img src="<?php echo get_template_directory_uri() . '/img/shakes_hero.jpg' ?>" alt="smashburger hand-spun shakes">
 		   			</div>
-				   	<div class="small-6 medium-3 column red-primary menu-locate">
+				   	<div class="small-6 medium-3 column red-primary menu-locate shakes">
 				   		<img src="<?php echo get_template_directory_uri() . '/img/shake_pin.png' ?>" alt="local smashburger shakes">
 				   		<p>Finding Your Local</p>
 				   		<h6>Shake</h6>
@@ -678,11 +678,11 @@ get_header(); ?>
 				   			<option>Georgia</option>
 				   		</select>
 				   	</div>
-				   	<div class="red-secondary small-6 medium-3 column no-padding local-burger local-shake">
+				   	<div class="red-secondary small-6 medium-3 column no-padding local-burger shake">
 				   		<div class="flip">
 					   		<div class="vertical-align front">
 					   			<h4 class="white-text">your local shake</h4>
-					   			<img src="<?php echo get_template_directory_uri() . '/img/question_mark.svg' ?>" alt="finding your local smashburger">
+					   			<img class="question" src="<?php echo get_template_directory_uri() . '/img/question_mark.svg' ?>" alt="finding your local smashburger">
 					   		</div>
 					   		<div class="back">
 					   			<a class="red-btn" href="">Hungry?<span></span></a>

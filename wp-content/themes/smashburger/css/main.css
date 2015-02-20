@@ -237,6 +237,12 @@ header .site-branding h2,
 	-moz-transform: translateX(100%);
 	transform: translateX(100%);
 }
+.tan-btn:before {
+	background-color: #726658;
+}
+.tan-btn span {
+	background-color: #c8bda6; 
+}
 .brown-btn:before {
 	background: #4a2e1e;
 }
@@ -589,17 +595,16 @@ div[data-type="sprite"] {
 	position: relative;
 }
 .parallax1 span.red-primary {
-	padding: 2em;
+	padding: 2.3em;
 	position: fixed;
-	top: 25em;
-	z-index: -1;
+	top: 20.6em;
 	left: 15%;
 	max-width: 80%;
 	min-width: 50%;
 }
 .parallax1 p {
 	position: fixed;
-	top: 5.9em;
+	top: 4.9em;
 	color: #fdfdfd;
 	text-transform: lowercase;
 	font-size: 400%;
@@ -609,7 +614,42 @@ div[data-type="sprite"] {
 	z-index: 1;
 
 }
-
+.rotation {
+	display: none;
+}
+#date {
+	background: transparent url(../img/homepage_hero/home_datenight_bg.jpg) left top no-repeat fixed;
+	background-size: cover;
+}
+#date-burger {
+	background-image: url(../img/homepage_hero/home_datenight_burger.png);
+}
+#deserveit {
+	background: transparent url(../img/homepage_hero/home_deserveit_bg.jpg) left top no-repeat fixed;
+	background-size: cover;
+}
+#workhard {
+	background: transparent url(../img/homepage_hero/home_workhard_bg.jpg) left top no-repeat fixed;
+	background-size: cover;
+}
+#workhard-burger {
+	background-image: url(../img/homepage_hero/home_workhard_burger.png);
+}
+#fullest1 {
+	background: transparent url(../img/homepage_hero/home_thefullest1_bg.jpg) left top no-repeat fixed;
+	background-size: cover;
+}
+#fullest2 {
+	background: transparent url(../img/homepage_hero/home_thefullest2_bg.jpg) left top no-repeat fixed;
+	background-size: cover;
+}
+#best {
+	background: transparent url(../img/homepage_hero/home_thebest_bg.jpg) left top no-repeat fixed;
+	background-size: cover;
+}
+#best-burger {
+	background-image: url(../img/homepage_hero/home_thebest_burger.png);
+}
 .parallax1 .lifestyle {
 	background: url(../img/runner_girl.png) 30% 200px no-repeat fixed; 
 	float: left;
@@ -618,9 +658,11 @@ div[data-type="sprite"] {
 	left: 13%;*/
 }
 .parallax1 .burger {
-	background: url(../img/spicybaja_burger.png) 100% 150px no-repeat fixed;
-	background-size: 50%; 
-
+	background: url(../img/homepage_hero/home_deserveit_burger.png) 110% 92px no-repeat fixed;
+	background-size: 60%; 
+}
+.burger.fullest-burger {
+	background-image: url(../img/homepage_hero/home_thefullest_burger.png);
 }
 .parallax1 .avocado {
 	background: url(../img/avocado.png) 110% 600px no-repeat fixed;
@@ -1927,6 +1969,13 @@ left: 0;
 	text-align: center;
 	color: #e9e2d2;
 }
+.menu-locate h5 {
+	margin-top: .5em;
+	font-weight: 600;
+	font-size: 130%;
+	color: #750102;
+	text-transform: uppercase;
+}
 .menu-locate img, .puzzle img {
 	display: block;
 	margin: 0 auto;
@@ -1954,8 +2003,12 @@ left: 0;
 	margin-top: 50%;
 }
 .local-burger img {
-	max-height: 477px;
 	padding-top: 0;
+}
+.local-burger img.question {
+	max-width: 75%;
+	display: block;
+	margin:0 auto;
 }
 select option {
 	color: #f8f7f4;
@@ -2255,14 +2308,16 @@ body.page-template-template_smashclub-php  {
 	
 }
 #menu-franchise li:nth-child(2) a {
-	background-color: #7d0b0f;
+	background: #7d0b0f url(../img/globe_icon.svg)center center no-repeat;
+	background-size: 40%;
 }
 #menu-franchise li:nth-child(3) a {
 	background: #492e1e url(../img/criteria_icon.svg) center center no-repeat;
 	background-size: 45%;
 }
 #menu-franchise li:nth-child(4) a {
-	background-color: #c8bda6;
+	background: #c8bda6 url(../img/laurel_icon.svg)center center no-repeat;
+	background-size: 40%;
 }
 #menu-franchise li:last-child {
 	width: 100%;

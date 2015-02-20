@@ -38,9 +38,7 @@ $(document).ready(function() {
 	      	var hours = jsonData.hours;
 	      	var hourInfo = eval("(" + hours + ")");
 	      	var newDate = new Date();
-	      	var today = newDate.getDay();
-	      	var locationDescription =	jsonData["location description"];
-	      	var localBurger =	jsonData["Burger Stack Image"];       	
+	      	var today = newDate.getDay();      	
 	      	var jsonHours = hourInfo[today];
 	      	//var jsonOpen = hourInfo[today].open.hour;
 	      	console.log(hourInfo);
@@ -55,11 +53,6 @@ $(document).ready(function() {
 	      	$("#geolocation .located img").fadeOut(500);
 	      	$("#geolocation .located").append('<ul><li>'+jsonData.name+'</li><li>'+jsonData.streetAddress+'</li><li>'+jsonData.city+', '+jsonData.state+' '+jsonData.postal+'</li><li><a href=http://locations.smashburger.com/'+jsonData.detailsUrl+'>check it out</a></li>');
 	      	$("aside div.placeable").append('<ul><li>'+jsonData.name+'</li><li>'+jsonData.streetAddress+'</li><li>'+jsonData.city+', '+jsonData.state+'</li></ul><a class="darkred-btn" href=http://locations.smashburger.com/'+jsonData.detailsUrl+'>view location<span></span></a>');
-	      	$('.page-template-template-menu-php .local-burger div.back').append('<p>'+locationDescription+'</p>');
-	      	$('.page-template-template-menu-php .local-burger .front img').attr('src', localBurger);
-	      	$('.page-template-template-menu-php .local-burger .front h4').fadeOut(300);
-	      	$('.page-template-template-menu-php .local-burger').addClass('flip-container');
-	      	//$("aside div.placeable-img").append('<img src="'+jsonData['Location Photo']+'" alt="smasheburger store front"/>');
 	      	isOpen();
 	      }
 	  });
@@ -86,11 +79,4 @@ $(document).ready(function() {
 		}
 	};
 	GetCurrentLocation();
-	/* Select Box To Change Local Burger*/
-	$('.menu-locate.burgers select').change(function() {
-			$('.menu-locate.burgers select option:selected').each(function() {
-				var selected= $(this).text();
-				console.log(selected);
-			});
-	});
 });

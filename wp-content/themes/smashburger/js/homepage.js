@@ -16,5 +16,10 @@ $(document).ready(function() {
 	if (windowHeight < 1025) {
 		$(window).resize(portrait);
 	}
+	/*hero rotation*/
+	var divs = $('#first').find('div.rotation');
+	var x = Math.floor((Math.random() * 6));
+	var show = divs[x];
+	$(show).removeClass('rotation');
 });
 
