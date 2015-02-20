@@ -22,8 +22,8 @@ get_header(); ?>
 				  <li class="tab-title"><a href="#panel7">kids</a></li>
 				</ul>
 				<div class="menu-files">
-					<a href="" download>Download</a>
-					<a href="" print>Print</a>
+					<a href="http://smashwebadmin.wpengine.com/wp-content/uploads/2015/02/smashburger_menu.pdf" download>Download</a>
+					<a href="http://smashwebadmin.wpengine.com/wp-content/uploads/2015/02/smashburger_menu.pdf" print>Print</a>
 				</div>
 			</div>
 			<div class="tabs-content">
@@ -40,11 +40,11 @@ get_header(); ?>
 		   					<img src="<?php echo get_template_directory_uri() . '/img/slide_bbq_burger.jpg' ?>" alt="classic smashburger">
 		   				</div>
 		   			</div>
-				   	<div class="small-6 medium-3 column red-primary menu-locate">
+				   	<div class="small-6 medium-3 column red-primary menu-locate burgers">
 				   		<img src="<?php echo get_template_directory_uri() . '/img/menu_burger_pin.png' ?>" alt="">
 				   		<p>Finding Your Local</p>
 				   		<h6>Burger</h6>
-				   		<select selected="More Local Burgers">
+				   		<select>
 				   			<option selected>More Local Burgers</option>
 				   			<option>Alabama</option>
 				   			<option disabled>California</option>
@@ -66,11 +66,16 @@ get_header(); ?>
 				   			<option>Georgia</option>
 				   		</select>
 				   	</div>
-				   	<div class="red-secondary small-6 medium-3 column local-burger">
-				   		<div class="vertical-align">
-				   			<h4 class="white-text">your local burger</h4>
-				   		</div>
-				   		<img src="">
+				   	<div class="red-secondary small-6 medium-3 column no-padding local-burger">
+				   		<div class="flip">
+					   		<div class="vertical-align front">
+					   			<h4 class="white-text">your local burger</h4>
+					   			<img src="<?php echo get_template_directory_uri() . '/img/question_mark.svg' ?>" alt="finding your local smashburger">
+					   		</div>
+					   		<div class="back">
+					   			<a class="red-btn" href="">Hungry?<span></span></a>
+					   		</div>
+					   	</div>
 				   	</div>
 					</section>
 					<section id="row2" class="clear flex">
@@ -217,11 +222,16 @@ get_header(); ?>
 				   			<option>Georgia</option>
 				   		</select>
 				   	</div>
-				   	<div class="red-secondary small-6 medium-3 column local-burger">
-				   		<div class="vertical-align">
-				   			<h4 class="white-text">your local smashchicken</h4>
-				   		</div>
-				   		<img src="">
+				   	<div class="red-secondary small-6 medium-3 column no-padding local-burger smashchicken">
+				   		<div class="flip">
+					   		<div class="vertical-align front">
+					   			<h4 class="white-text">your local smashchicken</h4>
+					   			<img src="<?php echo get_template_directory_uri() . '/img/question_mark.svg' ?>" alt="finding your local smashburger">
+					   		</div>
+					   		<div class="back">
+					   			<a class="red-btn" href="">Hungry?<span></span></a>
+					   		</div>
+					   	</div>
 				   	</div>
 					</section>
 					<section id="row2" class="clear flex">
@@ -517,11 +527,16 @@ get_header(); ?>
 				   			<option>Georgia</option>
 				   		</select>
 				   	</div>
-				   	<div class="red-secondary small-6 medium-3 column local-burger">
-				   		<div class="vertical-align">
-				   			<h4 class="white-text">your local side</h4>
-				   		</div>
-				   		<img src="">
+				   	<div class="red-secondary small-6 medium-3 column no-padding local-burger local-sides">
+				   		<div class="flip">
+					   		<div class="vertical-align front">
+					   			<h4 class="white-text">your local side</h4>
+					   			<img src="<?php echo get_template_directory_uri() . '/img/question_mark.svg' ?>" alt="finding your local smashburger">
+					   		</div>
+					   		<div class="back">
+					   			<a class="red-btn" href="">Hungry?<span></span></a>
+					   		</div>
+					   	</div>
 				   	</div>
 					</section>
 					<section id="row2" class="clear flex">
@@ -663,9 +678,16 @@ get_header(); ?>
 				   			<option>Georgia</option>
 				   		</select>
 				   	</div>
-				   	<div class="red-secondary small-6 medium-3 column local-burger">
-				   		<h4 class="white-text">your local shake</h4>
-				   		<img src="">
+				   	<div class="red-secondary small-6 medium-3 column no-padding local-burger local-shake">
+				   		<div class="flip">
+					   		<div class="vertical-align front">
+					   			<h4 class="white-text">your local shake</h4>
+					   			<img src="<?php echo get_template_directory_uri() . '/img/question_mark.svg' ?>" alt="finding your local smashburger">
+					   		</div>
+					   		<div class="back">
+					   			<a class="red-btn" href="">Hungry?<span></span></a>
+					   		</div>
+					   	</div>
 				   	</div>
 					</section>
 					<section id="row2" class="clear flex">

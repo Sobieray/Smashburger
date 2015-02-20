@@ -37,16 +37,24 @@ get_header(); ?>
 			<h4 class="center brown-text">Common Questions</h4>
 			<div class="question slider small-12 medium-8 center">
 				<div class="slide">
-					<h5 class="redtext-primary">do you use organic/all-natural ingredients?</h5>
-					<p>At Smashburger, we are focused on using the best-tasting and freshest ingredients. We are always looking for premium products to include on our menu. We offer all-natural Certified Angus Beef&reg; and a variety of organic toppings and beverages, and are looking into expanding those offerings on our menu throughout the year.</p>
+					<h5 class="redtext-primary">Do you use organic/all-natural ingredients? If not, how come?</h5>
+					<p>At Smashburger, we are focused on using the best tasting and freshest ingredients. We are always looking for premium products to include on our menu. We do offer all-natural Certified Angus Beef&reg; and are looking into adding more organic menu options.</p>
 				</div>
 				<div class="slide">
-					<h5 class="redtext-primary">2 do you use organic/all-natural ingredients?</h5>
-					<p>At Smashburger, we are focused on using the best-tasting and freshest ingredients. We are always looking for premium products to include on our menu. We offer all-natural Certified Angus Beef&reg; and a variety of organic toppings and beverages, and are looking into expanding those offerings on our menu throughout the year.</p>
+					<h5 class="redtext-primary">Is your beef grass-fed and hormone free?</h5>
+					<p>Our beef is pasture-fed and corn finished. It is all-natural Certified Angus Beef&reg; that comes from the mid-western states.</p>
 				</div>
 				<div class="slide">
-					<h5 class="redtext-primary">3 do you use organic/all-natural ingredients?</h5>
-					<p>At Smashburger, we are focused on using the best-tasting and freshest ingredients. We are always looking for premium products to include on our menu. We offer all-natural Certified Angus Beef&reg; and a variety of organic toppings and beverages, and are looking into expanding those offerings on our menu throughout the year.</p>
+					<h5 class="redtext-primary">Do you offer any vegetarian items at Smashburger?</h5>
+					<p>Yes we do &mdash; and they are all mouthwatering! We offer a Veggie Black Bean burger, however please note that it is NOT vegan as it contains eggs. We also cook our veggie burger on the same grill as our chicken and burgers, so cross-contact may occur. We also have a number of fresh, vegetarian salad options; just order them without bacon or meat.</p>
+				</div>
+				<div class="slide">
+					<h5 class="redtext-primary">Do you offer any gluten&ndash;free buns?</h5>
+					<p>Yes, we offer an Udi’s Gluten-Free bun option in all Smashburger restaurants across the country. We have also reformulated our burger seasoning to be gluten-free. While we strive for a 100% gluten-free product, we cannot guarantee that as we use the same toaster for all of our buns and other toppings (such as fried pickles, haystacks, etc.) do contain gluten. Cross-contact may occur as shared equipment for menu items is used in the kitchen.</p>
+				</div>
+				<div class="slide">
+					<h5 class="redtext-primary">Are your fries gluten&ndash;free?</h5>
+					<p>Our fries are not gluten free. They are fried in a common fryer with other items that contain gluten.</p>
 				</div>
 			</div>
 			<a href="" class="red-primary secondary-btn">I still have questions</a>

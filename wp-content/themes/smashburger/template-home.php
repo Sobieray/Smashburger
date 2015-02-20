@@ -6,7 +6,6 @@
  */
 
 get_header(); ?>
-
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main clear" role="main">
 			<header>
@@ -84,13 +83,14 @@ get_header(); ?>
 						<li>Coupons</li>
 						<li>Inspiration</li>
 					</ul>
-					<form method="post" action="http://smashburger.fbmta.com/members/subscribe.aspx" name="smashclub-form-global" id="smashclub-form-global" novalidate="novalidate">
+					<form action="http://smashburger.fbmta.com/members/subscribe.aspx" method="post" name="smashclub-form-global" id="smashclub-form-global" onSubmit="return validateEmail(this.EmailAddress.value);">
+						<input type="hidden" name="Action" id="Action" value="subscribe" size="30" maxlength="200">
 						<input type="hidden" value="45097156610" name="ListID">
 						<input type="hidden" value="4a1f3487-679e-4ca6-bccc-0ee2fb40dab5 " name="SiteGUID">  
 						<input type="hidden" value="https://smashburger.com/thank-you/" name="ReturnURL">
 						<input type="hidden" value="we" name="InputSource">
-				    <input type="email" value="email address" name="EmailAddress" id="EmailAddressGlobal" required>
-						<input type="submit" value="I'M IN!" class="form-submit">
+				    <input type="text" value="email address" name="EmailAddress" maxlength="200" id="EmailAddress">
+						<input type="submit" name="submit" value="I'M IN!" class="form-submit">
 					</form>
 				</div>
 				<div class="small-3 column no-padding">
@@ -199,6 +199,17 @@ get_header(); ?>
 			<script async src="https://d36hc0p18k1aoc.cloudfront.net/public/js/modules/tintembed.js"></script><div class="tintup" data-id="smashburger" data-columns="4" style="height:500px;width:100%;"></div>
 		</article>
 	</div><!-- #primary -->
-
+	<script language="Javascript" type="text/javascript">
+	  function validateEmail(emailAddress) {
+	    /* NOTE:  This regular expression is identical to the one used by Enterprise for e-mail address validation */
+	    var regExp = /^\s*[a-zA-Z\d][a-zA-Z\d\.!#$%&'*+\-\/=?^_`{|}~]*@([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}\s*$/;
+	    if (emailAddress.length <= 200 && regExp.test(emailAddress)) {
+	       return true;
+	    } else {
+	       alert("Invalid e-mail address");
+	       return false;
+	    }
+	  }
+	</script>
 <?php get_footer(); ?>
-		
+

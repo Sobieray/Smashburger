@@ -183,7 +183,6 @@ function smashburger_scripts() {
 	wp_enqueue_script( 'foundation-equalizer', get_template_directory_uri() . '/foundation/js/foundation/foundation.equalizer.js', array(), '1', true );
 	if (is_page(array('home'))) {
 		wp_enqueue_script( 'smashburger-parallax', get_template_directory_uri() . '/js/parallax.js', array(), '1', true );
-		wp_enqueue_script( 'foundation-abide', get_template_directory_uri() . '/foundation/js/foundation/foundation.abide.js', array(), '1', true );
 		wp_enqueue_script( 'homepage.js', get_template_directory_uri() . '/js/homepage.js', array(), '1',  true);
 	}
 	wp_enqueue_script( 'main-js', get_template_directory_uri() . '/js/main.js', array(), '1', true );

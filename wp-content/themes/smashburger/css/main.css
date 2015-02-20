@@ -789,7 +789,7 @@ div[data-type="sprite"] {
 	margin: 0 auto;
 	padding-bottom: 45%;
 }
-.home #forth form input[type="email"] {
+.home #forth form input[id="EmailAddress"] {
 	background-color: #980d12;
 	background-image: url(../img/email_icon.svg);
 	background-position: 2% center;
@@ -1948,12 +1948,14 @@ left: 0;
 .menu-locate.chicken h6 {
 	font-size: 160%;
 }
-.local-burger {
-	background: #980d12 url(../img/question_mark.svg) center no-repeat;
-}
+
 .local-burger h4 {
-	position: relative;
+	position: absolute;
 	margin-top: 50%;
+}
+.local-burger img {
+	max-height: 477px;
+	padding-top: 0;
 }
 select option {
 	color: #f8f7f4;
