@@ -218,6 +218,9 @@ function smashburger_scripts() {
 	if (is_page(array('menu'))) {
 		wp_enqueue_script( 'menu.js', get_template_directory_uri() . '/js/menu.js', array(), '1',  true);
 	}
+	if (is_page(array('meet-us'))) {
+		wp_enqueue_script( 'validator', get_template_directory_uri() . '/js/gen_validatorv31.js', array(), '1', false );
+	}
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}

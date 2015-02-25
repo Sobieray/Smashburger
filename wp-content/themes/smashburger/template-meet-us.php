@@ -95,15 +95,19 @@ get_header(); ?>
 	<div id="meetModal">
 		<div class="small-12 dark-overlay small-padding">
 			<div class="small-12 medium-10 row light-tan-bg modal">
+				<?php 
+					$submission = get_template_directory_uri() . '/meeting-submission.php'; 
+				?>
 				<h5>Schedule an in-person meeting<span>X</span></h5>
-				<form id="event" action="" onSubmit="return validateEmail(this.EmailAddress.value);">
-					<input type="text" name="fname" value="First Name" required>
-					<input type="text" name="lname" value="Last Name" required>
+				<form method="post" name="eventform" action="http://localhost:8888/wp-content/themes/smashburger/meeting-submission.php">
+					<label for="fnam"></label>
+					<input type="text" name="fname" value="First Name">
+					<input type="text" name="lname" value="Last Name">
 					<input type="text" name="event" value="Event you're attending">
-					<input type="text" name="EmailAddress" value="Email" id="EmailAddress" required>
+					<input type="text" name="email" value="Email" id="EmailAddress">
 					<input type="text" name="phone" value="Phone">
-					<textarea rows="4" col="50" value="Message" form="event">Message</textarea>
-					<input type="submit">
+					<textarea rows="4" col="50" value="Message" name="message" form="event">Message</textarea>
+					<input type="submit" name="submit" value="Submit">
 				</form>
 			</div>
 		</div>
@@ -116,14 +120,9 @@ get_header(); ?>
 	$('#meetModal span').click(function() {
 		$('#meetModal').fadeOut(250);
 	});
-  function validateEmail(emailAddress) {
-    /* NOTE:  This regular expression is identical to the one used by Enterprise for e-mail address validation */
-    var regExp = /^\s*[a-zA-Z\d][a-zA-Z\d\.!#$%&'*+\-\/=?^_`{|}~]*@([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}\s*$/;
-    if (emailAddress.length <= 200 && regExp.test(emailAddress)) {
-       return true;
-    } else {
-       alert("Invalid e-mail address");
-       return false;
-    }
-  }
+	var frmvalidator  = new Validator("eventform");
+	frmvalidator.addValidation("fname","req","Please provide your first name");
+	frmvalidator.addValidation("lname","req","Please provide your last name"); 
+	frmvalidator.addValidation("email","req","Please provide your email"); 
+	frmvalidator.addValidation("email","email","Please enter a valid email address"); 
 </script>
