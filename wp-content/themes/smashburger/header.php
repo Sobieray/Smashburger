@@ -49,7 +49,7 @@
 				</section>
 			</nav><!-- #site-navigation -->
 				<?php if ( function_exists('yoast_breadcrumb') ) {
-					yoast_breadcrumb('<nav class="breadcrumbs">','</nav>');
+					yoast_breadcrumb('<nav class="breadcrumbs hide-for-medium-down">','</nav>');
 					} ?>
 		</header><!-- #masthead -->
 		<aside class="left-off-canvas-menu">

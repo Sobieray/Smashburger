@@ -6,7 +6,9 @@
  */
 
 get_header(); ?>
-
+	<div class="header hide-for-960-down">
+		<h1>Certified Angus</h1>
+	</div>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<section class="flex">

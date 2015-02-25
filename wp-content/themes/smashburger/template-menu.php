@@ -11,7 +11,7 @@ get_header(); ?>
 	</div>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main clear" role="main">
-			<div class="menu-links">
+			<div class="menu-links hide-for-medium-down">
 				<ul class="tabs" data-tab>
 				  <li class="tab-title active"><a class="brown-text" href="#panel1">burgers</a></li>
 				  <li class="tab-title"><a href="#panel2">chicken</a></li>
@@ -26,10 +26,31 @@ get_header(); ?>
 					<a href="http://smashwebadmin.wpengine.com/wp-content/uploads/2015/02/smashburger_menu.pdf" print>Print</a>
 				</div>
 			</div>
+			<!-- Mobile Menu -->
+			<dl id="menuDropdown" class="accordion show-for-medium-down" data-accordion>
+			  <dd class="accordion-navigation clear">
+			    <a class="clear" href="#menuPanel"><h5>categories</h5></a>
+				  <div id="menuPanel" class="menu-links content">
+						<ul class="tabs" data-tab>
+						  <li class="tab-title active"><a class="brown-text" href="#panel1">burgers</a></li>
+						  <li class="tab-title"><a href="#panel2">chicken</a></li>
+						  <li class="tab-title"><a href="#panel3">create your own</a></li>
+						  <li class="tab-title"><a href="#panel4">fresh salads</a></li>
+						  <li class="tab-title"><a href="#panel5">fries &amp; sides</a></li>
+						  <li class="tab-title"><a href="#panel6">hand&ndash;spun shakes</a></li>
+						  <li class="tab-title"><a href="#panel7">kids</a></li>
+						</ul>
+			    </div>
+			  </dd>
+			</dl>
+			
+
+
+
 			<div class="tabs-content">
 			  <div class="content active" id="panel1">
 			    <section class="row1 clear flex">
-				    <div class="menu slider small-12 medium-6 column">
+				    <div class="menu slider small-12 large-6 column">
 		   				<div class="slide">
 		   					<img src="<?php echo get_template_directory_uri() . '/img/slide_classic_burger.jpg' ?>" alt="classic smashburger">
 		   				</div>
@@ -40,7 +61,7 @@ get_header(); ?>
 		   					<img src="<?php echo get_template_directory_uri() . '/img/slide_bbq_burger.jpg' ?>" alt="classic smashburger">
 		   				</div>
 		   			</div>
-				   	<div class="small-6 medium-3 column red-primary menu-locate burgers">
+				   	<div class="medium-6 large-3 column red-primary menu-locate burgers">
 				   		<img src="<?php echo get_template_directory_uri() . '/img/menu_burger_pin.png' ?>" alt="">
 				   		<p>Finding Your Local</p>
 				   		<h6>Burger</h6>
@@ -66,7 +87,7 @@ get_header(); ?>
 				   			<option>Georgia</option>
 				   		</select>
 				   	</div>
-				   	<div class="red-secondary small-6 medium-3 column no-padding local-burger burgers">
+				   	<div class="red-secondary small-12 medium-6 large-3 column no-padding local-burger burgers">
 				   		<div class="flip">
 					   		<div class="vertical-align front">
 					   			<h4 class="white-text">your local burger</h4>
@@ -79,7 +100,7 @@ get_header(); ?>
 				   	</div>
 					</section>
 					<section id="row2" class="clear flex">
-						<div class="flip-container small-12 medium-3 column dark-blue-bg no-padding">
+						<div class="flip-container small-12 medium-6 large-3 column dark-blue-bg no-padding">
 							<div class="flip">
 								<div class="front">
 									<h4>Classic Smash</h4>
@@ -92,7 +113,7 @@ get_header(); ?>
 								</div>
 					  	</div>
 				  	</div>
-				  	<div class="small-12 medium-3 column red-secondary flip-container no-padding">
+				  	<div class="small-12 medium-6 large-3 column red-secondary flip-container no-padding">
 				  		<div class="flip">
 				  			<div class="front">
 									<h4>Avocado Club</h4>
@@ -105,7 +126,7 @@ get_header(); ?>
 								</div>
 							</div>
 				  	</div>
-				  	<div class="small-12 medium-3 column light-brown-bg flip-container no-padding">
+				  	<div class="small-12 medium-6 large-3 column light-brown-bg flip-container no-padding">
 				  		<div class="flip">
 					  		<div class="front">
 									<h4>BBQ, Bacon &amp; Cheddar</h4>
@@ -118,7 +139,7 @@ get_header(); ?>
 								</div>
 							</div>
 				  	</div>
-				  	<div class="small-12 medium-3 column red-tertiary flip-container no-padding">
+				  	<div class="small-12 medium-6 large-3 column red-tertiary flip-container no-padding">
 				  		<div class="flip">
 				  			<div class="front">
 									<h4>Bacon Cheeseburger</h4>
@@ -133,7 +154,7 @@ get_header(); ?>
 				  	</div>
 				  </section>
 			  	<section id="row3" class="clear flex">
-			  		<div class="small-12 medium-3 column light-brown-bg flip-container no-padding">
+			  		<div class="small-12 medium-6 large-3 column light-brown-bg flip-container no-padding">
 			  			<div class="flip">
 			  				<div class="front">
 					  			<h4>Buffalo &amp; Blue Cheese</h4>
@@ -146,7 +167,7 @@ get_header(); ?>
 					  		</div>
 					  	</div>
 			    	</div>
-			    	<div class="small-12 medium-3 column red-tertiary flip-container no-padding">
+			    	<div class="small-12 medium-6 large-3 column red-tertiary flip-container no-padding">
 			    		<div class="flip">
 			    			<div class="front">
 					  			<h4>Spicy Jalape&Ntilde;o Baja</h4>
@@ -159,7 +180,7 @@ get_header(); ?>
 					  		</div>
 					  	</div>
 			    	</div>
-			    	<div class="small-12 medium-3 column dark-blue-bg flip-container no-padding">
+			    	<div class="small-12 medium-6 large-3 column dark-blue-bg flip-container no-padding">
 			    		<div class="flip">
 			    			<div class="front">
 					  			<h4>Spinach, cucumber &amp; Goat Cheese</h4>
@@ -172,7 +193,7 @@ get_header(); ?>
 					  		</div>
 					  	</div>
 			    	</div>
-			    	<div class="small-12 medium-3 column red-secondary flip-container no-padding">
+			    	<div class="small-12 medium-6 large-3 column red-secondary flip-container no-padding">
 			    		<div class="flip">
 			    			<div class="front">
 					  			<h4>Truffle Mushroom Swiss</h4>
@@ -188,7 +209,7 @@ get_header(); ?>
 				</div><!-- #panel1  --><!-- Burgers -->
 			  <div class="content" id="panel2">
 			    <section class="row1 clear flex">
-				    <div class="menu slider small-12 medium-6 column">
+				    <div class="menu slider small-12 large-6 column">
 		   				<div class="slide">
 		   					<img src="<?php echo get_template_directory_uri() . '/img/slide_chicken_classic.jpg' ?>" alt="smashburger classic chicken sandwich">
 		   				</div>
@@ -196,7 +217,7 @@ get_header(); ?>
 		   					<img src="<?php echo get_template_directory_uri() . '/img/slide_chicken_avocado.jpg' ?>" alt="smashburger chicken avocado sandwich">
 		   				</div>
 		   			</div>
-				   	<div class="small-6 medium-3 column red-primary menu-locate chicken">
+				   	<div class="medium-6 large-3 column red-primary menu-locate chicken">
 				   		<img src="<?php echo get_template_directory_uri() . '/img/menu_burger_pin.png' ?>" alt="">
 				   		<p>Finding Your Local</p>
 				   		<h6>SmashChicken</h6>
@@ -222,7 +243,7 @@ get_header(); ?>
 				   			<option>Georgia</option>
 				   		</select>
 				   	</div>
-				   	<div class="red-secondary small-6 medium-3 column no-padding local-burger chicken">
+				   	<div class="red-secondary small-12 medium-6 large-3 column no-padding local-burger chicken">
 				   		<div class="flip">
 					   		<div class="vertical-align front">
 					   			<h4 class="white-text">your local smashchicken</h4>
@@ -235,7 +256,7 @@ get_header(); ?>
 				   	</div>
 					</section>
 					<section id="row2" class="clear flex">
-						<div class="flip-container small-12 medium-3 column dark-blue-bg no-padding">
+						<div class="flip-container small-12 medium-6 large-3 column dark-blue-bg no-padding">
 							<div class="flip">
 								<div class="front">
 									<h4>Classic Chicken</h4>
@@ -248,7 +269,7 @@ get_header(); ?>
 								</div>
 					  	</div>
 				  	</div>
-				  	<div class="small-12 medium-3 column red-secondary flip-container no-padding">
+				  	<div class="small-12 medium-6 large-3 column red-secondary flip-container no-padding">
 				  		<div class="flip">
 				  			<div class="front">
 									<h4>Avocado Club</h4>
@@ -261,7 +282,7 @@ get_header(); ?>
 								</div>
 							</div>
 				  	</div>
-				  	<div class="small-12 medium-3 column light-brown-bg flip-container no-padding">
+				  	<div class="small-12 medium-6 large-3 column light-brown-bg flip-container no-padding">
 				  		<div class="flip">
 					  		<div class="front">
 									<h4>BBQ, Bacon &amp; Cheddar</h4>
@@ -274,7 +295,7 @@ get_header(); ?>
 								</div>
 							</div>
 				  	</div>
-				  	<div class="small-12 medium-3 column red-tertiary flip-container no-padding">
+				  	<div class="small-12 medium-6 large-3 column red-tertiary flip-container no-padding">
 				  		<div class="flip">
 				  			<div class="front">
 									<h4>Undone</h4>
@@ -289,7 +310,7 @@ get_header(); ?>
 				  	</div>
 				  </section>
 			  	<section id="row3" class="clear flex">
-			  		<div class="small-12 medium-3 column light-brown-bg flip-container no-padding">
+			  		<div class="small-12 medium-6 large-3 column light-brown-bg flip-container no-padding">
 			  			<div class="flip">
 			  				<div class="front">
 					  			<h4>Buffalo &amp; Blue Cheese</h4>
@@ -302,7 +323,7 @@ get_header(); ?>
 					  		</div>
 					  	</div>
 			    	</div>
-			    	<div class="small-12 medium-3 column red-tertiary flip-container no-padding">
+			    	<div class="small-12 medium-6 large-3 column red-tertiary flip-container no-padding">
 			    		<div class="flip">
 			    			<div class="front">
 					  			<h4>Spicy Jalape&Ntilde;o Baja</h4>
@@ -315,7 +336,7 @@ get_header(); ?>
 					  		</div>
 					  	</div>
 			    	</div>
-			    	<div class="small-12 medium-3 column dark-blue-bg flip-container no-padding">
+			    	<div class="small-12 medium-6 large-3 column dark-blue-bg flip-container no-padding">
 			    		<div class="flip">
 			    			<div class="front">
 					  			<h4>Spinach, cucumber &amp; Goat Cheese</h4>
@@ -328,7 +349,7 @@ get_header(); ?>
 					  		</div>
 					  	</div>
 			    	</div>
-			    	<div class="small-12 medium-3 column red-secondary flip-container no-padding">
+			    	<div class="small-12 medium-6 large-3 column red-secondary flip-container no-padding">
 			    		<div class="flip">
 			    			<div class="front">
 					  			<h4>Truffle Mushroom Swiss</h4>
@@ -344,15 +365,15 @@ get_header(); ?>
 				</div><!-- #panel2  --><!-- Chicken -->
 			  <div class="content" id="panel3">
 			    <section class="row1 clear flex">
-				    <div class="small-12 medium-6 column no-padding">
+				    <div class="small-12 large-6 column no-padding">
 		   			  <img src="<?php echo get_template_directory_uri() . '/img/create_your_own.jpg' ?>" alt="create your own smashburger">
 		   			</div>
-				   	<div class="small-6 medium-3 column red-primary puzzle">
+				   	<div class="medium-6 large-3 column red-primary puzzle">
 				   		<img src="<?php echo get_template_directory_uri() . '/img/menu_create.svg' ?>" alt="make your own burger icon" width="50">
 				   		<h6 class="tan-text">Your <span class="brown-text">Smash</span></h6>
 				   		<h6 class="tan-text">Your Way</h6>
 				   	</div>
-				   	<div class="red-tertiary small-6 medium-3 column create">
+				   	<div class="red-tertiary small-12 medium-6 large-3 column create">
 				   		<h6>Start Here</h6>
 				   		<ul>
 				   			<li>regular burger</li>
@@ -364,7 +385,7 @@ get_header(); ?>
 				   	</div>
 					</section>
 					<section id="row2" class="clear flex">
-						<div class="small-12 medium-3 column blue-bg options">
+						<div class="small-12 medium-6 large-3 column blue-bg options">
 							<h6>bun</h6>
 							<ul>
 							    <li>egg bun</li>
@@ -374,7 +395,7 @@ get_header(); ?>
 							</ul>
 							<i>*additional buns may be available by region</i>
 				  	</div>
-				  	<div class="small-12 medium-3 column red-secondary options">
+				  	<div class="small-12 medium-6 large-3 column red-secondary options">
 							<h6>toppings</h6>
 							<ul id="toppings" class="clear">
 							    <li>smash sauce</li>
@@ -393,7 +414,7 @@ get_header(); ?>
 							</ul>
 							<i>*additional toppings may be available by region</i>
 				  	</div>
-				  	<div class="small-12 medium-3 column brown options">
+				  	<div class="small-12 medium-6 large-3 column brown options">
 							<h6>Cheese</h6>
 							<ul>
 							    <li>aged swiss</li>
@@ -404,7 +425,7 @@ get_header(); ?>
 							</ul>
 							<i>*additional regional cheeses may be available</i>
 				  	</div>
-				  	<div class="small-12 medium-3 column red-primary options">
+				  	<div class="small-12 medium-6 large-3 column red-primary options">
 							<h6>add-ons</h6>
 							<ul>
 							    <li>applewood smoked bacon</li>
@@ -422,7 +443,7 @@ get_header(); ?>
 			  </div><!-- #panel3  --><!-- Create -->
 	  	  <div class="content" id="panel4">
 	  	    <section class="row1 clear flex">
-	  		      <div class="menu slider small-12 medium-6 column">
+	  		      <div class="menu slider small-12 medium-12 large-6 column">
 			   				<div class="slide">
 			   					<img src="<?php echo get_template_directory_uri() . '/img/cobb_salad.jpg' ?>" alt="smashburger cobb salad">
 			   				</div>
@@ -430,14 +451,14 @@ get_header(); ?>
 			   					<img src="<?php echo get_template_directory_uri() . '/img/harvest_salad.jpg' ?>" alt="smashburger harvest salad">
 			   				</div>
 			   			</div>
-	  		   	<div class="small-6 medium-6 column salads">
+	  		   	<div class="small-12 large-6 column salads">
 	  		   		<h6 class="white-text">our burgers have met</h6>
 	  		   		<h6 class="white-text">their match</h6>
 	  		   		<p class="white-text">(yep, they&rsquo;re that good)</p>
 	  		   	</div>
 	  			</section>
 	  			<section id="row2" class="clear flex">
-	  				<div class="small-12 medium-3 column light-brown-bg flip-container no-padding">
+	  				<div class="small-12 medium-6 large-3 column light-brown-bg flip-container no-padding">
 	  					<div class="flip">
 	  						<div class="front">
 	  							<h4>spinach, cucumber &amp; goat cheese salad</h4>
@@ -450,7 +471,7 @@ get_header(); ?>
 	  						</div>
 	  					</div>
 	  		  	</div>
-	  		  	<div class="small-12 medium-3 column red-secondary flip-container no-padding">
+	  		  	<div class="small-12 medium-6 large-3 column red-secondary flip-container no-padding">
 	  		  		<div class="flip">
 	  		  			<div class="front">
 	  							<h4>Harvest Salad</h4>
@@ -463,7 +484,7 @@ get_header(); ?>
 	  						</div>
 	  					</div>
 	  		  	</div>
-	  		  	<div class="small-12 medium-3 column dark-blue-bg flip-container no-padding">
+	  		  	<div class="small-12 medium-6 large-3 column dark-blue-bg flip-container no-padding">
 	  		  		<div class="flip">
 	  		  			<div class="front">
 	  							<h4>Cobb Salad</h4>
@@ -476,7 +497,7 @@ get_header(); ?>
 	  						</div>
 	  					</div>
 	  		  	</div>
-	  		  	<div class="small-12 medium-3 column red-tertiary flip-container no-padding">
+	  		  	<div class="small-12 medium-6 large-3 column red-tertiary flip-container no-padding">
 	  		  		<div class="flip">
 	  		  			<div class="front">
 	  							<h4>Baja Cobb Salad</h4>
@@ -493,7 +514,7 @@ get_header(); ?>
 	  	  </div><!-- #panel4  --><!-- Salads -->
 	  	  <div class="content" id="panel5">
 			    <section class="row1 clear flex">
-				    <div class="menu slider small-12 medium-6 column">
+				    <div class="menu slider small-12 large-6 column">
 		   				<div class="slide">
 		   					<img src="<?php echo get_template_directory_uri() . '/img/veggie_frites.jpg' ?>" alt="smashburger veggie frites">
 		   				</div>
@@ -501,7 +522,7 @@ get_header(); ?>
 		   					<img src="<?php echo get_template_directory_uri() . '/img/onion_rings.jpg' ?>" alt="smashburger haystack onion rings">
 		   				</div>
 		   			</div>
-				   	<div class="small-6 medium-3 column red-primary menu-locate sides">
+				   	<div class="medium-6 large-3 column red-primary menu-locate sides">
 				   		<img src="<?php echo get_template_directory_uri() . '/img/sides_pin.png' ?>" alt="smashburger local sides">
 				   		<p>Finding Your Local</p>
 				   		<h6>Side</h6>
@@ -527,7 +548,7 @@ get_header(); ?>
 				   			<option>Georgia</option>
 				   		</select>
 				   	</div>
-				   	<div class="red-secondary small-6 medium-3 column no-padding local-burger sides">
+				   	<div class="red-secondary small-12 medium-6 large-3 column no-padding local-burger sides">
 				   		<div class="flip">
 					   		<div class="vertical-align front">
 					   			<h4 class="white-text">your local side</h4>
@@ -540,7 +561,7 @@ get_header(); ?>
 				   	</div>
 					</section>
 					<section id="row2" class="clear flex">
-						<div class="flip-container small-12 medium-3 column dark-blue-bg no-padding">
+						<div class="flip-container small-12 medium-6 large-3 column dark-blue-bg no-padding">
 							<div class="flip">
 								<div class="front">
 									<h4>Smash Fries</h4>
@@ -553,7 +574,7 @@ get_header(); ?>
 								</div>
 					  	</div>
 				  	</div>
-				  	<div class="small-12 medium-3 column red-secondary flip-container no-padding">
+				  	<div class="small-12 medium-6 large-3 column red-secondary flip-container no-padding">
 				  		<div class="flip">
 				  			<div class="front">
 									<h4>French Fries</h4>
@@ -566,7 +587,7 @@ get_header(); ?>
 								</div>
 							</div>
 				  	</div>
-				  	<div class="small-12 medium-3 column light-brown-bg flip-container no-padding">
+				  	<div class="small-12 medium-6 large-3 column light-brown-bg flip-container no-padding">
 				  		<div class="flip">
 					  		<div class="front">
 									<h4>Sweet Potato Fries</h4>
@@ -579,7 +600,7 @@ get_header(); ?>
 								</div>
 							</div>
 				  	</div>
-				  	<div class="small-12 medium-3 column red-tertiary flip-container no-padding">
+				  	<div class="small-12 medium-6 large-3 column red-tertiary flip-container no-padding">
 				  		<div class="flip">
 				  			<div class="front">
 									<h4>Haystack Onions</h4>
@@ -594,7 +615,7 @@ get_header(); ?>
 				  	</div>
 				  </section>
 			  	<section id="row3" class="clear flex">
-			  		<div class="small-12 medium-3 column light-brown-bg flip-container no-padding">
+			  		<div class="small-12 medium-6 large-3 column light-brown-bg flip-container no-padding">
 			  			<div class="flip">
 			  				<div class="front">
 					  			<h4>Spicy Buffalo Fries</h4>
@@ -607,7 +628,7 @@ get_header(); ?>
 					  		</div>
 					  	</div>
 			    	</div>
-			    	<div class="small-12 medium-3 column red-tertiary flip-container no-padding">
+			    	<div class="small-12 medium-6 large-3 column red-tertiary flip-container no-padding">
 			    		<div class="flip">
 			    			<div class="front">
 					  			<h4>Fried Pickles</h4>
@@ -620,7 +641,7 @@ get_header(); ?>
 					  		</div>
 					  	</div>
 			    	</div>
-			    	<div class="small-12 medium-3 column dark-blue-bg flip-container no-padding">
+			    	<div class="small-12 medium-6 large-3 column dark-blue-bg flip-container no-padding">
 			    		<div class="flip">
 			    			<div class="front">
 					  			<h4>Veggie Frites</h4>
@@ -633,7 +654,7 @@ get_header(); ?>
 					  		</div>
 					  	</div>
 			    	</div>
-			    	<div class="small-12 medium-3 column red-secondary flip-container no-padding">
+			    	<div class="small-12 medium-6 large-3 column red-secondary flip-container no-padding">
 			    		<div class="flip">
 			    			<div class="front">
 					  			<h4>Side Garden Salad</h4>
@@ -649,10 +670,10 @@ get_header(); ?>
 				</div><!-- #panel5  --><!-- Sides -->
 	  	  <div class="content" id="panel6">
 			    <section class="row1 clear flex">
-				    <div class="menu small-12 medium-6 column no-padding">
+				    <div class="menu small-12 large-6 column no-padding">
 		   				<img src="<?php echo get_template_directory_uri() . '/img/shakes_hero.jpg' ?>" alt="smashburger hand-spun shakes">
 		   			</div>
-				   	<div class="small-6 medium-3 column red-primary menu-locate shakes">
+				   	<div class="medium-6 large-3 column red-primary menu-locate shakes">
 				   		<img src="<?php echo get_template_directory_uri() . '/img/shake_pin.png' ?>" alt="local smashburger shakes">
 				   		<p>Finding Your Local</p>
 				   		<h6>Shake</h6>
@@ -678,20 +699,20 @@ get_header(); ?>
 				   			<option>Georgia</option>
 				   		</select>
 				   	</div>
-				   	<div class="red-secondary small-6 medium-3 column no-padding local-burger shake">
+				   	<div class="red-secondary small-12 medium-6 large-3 column no-padding local-burger shake">
 				   		<div class="flip">
 					   		<div class="vertical-align front">
 					   			<h4 class="white-text">your local shake</h4>
 					   			<img class="question" src="<?php echo get_template_directory_uri() . '/img/question_mark.svg' ?>" alt="finding your local smashburger">
 					   		</div>
 					   		<div class="back">
-					   			<a class="red-btn" href="">Hungry?<span></span></a>
+					   			<a class="red-btn" href="">Thirsty?<span></span></a>
 					   		</div>
 					   	</div>
 				   	</div>
 					</section>
 					<section id="row2" class="clear flex">
-						<div class="flip-container small-12 medium-3 column dark-blue-bg no-padding">
+						<div class="flip-container small-12 medium-6 large-3 column dark-blue-bg no-padding">
 							<div class="flip">
 								<div class="front">
 									<h4>Chocolate</h4>
@@ -704,7 +725,7 @@ get_header(); ?>
 								</div>
 					  	</div>
 				  	</div>
-				  	<div class="small-12 medium-3 column red-tertiary flip-container no-padding">
+				  	<div class="small-12 medium-6 large-3 column red-tertiary flip-container no-padding">
 				  		<div class="flip">
 				  			<div class="front">
 									<h4>Vanilla</h4>
@@ -713,11 +734,11 @@ get_header(); ?>
 								<div class="back">
 									<h4>Vanilla</h4>
 									<p>Hand-spun with vanilla H&auml;agen-Dazs ice cream</p>
-									<a href="" class="darkred-btn">Hungry?<span></span></a>
+									<a href="" class="darkred-btn">Thirsty?<span></span></a>
 								</div>
 							</div>
 				  	</div>
-				  	<div class="small-12 medium-3 column light-brown-bg flip-container no-padding">
+				  	<div class="small-12 medium-6 large-3 column light-brown-bg flip-container no-padding">
 				  		<div class="flip">
 					  		<div class="front">
 									<h4>Strawberry</h4>
@@ -726,11 +747,11 @@ get_header(); ?>
 								<div class="back">
 									<h4>Strawberry</h4>
 									<p>Hand-spun with vanilla H&auml;agen-Dazs ice cream &amp; strawberry syrup.</p>
-									<a class="brown-btn">Hungry ?<span></span></a>
+									<a class="brown-btn">Thirsty?<span></span></a>
 								</div>
 							</div>
 				  	</div>
-				  	<div class="small-12 medium-3 column red-secondary flip-container no-padding">
+				  	<div class="small-12 medium-6 large-3 column red-secondary flip-container no-padding">
 				  		<div class="flip">
 				  			<div class="front">
 									<h4>Oreo</h4>
@@ -739,13 +760,13 @@ get_header(); ?>
 								<div class="back">
 									<h4>Oreo</h4>
 									<p>Hand-spun with vanilla H&auml;agen-Dazs ice cream &amp; crushed Oreos.</p>
-									<a class="red-btn">Hungry?<span></span></a>
+									<a class="red-btn">Thirsty?<span></span></a>
 								</div>
 							</div>
 				  	</div>
 				  </section>
 			  	<section id="row3" class="clear flex">
-			  		<div class="small-12 medium-3 column light-brown-bg flip-container no-padding">
+			  		<div class="small-12 medium-6 large-3 column light-brown-bg flip-container no-padding">
 			  			<div class="flip">
 			  				<div class="front">
 					  			<h4>Nutterbutter</h4>
@@ -758,7 +779,7 @@ get_header(); ?>
 					  		</div>
 					  	</div>
 			    	</div>
-			    	<div class="small-12 medium-3 column red-secondary flip-container no-padding">
+			    	<div class="small-12 medium-6 large-3 column red-secondary flip-container no-padding">
 			    		<div class="flip">
 			    			<div class="front">
 					  			<h4>Butterfinger</h4>
@@ -771,7 +792,7 @@ get_header(); ?>
 					  		</div>
 					  	</div>
 			    	</div>
-			    	<div class="small-12 medium-3 column dark-blue-bg flip-container no-padding">
+			    	<div class="small-12 medium-6 large-3 column dark-blue-bg flip-container no-padding">
 			    		<div class="flip">
 			    			<div class="front">
 					  			<h4>Salted Carmel</h4>
@@ -784,7 +805,7 @@ get_header(); ?>
 					  		</div>
 					  	</div>
 			    	</div>
-			    	<div class="small-12 medium-3 column red-tertiary flip-container no-padding">
+			    	<div class="small-12 medium-6 large-3 column red-tertiary flip-container no-padding">
 			    		<div class="flip">
 			    			<div class="front">
 					  			<h4>Chocolate Oreo</h4>
@@ -800,7 +821,7 @@ get_header(); ?>
 				</div><!-- #panel6  --><!-- Shakes -->
 	  	  <div class="content" id="panel7">
 	  	    <section class="row1 clear flex">
-	  		      <div class="menu slider small-12 medium-6 column">
+	  		      <div class="menu slider small-12 medium-12 large-6 column">
 			   				<div class="slide">
 			   					<img src="<?php echo get_template_directory_uri() . '/img/grilled_cheese.jpg' ?>" alt="smashburger grilled cheese">
 			   				</div>
@@ -811,13 +832,13 @@ get_header(); ?>
 			   					<img src="<?php echo get_template_directory_uri() . '/img/hot_dog.jpg' ?>" alt="smashburger hot dog">
 			   				</div>
 			   			</div>
-	  		   	<div class="small-6 medium-6 column kids">
+	  		   	<div class="small-6 column kids">
 	  		   		<h6 class="redtext-primary">Get kudos from</h6>
 	  		   		<h6 class="redtext-primary">the kiddos</h6>
 	  		   	</div>
 	  			</section>
 	  			<section id="row2" class="clear flex">
-	  				<div class="small-12 medium-3 column light-brown-bg flip-container no-padding">
+	  				<div class="small-12 medium-6 large-3 column light-brown-bg flip-container no-padding">
 	  					<div class="flip">
 	  						<div class="front">
 	  							<h4>Kids Smash</h4>
@@ -830,7 +851,7 @@ get_header(); ?>
 	  						</div>
 	  					</div>
 	  		  	</div>
-	  		  	<div class="small-12 medium-3 column red-secondary flip-container no-padding">
+	  		  	<div class="small-12 medium-6 large-3 column red-secondary flip-container no-padding">
 	  		  		<div class="flip">
 	  		  			<div class="front">
 	  							<h4>Hot Dog</h4>
@@ -843,7 +864,7 @@ get_header(); ?>
 	  						</div>
 	  					</div>
 	  		  	</div>
-	  		  	<div class="small-12 medium-3 column dark-blue-bg flip-container no-padding">
+	  		  	<div class="small-12 medium-6 large-3 column dark-blue-bg flip-container no-padding">
 	  		  		<div class="flip">
 	  		  			<div class="front">
 	  							<h4>Chicken Strips</h4>
@@ -856,7 +877,7 @@ get_header(); ?>
 	  						</div>
 	  					</div>
 	  		  	</div>
-	  		  	<div class="small-12 medium-3 column red-tertiary flip-container no-padding">
+	  		  	<div class="small-12 medium-6 large-3 column red-tertiary flip-container no-padding">
 	  		  		<div class="flip">
 	  		  			<div class="front">
 	  							<h4>Grilled Cheese</h4>

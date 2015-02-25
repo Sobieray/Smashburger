@@ -21,27 +21,28 @@ get_header(); ?>
 			</section>
 		</main><!-- #main -->
 		<section id="secondary" class="clear flex">
-			<div class="small-8 medium-6 column red-secondary">
+			<div class="small-12 medium-6 column red-secondary">
 				<p class="white-text"><span>A</span>t Smashburger, we believe... scratch that, WE KNOW that smashing is better. Our handcrafted burgers are smashed, seared and seasoned to order, using fresh, never frozen 100% Certified Angus Beef&reg;. Whether you choose our Classic Smashburger or decide to create your own, our artisan buns, fresh produce, flavorful sauces and variety of real cheeses are designed to deliver a great tasting, juicy burger you can taste in every bite.</p>
 		  </div>
-		  <div class="small-4 medium-3 column center-padding light-brown-bg css-triangle">
+		  <div class="small-6 medium-3 column center-padding light-brown-bg css-triangle">
 				<img src="<?php echo get_template_directory_uri() . '/img/fresh_icon2.svg' ?>" alt="smashburger double cheeseburger" />
 		  </div>
-		  <div class="hide-for-small-only medium-3 column no-padding">
-				<img src="<?php echo get_template_directory_uri() . '/img/beans&fries.png' ?>" alt="smashburger fries" />
+		  <div class="small-6 medium-3 column no-padding">
+				<img class="hide-for-small-only" src="<?php echo get_template_directory_uri() . '/img/beans&fries.png' ?>" alt="smashburger fries" />
+				<img class="show-for-small-only" src="<?php echo get_template_directory_uri() . '/img/harvest_salad.svg' ?>" alt="smashburger salads" />
 		  </div>
 		</section><!-- #secondary -->
 		<section id="third" class="clear flex">
-			<div class="small-12 medium-3 column no-padding">
+			<div class="hide-for-small-only medium-3 column no-padding">
 				<img src="<?php echo get_template_directory_uri() . '/img/grapefruit_icon.png' ?>" alt="smashburger orange vector art" />
 		  </div>
-		  <div class="small-12 medium-3 column no-padding">
+		  <div class="hide-for-small-only medium-3 column no-padding">
 				<img src="<?php echo get_template_directory_uri() . '/img/double-burger.jpg' ?>" alt="smashburger double cheeseburger" />
 		  </div>
 		  <div class="hide-for-small-only medium-3 column no-padding">
 				<img src="<?php echo get_template_directory_uri() . '/img/story_lettuce.png' ?>" alt="smashburger fresh lettuce" />
 		  </div>
-		  <div class="small-12 medium-3 column no-padding">
+		  <div class="hide-for-small-only medium-3 column no-padding">
 				<img src="<?php echo get_template_directory_uri() . '/img/food-spread.jpg' ?>" alt="smashburger fresh ingredients" />
 		  </div>
 		</section><!-- #third -->
@@ -52,7 +53,7 @@ get_header(); ?>
 			<div class="small-4 medium-3 column tan-bg css-triangle right no-padding">
 				<img src="<?php echo get_template_directory_uri() . '/img/harvest_salad.svg' ?>" alt="smashburger salads" />
 			</div>
-			<div class="small-8 medium-6 column red-secondary">
+			<div class="small-12 medium-6 column red-secondary">
 				<p class="white-text"><span>E</span>very great burger needs a sidekick, and our selection of signature sides &mdash; like our Smashfries tossed with rosemary, olive oil and garlic, haystack onions and fried pickles, are the perfect complement to any meal. The same is true for our handspun Häagen&ndash;Dazs shakes, served in a frosted glass. And if you&lsquo;re in the mood for something other than a burger, our menu of grilled or crispy chicken sandwiches, fresh salads and veggie burgers are sure to satisfy. We believe that choosing Smashburger means choosing happiness. You are one bite away from believing it too.</p>
 			</div>
 		</section><!-- #fourth -->
@@ -63,10 +64,10 @@ get_header(); ?>
 			<div class="small-4 medium-3 column no-padding hide-for-small-only">
 				<img src="<?php echo get_template_directory_uri() . '/img/onion-lettuce.png' ?>" alt="fresh lettuce and tomatoes" />
 			</div>
-			<div class="small-12 medium-3 column gray-bg ">
+			<div class="small-6 medium-3 column gray-bg ">
 				<p class="redtext-primary tan-bg">smashed fresh</p>
 			</div>
-			<div class="small-12 medium-3 column tan-bg">
+			<div class="small-6 medium-3 column tan-bg">
 				<p class="white-text red-secondary">served delicious</p>
 			</div>
 		</section><!-- #fifth -->

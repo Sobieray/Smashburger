@@ -23,7 +23,6 @@ $(document).ready(function() {
 	      	$('.page-template-template-menu-php .burgers .front h4').fadeOut(300);
 	      	$('.page-template-template-menu-php .local-burger').addClass('flip-container');
 	      	//$("aside div.placeable-img").append('<img src="'+jsonData['Location Photo']+'" alt="smasheburger store front"/>');
-	      	isOpen();
 	      }
 	  });
 	};

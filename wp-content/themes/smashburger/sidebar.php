@@ -10,7 +10,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 }
 ?>
 
-<div id="sidebar" class="widget-area clear" role="complementary">
+<div id="sidebar" class="widget-area clear hide-for-small-only" role="complementary">
 	<?php dynamic_sidebar( 'sidebar-1' ); ?>
 	<p>Life, love &amp; the pursuit of Smashiness.</p>
 </div><!-- #secondary -->

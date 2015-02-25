@@ -16,16 +16,12 @@ get_header(); ?>
 		<h1>Nice to meet you</h1>
 	</div>
 	<div id="primary" class="content-area">
-		<div class="franchise-menu-interior clear">
-			<h6 class="hide-for-medium-down">Franchising</h6>
-			<?php wp_nav_menu( array( 'menu' => 'franchise-interior') ); ?>
-		</div>
+		<?php get_template_part('franchise-navigation'); ?>
 		<main id="meet-us" class="clear" data-equalizer>
 			<div class="small-12 medium-8 column no-padding" data-equalizer-watch>
 				<h4 class="brown">Our fran dev team</h4>
 				<dl class="accordion" data-accordion>
 				  <dd class="accordion-navigation clear">
-				  
 				    <a class="clear" href="#panel1b"><img src="<?php echo $team_member_1_image['url']; ?>" alt="<?php echo $team_member_1_image['alt']; ?>"><h6><?php echo get_field('team_member_1'); ?></h6><p><?php echo get_field('team_member_1_title'); ?></p></a>
 				    <div id="panel1b" class="content">
 				    	<?php echo get_field('team_member_1_bio'); ?>
@@ -68,7 +64,7 @@ get_header(); ?>
 					<li><a href="<?php echo $evnet5_url;?>" target="_blank"><?php echo get_field('event5'); ?></a></li>
 					<li><a href="<?php echo $evnet6_url;?>" target="_blank"><?php echo get_field('event6'); ?></a></li>
 				</ul>
-				<a class="brown-text" href="#">schedule an in-person meeting</a>
+				<a class="brown-text meetModal" href="#">schedule an in-person meeting</a>
 			</aside>
 		</main><!-- #main -->
 		<section id="franchise-quotes" class="light-brown-bg">
@@ -91,9 +87,43 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="red-secondary center-padding">
-				<a class="redtext-secondary light-tan-bg"  href="#">submit an inquiry</a>
+				<a class="redtext-secondary light-tan-bg"  href="<?php echo site_url();?>/franchising/inquire-within/">submit an inquiry</a>
 			</div>
 		</section>
 
 	</div><!-- #primary -->
+	<div id="meetModal">
+		<div class="small-12 dark-overlay small-padding">
+			<div class="small-12 medium-10 row light-tan-bg modal">
+				<h5>Schedule an in-person meeting<span>X</span></h5>
+				<form id="event" action="" onSubmit="return validateEmail(this.EmailAddress.value);">
+					<input type="text" name="fname" value="First Name" required>
+					<input type="text" name="lname" value="Last Name" required>
+					<input type="text" name="event" value="Event you're attending">
+					<input type="text" name="EmailAddress" value="Email" id="EmailAddress" required>
+					<input type="text" name="phone" value="Phone">
+					<textarea rows="4" col="50" value="Message" form="event">Message</textarea>
+					<input type="submit">
+				</form>
+			</div>
+		</div>
+	</div>
 <?php get_footer(); ?>
+<script type="text/javascript">
+	$('a.meetModal').click(function() {
+		$('#meetModal').fadeIn(250);
+	});
+	$('#meetModal span').click(function() {
+		$('#meetModal').fadeOut(250);
+	});
+  function validateEmail(emailAddress) {
+    /* NOTE:  This regular expression is identical to the one used by Enterprise for e-mail address validation */
+    var regExp = /^\s*[a-zA-Z\d][a-zA-Z\d\.!#$%&'*+\-\/=?^_`{|}~]*@([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}\s*$/;
+    if (emailAddress.length <= 200 && regExp.test(emailAddress)) {
+       return true;
+    } else {
+       alert("Invalid e-mail address");
+       return false;
+    }
+  }
+</script>

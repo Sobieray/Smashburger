@@ -171,13 +171,13 @@ function smashburger_scripts() {
 	if (is_page(array('growing'))) {
 		wp_enqueue_script( 'foundation-slider', get_template_directory_uri() . '/foundation/js/foundation/foundation.slider.js', array(), '1', true );
 	}
-	if (is_page(array('menu'))) {
+	/*if (is_page(array('menu'))) {
+		wp_enqueue_script( 'foundation-tabs', get_template_directory_uri() . '/foundation/js/foundation/foundation.tab.js', array(), '1', true );
+	}*/
+	if (is_page(array('contacts', 'menu'))) {
 		wp_enqueue_script( 'foundation-tabs', get_template_directory_uri() . '/foundation/js/foundation/foundation.tab.js', array(), '1', true );
 	}
-	if (is_page(array('contacts'))) {
-		wp_enqueue_script( 'foundation-tabs', get_template_directory_uri() . '/foundation/js/foundation/foundation.tab.js', array(), '1', true );
-	}
-	if (is_page(array('meet-us'))) {
+	if (is_page(array('meet-us', 'awards', 'criteria', 'join-us', 'inquire-within', 'menu'))) {
 		wp_enqueue_script( 'foundation-accordion', get_template_directory_uri() . '/foundation/js/foundation/foundation.accordion.js', array(), '1',  true);
 	}
 	wp_enqueue_script( 'foundation-equalizer', get_template_directory_uri() . '/foundation/js/foundation/foundation.equalizer.js', array(), '1', true );
@@ -191,7 +191,6 @@ function smashburger_scripts() {
 
 	if (is_page(array('home'))) {
 		wp_enqueue_script( 'smashburger-parallax', get_template_directory_uri() . '/js/parallax.js', array(), '1', true );
-		//wp_enqueue_script( 'foundation-tabs', get_template_directory_uri() . '/foundation/js/foundation/foundation.abide.js', array(), '1', true );
 		wp_enqueue_script( 'homepage.js', get_template_directory_uri() . '/js/homepage.js', array(), '1',  true);
 	}
 

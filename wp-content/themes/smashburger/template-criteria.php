@@ -10,16 +10,13 @@ get_header(); ?>
 		<h1>Franchise Criteria</h1>
 	</div>
 	<div id="primary" class="content-area">
-		<div class="franchise-menu-interior clear">
-			<h6 class="hide-for-medium-down">Franchising</h6>
-			<?php wp_nav_menu( array( 'menu' => 'franchise-interior') ); ?>
-		</div>
+		<?php get_template_part('franchise-navigation'); ?>
 		<main id="criteria" class="clear">
 			<div class="small-12 medium-8 row">
 				<p class="center">Smashburger is seeking multi-unit development partners.</br>To be considered, individuals must meet the following.</p>
 			</div>
 			<div class="red-secondary small-12 medium-5 row">
-				<h2 class="white-text center">Please select the criteria that you meet</h2>
+				<h2 class="white-text center hide-for-small-only">Please select the criteria that you meet</h2>
 			</div>
 			<form id="franchise-criteria" action="javascript:void(0)" onsubmit="checkBox()">
 				<div class="small-12 medium-11 row" data-equalizer>
@@ -92,7 +89,7 @@ get_header(); ?>
 				<h5>Final approval and franchise awarded.</h5>
 			</section>
 			<footer class="red-secondary">
-				<a href="" class="secondary-btn tan-bg redtext-secondary">submit an inquiry</a>
+				<a href="<?php echo site_url();?>/franchising/inquire-within/" class="secondary-btn tan-bg redtext-secondary">submit an inquiry</a>
 			</footer>
 
 		</article>
@@ -102,7 +99,7 @@ get_header(); ?>
 			<div class="small-8 medium-6 row tan-bg modal">
 				<h5 class="redtext-secondary">All criteria met!</h5>
 				<p class="brown-text">we invite you to submit an inquiry.</p>
-				<a class="red-secondary secondary-btn white-text" href="">submit an inquiry</a>
+				<a class="red-secondary secondary-btn white-text" href="<?php echo site_url();?>/franchising/inquire-within/">submit an inquiry</a>
 			</div>
 		</div>
 	</div>
@@ -110,7 +107,7 @@ get_header(); ?>
 		<div class="small-12 dark-overlay small-padding">
 			<div class="small-8 medium-6 row tan-bg modal">
 				<p class="brown-text">Don't meet all of our criteria but still want to speak with someone at Smashburger about Franchising? Just click here to fill out our inquiry form and we will be in touch shortly.</p>
-				<a class="red-secondary secondary-btn white-text" href="">submit an inquiry</a>
+				<a class="red-secondary secondary-btn white-text" href="<?php echo site_url();?>/franchising/inquire-within/">submit an inquiry</a>
 			</div>
 		</div>
 	</div>

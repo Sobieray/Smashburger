@@ -6,34 +6,36 @@
  */
 
 get_header(); ?>
-
+	<div class="header hide-for-960-down">
+		<h1>Nutrition &amp; Dietary</h1>
+	</div>
 	<div id="primary" class="content-area">
 		
 		<main id="main" class="site-main" role="main">
 			<section class="blue-bg clear">
-				<div class="small-5 column calculator blue-bg blue-overlay">
+				<div class="small-12 medium-6 large-5 column calculator blue-bg blue-overlay">
 					<h2 class="white-text">Nutrition Info</h2>
 					<a href="" class="red-primary secondary-btn">Check it out</a>
 				</div>
-				<div class="small-7 column blue-bg pdf">
-					<div class="small-6">
+				<div class="small-12 medium-6 large-7 column blue-bg pdf">
+					<div class="small-12 large-6">
 						<h2 class="white-text">Dietary info</h2>
 						<a href="" class="red-primary secondary-btn">Download Pdf</a>
 					</div>
 				</div>
 			</section>
 			<section class="white-bg clear relative" role="main">
-				<img class="small-7" src="<?php echo get_template_directory_uri() . '/img/spicybaja_burger.png' ?>" alt="baja burger">
+				<img class="small-7 hide-for-medium-down" src="<?php echo get_template_directory_uri() . '/img/spicybaja_burger.png' ?>" alt="baja burger">
 				<div class="small-12 medium-7 center">
 					<h3 class="brown-text">delicious is only the beginning</h3>
 					<p class="brown-text">At Smashburger, we believe in ingredient excellence. From our smashed-to-order burgers, to our tender chicken sandwiches, signature sides and handspun shakes, you can count on fresh and high-quality food. Please take the time to view our Nutrition and Special Dietary Information. If you have any questions regarding a food allergy, or really anything, all you have to do is ask.</p>
-					<img src="<?php echo get_template_directory_uri() . '/img/lettuce_top.png' ?>" alt="lettuce">
-					<img src="<?php echo get_template_directory_uri() . '/img/tomato_top.png' ?>" alt="tomato">
+					<img class="hide-for-medium-down" src="<?php echo get_template_directory_uri() . '/img/lettuce_top.png' ?>" alt="lettuce">
+					<img class="hide-for-medium-down" src="<?php echo get_template_directory_uri() . '/img/tomato_top.png' ?>" alt="tomato">
 				</div>
 			</section>
 			
 		</main><!-- #main -->
-		<section id="secondary" class="">
+		<section id="secondary" class="hide-for-small-only">
 			<h4 class="center brown-text">Common Questions</h4>
 			<div class="question slider small-12 medium-8 center">
 				<div class="slide">
