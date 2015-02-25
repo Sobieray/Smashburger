@@ -40,8 +40,8 @@ get_header(); ?>
 				<div class="small-6 column no-padding">
 					<div class="tomato" data-type="sprite" data-offsetY="350" data-Xposition="150%" data-speed="5"></div>
 					<div class="box-padding">
-						<h2 class="brown-text">Certified Angus Beef</h2>
-						<p class="sub-text brown-text">Great burgers start with great meat. That’s why we only cook with fresh, never frozen, 100% Certified Angus beef. Period.</p>
+						<h2 class="brown-text">Certified Angus Beef&reg;</h2>
+						<p class="sub-text brown-text">Great burgers start with great meat. That&rsquo;s why we only cook with fresh, never frozen, 100% Certified Angus beef. Period.</p>
 					</div>
 					<a class="tan-btn brown-text" href="" data-hover="">meet the meat<span></span></a>
 				</div>
@@ -100,7 +100,7 @@ get_header(); ?>
 						<div class="blue-overlay">
 							<div class="box-padding" data-speed="-5" data-offsetY="-50" data-type="background">
 								<h2 class="white-text">Usa Pro Challenge</h2>
-								<p class="sub-text white-text">We&lsquo;re absolutely head over wheels to be the Official Sponsor of the one of the largest Cycling events in US history- right here in the Rocky Mountains, our back yard.</p>
+								<p class="sub-text white-text">We&lsquo;re absolutely head over wheels to be An Official Sponsor of the one of the largest Cycling events in US history- right here in the Rocky Mountains, our back yard.</p>
 								<a class="blue-btn right-side-btn" href="">ride on!<span></span></a>
 							</div>
 						</div>

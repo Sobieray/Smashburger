@@ -786,7 +786,7 @@ div[data-type="sprite"] {
 .parallax3 .dancing {
 	background-image: url(../img/girl_dancing.png);
 	background-repeat: no-repeat;
-	background-size: 45%;
+	background-size: 55%;
 	background-position: 85% 890px;
 }
 .parallax3 .tomato {
@@ -2323,10 +2323,14 @@ body.page-template-template_smashclub-php  {
 	background-color: #EBE8DE;
 }
 .page-template-template_smashclub-php iframe,
-.page-template-template-profile-php iframe	{
+.page-template-template-profile-php iframe,
+.page-template-template-inquiry-php iframe	{
 	border: none;
 	display: block;
 	margin: 0 auto;
+}
+.page-template-template-inquiry-php iframe {
+	margin-top: 2em;
 }
 .page-template-template-profile-php {
 	background-color: #EBE8DE;
@@ -2337,7 +2341,8 @@ body.page-template-template_smashclub-php  {
 	margin: 2em auto;
 }
 .page-template-template_smashclub-php .medium-12 img,
-.page-template-template-profile-php img {
+.page-template-template-profile-php img,
+.page-template-thank-you-php img {
 	width: 100%;
 }
 .page-id-111 #primary, .page-template-thank-you-php #primary {
@@ -2472,6 +2477,9 @@ body.page-template-template_smashclub-php  {
 	color: #492e1e;
 	box-shadow: none;
 }
+#modal2, #modal1 {
+	position: relative;
+}
 #meetModal h5 {
 	color: #492e1e;
 	text-transform: uppercase;
@@ -2479,13 +2487,14 @@ body.page-template-template_smashclub-php  {
 	margin-bottom: 2em;
 	position: relative;
 }
-#meetModal h5 span {
+#meetModal span, #modal1 span, #modal2 span {
 	color: gray;
 	position: absolute;
-	right: 0;
-	top: 0;
+	right: 10%;
+	top: 10%;
 	cursor: pointer;
 	font-size: 16px;
+	font-weight: normal;
 }
 #meetModal textarea {
 	width: 91%;
@@ -2494,6 +2503,32 @@ body.page-template-template_smashclub-php  {
 }
 #meetModal input[name="fname"], #meetModal input[name="lname"]  {
 	width: 45%;
+}
+#modal1, #modal2, #meetModal {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 99;
+	display: none;
+}
+.dark-overlay {
+	background-color: rgba(0,0,0,.3);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+}
+.modal {
+	padding: 3% 6%;
+	text-align: center;
+	position: relative;
+}
+.modal h5 {
+	text-transform: uppercase;
+	font-size: 150%;
+	font-weight: 900;
+	margin-bottom: 0;
 }
 .accordion {
 	overflow: auto;
@@ -2769,31 +2804,7 @@ article#steps footer a, #inquiry-submit a {
 article#steps footer a:hover, #inquiry-submit a:hover  {
 	color:#492e1e;
 }
-#modal1, #modal2, #meetModal {
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	z-index: 99;
-	display: none;
-}
-.dark-overlay {
-	background-color: rgba(0,0,0,.3);
-	position: absolute;
-	top: 0;
-	bottom: 0;
-}
-.modal {
-	padding: 3% 6%;
-	text-align: center;
-}
-.modal h5 {
-	text-transform: uppercase;
-	font-size: 150%;
-	font-weight: 900;
-	margin-bottom: 0;
-}
+
 /*==== Why Join Us ====*/
 .page-template-template-why-us-php #primary {
 	background: url(../img/why_us_hero.jpg) top center no-repeat;
@@ -3042,7 +3053,7 @@ article#steps footer a:hover, #inquiry-submit a:hover  {
 }
 /*==== Inquire ====*/
 #inquire {
-	background: url(../img/inquire_bg.png) left bottom no-repeat;
+	background: #EBE8DE url(../img/inquire_bg.png) left bottom no-repeat;
 }
 /*==== Jobs ====*/
 #jobs .chevron {
@@ -3599,8 +3610,56 @@ footer#colophon {
 	font-size: 80%;
 	margin: 0;
 }
-
-
+ /*==== Mobile Menu ====*/
+ .left-off-canvas-menu {
+ 	background-color: #c4171d;
+ }
+ ul.off-canvas-list li a {
+ 	color: #FFFFFF;
+ 	border-bottom: 1px solid #980d12;
+ 	text-transform: uppercase;
+ 	font-size: 1.2em;
+ }
+ ul.off-canvas-list li a:hover, ul.off-canvas-list .current_page_item {
+ 	background-color: #351f13;
+ }
+ .left-off-canvas-menu .sub-menu li a {
+ 	border-bottom: none;
+ 	font-size: 1em;
+ }
+ .left-off-canvas-menu ul.sub-menu li > ul.sub-menu li a {
+ 	font-size: .8em;
+ 	padding-left: 2.50em;
+ }
+ 
+ .left-off-canvas-menu .sub-menu {
+ 	list-style-type: none;
+ 	background-color: #980d12;
+ 	margin-left: 0;
+ 	display: none;
+ 	position: relative;
+ }
+ .left-off-canvas-menu .sub-menu li a {
+ 	padding-left: 1.25em; 
+ }
+ .left-off-canvas-menu .sub-menu.show {
+ 	display: block;
+ }
+ .left-off-canvas-menu li.menu-item-has-children > a,  ul.off-canvas-list li.menu-item-has-children > a:hover {
+ 	background-image: url(../img/mm_arrow_down.png);
+ 	background-repeat: no-repeat;
+ 	background-position: 95% center;
+ }
+ ul.off-canvas-list li.menu-item-has-children > a:hover {
+ 	background-color: transparent;
+ }
+ .left-off-canvas-menu .sub-menu li.menu-item-has-children > a, ul.off-canvas-list .sub-menu li.menu-item-has-children > a:hover {
+ 	background-image: none;
+ }
+  .left-off-canvas-menu .sub-menu .menu-item-type-custom > a, .left-off-canvas-menu .sub-menu .menu-item-type-custom > a:hover {
+  	cursor: default;
+  	background-color: #980d12;
+  }
 /*==== Media Queries ====*/
 @media (min-width: 1700px) {
 	.page-template-template-food-story-php #first img {
@@ -3767,7 +3826,10 @@ footer#colophon {
 	/*.page-template-template-angus-php footer .top-bar-section {
 		background-image: none;
 	}*/
-
+	.top-bar-section li:not(.has-form) a:not(.button) {
+		padding: 0 0.5375rem;
+		text-align: center;
+	}
 }
 @media (max-width: 768px) {
 	body {
@@ -3804,6 +3866,9 @@ footer#colophon {
 	}
 }
 @media (max-width: 642px) {
+	body{
+		font-size: 100%;
+	}
 	.secondary-btn {
 		padding: 1.5em;	
 		min-width: 80%;
@@ -3954,6 +4019,30 @@ footer#colophon {
 	}
 	.page-template-template-menu-php .local-burger, .puzzle {
 		display: none;
+	}
+	#jobs .chevron p {
+		margin-bottom: 40px;
+		line-height: 30px;
+	}
+	#jobs .chevron {
+		margin-right: 0;
+	}
+	#job-openings ul li a {
+		float: none;
+		min-width: 50%;
+		max-width: 75%;
+		padding: .5em;
+		font-size: 100%;
+		display: block;
+		margin: 0 auto;
+		margin-top: .5em;
+	}
+	#job-openings ul li p {
+		float: none;
+		margin-bottom: 0;
+		margin-top: 1%;
+		color: #482e1f;
+		text-align: center;
 	}
 }
 @media (max-width: 540px) {

@@ -11,7 +11,7 @@ get_header(); ?>
 	</div>
 	<div id="primary" class="content-area">
 		<main id="jobs" class="site-main clear" role="main">
-			<div class="small-10 medium-8 large-5 column chevron">
+			<div class="small-12 medium-8 large-5 column chevron">
 				<h2 class="tan-text">We Want You!</h2>
 				<p class="tan-text">Smashburger is currently searching for enthusiastic, energetic people to join our team. If you have a big smile and a passion for teamwork, then we want to hear from you! We offer a competitive hourly rate plus the opportunity for bonuses and a strong commitment to promoting from within.</p>
 			</div>
@@ -45,18 +45,18 @@ get_header(); ?>
 				</div>
 				<div class="small-12 medium-6 column no-padding">
 					<div class="row flex">
-						<div class="small-6 column red-secondary center-padding fresh">
+						<div class="hide-for-small-only medium-6 column red-secondary center-padding fresh">
 							<img src="<?php echo get_template_directory_uri() . '/img/fresh_icon2.svg' ?>">
 						</div>
-						<div class="small-6 column no-padding">
+						<div class="small-12 medium-6 column no-padding">
 							<img src="<?php echo get_template_directory_uri() . '/img/jobs_interior.jpg' ?>" alt="smashburger interior photo">
 						</div>
 					</div>
 					<div class="row flex">
-						<div class="small-6 column no-padding">
+						<div class="hide-for-small-only medium-6column no-padding">
 							<img src="<?php echo get_template_directory_uri() . '/img/jobs_lifestyle.jpg' ?>" alt="smashburger lifestyle photo">
 						</div>
-						<div class="small-6 column center-padding brown drink">
+						<div class="hide-for-small-only medium-6 center-padding brown drink">
 							<img src="<?php echo get_template_directory_uri() . '/img/drink_icon.jpg' ?>" alt="smashburger drink icon">
 						</div>
 					</div>
@@ -64,7 +64,7 @@ get_header(); ?>
 			</div>
 		</section>
 	</div>
-		<section class="testimonials red-secondary">
+		<section class=" hide-for-small-only testimonials red-secondary">
 			<h3 class="white-text">Employee Testimonials</h3>
 			<div class="jobs slider small-10 row">
 				<div class="slide">

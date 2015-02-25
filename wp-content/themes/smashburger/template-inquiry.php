@@ -12,7 +12,7 @@ get_header(); ?>
 	<?php get_template_part('franchise-navigation'); ?>
 	<div id="primary" class="content-area">
 		<main id="inquire" class="site-main clear" role="main">
-			<iframe src="" height="500" width="960" ></iframe>
+			<iframe src="https://chester2.franconnect.net/smashburger/iframeleadpage.jsp" height="960" width="960" ></iframe>
 			
 		</main><!-- #main -->
 		
