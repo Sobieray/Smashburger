@@ -312,7 +312,6 @@ header .site-branding h2,
 }
 .sub-text {
 	font-size: 100%;
-	font-weight: 100;
 	text-transform: uppercase;
 	font-style: italic;
 	max-width: 85%;
@@ -362,7 +361,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 .left-small {
 	z-index: 99;
-	padding-top: 2em;
+	padding-top: .5em;
 	border-right: none;
 }
 .tab-bar, .top-bar, .top-bar-section ul li,
@@ -3883,6 +3882,9 @@ footer#colophon {
 	}
 	.flex {
 	display: block!important;
+	}
+	.home .flex {
+		display: none !important;
 	}
 	.page-template-template-food-story-php #secondary div:nth-child(3) img {
 		bottom: auto;

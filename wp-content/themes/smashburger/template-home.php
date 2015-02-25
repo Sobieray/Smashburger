@@ -41,7 +41,7 @@ get_header(); ?>
 					<div class="tomato" data-type="sprite" data-offsetY="350" data-Xposition="150%" data-speed="5"></div>
 					<div class="box-padding">
 						<h2 class="brown-text">Certified Angus Beef&reg;</h2>
-						<p class="sub-text brown-text">Great burgers start with great meat. That&rsquo;s why we only cook with fresh, never frozen, 100% Certified Angus beef. Period.</p>
+						<p class="sub-text brown-text">Great burgers start with great meat. That&lsquo;s why we only cook with fresh, never frozen, 100% Certified Angus beef. Period.</p>
 					</div>
 					<a class="tan-btn brown-text" href="" data-hover="">meet the meat<span></span></a>
 				</div>
