@@ -2340,11 +2340,11 @@ body.page-template-template_smashclub-php  {
 .page-template-template-profile-php img {
 	width: 100%;
 }
-.page-id-111 #primary, .page-template-thank-you #primary {
+.page-id-111 #primary, .page-template-thank-you-php #primary {
 	background: url(../img/smashclub_footer.png) center 150% no-repeat;
 	background-size: 115% auto;
 }
-.page-template-thank-you #primary {
+.page-template-thank-you-php #primary {
 	background-position: center 40px;
 }
 /*==== Franchise ====*/
@@ -3513,7 +3513,7 @@ line-height: 1.3;
 	top: 27%;
 }
 /*==== Thank You ====*/
-.page-template-thank-you h2 {
+.page-template-thank-you-php h2 {
 	margin-top: 3em;
 	text-transform: uppercase;
 	font-size: 36px;
@@ -3522,15 +3522,15 @@ line-height: 1.3;
 	font-weight: 900; 
 	font-style: normal;
 }
-.page-template-thank-you p {
+.page-template-thank-you-php p {
 	text-align: center;
 	margin: 2em 0;
 }
-.page-template-thank-you p span {
+.page-template-thank-you-php p span {
 	text-transform: uppercase;
 	font-weight: 800;
 }
-.page-template-thank-you .row a {
+.page-template-thank-you-php .row a {
 	display:  block;
 	width: 30%;
 	margin: 0 auto;
