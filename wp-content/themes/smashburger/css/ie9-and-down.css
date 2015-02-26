@@ -3,3 +3,14 @@ a.symbol:before {
     margin-right: 0;
     font-size: inherit;
 }
+
+.flex {
+	height: 100%;
+	width: 100%;
+	min-height: 400px;
+	max-height: 800px;
+}
+
+div[data-type="sprite"] {
+	padding-bottom: 200%;
+}
