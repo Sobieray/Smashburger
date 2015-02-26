@@ -3,14 +3,19 @@ a.symbol:before {
     margin-right: 0;
     font-size: inherit;
 }
-
-.flex {
-	height: 100%;
-	width: 100%;
-	min-height: 400px;
-	max-height: 800px;
-}
+/*==== Home Page ====*/
 
 div[data-type="sprite"] {
+	padding-bottom: 200%;
+}
+
+.home #forth form {
+	padding-bottom: 30%;
+}
+.parallax3 .farm {
+	top: 0;
+	bottom: auto;
+}
+.parallax3 .fresh {
 	padding-bottom: 200%;
 }
