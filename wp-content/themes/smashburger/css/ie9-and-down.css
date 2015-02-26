@@ -70,13 +70,16 @@ div[data-type="sprite"] {
 .flip-container, .menu-locate {
 	height: 100%;
 }
+.menu-locate h6 {
+	margin-bottom: 20%;
+}
 .flip-container .back {
 	opacity: 0;
 }
-.flip-container .front:hover img, .flip-container .back:hover .front img  {
+.flip-container:hover .front {
 	opacity: 0;
 }
-.flip-container .back:hover {
+.flip-container:hover .back {
 	opacity: 1;
 }
 .front img {
