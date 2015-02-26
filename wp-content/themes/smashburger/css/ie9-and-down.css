@@ -67,8 +67,11 @@ div[data-type="sprite"] {
 }
 
 /*==== Menu ====*/
-.flip-container, .menu-locate {
+.flip-container,  {
 	height: 100%;
+}
+.menu-locate, .menu .slider .slide, .local-burger {
+	height: 350px;
 }
 .menu-locate h6 {
 	margin-bottom: 20%;
