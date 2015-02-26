@@ -26,16 +26,18 @@ if(IsInjected($visitor_email))
 
 $email_from = "smashburger@franconnect.com";//<== update the email address
 $email_subject = "In Person Meeting";
-$email_body = "$name \n $lname \n".
-    "$event \n".
-    "$visitor_email $phone \n".
-    "$message \n".
-  
-$to = "matt@agencyzero.com, smashburger@franconnect.com, mihai@franconnect.com";//<== update the email address
-$headers = "From: $email_from \r\n";
+$email_body = "First name: $name\n".
+    "Last Name: $lname\n".
+    "Event: $event \n".
+    "Email: $visitor_email \n".
+    "Phone: $phone \n".
+    "Comments: $message \n".
+ // , smashburger@franconnect.com, mihai@franconnect.com
+$to = "matt@agencyzero.com";//<== update the email address
+//$headers = "From: $email_from \r\n";
 //$headers .= "Reply-To: $visitor_email \r\n";
 //Send the email!
-mail($to,$email_subject,$email_body,$headers);
+mail($to,$email_subject,$email_body);
 //done. redirect to thank-you page.
 header('Location: /thank-you/');
 

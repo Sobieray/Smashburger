@@ -99,7 +99,7 @@ get_header(); ?>
 					$submission = get_template_directory_uri() . '/meeting-submission.php'; 
 				?>
 				<h5>Schedule an in-person meeting<span>X</span></h5>
-				<form method="post" name="eventform" action="http://localhost:8888/wp-content/themes/smashburger/meeting-submission.php">
+				<form method="post" name="eventform" action="http://smashwebadmin.wpengine.com/wp-content/themes/smashburger/meeting-submission.php">
 					<label for="fnam"></label>
 					<input type="text" name="fname" value="First Name">
 					<input type="text" name="lname" value="Last Name">
