@@ -21,6 +21,9 @@ a.symbol:before {
 .tan-btn span, .red-btn span, .brown-btn span, .blue-btn span, .darkred-btn span {
 	background: url(../img/arrow_btn.svg) -200% center no-repeat;
 }
+select {
+	background-image: none;
+}
 /*==== Home Page ====*/
 
 div[data-type="sprite"] {
@@ -63,8 +66,8 @@ div[data-type="sprite"] {
 }
 
 /*==== Menu ====*/
-.flip-container, .local-burger {
-	height: 400px;
+.flip-container, .menu-locate {
+	height: 100%;
 }
 .flip-container .back {
 	opacity: 0;
@@ -72,7 +75,7 @@ div[data-type="sprite"] {
 .flip-container .front:hover img {
 	opacity: 0;
 }
-.flip-container .front:hover .flip-container .back {
+.flip-container .back:hover {
 	opacity: 1;
 }
 .front img {
