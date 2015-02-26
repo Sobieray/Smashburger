@@ -21,7 +21,7 @@ div[data-type="sprite"] {
 }
 
 .parallax5 .pro-cycle, .parallax5 .pro-cycle-logo {
-	padding: 50%;
+	padding: 55.5% 50% 56% 50%;
 	position: relative;
 }
 
@@ -37,5 +37,8 @@ div[data-type="sprite"] {
 	padding-bottom: 50%;
 }
 .parallax7 h2 {
-	margin-bottom: 60%;
+	margin-bottom: 49.5%;
+}
+.tan-btn span, .red-btn span, .brown-btn span, .blue-btn span, .darkred-btn span {
+	background-color: transparent;
 }
