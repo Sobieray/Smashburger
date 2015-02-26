@@ -21,7 +21,7 @@ div[data-type="sprite"] {
 }
 
 .parallax5 .pro-cycle, .parallax5 .pro-cycle-logo {
-	padding-bottom: 50%;
+	padding: 50%;
 	position: relative;
 }
 
@@ -29,4 +29,10 @@ div[data-type="sprite"] {
 	position: absolute;
 	right: 0;
 	top: 0;
+}
+.parallax7 .small-9 .small-8 {
+
+}
+.parallax7 .smash-icon {
+	padding-bottom: 50%;
 }
