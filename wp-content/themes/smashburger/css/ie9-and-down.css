@@ -64,18 +64,20 @@ div[data-type="sprite"] {
 
 /*==== Menu ====*/
 .flip-container {
-	height: 450px;
+	height: 400px;
 }
 .flip-container .back {
-	display: none;
+	opacity: 0;
 }
 .flip-container .front:hover img {
 	opacity: 0;
 }
 .flip-container .front:hover .flip-container .back {
-	display: block;
+	opacity: 1;
 }
 .front img {
-	padding-top: 60px;
+	padding-top: 100px;
 	height: 300px;
+	display: block;
+	margin: 0 auto;
 }
