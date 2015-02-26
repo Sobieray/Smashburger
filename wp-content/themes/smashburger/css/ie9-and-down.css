@@ -24,3 +24,9 @@ div[data-type="sprite"] {
 	max-height: 1000px;
 	min-height: 500px;
 }
+
+.parallax4 div.small-3:last-child {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
