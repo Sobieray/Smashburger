@@ -20,8 +20,9 @@ div[data-type="sprite"] {
 	padding-bottom: 200%;
 }
 
-.parallax5 .small-9 div.small-4 {
-	padding: 50% 0;
+.parallax5 .pro-cycle, .parallax5 .pro-cycle-logo {
+	padding-bottom: 50%;
+	position: relative;
 }
 
 .parallax4 div.small-3:last-child {
