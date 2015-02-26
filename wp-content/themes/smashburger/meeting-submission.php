@@ -4,16 +4,17 @@ if(!isset($_POST['submit']))
 	//This page should not be accessed directly. Need to submit the form.
 	echo "error; you need to submit the form!";
 }
-$fname = $_POST['fname'];
+$name = $_POST['fname'];
 $lname = $_POST['lname'];
-$phone = $_POST['phone'];
 $event = $_POST['event'];
-$email = $_POST['email'];
+$phone = $_POST['phone'];
+$visitor_email = $_POST['email'];
 $message = $_POST['message'];
+
 //Validate first
-if(empty($name)||empty($lname)||empty($email)||empty($event)) 
+if(empty($name)||empty($visitor_email)) 
 {
-    echo "Name, email, and the event you are attending are required";
+    echo "Name and email are mandatory!";
     exit;
 }
 
@@ -23,23 +24,20 @@ if(IsInjected($visitor_email))
     exit;
 }
 
-
-
-$email_from = "matt@agencyzero.com".;
+$email_from = 'events@smashburger.com';//<== update the email address
 $email_subject = "In Person Meeting";
-$email_body = "$fname.\n $lname.\n would like to setup a meeting at $event.\n ".
-							"You can contact them at : $email.\n or $phone.\n"
-              "They also had this to say:\n $message".
-
-$to = "matt@agencyzero.com";
-$headers = "From: $email \r\n";
-
-//$headers .= "Reply-To: $visitor_email \r\n";
-
+$email_body = "$name $lname \n".
+    "$event \n".
+    "$visitor_email $phone \n".
+    "$message \n".
+  
+$to = "matt@agencyzero.com";//<== update the email address
+$headers = "From: $email_from \r\n";
+$headers .= "Reply-To: $visitor_email \r\n";
 //Send the email!
 mail($to,$email_subject,$email_body,$headers);
 //done. redirect to thank-you page.
-header('Location: http://smashwebadmin.wpengine.com/wp-content/themes/smashburger/thank-you');
+header('Location: /thank');
 
 
 // Function to validate against any email injection attempts
@@ -65,4 +63,4 @@ function IsInjected($str)
   }
 }
    
-?> 
+?>  

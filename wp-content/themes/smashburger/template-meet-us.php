@@ -106,7 +106,7 @@ get_header(); ?>
 					<input type="text" name="event" value="Event you're attending">
 					<input type="text" name="email" value="Email" id="EmailAddress">
 					<input type="text" name="phone" value="Phone">
-					<textarea rows="4" col="50" value="Message" name="message" form="event">Message</textarea>
+					<textarea value="message" name="message">Message</textarea>
 					<input type="submit" name="submit" value="Submit">
 				</form>
 			</div>

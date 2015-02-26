@@ -21,5 +21,15 @@ $(document).ready(function() {
 	var x = Math.floor((Math.random() * 6));
 	var show = divs[x];
 	$(show).removeClass('rotation');
+
+	var target = $('.parallax1 p, .parallax1 span');
+  var targetHeight = $('#main').outerHeight() / 4;
+  $(document).scroll(function(e){
+    var scrollPercent = (targetHeight - window.scrollY) / targetHeight;
+    console.log(scrollPercent);
+    if(scrollPercent >= 0){
+        target.css('opacity', scrollPercent);
+    };
+  });
 });
 
