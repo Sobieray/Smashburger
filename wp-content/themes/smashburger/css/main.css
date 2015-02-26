@@ -701,6 +701,7 @@ div[data-type="sprite"] {
 	background-color: #980d12;
 	text-align: center;
 	padding-top: 1.5em;
+	min-height: 317px;
 }
 .location-widget .placeable ul {
 	list-style: none;

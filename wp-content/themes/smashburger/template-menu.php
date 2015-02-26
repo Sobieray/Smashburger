@@ -43,10 +43,6 @@ get_header(); ?>
 			    </div>
 			  </dd>
 			</dl>
-			
-
-
-
 			<div class="tabs-content">
 			  <div class="content active" id="panel1">
 			    <section class="row1 clear flex">
@@ -68,12 +64,14 @@ get_header(); ?>
 				   		<select>
 				   			<option selected>More Local Burgers</option>
 				   			<option>Alabama</option>
+				   			<option>Arizona</option>
 				   			<option disabled>California</option>
 				   			<optgroup>
-				   				<option><p>Los Angeles</p></option>
+				   				<option>Orange County</option>
+				   				<option>Los Angeles</option>
 				   				<option>Sacramento</option>
 				   				<option>San Diego</option>
-				   				<option>San Fransisco</option>
+				   				<option>The Bay</option>
 				   			</optgroup>
 				   			<option>Colorado</option>
 				   			<option>Connecticut</option>
@@ -85,11 +83,55 @@ get_header(); ?>
 				   				<option>Tampa</option>
 				   			</optgroup>
 				   			<option>Georgia</option>
+				   			<option>Idaho</option>
+				   			<option>Illinois</option>
+				   			<option>Iowa</option>
+				   			<option>Kansas</option>
+				   			<option>Kentucky</option>
+				   			<option disabled>Louisiana</option>
+			   				<optgroup>
+			   					<option>New Orleans</option>
+			   					<option>Shreveport</option>
+			   				</optgroup>
+			   				<option>Maryland</option>
+			   				<option>Massachusetts</option>
+			   				<option disabled>Michigan</option>
+			   				<optgroup>
+			   					<option>Detroit</option>
+			   					<option>Grand Rapids/Kalamazoo</option>
+			   				</optgroup>
+			   				<option>Minnesota</option>
+			   				<option>Missouri</option>
+			   				<option>Nebraska</option>
+			   				<option>Nevada</option>
+			   				<option>New Jersey</option>
+			   				<option>New York</option>
+			   				<option disabled>New York</option>
+			   				<optgroup>
+			   					<option>Brooklyn</option>
+			   					<option>New York City</option>
+			   				</optgroup>
+			   				<option>North Carolina</option>
+			   				<option>North Dakota</option>
+			   				<option>Ohio</option>
+			   				<option>Oklahoma</option>
+			   				<option>Pennsylvania</option>
+			   				<option>South Carolina</option>
+			   				<option>Tennessee</option>
+			   				<option disabled>Texas</option>
+			   				<optgroup>
+			   					<option>Dallas</option>
+			   					<option>Fort Bliss</option>
+			   					<option>San Antonio</option>			   	
+			   				</optgroup>	
+			   				<option>Virgina</option>
+			   				<option>Utah</option>
+			   				<option>Wisconsin</option>
 				   		</select>
 				   	</div>
 				   	<div class="red-secondary small-12 medium-6 large-3 column no-padding local-burger burgers">
 				   		<div class="flip">
-					   		<div class="vertical-align front">
+					   		<div class="vertical-align front locating">
 					   			<h4 class="white-text">your local burger</h4>
 					   			<img class="question" src="<?php echo get_template_directory_uri() . '/img/question_mark.svg' ?>" alt="finding your local smashburger">
 					   		</div>
@@ -221,15 +263,17 @@ get_header(); ?>
 				   		<img src="<?php echo get_template_directory_uri() . '/img/menu_burger_pin.png' ?>" alt="">
 				   		<p>Finding Your Local</p>
 				   		<h6>SmashChicken</h6>
-				   		<select selected="More Local Burgers">
+				   		<select>
 				   			<option selected>More Local Burgers</option>
 				   			<option>Alabama</option>
+				   			<option>Arizona</option>
 				   			<option disabled>California</option>
 				   			<optgroup>
-				   				<option><p>Los Angeles</p></option>
+				   				<option>Orange County</option>
+				   				<option>Los Angeles</option>
 				   				<option>Sacramento</option>
 				   				<option>San Diego</option>
-				   				<option>San Fransisco</option>
+				   				<option>The Bay</option>
 				   			</optgroup>
 				   			<option>Colorado</option>
 				   			<option>Connecticut</option>
@@ -241,11 +285,55 @@ get_header(); ?>
 				   				<option>Tampa</option>
 				   			</optgroup>
 				   			<option>Georgia</option>
+				   			<option>Idaho</option>
+				   			<option>Illinois</option>
+				   			<option>Iowa</option>
+				   			<option>Kansas</option>
+				   			<option>Kentucky</option>
+				   			<option disabled>Louisiana</option>
+			   				<optgroup>
+			   					<option>New Orleans</option>
+			   					<option>Shreveport</option>
+			   				</optgroup>
+			   				<option>Maryland</option>
+			   				<option>Massachusetts</option>
+			   				<option disabled>Michigan</option>
+			   				<optgroup>
+			   					<option>Detroit</option>
+			   					<option>Grand Rapids/Kalamazoo</option>
+			   				</optgroup>
+			   				<option>Minnesota</option>
+			   				<option>Missouri</option>
+			   				<option>Nebraska</option>
+			   				<option>Nevada</option>
+			   				<option>New Jersey</option>
+			   				<option>New York</option>
+			   				<option disabled>New York</option>
+			   				<optgroup>
+			   					<option>Brooklyn</option>
+			   					<option>New York City</option>
+			   				</optgroup>
+			   				<option>North Carolina</option>
+			   				<option>North Dakota</option>
+			   				<option>Ohio</option>
+			   				<option>Oklahoma</option>
+			   				<option>Pennsylvania</option>
+			   				<option>South Carolina</option>
+			   				<option>Tennessee</option>
+			   				<option disabled>Texas</option>
+			   				<optgroup>
+			   					<option>Dallas</option>
+			   					<option>Fort Bliss</option>
+			   					<option>San Antonio</option>			   	
+			   				</optgroup>	
+			   				<option>Virgina</option>
+			   				<option>Utah</option>
+			   				<option>Wisconsin</option>
 				   		</select>
 				   	</div>
 				   	<div class="red-secondary small-12 medium-6 large-3 column no-padding local-burger chicken">
 				   		<div class="flip">
-					   		<div class="vertical-align front">
+					   		<div class="vertical-align front locating">
 					   			<h4 class="white-text">your local smashchicken</h4>
 					   			<img class="question" src="<?php echo get_template_directory_uri() . '/img/question_mark.svg' ?>" alt="finding your local smashburger">
 					   		</div>
@@ -529,28 +617,16 @@ get_header(); ?>
 				   		<select selected="More Local Burgers">
 				   			<option selected>More Local Burgers</option>
 				   			<option>Alabama</option>
-				   			<option disabled>California</option>
-				   			<optgroup>
-				   				<option><p>Los Angeles</p></option>
-				   				<option>Sacramento</option>
-				   				<option>San Diego</option>
-				   				<option>San Fransisco</option>
-				   			</optgroup>
-				   			<option>Colorado</option>
-				   			<option>Connecticut</option>
-				   			<option disabled>Florida</option>
-				   			<optgroup>
-				   				<option>Central Florida</option>
-				   				<option>Jacksonville</option>
-				   				<option>Miami</option>
-				   				<option>Tampa</option>
-				   			</optgroup>
-				   			<option>Georgia</option>
+				   			<option>Kentucky</option>
+				   			<option>Louisiana</option>
+				   			<option>New Jersey</option>
+				   			<option>North Carolina</option>
+				   			<option>Pennsylvania</option>
 				   		</select>
 				   	</div>
 				   	<div class="red-secondary small-12 medium-6 large-3 column no-padding local-burger sides">
 				   		<div class="flip">
-					   		<div class="vertical-align front">
+					   		<div class="vertical-align front locating">
 					   			<h4 class="white-text">your local side</h4>
 					   			<img class="question" src="<?php echo get_template_directory_uri() . '/img/question_mark.svg' ?>" alt="finding your local smashburger">
 					   		</div>
@@ -679,29 +755,17 @@ get_header(); ?>
 				   		<h6>Shake</h6>
 				   		<select>
 				   			<option selected>Explore Local Recipes</option>
-				   			<option>Alabama</option>
-				   			<option disabled>California</option>
-				   			<optgroup>
-				   				<option><p>Los Angeles</p></option>
-				   				<option>Sacramento</option>
-				   				<option>San Diego</option>
-				   				<option>San Fransisco</option>
-				   			</optgroup>
-				   			<option>Colorado</option>
-				   			<option>Connecticut</option>
-				   			<option disabled>Florida</option>
-				   			<optgroup>
-				   				<option>Central Florida</option>
-				   				<option>Jacksonville</option>
-				   				<option>Miami</option>
-				   				<option>Tampa</option>
-				   			</optgroup>
+				   			<option>Jacksonville, Florida</option>
 				   			<option>Georgia</option>
+				   			<option>Idaho</option>
+				   			<option>Michigan</option>
+				   			<option>Missouri</option>
+				   			<option>Utah</option>
 				   		</select>
 				   	</div>
-				   	<div class="red-secondary small-12 medium-6 large-3 column no-padding local-burger shake">
+				   	<div class="red-secondary small-12 medium-6 large-3 column no-padding local-burger shakes">
 				   		<div class="flip">
-					   		<div class="vertical-align front">
+					   		<div class="vertical-align front locating">
 					   			<h4 class="white-text">your local shake</h4>
 					   			<img class="question" src="<?php echo get_template_directory_uri() . '/img/question_mark.svg' ?>" alt="finding your local smashburger">
 					   		</div>
