@@ -21,5 +21,6 @@ div[data-type="sprite"] {
 }
 
 .parallax5 .small-9 div.small-4 {
-	padding-bottom: 50%;
+	max-height: 1000px;
+	min-height: 500px;
 }
