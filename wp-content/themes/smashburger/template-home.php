@@ -136,14 +136,10 @@ get_header(); ?>
 						<div class="row burger-smash"></div>
 					</div>
 					<div class="small-8 column no-padding">
-						<div class="">
-							<div class="">
-								<div class="smasher" data-type="sprite" data-offsetY="-2000" data-Xposition="50%" data-speed="-2"></div><!--  -->
-								<h2 class="brown-text">Smashing Is <br><span>Better</span></h2>
-	  		  			<div class="burger-paddy" data-type="sprite" data-offsetY="2520" data-Xposition="36%" data-speed="2"></div><!--  -->
-								<a class="tan-btn brown-text right-side-btn" href="">see why<span></span></a>
-							</div>
-						</div>
+						<div class="smasher" data-type="sprite" data-offsetY="-2000" data-Xposition="50%" data-speed="-2"></div><!--  -->
+						<h2 class="brown-text">Smashing Is <br><span>Better</span></h2>
+		  			<div class="burger-paddy" data-type="sprite" data-offsetY="2520" data-Xposition="36%" data-speed="2"></div><!--  -->
+						<a class="tan-btn brown-text right-side-btn" href="">see why<span></span></a>
 					</div>
 				</div>
 			</div><!-- .parallax7 -->
