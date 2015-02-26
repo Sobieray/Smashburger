@@ -24,20 +24,20 @@ if(IsInjected($visitor_email))
     exit;
 }
 
-$email_from = 'events@smashburger.com';//<== update the email address
+$email_from = "smashburger@franconnect.com";//<== update the email address
 $email_subject = "In Person Meeting";
-$email_body = "$name $lname \n".
+$email_body = "$name \n $lname \n".
     "$event \n".
     "$visitor_email $phone \n".
     "$message \n".
   
-$to = "matt@agencyzero.com";//<== update the email address
+$to = "matt@agencyzero.com, smashburger@franconnect.com, mihai@franconnect.com";//<== update the email address
 $headers = "From: $email_from \r\n";
-$headers .= "Reply-To: $visitor_email \r\n";
+//$headers .= "Reply-To: $visitor_email \r\n";
 //Send the email!
 mail($to,$email_subject,$email_body,$headers);
 //done. redirect to thank-you page.
-header('Location: /thank');
+header('Location: /thank-you/');
 
 
 // Function to validate against any email injection attempts
