@@ -72,6 +72,10 @@ div[data-type="sprite"] {
 .flip-container .front:hover img {
 	opacity: 0;
 }
-.flip-container .front:hover .back {
+.flip-container .front:hover .flip-container .back {
 	display: block;
+}
+.front img {
+	padding-top: 60px;
+	height: 300px;
 }
