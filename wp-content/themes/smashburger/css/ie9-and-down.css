@@ -21,8 +21,7 @@ div[data-type="sprite"] {
 }
 
 .parallax5 .small-9 div.small-4 {
-	max-height: 1000px;
-	min-height: 500px;
+	padding: 50% 0;
 }
 
 .parallax4 div.small-3:last-child {
