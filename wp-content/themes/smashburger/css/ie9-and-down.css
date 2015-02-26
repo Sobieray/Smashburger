@@ -19,3 +19,7 @@ div[data-type="sprite"] {
 .parallax3 .fresh {
 	padding-bottom: 200%;
 }
+
+.parallax5 .small-9 div.small-4 {
+	height: 100%;
+}
