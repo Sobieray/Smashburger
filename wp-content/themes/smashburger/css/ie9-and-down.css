@@ -63,7 +63,7 @@ div[data-type="sprite"] {
 }
 
 /*==== Menu ====*/
-.flip-container {
+.flip-container, .local-burger {
 	height: 400px;
 }
 .flip-container .back {
@@ -80,4 +80,7 @@ div[data-type="sprite"] {
 	height: 300px;
 	display: block;
 	margin: 0 auto;
+}
+.locating img {
+	padding-top: 0;
 }
