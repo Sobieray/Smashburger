@@ -33,11 +33,11 @@ $email_body = "First name: $name\n".
     "Phone: $phone \n".
     "Comments: $message \n".
  // , smashburger@franconnect.com, mihai@franconnect.com
-$to = "matt@agencyzero.com";//<== update the email address
-//$headers = "From: $email_from \r\n";
-//$headers .= "Reply-To: $visitor_email \r\n";
+$to = "matt@agencyzero.com, smashburger@franconnect.com, mihai@franconnect.com";//<== update the email address
+$headers = "From: $email_from \r\n";
+$headers .= "Reply-To: $visitor_email \r\n";
 //Send the email!
-mail($to,$email_subject,$email_body);
+mail($to,$email_subject,$email_body,$headers);
 //done. redirect to thank-you page.
 header('Location: /thank-you/');
 
