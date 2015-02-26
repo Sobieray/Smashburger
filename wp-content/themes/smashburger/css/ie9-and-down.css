@@ -3,6 +3,18 @@ a.symbol:before {
     margin-right: 0;
     font-size: inherit;
 }
+.darkred-btn  span {
+	background-color: #c4161c;
+}
+.blue-btn span {
+	background-color: #87afd1;
+}
+.red-btn span {
+	background-color: #df3627;
+}
+.brown-btn span {
+	background-color: #6f4b35;
+}
 /*==== Home Page ====*/
 
 div[data-type="sprite"] {
@@ -38,7 +50,4 @@ div[data-type="sprite"] {
 }
 .parallax7 h2 {
 	margin-bottom: 49.5%;
-}
-.tan-btn span, .red-btn span, .brown-btn span, .blue-btn span, .darkred-btn span {
-	background-color: transparent;
 }
