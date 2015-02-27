@@ -4224,9 +4224,8 @@ footer#colophon {
 	  	position: static;
 	  }
 	  /* Angus Beef */ 
-	  .page-template-template-angus-php  .pyramid {
-	  	padding-bottom: 5%;
-	  	padding-top: 0;
+	  .page-template-template-angus-php  #secondary div   {
+	  	height: 400px;
 
 	  }
 	  @media (max-width: 1025px) {
