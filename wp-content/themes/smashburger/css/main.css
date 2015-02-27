@@ -4219,9 +4219,11 @@ footer#colophon {
 	  /* Angus Beef */ 
 	  .page-template-template-angus-php  #secondary div   {
 	  	height: 500px;
-
 	  }
-
+	  /* Chairman */
+	  .page-template-template-chairman-php .rick-shaden h4 {
+	  	margin: 25% auto;
+	  }
 	  @media (max-width: 1025px) {
 	  	.menu.slider .slide img {
 	  		height: 100%;
