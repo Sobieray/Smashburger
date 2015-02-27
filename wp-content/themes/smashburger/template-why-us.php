@@ -35,11 +35,11 @@ get_header(); ?>
 		</aside>
 		<div class="brown small-12 medium-6 column small-padding" data-equalizer-watch>
 			<h2 class="white-text">Trailblazing</h2>
-			<p class="white-text">As one of the leaders in the rapidly-growing &ldquo;better burger&rdquo; segment, we are setting the standard among fast casual restaurants. We offer an extensive menu that includes burgers, tender marinated chicken sandwiches and fresh salads &ndash; something our competitors can&rsquo;t offer. With local craft beer offerings, we have a competitive advantage. Even our comfortable, modern and dynamic store designs appeal to a wide range of customers.</p>
+			<p class="white-text">Smashburger is setting the standard among fast casual restaurants. Maybe we&rsquo;ve let all that smashing go to our heads, but we like to stay on top of the trends by offering an extensive menu with a local edge that includes regionalized burgers, sides and shakes, alongside hometown craft beer options. To elevate our guests&rsquo; experience off-menu, we renovate our restaurants every 1 to 2 years.</p>
 		</div>
 		<div class="red-primary small-12 medium-6 column small-padding" data-equalizer-watch>
-			<h2 class="white-text">Protected Territories</h2>
-			<p class="white-text">To our franchisees, we grant exclusive territories for development, with territories available nationwide. We are focused on maintaining an efficient operating platform and small footprint, which minimizes construction costs. Ready to learn more about opportunities with Smashburger?</p>
+			<h2 class="white-text">Prime Territories</h2>
+			<p class="white-text">Even with hundreds of stores, we still have exceptional territory available in over 60% of the top markets to give you the competitive advantage. Room to grow and the drive to support franchisee success adds up to an incredible business opportunity in amazing locations across the U.S. and abroad.</p>
 		</div>
 	</main><!-- main -->
 	<section id="franchise-support" class="tan-bg">

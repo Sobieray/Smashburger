@@ -701,7 +701,7 @@ div[data-type="sprite"] {
 	background-color: #980d12;
 	text-align: center;
 	padding-top: 1.5em;
-	min-height: 317px;
+	min-height: 420px;
 }
 .location-widget .placeable ul {
 	list-style: none;
@@ -733,10 +733,11 @@ div[data-type="sprite"] {
 	line-height: 1em;
 }
 .location-widget .placeable-img {
-	height: 317px;
+	height: 420px;
 }
 .location-widget .placeable-img img {
 	height: 100%;
+	width: 100%;
 	object-fit: cover;
 }
 .location-widget .empty {
@@ -2625,6 +2626,9 @@ aside.events a.brown-text {
 	font-size: 80%;
 	font-weight: 800; 
 }
+aside.events a.brown-text:hover {
+	color: #980d12;
+}
 #franchise-quotes h3 {
 	text-align: center;
 	font-size: 160%;
@@ -2817,7 +2821,19 @@ article#steps footer a:hover, #inquiry-submit a:hover  {
 	text-align: center;
 }
 #why-us h4 {
+	font-family: 'Gotham A', 'Gotham B';
+	font-size: 180%;
+	font-weight: 900;
+}
+#why-us div h2 {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 180%;
+}
+#why-us div h4:last-child {
+	font-family: 'Gotham SSm A', 'Gotham SSm B';
 	font-size: 130%;
+	font-weight: 600;
 }
 #why-us .small-padding {
 	padding: 5% 3%;
@@ -2825,30 +2841,59 @@ article#steps footer a:hover, #inquiry-submit a:hover  {
 .why-us-chevron {
 	position: absolute;
 	top: 5%;
-	right: 10%;
+	left: 10%;
 	width: 500px;
 	text-align: center;
+	background: url(../img/why_us_chevron.png) top center no-repeat;
+	padding-bottom: 100px;
+	background-size: 100% 100%;
+
 }
 .why-us-chevron h2 {
 	text-transform: uppercase;
 	color:#e9e2d2;
 	font-weight: 600;
-	font-size: 180%;
+	font-size: 32px;
 }
 .why-us-chevron p {
 	padding: 0 1em;
-	font-size: 110%;
+	font-size: 18px;
 }
-.why-us-chevron:after {
-	content: '';
-	border: 249px solid transparent;
-	border-top: 90px solid #492e1e;
-	position: absolute;
-	left: 0;
+#why-us aside div:first-child, #why-us aside div:nth-child(2), #why-us aside div:nth-child(3), #why-us aside div:last-child {
+	background-image: url(../img/years_icon.svg);
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 }
+#why-us aside div:nth-child(2) {
+	background-image: url(../img/whyus_smashburger_icon.svg);
+}
+#why-us aside div:nth-child(3) {
+	background-image: url(../img/whyus_map_icon.svg);
+}
+#why-us div.brown, #why-us div.red-primary {
+	background-image: url(../img/trailblazin.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 500px;
+}
+ #why-us div.red-primary {
+ 	background-image: url(../img/territories.jpg);
+ }
 #franchise-support {
 	text-align: center;
 	padding: 5% 3%;
+	position: relative;
+}
+#franchise-support:after {
+	content: '';
+	position: absolute;
+	bottom: -60px;
+	border: 30px solid transparent;
+	border-top-color: #d9d0bd;
+	z-index: 1;
+	left: 48%;
 }
 #franchise-support p {
 	margin-bottom: 3%;
@@ -2871,6 +2916,7 @@ article#steps footer a:hover, #inquiry-submit a:hover  {
 	margin-bottom: 1em;
 	margin-top: 0;
 	color: #e9e2d2;
+	text-transform: uppercase;
 }
 #assist div:first-child ul{
 	text-align: right;
@@ -3778,6 +3824,16 @@ footer#colophon {
 	.kids, .salads {
 		display: none;
 	}
+	.location-widget .placeable, .location-widget .placeable-img {
+		min-height: 320px;
+		height: 320px;
+	}
+	.location-widget .placeable li {
+		font-size: 110%;
+	}
+	.location-widget .placeable li:first-child {
+		font-size: 120%;
+	}
 
 }
 @media (min-width: 960px) {
@@ -3955,17 +4011,16 @@ footer#colophon {
 		font-size: 110%;
 	}
 	.why-us-chevron {
-		width: 290px;
-		right: 10%;
-		left: 6%;
+		width: 100%;
+		right: 0;
+		left: 0;
 		top: 3%;
 	}
-	.why-us-chevron:after {
-		content: '';
-		border: 145px solid transparent;
-		border-top: 90px solid #492e1e;
-		position: absolute;
-		left: 0;
+	.why-us-chevron p {
+		font-size: 16px;
+	}
+	.why-us-chevron h2 {
+		font-size: 24px;
 	}
 	#franchise-support {
 		padding-bottom: 100px;
@@ -3995,6 +4050,7 @@ footer#colophon {
 	}
 	#assist div ul {
 		margin: 0;
+		padding-top: 90px;
 	}
 	#assist div:last-child ul {
 		padding-top: 0;
@@ -4050,6 +4106,9 @@ footer#colophon {
 		margin-top: 1%;
 		color: #482e1f;
 		text-align: center;
+	}
+	#franchise-support:after {
+		display: none;
 	}
 }
 @media (max-width: 540px) {

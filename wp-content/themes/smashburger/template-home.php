@@ -28,7 +28,7 @@ get_header(); ?>
 						<h2 class="white-text">local love</h2>
 						<p class="sub-text white-text">Thinking local is one thing, living it is something else all together. With the that in mind,  we&lsquo;ve created 44 unique burgers specifically for where you call home. To bring even more of the outside in, we&lsquo;ve sourced the best beers from your neck of the woods and have paired them thoughtfully with the perfect burgers from our menu.</p>
 					</div>
-					<a class="brown-btn right-side-btn" href="" data-hover="">discover yours<span></span></a>
+					<a class="brown-btn right-side-btn" href="/eat/menu" data-hover="">discover yours<span></span></a>
 				</div>
 			</div>
 		</section><!-- #second -->
@@ -43,7 +43,7 @@ get_header(); ?>
 						<h2 class="brown-text">Certified Angus Beef&reg;</h2>
 						<p class="sub-text brown-text">Great burgers start with great meat. That&lsquo;s why we only cook with fresh, never frozen, 100% Certified Angus beef. Period.</p>
 					</div>
-					<a class="tan-btn brown-text" href="" data-hover="">meet the meat<span></span></a>
+					<a class="tan-btn brown-text" href="/eat/our-food/angus-beef/" data-hover="">meet the meat<span></span></a>
 				</div>
 				
 				<div class="small-6 column no-padding-left">
@@ -101,7 +101,7 @@ get_header(); ?>
 							<div class="box-padding" data-speed="-5" data-offsetY="-50" data-type="background">
 								<h2 class="white-text">Usa Pro Challenge</h2>
 								<p class="sub-text white-text">We&lsquo;re absolutely head over wheels to be An Official Sponsor of the one of the largest Cycling events in US history- right here in the Rocky Mountains, our back yard.</p>
-								<a class="blue-btn right-side-btn" href="">ride on!<span></span></a>
+								<a class="blue-btn right-side-btn" href="/us/partnerships/">ride on!<span></span></a>
 							</div>
 						</div>
 					</div>
@@ -114,9 +114,9 @@ get_header(); ?>
 				<div class="small-6 column no-padding">
 					<div class="box-padding">
 						<h2 class="white-text">spread the love</h2>
-						<p class="sub-text white-text">When it&lsquo;s hard to tell that special someone just how you feel, we&lsquo;ve got you covered. Nothing says “I love you" quite like gift of mouthwatering deliciousness. </p>
+						<p class="sub-text white-text">When it&lsquo;s hard to tell that special someone just how you feel, we&lsquo;ve got you covered. Nothing says “I love you" quite like the gift of mouthwatering deliciousness.</p>
 					</div>
-					<a class="red-btn" href="">buy a gift card<span></span></a>
+					<a class="red-btn" href="http://smashburgerdev.securetree.com/products/new-gift-cards/">buy a gift card<span></span></a>
 				</div>
 				<div class="small-6 column no-padding-left dark-red-overlay">
 					<div class="gift-cards" data-type="sprite" data-offsetY="1600" data-Xposition="90%" data-speed="3"></div>
@@ -139,7 +139,7 @@ get_header(); ?>
 						<div class="smasher" data-type="sprite" data-offsetY="-2000" data-Xposition="50%" data-speed="-2"></div><!--  -->
 						<h2 class="brown-text">Smashing Is <br><span>Better</span></h2>
 		  			<div class="burger-paddy" data-type="sprite" data-offsetY="2520" data-Xposition="36%" data-speed="2"></div><!--  -->
-						<a class="tan-btn brown-text right-side-btn" href="">see why<span></span></a>
+						<a class="tan-btn brown-text right-side-btn" href="/eat/our-food/smash-course/">see why<span></span></a>
 					</div>
 				</div>
 			</div><!-- .parallax7 -->
@@ -163,14 +163,14 @@ get_header(); ?>
 
 		</section><!-- #eight -->
 		<section id="nine" class="clear">
-			<a class="small-12 medium-4 column red-primary no-padding locate" href="">
+			<a class="small-12 medium-4 column red-primary no-padding locate" href="http://locations.smashburger.com/">
 				
 				<!-- <h6>Locate</h6> -->
 			</a>
-			<a class="small-12 medium-4 column red-secondary no-padding order" href="">
+			<a class="small-12 medium-4 column red-secondary no-padding order" href="http://locations.smashburger.com/">
 				
 			</a>
-			<a class="small-12 medium-4 column brown no-padding utencile" href="">
+			<a class="small-12 medium-4 column brown no-padding utencile" href="/eat/menu">
 				
 				<!-- <h6>Menu</h6> -->
 			</a>

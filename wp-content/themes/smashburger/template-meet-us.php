@@ -76,14 +76,24 @@ get_header(); ?>
 					<p>Franchise Owner - Orlando and Jacksonville Markets</p>
 				</div>
 				<div class="slide">
-					<blockquote>&ldquo;I came to Smashburger after 36 years of experience in the food industry, overseeing 5,200 McDonalds locations. My partner and I were looking for a brand with great food and enormous growth potential. Smashburger&rsquo;s brand buzz is incredible &ndash; everyone who knows the brand is excited about the brand. We look forward to building Smashburger restaurants to leave behind for our children so that they can become the next generation of entrepreneurs.&rdquo;</blockquote>
-					<h5>Wes Broomfield</h5>
-					<p>Franchise Owner - Orlando and Jacksonville Markets</p>
+					<blockquote>&ldquo;Smashburger Kuwait was the first Smashburger outside the U.S. The Kuwaiti consumer has very high standards when it comes to food and Smashburger has quickly become one of the leading burger brands in one of the most competitive burger markets in the world. We are excited about rolling out Smashburger throughout the rest of the Middle East.&rdquo;</blockquote>
+					<h5>Yousef As-Essa</h5>
+					<p>Kuwait Franchise Owner</p>
 				</div>
 				<div class="slide">
-					<blockquote>&ldquo;I came to Smashburger after 36 years of experience in the food industry, overseeing 5,200 McDonalds locations. My partner and I were looking for a brand with great food and enormous growth potential. Smashburger&rsquo;s brand buzz is incredible &ndash; everyone who knows the brand is excited about the brand. We look forward to building Smashburger restaurants to leave behind for our children so that they can become the next generation of entrepreneurs.&rdquo;</blockquote>
-					<h5>Wes Broomfield</h5>
-					<p>Franchise Owner - Orlando and Jacksonville Markets</p>
+					<blockquote>&ldquo;The Mohegan Tribe had a very successful opening of the Tribe's first Smashburger store in Connecticut. The Tribe was very impressed with Smashburger’s commitment to bringing the fast-casual restaurant experience to a higher level by providing customers superior products and service. The Tribe looks forward to a long lasting future with the brand as we open many more locations throughout Connecticut, Rhode Island, and Massachusetts!&rdquo;</blockquote>
+					<h5>David McBride</h5>
+					<p>Connecticut, Rhode Island and Massachusetts Franchise Owner</p>
+				</div>
+				<div class="slide">
+					<blockquote>&ldquo;Smashburger is perfect for Airports. It provides what the busy traveler wants as well as what Airport Developers need &mdash; fresh ingredients at unbelievable speed. Efficient processes make the brand very easy to operate and we look forward to opening more locations in airports in the future.&rdquo;</blockquote>
+					<h5>Irfan Mandani</h5>
+					<p>Philadelphia Airport Franchise Owner</p>
+				</div>
+				<div class="slide">
+					<blockquote>&ldquo;As a former McDonald’s franchisee for 42 years, I believe that Smashburger is the preferred casual dining concept and the wave of the future for restaurants that serve burgers. A delicious variety of better, fresher, made-to-order burgers and other selections . . . served quickly, in a relaxed, upbeat, comfortable atmosphere . . . at affordable prices.&rdquo;</blockquote>
+					<h5>Irwin Kruger</h5>
+					<p>Long Island, New York Franchise Owner</p>
 				</div>
 			</div>
 			<div class="red-secondary center-padding">
