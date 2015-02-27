@@ -142,7 +142,11 @@
   .page-template-template-chairman-php #secondary div {
     height: 655px;
   }
-
+  /* Contact */
+  .contacts aside .row, .contacts aside .row:nth-child(3), .contacts aside .row:last-child {
+  	background-size: 25%;
+  	background-position-x: 0em; 
+  } 
   @media (max-width: 1025px) {
   	.menu.slider .slide img {
   		height: 100%;
