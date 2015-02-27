@@ -23,7 +23,7 @@ $(document).ready(function() {
 			    var smashChicken =	jsonData["Chicken Stack"];
 			    var sideDescription =	jsonData["Side Description"];
 			    var localSide =	jsonData["Side Stack"];      	
-	      	$('.page-template-template-menu-php .menu-locate').append('<h5>&bullet;'+jsonData.city+'&bullet;</h5>');
+	      	$('.page-template-template-menu-php .menu-locate').append('<h5>'+jsonData.city+'</h5>');
 	      	$('.page-template-template-menu-php .burgers div.back').append('<p class="localdescription">'+locationDescription+'</p>');
 	      	$('.page-template-template-menu-php .burgers .front img').removeClass('question').attr('src', localBurger);
 	      	$('.page-template-template-menu-php .front.locating h4').fadeOut(300);
