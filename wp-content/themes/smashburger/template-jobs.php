@@ -53,10 +53,10 @@ get_header(); ?>
 						</div>
 					</div>
 					<div class="row flex">
-						<div class="hide-for-small-only medium-6column no-padding">
+						<div class="hide-for-small-only medium-6 column no-padding">
 							<img src="<?php echo get_template_directory_uri() . '/img/jobs_lifestyle.jpg' ?>" alt="smashburger lifestyle photo">
 						</div>
-						<div class="hide-for-small-only medium-6 center-padding brown drink">
+						<div class="hide-for-small-only medium-6 column center-padding brown drink">
 							<img src="<?php echo get_template_directory_uri() . '/img/drink_icon.jpg' ?>" alt="smashburger drink icon">
 						</div>
 					</div>
