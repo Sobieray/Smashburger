@@ -128,7 +128,7 @@ get_header(); ?>
 			<div class="small-3 hide-for-small-only column  no-padding">
 				<img src="<?php echo get_template_directory_uri() . '/img/pickles.png' ?>" alt="cucmbers" />
 			</div>
-			<div class="small-12 medium-3 blue-bg ">
+			<div class="small-12 medium-3 blue-bg column">
 				<p>Made INC. 500&lsquo;s List of Americas fastest growing companies</p>
 			</div>
 			<div class="small-3 hide-for-small-only column light-brown-bg svg center-padding">
