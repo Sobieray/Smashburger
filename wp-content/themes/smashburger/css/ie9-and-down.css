@@ -153,7 +153,10 @@
   }
   /* Jobs */
   #job-types div:last-child div.row {
-  	height: 600px;
+  	height: 425px;
+  }
+  #job-types div:last-child div.grow {
+  	height: 850px;
   }
   @media (max-width: 1025px) {
   	.menu.slider .slide img {
