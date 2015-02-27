@@ -4083,7 +4083,7 @@ footer#colophon {
 
 }
 /*==== IE HACK's ====*/
-@media screen\0 {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
 		body {
 			font-size: 16px !important;
 		}
@@ -4152,9 +4152,6 @@ footer#colophon {
 	  	right: 0;
 	  	top: 0;
 	  }
-	  .parallax7 .small-9 .small-8 {
-
-	  }
 	  .parallax7 .smash-icon {
 	  	padding-bottom: 50%;
 	  }
@@ -4195,7 +4192,7 @@ footer#colophon {
 	  .locating img {
 	  	padding-top: 0;
 	  }
-	  /* Food Story */ }
+	  /* Food Story */
 	  .page-template-template-our_story-php #eleven div:nth-child(1) img,
 	  .page-template-template-our_story-php #ten div:nth-child(2) img,
 	  .page-template-template-food-story-php #fourth img,
@@ -4204,10 +4201,6 @@ footer#colophon {
 	  	position: static;
 	  	height: 313px;
 	  	bottom: 0;
-
-	  }
-	  .page-template-template-food-story-php #secondary div {
-	  	height: 360px;
 	  }
 	  .page-template-template-food-story-php #fourth div {
 	  	height: 411px;
@@ -4216,7 +4209,7 @@ footer#colophon {
 	  	position: absolute;
 	  	bottom: 0;
 	  }
-	  .page-template-template-food-story-php #fifth div, .page-template-template-our_story-php #primary div {
+	  .page-template-template-food-story-php #secondary div, .page-template-template-food-story-php #fifth div, .page-template-template-our_story-php #primary div {
 	  	height: 360px
 	  }
 	  /* Our Story */
@@ -4225,9 +4218,10 @@ footer#colophon {
 	  }
 	  /* Angus Beef */ 
 	  .page-template-template-angus-php  #secondary div   {
-	  	height: 400px;
+	  	height: 500px;
 
 	  }
+
 	  @media (max-width: 1025px) {
 	  	.menu.slider .slide img {
 	  		height: 100%;
