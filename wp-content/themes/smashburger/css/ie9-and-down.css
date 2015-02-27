@@ -136,8 +136,14 @@
 
   }
   /* Chairman */
+  .page-template-template-chairman-php .small-padding {
+  	padding: 150px 20px 250px 50px;
+  }
   .page-template-template-chairman-php .rick-shaden h4 {
-  	margin: 25% auto;
+
+  }
+  .page-template-template-chairman-php #secondary div {
+    height: 600px;
   }
 
   @media (max-width: 1025px) {
