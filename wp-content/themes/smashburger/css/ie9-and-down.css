@@ -151,6 +151,10 @@
   #menu-franchise li a {
   	background-size: 100% !important;
   }
+  /* Jobs */
+  #job-types div:last-child div.row {
+  	height: 600px;
+  }
   @media (max-width: 1025px) {
   	.menu.slider .slide img {
   		height: 100%;
