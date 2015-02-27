@@ -17,7 +17,7 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
 <?php wp_head(); ?>
-<!--[if lt IE 11]>
+<!--[if lt *NA-IE 11]>
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri() . '/css/ie9-and-down.css' ?>" />
 <![endif]-->
 </head>

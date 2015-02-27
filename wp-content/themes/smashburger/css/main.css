@@ -4192,7 +4192,27 @@ footer#colophon {
     .locating img {
     	padding-top: 0;
     }
+  /* Our Story */ }
+  .page-template-template-our_story-php #eleven div:nth-child(1) img,
+  .page-template-template-our_story-php #ten div:nth-child(2) img,
+  .page-template-template-food-story-php #fourth img,
+  .page-template-template-food-story-php #third div:nth-child(3) img,
+  .page-template-template-food-story-php #secondary div:nth-child(3) img {
+  	position: static;
+  	height: 313px;
+  	bottom: 0;
 
+  }
+  .page-template-template-food-story-php #secondary div {
+  	height: 360px;
+  }
+  .page-template-template-food-story-php #fourth div {
+  	height: 411px;
+  }
+  .page-template-template-food-story-php #fifth img {
+  	position: absolute;
+  	bottom: 0;
+  }
     @media (max-width: 1025px) {
     	.menu.slider .slide img {
     		height: 100%;
