@@ -18,10 +18,21 @@ a.symbol:before {
 .brown-btn span {
 	background-color: #6f4b35;
 }
-/*.tan-btn span, .red-btn span, .brown-btn span, .blue-btn span, .darkred-btn span {
+.tan-btn span, .red-btn span, .brown-btn span, .blue-btn span, .darkred-btn span {
 	background: url(../img/arrow_btn.svg) -200% center no-repeat;
-	background-size: 
-}*/
+	background-size: 45%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 20%;
+	-webkit-transition: -webkit-transform 0.5s, background-position .5s ease-out;
+	-moz-transition: -moz-transform 0.5s, background-position .5s ease-out;
+	transition: transform 0.5s,  background-position .5s ease-out;
+	-webkit-transform: translateX(100%);
+	-moz-transform: translateX(100%);
+	transform: translateX(100%); 
+}
 select {
 	background-image: none;
 }
