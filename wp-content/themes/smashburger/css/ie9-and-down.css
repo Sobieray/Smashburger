@@ -77,9 +77,6 @@ div[data-type="sprite"] {
 	width: 100%;
 	height: 301px;
 }
-.menu-locate h6 {
-	margin-bottom: 20%;
-}
 .flip-container .back {
 	opacity: 0;
 }
@@ -97,4 +94,10 @@ div[data-type="sprite"] {
 }
 .locating img {
 	padding-top: 0;
+}
+
+@media (max-width: 1025px) {
+	.menu.slider .slide img {
+		height: 100%;
+	}
 }
