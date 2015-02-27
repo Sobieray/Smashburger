@@ -152,7 +152,7 @@
   	background-size: 100% !important;
   }
   /* Jobs */
-  #job-types div:last-child div.row {
+  #job-types div:last-child div.row, #job-types div:last-child div.row img {
   	height: 425px;
   }
   #job-types div:last-child div.grow {
