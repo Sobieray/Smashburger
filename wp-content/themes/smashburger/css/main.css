@@ -4212,7 +4212,7 @@ footer#colophon {
 	  .page-template-template-food-story-php #fourth div {
 	  	height: 411px;
 	  }
-	  .page-template-template-food-story-php #fourth img, .page-template-template-food-story-php #fifth img, .page-template-template-our_story-php #eleven img, .page-template-template-our_story-php #ten img   {
+	  .page-template-template-food-story-php #fourth img, .page-template-template-food-story-php #fifth img, .page-template-template-our_story-php #eleven div:nth-child(odd) img, .page-template-template-our_story-php #ten div:nth-child(2) img   {
 	  	position: absolute;
 	  	bottom: 0;
 	  }
