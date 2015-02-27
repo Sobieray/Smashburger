@@ -81,7 +81,7 @@ div[data-type="sprite"] {
 .flip-container,  {
 	height: 100%;
 }
-.menu-locate, .local-burger, .salads, .kids, .puzzle, .create {
+.menu-locate, .local-burger, .salads, .kids, .puzzle, .create, #panel3 .row1 .small-12 img, #panel3 #row2 div, #panel6 .row1 .menu img  {
 	height: 301px;
 }
 .menu.slider .slide img {
