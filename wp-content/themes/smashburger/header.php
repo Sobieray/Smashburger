@@ -53,6 +53,6 @@
 					} ?>
 		</header><!-- #masthead -->
 		<aside class="left-off-canvas-menu">
-        <?php wp_nav_menu( array( 'theme_location' => 'mobile-menu', 'menu_class' => 'off-canvas-list' ) ); ?>
+        <?php wp_nav_menu( array( 'menu' => 'mobile', 'menu_class' => 'off-canvas-list' ) ); ?>
     </aside>
 		<div id="content" class="site-content">
