@@ -1285,7 +1285,8 @@ input[type=range][orient=vertical] {
 	padding-right: 1em;
 	margin: 0;
 	font-style: italic;
-	font-size: .8em;
+	font-size: 100%;
+	font-weight: 600;
 	color: #b7b0a6;
 }
 .blog article .entry-title,
@@ -1862,6 +1863,9 @@ div.css-triangle.right:before {
 .menu-files a:after {
 	right: 5%;
 	left: auto;
+}
+.content .row1 {
+	border-bottom: 10px solid #e9e2d2;
 }
 /* Menu Accordion */
 #menuPanel {
@@ -2871,6 +2875,9 @@ article#steps footer a:hover, #inquiry-submit a:hover  {
 #why-us aside div:nth-child(3) {
 	background-image: url(../img/whyus_map_icon.svg);
 }
+#why-us aside div:last-child {
+	background-image: url(../img/whyus_usa_icon.svg);
+}
 #why-us div.brown, #why-us div.red-primary {
 	background-image: url(../img/trailblazin.jpg);
 	background-position: center;
@@ -3250,7 +3257,7 @@ article#steps footer a:hover, #inquiry-submit a:hover  {
 	margin: 3% auto;
 	color: #492e1e;
 }
-.page-template-template-community-php #secondary p:last-child {
+.page-id-6605 #secondary p:last-child {
 	width: 100%;
 	margin-bottom: 0;
 }
@@ -3268,6 +3275,13 @@ article#steps footer a:hover, #inquiry-submit a:hover  {
 .page-template-template-community-php .small-padding img {
 	width: auto;
 	height: auto;
+}
+.page-template-template-community-php #main a:not(.tan-btn), .page-template-template-community-php #secondary a  {
+	color: #492e1e;
+	text-decoration: underline;
+}
+.page-template-template-community-php #main a:not(.tan-btn):hover, .page-template-template-community-php #secondary a:hover {
+	color: #726658;
 }
 /*==== Smash Course ====*/
 .page-template-template-smashcourse-php #page {
@@ -3611,22 +3625,46 @@ footer#colophon {
 	padding-left: 2%;
 	position: relative;
 }
-.top-bar-section #menu-primary-2 .dropdown li:not(.has-form):not(.active)>a:not(.button) {
+#social-media li a {
+	margin-top: 1em;
+	width: 50px;
+	height: 50px;
+	display: block;
+}
+#social-media li a:hover {
+	opacity: .8;
+}
+.fb-icon {
+	background: url(../img/fb_icon.png) center no-repeat;
+}
+.twitter-icon {
+	background: url(../img/twitter_icon.png) center no-repeat;
+}
+.youtube-icon {
+	background: url(../img/youtube_icon.png) center no-repeat;
+}
+.instagram-icon {
+	background: url(../img/instagram_icon.png) center no-repeat;
+}
+.linkedin-icon {
+	background: url(../img/linkedin_icon.png) center no-repeat;
+}
+.top-bar-section #menu-primary-1 .dropdown li:not(.has-form):not(.active)>a:not(.button) {
 	background-color: #E9E2D4;
 	color: #492e1e;
 }
-.top-bar-section #menu-primary-2 li:not(.has-form) a:not(.button) {
+.top-bar-section #menu-primary-1 li:not(.has-form) a:not(.button) {
 	color: #E9E2D4;
 }
-.top-bar-section #menu-primary-2 li:not(.has-form) a:not(.button):hover, .top-bar-section ul#menu-primary-2 li:hover:not(.has-form)>a {
+.top-bar-section #menu-primary-1 li:not(.has-form) a:not(.button):hover, .top-bar-section ul#menu-primary-1 li:hover:not(.has-form)>a {
   background-color: #c4161c !important;
   background: #c4161c !important;
   color: #ffffff !important;
 }
-.top-bar-section #menu-primary-2 li {
+.top-bar-section #menu-primary-1 li {
 	padding-top: 0;
 }
-.top-bar-section #menu-primary-2 li.menu-item-25 {
+.top-bar-section #menu-primary-1 li.menu-item-25 {
 	background: none;
 	background-color: none;
 	background-size: auto;
@@ -3635,22 +3673,23 @@ footer#colophon {
 	position: static;
 	padding-top: 0em;
 	filter: none;
+	width: auto;
 
 }
-.top-bar-section #menu-primary-2 li.menu-item-25 a {
+.top-bar-section #menu-primary-1 li.menu-item-25 a {
 	opacity: 1;
 	height: auto;
 	width: auto;
 	position: static;
 }
-.top-bar-section ul#menu-primary-2 {
+.top-bar-section ul#menu-primary-1 {
 	width: 685px;
 	margin: 0 auto;
 }
-.top-bar-section #menu-primary-2 li.menu-item-6506 > ul.dropdown {
+.top-bar-section #menu-primary-1 li.menu-item-6506 > ul.dropdown {
 	left: auto;
 }
-.top-bar-section #menu-primary-2 li.active:not(.has-form) > ul li.active:not(.has-form) > a:not(.button) {
+.top-bar-section #menu-primary-1 li.active:not(.has-form) > ul li.active:not(.has-form) > a:not(.button) {
 	background-color: #c4161c !important;
 }
 #small-print p {
@@ -3862,10 +3901,10 @@ footer#colophon {
 	footer#colophon {
 	  padding: 5% 2%;
 	}
-	.top-bar-section #menu-primary-2 li:not(.has-form) a:not(.button) {
+	.top-bar-section #menu-primary-1 li:not(.has-form) a:not(.button) {
 		font-size: 75%;
 	}
-	.top-bar-section ul#menu-primary-2 {
+	.top-bar-section ul#menu-primary-1 {
 		width: 613px;
 	}
 	.page-template-template-angus-php #main .angus {

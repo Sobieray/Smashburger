@@ -18,13 +18,13 @@
 					</section>
 				</nav><!-- #site-navigation -->
 				<div id="social-media">
-					<ul>
-						<li><a href="" class='symbol' title='circlefacebook'></a></li>
-						<li><a href="" class='symbol' title='circletwitterbird'></a></li>
-						<li><a href="" class='symbol' title='circleyoutube'></a></li>
-						<li><a href="" class='symbol' title='circleinstagram'></a></li>
-						<li><a href="" class='symbol' title='circlelinkedin'></a></li>
-					</ul>
+				  <ul>
+				    <li><a href="https://www.facebook.com/smashburger" class="fb-icon"></a></li>
+				    <li><a href="https://twitter.com/smashburger" class="twitter-icon" ></a></li>
+				    <li><a href="https://www.youtube.com/user/smashburgertv" class="youtube-icon" ></a></li>
+				    <li><a href="http://instagram.com/smashburger" class="instagram-icon" ></a></li>
+				    <li><a href="https://www.linkedin.com/company/smashburger" class="linkedin-icon"></a></li>
+				  </ul>
 				</div><!-- #social-media -->
 				<div id="privacy">
 					<ul>

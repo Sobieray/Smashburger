@@ -225,11 +225,11 @@ get_header(); ?>
 			    	<div class="small-12 medium-6 large-3 column dark-blue-bg flip-container no-padding">
 			    		<div class="flip">
 			    			<div class="front">
-					  			<h4>Spinach, cucumber &amp; Goat Cheese</h4>
+					  			<h4>Spinach &amp; Goat Cheese</h4>
 					  			<img src="<?php echo get_template_directory_uri() . '/img/spinach_burger.svg' ?>" alt="smashburger spinach cucmber and goat cheese burger">
 					  		</div>
 					  		<div class="back">
-					  			<h4>Spinach, cucumber &amp; Goat Cheese</h4>
+					  			<h4>Spinach &amp; Goat Cheese</h4>
 					  			<p>Cucumbers, spinach, goat cheese, tomato, onion &amp; balsamic vinaigrette on a multi-grain bun.</p>
 					  			<a href="" class="blue-btn">Hungry?<span></span></a>
 					  		</div>
@@ -427,11 +427,11 @@ get_header(); ?>
 			    	<div class="small-12 medium-6 large-3 column dark-blue-bg flip-container no-padding">
 			    		<div class="flip">
 			    			<div class="front">
-					  			<h4>Spinach, cucumber &amp; Goat Cheese</h4>
+					  			<h4>Spinach &amp; Goat Cheese</h4>
 					  			<img src="<?php echo get_template_directory_uri() . '/img/spinach_chicken_sandwich.svg' ?>" alt="smashburger spinach cucmber and goat cheese burger">
 					  		</div>
 					  		<div class="back">
-					  			<h4>Spinach, cucumber &amp; Goat Cheese</h4>
+					  			<h4>Spinach &amp; Goat Cheese</h4>
 					  			<p>Cucumbers, spinach, goat cheese, tomato, onion &amp; balsamic vinaigrette on a multi-grain bun. Choice of tender marinated grilled or crispy chicken.</p>
 					  			<a href="" class="blue-btn">Hungry?<span></span></a>
 					  		</div>
@@ -549,11 +549,11 @@ get_header(); ?>
 	  				<div class="small-12 medium-6 large-3 column light-brown-bg flip-container no-padding">
 	  					<div class="flip">
 	  						<div class="front">
-	  							<h4>spinach, cucumber &amp; goat cheese salad</h4>
+	  							<h4>spinach &amp; goat cheese salad</h4>
 	  							<img src="<?php echo get_template_directory_uri() . '/img/spinach_salad.svg' ?>" alt="smashburger spinach salad">
 	  						</div>
 	  						<div class="back">
-	  							<h4>spinach, cucumber &amp; goat cheese salad</h4>
+	  							<h4>spinach &amp; goat cheese salad</h4>
 	  							<p>Spinach, goat cheese, raisins, dried cranberries, sunflower seeds, pumpkin seeds, cucumbers, tomatoes &amp; onions with balsamic vinaigrette. Choice to add tender marinated grilled or crispy chicken.</p>
 	  							<a href="" class="brown-btn">Hungry?<span></span></a>
 	  						</div>
@@ -608,6 +608,9 @@ get_header(); ?>
 		   				</div>
 		   				<div class="slide">
 		   					<img src="<?php echo get_template_directory_uri() . '/img/onion_rings.jpg' ?>" alt="smashburger haystack onion rings">
+		   				</div>
+		   				<div class="slide">
+		   					<img src="<?php echo get_template_directory_uri() . '/img/menu_smashfries.jpg' ?>" alt="smashburger fries">
 		   				</div>
 		   			</div>
 				   	<div class="medium-6 large-3 column red-primary menu-locate sides">
@@ -894,6 +897,9 @@ get_header(); ?>
 			   				</div>
 			   				<div class="slide">
 			   					<img src="<?php echo get_template_directory_uri() . '/img/hot_dog.jpg' ?>" alt="smashburger hot dog">
+			   				</div>
+			   				<div class="slide">
+			   					<img src="<?php echo get_template_directory_uri() . '/img/kids_smash.jpg' ?>" alt="kids smashburger">
 			   				</div>
 			   			</div>
 	  		   	<div class="small-6 column kids">

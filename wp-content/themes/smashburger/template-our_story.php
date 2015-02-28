@@ -16,7 +16,7 @@ get_header(); ?>
 					<img src="<?php echo get_template_directory_uri() . '/img/story_location.png' ?>" alt="smashburger storefront" />
 				</div>
 				<div class="small-12 large-6 column">
-					<p class="brown-text center-margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper vulputate est eget eleifend. Etiam auctor ligula et tristique pharetra. Proin fringilla augue vitae velit vulputate, vestibulum dictum tortor scelerisque. Quisque id dictum metus, sit amet fringilla ipsum. Vivamus sodales ornare sapien vitae blandit. Duis vitae egestas sapien. Aenean tempus facilisis ligula, eu tempus massa mollis eu. Integer vestibulum pulvinar nisl at scelerisque. Praesent ultricies velit sed tempor ornare. Mauris ligula mi, dapibus vel ullamcorper eget, blandit nec ligula.</p>
+					<p class="brown-text center-margin">In 2007 we opened the first Smashburger in with one simple notion in mind: despite the overwhelming number of restaurants serving burgers, Americans were starving for something better. And we could deliver. Our vision is to connect with America’s passion for its favorite food on a local level and in a space where “Smashed Fresh, Served Delicious” means dedication to crafting the best-tasting burger around. Our smashed burgers are always made-to-order, never frozen, smashed and seared to perfection on our grill. Our menu is also kid-friendly, vegetarian-approved and topped off with frosty milkshakes.</p>
 				</div>
 			</section>
 		</main><!-- #main -->

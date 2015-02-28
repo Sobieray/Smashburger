@@ -22,7 +22,7 @@ get_header(); ?>
 					<p class="white-text">work for the fastest-growing</br>fast casual chain 2 years in a row</p>
 				</div>
 				<div class="small-12 medium-6 column tan-bg small-padding apply" data-equalizer-watch>
-					<a href="" class="red-secondary secondary-btn">Apply Now</a>
+					<a href="#job-openings" class="red-secondary secondary-btn">Apply Now</a>
 				</div>
 			</div>
 			<div class="row" data-equalizer>
