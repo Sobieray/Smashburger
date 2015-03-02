@@ -55,7 +55,7 @@ $(document).ready(function() {
 	      	$("#geolocation .located img").fadeOut(500);
 	      	$("#geolocation .located").append('<ul><li>'+jsonData.name+'</li><li>'+jsonData.streetAddress+'</li><li>'+jsonData.city+', '+jsonData.state+' '+jsonData.postal+'</li><li><a href=http://locations.smashburger.com/'+jsonData.detailsUrl+'>check it out</a></li>');
 	      	$("aside div.placeable").append('<ul><li>'+jsonData.name+'</li><li>'+jsonData.streetAddress+'</li><li>'+jsonData.city+', '+jsonData.state+'</li></ul><a class="darkred-btn" href=http://locations.smashburger.com/'+jsonData.detailsUrl+'>view location<span></span></a>');
-	      	$('.home #nine a.order, .menu-item-25 a, .flip .back a, .menu-item-6512 a, .home #eight a').attr("href", orderLink);
+	      	$('.home #nine a.order, .menu-item-25 a, .flip .back a, .menu-item-6512 a, .home #eight a, #panel3 #inquiry-submit a').attr("href", orderLink);
 	      	isOpen();
 	      }
 	  });
@@ -64,7 +64,7 @@ $(document).ready(function() {
 	  console.warn('ERROR(' + err.code + '): ' + err.message);
 	  $("#menu-item-6488").append('<div id="geolocation"><h6>closest to you</h6><ul><li>nothing is close</li><li>did you allow</li><li>GeoLocation?</li><li><a href="http://locations.smashburger.com">Find a Location</a></li>');
 	  $("aside div.placeable").append('<ul><li>We Can Not Geolocate Your Position</li></ul><ul><li>check to see if your</li><li>browser is allowing GeoLocation</li></ul><a class="red-btn" href="http://locations.smashburger.com">find a location<span></span></a>');
-	  $('.home #nine a.order, .menu-item-25 a, .flip .back a, .menu-item-6512 a, .home #eight a').attr("href", 'http://locations.smashburger.com/');
+	  $('.home #nine a.order, .menu-item-25 a, .flip .back a, .menu-item-6512 a, .home #eight a, #panel3 #inquiry-submit a').attr("href", 'http://locations.smashburger.com/');
 	  //$("aside div.placeable-img").append('<img src="wp-content/themes/smashburger/img/store_front.jpg" alt="smasheburger Logo"/>');
 	};
 	//navigator.geolocation.getCurrentPosition(success, error, options);

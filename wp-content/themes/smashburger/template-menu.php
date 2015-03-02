@@ -511,7 +511,7 @@ get_header(); ?>
 							    <li>pepper jack</li>
 							    <li>sharp cheddar</li>
 							</ul>
-							<i>*additional regional cheeses may be available</i>
+							<i>*additional cheeses may be available by region</i>
 				  	</div>
 				  	<div class="small-12 medium-6 large-3 column red-primary options">
 							<h6>add-ons</h6>
