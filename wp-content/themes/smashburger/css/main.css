@@ -151,6 +151,8 @@ header .site-branding h2,
 	font-size: 100%;
 	webkit-transition: -webkit-transform 0.3s;
 	-moz-transition: -moz-transform 0.3s;
+	-ms-transition: -ms-transform 0.3s;
+	-o-transition: -o-transform 0.3s;
 	transition: transform 0.3s;
 	overflow: hidden;
 	z-index: 99;
@@ -185,15 +187,21 @@ header .site-branding h2,
 	content: attr(data-hover);
 	-webkit-transition: -webkit-transform 0.3s;
 	-moz-transition: -moz-transform 0.3s;
+	-ms-transition: -ms-transform 0.3s;
+	-o-transition: -o-transform 0.3s;
 	transition: transform 0.3s;
 	-webkit-transform: translateX(-100%);
 	-moz-transform: translateX(-100%);
+	-ms-transform: translateX(-100%);
+	-o-transform: translateX(-100%);
 	transform: translateX(-100%);
 }
 
 .tan-btn:hover, .brown-btn:hover, .red-btn:hover, .blue-btn:hover, .darkred-btn:hover {
 	-webkit-transform: translateX(0%);
 	-moz-transform: translateX(0%);
+	-ms-transform: translateX(0%);
+	-o-transform: translateX(0%);
 	transform: translateX(0%);
 	color: #fdfdfd
 }
@@ -210,8 +218,12 @@ header .site-branding h2,
 	width: 20%;
 	-webkit-transition: -webkit-transform 0.5s, background-position .5s ease-out;
 	-moz-transition: -moz-transform 0.5s, background-position .5s ease-out;
+	-ms-transition: -ms-transform 0.5s, background-position .5s ease-out;
+	-o-transition: -o-transform 0.5s, background-position .5s ease-out;
 	transition: transform 0.5s,  background-position .5s ease-out;
 	-webkit-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+	-o-transform: translateX(100%);
 	-moz-transform: translateX(100%);
 	transform: translateX(100%);
 }
@@ -249,17 +261,23 @@ header .site-branding h2,
 .tan-btn:hover span, .brown-btn:hover span, .red-btn:hover span, .blue-btn:hover span, .darkred-btn:hover span {
 	-webkit-transform: translateX(0%);
 	-moz-transform: translateX(0%);
+	-ms-transform: translateX(0%);
+	-o-transform: translateX(0%);
 	transform: translateX(0%);
 	background-position: 50% center;
 }
 .tan-btn:hover:before, .brown-btn:hover:before, .red-btn:hover:before, .blue-btn:hover:before, .darkred-btn:hover:before {
 	-webkit-transform: translateX(0%);
 	-moz-transform: translateX(0%);
+	-ms-transform: translateX(0%);
+	-o-transform: translateX(0%);
 	transform: translateX(0%);
 }
 .right-side-btn:before  {
 	-webkit-transform: translateX(100%);
 	-moz-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+	-o-transform: translateX(100%);
 	transform: translateX(100%);
 }
 .secondary-btn {
@@ -1890,13 +1908,22 @@ div.css-triangle.right:before {
 	display: block !important;
 }
 .flip {
+	-webkit-transition: 0.6s !important;
+	-moz-transition: 0.6s !important;
+	-ms-transition: 0.6s !important;
+	-o-transition: 0.6s !important;
 	transition: 0.6s !important;
 	transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
 }
 .front {
 	z-index: 2;
 	-webkit-transform: rotateY(0deg);
 	-moz-transform: rotateY(0deg);
+	-ms-transform: rotateY(0deg);
+	-o-transform: rotateY(0deg);
 	transform: rotateY(0deg);
 }
 .front img {
@@ -1911,6 +1938,8 @@ div.css-triangle.right:before {
 .back {
 	-webkit-transform: rotateY(180deg);
 	-moz-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
 	transform: rotateY(180deg);
 	position: absolute;
 	top: 0;
@@ -1921,6 +1950,8 @@ div.css-triangle.right:before {
 .flip-container:hover .flip, .flip-container.hover .flip {
 -webkit-transform: rotateY(180deg);
 -moz-transform: rotateY(180deg);
+-ms-transform: rotateY(180deg);
+-o-transform: rotateY(180deg);
 transform: rotateY(180deg);
 top: 0;
 bottom: 0;
@@ -4100,6 +4131,8 @@ footer#colophon {
 	.flip-container:hover .flip, .flip-container.hover .flip {
 		-web-kit-transform: rotateY(0);
 		-moz-transform: rotateY(0);
+		-ms-transform: rotateY(0);
+		-o-transform: rotateY(0);
 		transform: rotateY(0);
 	}
 	.front img {
@@ -4214,8 +4247,12 @@ footer#colophon {
   	width: 20%;
   	-webkit-transition: -webkit-transform 0.5s, background-position .5s ease-out;
   	-moz-transition: -moz-transform 0.5s, background-position .5s ease-out;
+  	-ms-transition: -ms-transform 0.5s, background-position .5s ease-out;
+  	-o-transition: -o-transform 0.5s, background-position .5s ease-out;
   	transition: transform 0.5s,  background-position .5s ease-out;
   	-webkit-transform: translateX(100%);
+  	-ms-transform: translateX(100%);
+  	-o-transform: translateX(100%);
   	-moz-transform: translateX(100%);
   	transform: translateX(100%); 
   }
