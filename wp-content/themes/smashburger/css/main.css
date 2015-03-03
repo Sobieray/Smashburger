@@ -1457,6 +1457,7 @@ footer.entry-footer {
 .single #main header h1,
 .archive header.page-header h1 {
 	position: static;
+	font-size: 250%;
 	text-indent: 0;
 	margin-top: 12.625%;
 	z-index: 0;
