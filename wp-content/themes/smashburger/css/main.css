@@ -3646,7 +3646,7 @@ line-height: 1.3;
 	font-weight: 900; 
 	font-style: normal;
 }
-.page-template-thank-you-php p, .page-template-in-person-php {
+.page-template-thank-you-php p, .page-template-in-person-php p {
 	text-align: center;
 	margin: 2em 0;
 }

@@ -32,14 +32,14 @@ $email_body = "First name: $name\n".
     "Email: $visitor_email \n".
     "Phone: $phone \n".
     "Comments: $message \n".
- // , smashburger@franconnect.com, mihai@franconnect.com
-$to = "matt@agencyzero.com, smashburger@franconnect.com, mihai@franconnect.com";//<== update the email address
+    //, smashburger@franconnect.com, mihai@franconnect.com
+$to = "matt@agencyzero.com";//<== update the email address
 $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $visitor_email \r\n";
 //Send the email!
 mail($to,$email_subject,$email_body,$headers);
 //done. redirect to thank-you page.
-header('Location: /thank-you/');
+header('Location: /inperson-thankyou/');
 
 
 // Function to validate against any email injection attempts
