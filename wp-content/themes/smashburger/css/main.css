@@ -1520,6 +1520,12 @@ aside#comments h4 {
 /*==== Chairman ====*/
 .page-template-template-chairman-php #main {
 	padding-top: 90px;
+	padding-bottom: 5%;
+}
+.page-template-template-chairman-php img {
+	width: 25%;
+	float: left;
+	margin: 0 2em;
 }
 .page-template-template-chairman-php .rick-shaden {
 	background: url(../img/rick_pro_challenge.jpg) center center no-repeat;

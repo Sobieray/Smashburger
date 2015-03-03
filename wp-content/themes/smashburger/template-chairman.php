@@ -11,10 +11,11 @@ get_header(); ?>
 	</div>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main clear" role="main">
-			<div class="medium-4 column no-padding hide-for-small-only">
-				<img src="<?php echo get_template_directory_uri() . '/img/beef_pyramid.png' ?>" alt="Angus Beed USDA Select">
-			</div>
-			<div class="small-12 medium-8 column">
+			<!-- <div class="medium-6 large-4 column no-padding hide-for-small-only">
+				<img src="<?php echo get_template_directory_uri() . '/img/rick_schaden.png' ?>" alt="Smashburger Chairmain Rick Schaden">
+			</div> -->
+			<div class="small-12 column">
+				<img src="<?php echo get_template_directory_uri() . '/img/rick_schaden.png' ?>" alt="Smashburger Chairmain Rick Schaden">
 				<p><span>Rick Schaden,</span> who established Consumer Capital Partners in 2006 with his father, currently serves the Denver-headquartered investment, advisory, and marketing company as CEO. The firm has drawn on his extensive entrepreneurial experience to fund and operate a variety of start-up businesses in the restaurant, consumer, and sports sectors. Among the emergent Denver-based businesses that he has fast-tracked in recent years are the Smashburger chain, modern &amp; casual dining Tom&lsquo;s Urban, and Live Basil Pizza.</p>
 				<p>Through Consumer Capital Partners, Rick has also invested in local company CIC Bancshares, Inc. His recent partnership with FrontRange Capital Partners, LLC, provides Consumer Capital Partners with still more diversification through the 35,000 apartment housing units it operates across the United States. Rick is also a dedicated supporter of a range of charitable causes that focus on expanding educational opportunities for young people in need and assisting families in Denver and around the world.</p>
 			</div>
