@@ -1449,7 +1449,7 @@ footer.entry-footer {
 	background: url(../img/brown_comment.png) left center no-repeat;
 	background-size: 10%;
 }
-.single #main img {
+.single #main .main-image img {
 	margin: 0px 0em 1em 0;
 	padding-right: 5em;
 	height: 480px;
@@ -1476,11 +1476,25 @@ footer.entry-footer {
 	padding-left: 5%;
 	padding-right: 5%;
 }
-.single .entry-content p {
+.single .entry-content p, .single .entry-content div, .single .entry-content blockquote, .single .entry-content ul li, .single .entry-content a {
 	color: #60412d;
-	font-weight: 100;
-	font-size: 70%;
+	font-weight: 400;
+	font-size: 90%;
 }
+.single .entry-content blockquote {
+	font-style: italic;
+	width: 60%;
+	border-left: 1px solid rgba(106,78,59,.5);
+	padding-top: 0;
+}
+.single .entry-content a {
+	color: #c4171d;
+}
+.single .entry-content a:hover {
+	font-style: italic;
+}
+.single .entry-content div 
+
 .single #main .entry-content img {
 	height: auto;
 	padding-right: 1em;

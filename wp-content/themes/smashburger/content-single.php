@@ -6,7 +6,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class('clear'); ?>>
 	<header class="entry-header">
-		<div class="small-6 column no-padding">
+		<div class="small-6 column no-padding main-image">
 			<?php 
 				$defualtImage = get_template_directory_uri() . '/img/logo.svg';
 				if ( has_post_thumbnail() ) {
@@ -19,9 +19,6 @@
 		</div>
 		<div class="small-6 column title">
 			<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-			<div class="entry-meta">
-				<p><?php the_time('j F Y') ?></p>
-			</div><!-- .entry-meta -->
 		</div>
 	</header><!-- .entry-header -->
 
