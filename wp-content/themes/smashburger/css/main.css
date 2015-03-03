@@ -2394,14 +2394,15 @@ body.page-template-template_smashclub-php  {
 }
 .page-template-template_smashclub-php .medium-12 img,
 .page-template-template-profile-php img,
-.page-template-thank-you-php img {
+.page-template-thank-you-php img,
+.page-template-in-person-php img {
 	width: 100%;
 }
-.page-id-111 #primary, .page-template-thank-you-php #primary {
+.page-id-111 #primary, .page-template-thank-you-php #primary, .page-template-in-person-php #primary  {
 	background: url(../img/smashclub_footer.png) center 150% no-repeat;
 	background-size: 115% auto;
 }
-.page-template-thank-you-php #primary {
+.page-template-thank-you-php #primary, .page-template-in-person-php #primary  {
 	background-position: center 40px;
 }
 /*==== Franchise ====*/
@@ -3636,7 +3637,7 @@ line-height: 1.3;
 	top: 27%;
 }
 /*==== Thank You ====*/
-.page-template-thank-you-php h2 {
+.page-template-thank-you-php h2, .page-template-in-person-php h2 {
 	margin-top: 3em;
 	text-transform: uppercase;
 	font-size: 36px;
@@ -3645,11 +3646,11 @@ line-height: 1.3;
 	font-weight: 900; 
 	font-style: normal;
 }
-.page-template-thank-you-php p {
+.page-template-thank-you-php p, .page-template-in-person-php {
 	text-align: center;
 	margin: 2em 0;
 }
-.page-template-thank-you-php p span {
+.page-template-thank-you-php p span, .page-template-in-person-php p span {
 	text-transform: uppercase;
 	font-weight: 800;
 }
