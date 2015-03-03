@@ -31,7 +31,7 @@ $email_body = "First name: $name\n".
     "Event: $event \n".
     "Email: $visitor_email \n".
     "Phone: $phone \n".
-    "Comments: $message \n".
+    "Comments: $message \n";
     //, smashburger@franconnect.com, mihai@franconnect.com
 $to = "matt@agencyzero.com";//<== update the email address
 $headers = "From: $email_from \r\n";
