@@ -476,6 +476,9 @@ letter-spacing: 1px;
 .top-bar-section div#geolocation .located img {
 	position: absolute;
 	left: 0;
+	right: 0;
+	display: block;
+	margin: 0 auto;
 }
 .top-bar-section div#geolocation li:first-child{
 	text-transform: uppercase;
@@ -699,19 +702,31 @@ div[data-type="sprite"] {
 	padding-top: 1.5em;
 	min-height: 420px;
 }
-.location-widget .placeable ul {
+.location-widget ul.placeable-times {
 	list-style: none;
-	padding-bottom: 25%;
+	padding-bottom: 10%;
+	margin-left: 0;
 }
-.location-widget .placeable ul:first-child{
+.location-widget .placeable ul{
+	list-style: none;
 	padding-bottom: 2%;
+	margin-left: 0;
 }
 .location-widget .placeable li:first-child {
+	font-family: 'Gotham A', 'Gotham B', inherit;
 	font-size: 150%;
 	font-weight: 900;
 	text-transform: uppercase;
 	color: #ebe4d4;
 	margin-bottom: .2em;
+}
+.location-widget .placeable img {
+	position: absolute;
+	left: 0;
+	right: 0;
+	display: block;
+	margin: 0 auto;
+
 }
 .location-widget .placeable .red-btn {
 	background-color: #df3627;
@@ -1971,6 +1986,7 @@ left: 0;
 .local-burger .back p {
 	top: 10%;
 }
+
 /* Burgers */
 
 .menu .slide {
@@ -2046,6 +2062,10 @@ left: 0;
 	margin-top: .5em;
 	font-size: 125%;
 	font-weight: 600;
+}
+p.na {
+	line-height: 110%;
+	font-weight: 800;
 }
 .menu-locate h6 {
 	font-size: 230%;

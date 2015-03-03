@@ -23,23 +23,47 @@ $(document).ready(function() {
 			    var smashChicken =	jsonData["Chicken Stack"];
 			    var sideDescription =	jsonData["Side Description"];
 			    var localSide =	jsonData["Side Stack"];      	
-	      	$('.page-template-template-menu-php .menu-locate').append('<h5>'+jsonData.city+'</h5>');
-	      	$('.page-template-template-menu-php .burgers div.back').append('<p class="localdescription">'+locationDescription+'</p>');
-	      	$('.page-template-template-menu-php .burgers .front img').removeClass('question').attr('src', localBurger);
-	      	$('.page-template-template-menu-php .front.locating h4').fadeOut(300);
-	      	$('.page-template-template-menu-php .local-burger').addClass('flip-container');
-
-	      	$('.page-template-template-menu-php .chicken .front img').removeClass('question').attr('src', smashChicken);
-			    $('.page-template-template-menu-php .chicken div.back .localdescription').remove();
-			    $('.page-template-template-menu-php .chicken div.back').append('<p class="localdescription">'+chickenDescription+'</p>');
-
-			    $('.page-template-template-menu-php .sides .front img').removeClass('question').attr('src', localSide);
-			    $('.page-template-template-menu-php .sides div.back .localdescription').remove();
-			    $('.page-template-template-menu-php .sides div.back').append('<p class="localdescription">'+sideDescription+'</p>');
-
-			    $('.page-template-template-menu-php .shakes .front img').removeClass('question').attr('src', localShake);
-			    $('.page-template-template-menu-php .shakes div.back .localdescription').remove();
-			    $('.page-template-template-menu-php .shakes div.back').append('<p class="localdescription">'+shakeDescription+'</p>');
+	      	$('.menu-locate').append('<h5>'+jsonData.city+'</h5>');
+	      	if (localBurger !== "" ) {
+	      		$('.burgers .front img').removeClass('question').attr('src', localBurger);
+	      		$('.burgers div.back').append('<p class="localdescription">'+locationDescription+'</p>');
+	      		$('.burgers .front.locating h4').fadeOut(300);
+	      		$('.local-burger.burgers').addClass('flip-container');
+	      	}
+	      	if (smashChicken !== "" ) {
+	      		$('.chicken .front img').removeClass('question').attr('src', smashChicken);
+	      		$('.chicken .front.locating h4').fadeOut(300);
+			    	$('.chicken div.back').append('<p class="localdescription">'+chickenDescription+'</p>');
+			    	$('.local-burger.chicken').addClass('flip-container');
+	      	}
+			    if (localSide !== "" ) {
+			      $('.sides .front img').removeClass('question').attr('src', localSide);
+			      $('.sides .front.locating h4').fadeOut(300);
+			    	$('.sides div.back').append('<p class="localdescription">'+sideDescription+'</p>');
+			    	$('.local-burger.sides').addClass('flip-container');
+			  	}
+			    if (localShake !== "" ) {
+			    	$('.shakes .front img').removeClass('question').attr('src', localShake);
+			    	$('.shakes .front.locating h4').fadeOut(300);
+			    	$('.shakes div.back').append('<p class="localdescription">'+shakeDescription+'</p>');
+			    	$('.local-burger.shakes').addClass('flip-container');
+			  	}
+			  	if (localShake == "" ) {
+			  		$('.menu-locate.shakes p, .menu-locate.shakes h6, .menu-locate.shakes h5 ').fadeOut(300);
+			  		$('.menu-locate.shakes').append('<p class="na">We either can&rsquo;t find you OR there aren&rsquo;t any local shakes available in your area</p>');
+			  	}
+			  	if (localSide == "" ) {
+			  		$('.menu-locate.sides p, .menu-locate.sides h6, .menu-locate.sides h5 ').fadeOut(300);
+			  		$('.menu-locate.sides').append('<p class="na">We either can&rsquo;t find you OR there aren&rsquo;t any local sides available in your area</p>');
+			  	}
+			  	if (smashChicken == "") {
+			  		$('.menu-locate.chicken p, .menu-locate.chicken h6, .menu-locate.chicken h5 ').fadeOut(300);
+			  		$('.menu-locate.chicken').append('<p class="na">We either can&rsquo;t find you OR there aren&rsquo;t any local SmashChickens available in your area</p>');
+			  	}
+			   	if (localBurger == "") {
+			  		$('.menu-locate.burgers p, .menu-locate.burgers h6, .menu-locate.burgers h5 ').fadeOut(300);
+			  		$('.menu-locate.burgers').append('<p class="na">We either can&rsquo;t find you OR there aren&rsquo;t any local SmashBurgers available in your area</p>');
+			  	}
 	      	//$("aside div.placeable-img").append('<img src="'+jsonData['Location Photo']+'" alt="smasheburger store front"/>');
 	      }
 	  });
@@ -47,7 +71,14 @@ $(document).ready(function() {
 
 	function error(err) {
 	  console.warn('ERROR(' + err.code + '): ' + err.message);
-	  
+	  $('.menu-locate.shakes p, .menu-locate.shakes h6, .menu-locate.shakes h5 ').fadeOut(300);
+	  $('.menu-locate.shakes').append('<p class="na">We either can&rsquo;t find you OR there aren&rsquo;t any local shakes available in your area</p>');
+	  $('.menu-locate.sides p, .menu-locate.sides h6, .menu-locate.sides h5 ').fadeOut(300);
+	  $('.menu-locate.sides').append('<p class="na">We either can&rsquo;t find you OR there aren&rsquo;t any local sides available in your area</p>');
+	  $('.menu-locate.chicken p, .menu-locate.chicken h6, .menu-locate.chicken h5 ').fadeOut(300);
+	  $('.menu-locate.chicken').append('<p class="na">We either can&rsquo;t find you OR there aren&rsquo;t any local SmashChickens available in your area</p>');
+	  $('.menu-locate.burgers p, .menu-locate.burgers h6, .menu-locate.burgers h5 ').fadeOut(300);
+	  $('.menu-locate.burgers').append('<p class="na">We either can&rsquo;t find you OR there aren&rsquo;t any local SmashBurgers available in your area</p>');
 	};
 
 	//navigator.geolocation.getCurrentPosition(success, error, options);
@@ -73,9 +104,11 @@ $(document).ready(function() {
 			    	var jsonData = data.results.results[0];
 			    	var locationDescription =	jsonData["location description"];
 			    	var localBurger =	jsonData["Burger Stack Image"];
-			    	$('.page-template-template-menu-php .burgers .front img').removeClass('question').attr('src', localBurger);
-			    	$('.page-template-template-menu-php .burgers div.back .localdescription').remove();
-			    	$('.page-template-template-menu-php .burgers div.back').append('<p class="localdescription">'+locationDescription+'</p>');
+			    	$('.burgers .front img').removeClass('question').attr('src', localBurger);
+			    	$('.burgers div.back .localdescription').remove();
+			    	$('.burgers div.back').append('<p class="localdescription">'+locationDescription+'</p>');
+			    	$('.burgers .front.locating h4').fadeOut(300);
+			    	$('.local-burger.burgers').addClass('flip-container');
 			    }
 			});
 		});
@@ -93,9 +126,11 @@ $(document).ready(function() {
 			    	var jsonData = data.results.results[0];
 			    	var chickenDescription =	jsonData["Chicken Description"];
 			    	var smashChicken =	jsonData["Chicken Stack"];
-			    	$('.page-template-template-menu-php .chicken .front img').removeClass('question').attr('src', smashChicken);
-			    	$('.page-template-template-menu-php .chicken div.back .localdescription').remove();
-			    	$('.page-template-template-menu-php .chicken div.back').append('<p class="localdescription">'+chickenDescription+'</p>');
+			    	$('.chicken .front img').removeClass('question').attr('src', smashChicken);
+			    	$('.chicken div.back .localdescription').remove();
+			    	$('.chicken div.back').append('<p class="localdescription">'+chickenDescription+'</p>');
+			    	$('.chicken .front.locating h4').fadeOut(300);
+						$('.local-burger.chicken').addClass('flip-container');
 			    }
 			});
 		});
@@ -113,9 +148,11 @@ $(document).ready(function() {
 			    	var jsonData = data.results.results[0];
 			    	var sideDescription =	jsonData["Side Description"];
 			    	var localSide =	jsonData["Side Stack"];
-			    	$('.page-template-template-menu-php .sides .front img').removeClass('question').attr('src', localSide);
-			    	$('.page-template-template-menu-php .sides div.back .localdescription').remove();
-			    	$('.page-template-template-menu-php .sides div.back').append('<p class="localdescription">'+sideDescription+'</p>');
+			    	$('.sides .front img').removeClass('question').attr('src', localSide);
+			    	$('.sides div.back .localdescription').remove();
+			    	$('.sides div.back').append('<p class="localdescription">'+sideDescription+'</p>');
+			    	$('.sides .front.locating h4').fadeOut(300);
+						$('.local-burger.sides').addClass('flip-container');
 			    }
 			});
 		});
@@ -133,9 +170,11 @@ $(document).ready(function() {
 			    	var jsonData = data.results.results[0];
 			    	var shakeDescription =	jsonData["Shake Description"];
 			    	var localShake =	jsonData["Shake Stack"];
-			    	$('.page-template-template-menu-php .shakes .front img').removeClass('question').attr('src', localShake);
-			    	$('.page-template-template-menu-php .shakes div.back .localdescription').remove();
-			    	$('.page-template-template-menu-php .shakes div.back').append('<p class="localdescription">'+shakeDescription+'</p>');
+			    	$('.shakes .front img').removeClass('question').attr('src', localShake);
+			    	$('.shakes div.back .localdescription').remove();
+			    	$('.shakes div.back').append('<p class="localdescription">'+shakeDescription+'</p>');
+			    	$('.shakes .front.locating h4').fadeOut(300);
+			    	$('.local-burger.shakes').addClass('flip-container');
 			    }
 			});
 		});

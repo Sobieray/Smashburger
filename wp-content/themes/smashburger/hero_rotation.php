@@ -7,7 +7,9 @@
 	<div class="jalapeno" data-type="sprite" data-offsetY="700" data-Xposition="90%" data-speed="2"></div>	
 	<aside class="small-8 column no-padding-left location-widget" width="50%">
 		<h2>your nearest smashburger location</h2>
-		<div class="placeable small-6 column no-padding"></div>
+		<div class="placeable small-6 column no-padding">
+			<img src="<?php echo get_template_directory_uri() . '/img/loader_widget.gif'; ?>" alt="smashburger loading image"/>
+		</div>
 		<div class="placeable-img small-6 column no-padding">
 			<img src="<?php echo get_template_directory_uri() . '/img/store_front.jpg'; ?>" alt="smashburger interior"/>
 		</div>
@@ -24,7 +26,9 @@
 	<div class="jalapeno" data-type="sprite" data-offsetY="700" data-Xposition="90%" data-speed="2"></div>	
 	<aside class="small-8 column no-padding-left location-widget" width="50%">
 		<h2>your nearest smashburger location</h2>
-		<div class="placeable small-6 column no-padding"></div>
+		<div class="placeable small-6 column no-padding">
+			<img src="<?php echo get_template_directory_uri() . '/img/loader_widget.gif'; ?>" alt="smashburger loading image"/>
+		</div>
 		<div class="placeable-img small-6 column no-padding">
 			<img src="<?php echo get_template_directory_uri() . '/img/store_front.jpg'; ?>" alt="smashburger interior"/>
 		</div>
@@ -41,7 +45,9 @@
 	<div class="jalapeno" data-type="sprite" data-offsetY="700" data-Xposition="90%" data-speed="2"></div>	
 	<aside class="small-8 column no-padding-left location-widget" width="50%">
 		<h2>your nearest smashburger location</h2>
-		<div class="placeable small-6 column no-padding"></div>
+		<div class="placeable small-6 column no-padding">
+			<img src="<?php echo get_template_directory_uri() . '/img/loader_widget.gif'; ?>" alt="smashburger loading image"/>
+		</div>
 		<div class="placeable-img small-6 column no-padding">
 			<img src="<?php echo get_template_directory_uri() . '/img/store_front.jpg'; ?>" alt="smashburger interior"/>
 		</div>
@@ -58,7 +64,9 @@
 	<div class="jalapeno" data-type="sprite" data-offsetY="700" data-Xposition="90%" data-speed="2"></div>	
 	<aside class="small-8 column no-padding-left location-widget" width="50%">
 		<h2>your nearest smashburger location</h2>
-		<div class="placeable small-6 column no-padding"></div>
+		<div class="placeable small-6 column no-padding">
+			<img src="<?php echo get_template_directory_uri() . '/img/loader_widget.gif'; ?>" alt="smashburger loading image"/>
+		</div>
 		<div class="placeable-img small-6 column no-padding">
 			<img src="<?php echo get_template_directory_uri() . '/img/store_front.jpg'; ?>" alt="smashburger interior"/>
 		</div>
@@ -75,7 +83,9 @@
 	<div class="jalapeno" data-type="sprite" data-offsetY="700" data-Xposition="90%" data-speed="2"></div>	
 	<aside class="small-8 column no-padding-left location-widget" width="50%">
 		<h2>your nearest smashburger location</h2>
-		<div class="placeable small-6 column no-padding"></div>
+		<div class="placeable small-6 column no-padding">
+			<img src="<?php echo get_template_directory_uri() . '/img/loader_widget.gif'; ?>" alt="smashburger loading image"/>
+		</div>
 		<div class="placeable-img small-6 column no-padding">
 			<img src="<?php echo get_template_directory_uri() . '/img/store_front.jpg'; ?>" alt="smashburger interior"/>
 		</div>
@@ -92,7 +102,9 @@
 	<div class="jalapeno" data-type="sprite" data-offsetY="700" data-Xposition="90%" data-speed="2"></div>	
 	<aside class="small-8 column no-padding-left location-widget" width="50%">
 		<h2>your nearest smashburger location</h2>
-		<div class="placeable small-6 column no-padding"></div>
+		<div class="placeable small-6 column no-padding">
+			<img src="<?php echo get_template_directory_uri() . '/img/loader_widget.gif'; ?>" alt="smashburger loading image"/>
+		</div>
 		<div class="placeable-img small-6 column no-padding">
 			<img src="<?php echo get_template_directory_uri() . '/img/store_front.jpg'; ?>" alt="smashburger interior"/>
 		</div>
