@@ -1348,18 +1348,17 @@ input[type=range][orient=vertical] {
 }
 .blog article.item:nth-child(2n) img,
 .archive article.item:nth-child(2n) img {
-	height: 150px;
-	object-fit: cover;
+	height: auto;
 }
 .blog article.item:nth-child(3n) img,
 .archive article.item:nth-child(3n) img {
-	height: 350px;
-	object-fit: cover;
+	height: auto;
+
 }
 .blog article.item:nth-child(4n) img,
 .archive article.item:nth-child(4n) img {
-	height: 250px;
-	object-fit: cover;
+	height: auto;
+
 }
 footer.entry-footer {
 	padding: 0em 5% 0;
@@ -1452,7 +1451,8 @@ footer.entry-footer {
 .single #main .main-image img {
 	margin: 0px 0em 1em 0;
 	padding-right: 5em;
-	height: 480px;
+	height: auto;
+	width: 100%;
 }
 .single #main header h1,
 .archive header.page-header h1 {
@@ -4241,6 +4241,9 @@ footer#colophon {
 		background-image: none!important;
 		background-position: 0 0;
 		padding: 2em;
+	}
+	.single #main .main-image img {
+		padding-right: 0;
 	}
 }
 @media (max-width: 540px) {
