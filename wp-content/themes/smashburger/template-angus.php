@@ -6,11 +6,12 @@
  */
 
 get_header(); ?>
-	<div class="header hide-for-960-down">
+	<div class="header">
 		<h1>Certified Angus</h1>
 	</div>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+			<div class="angus_hero hide-for-small-only"></div>
 			<section class="flex">
 				<div class="small-12 column brown-text angus">
 					<h1 class="brown-text">it&rsquo;s not just any old angus beef</h1>

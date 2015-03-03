@@ -97,7 +97,8 @@ get_header(); ?>
 	<div id="modal1">
 		<div class="small-12 dark-overlay small-padding">
 			<div class="small-8 medium-6 row tan-bg modal">
-				<h5 class="redtext-secondary">All criteria met! <span>X</span></h5>
+				<span>X</span>
+				<h5 class="redtext-secondary">All criteria met!</h5>
 				<p class="brown-text">we invite you to submit an inquiry.</p>
 				<a class="red-secondary secondary-btn white-text" href="<?php echo site_url();?>/franchising/inquire-within/">submit an inquiry</a>
 			</div>
@@ -106,7 +107,8 @@ get_header(); ?>
 	<div id="modal2">
 		<div class="small-12 dark-overlay small-padding">
 			<div class="small-8 medium-6 row tan-bg modal">
-				<p class="brown-text">Don't meet all of our criteria but still want to speak with someone at Smashburger about Franchising? Just click here to fill out our inquiry form and we will be in touch shortly. <span>X</span></p>
+				<span>X</span>
+				<p class="brown-text">Don't meet all of our criteria but still want to speak with someone at Smashburger about Franchising? Just click here to fill out our inquiry form and we will be in touch shortly.</p>
 				<a class="red-secondary secondary-btn white-text" href="<?php echo site_url();?>/franchising/inquire-within/">submit an inquiry</a>
 			</div>
 		</div>

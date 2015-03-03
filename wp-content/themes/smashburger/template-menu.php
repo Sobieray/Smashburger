@@ -489,7 +489,6 @@ get_header(); ?>
 							    <li>smash sauce</li>
 							    <li>ketchup</li>
 							    <li>lettuce</li>
-							    <li>spicy chipotle mayo</li>
 							    <li>pickles</li>
 							    <li>bbq</li>
 							    <li>cucumbers</li>
@@ -499,6 +498,7 @@ get_header(); ?>
 							    <li>yellow mustard</li>
 							    <li>grilled onions</li>
 							    <li>tomato</li>
+							    <li>spicy chipotle mayo</li>							  
 							</ul>
 							<i>*additional toppings may be available by region</i>
 				  	</div>

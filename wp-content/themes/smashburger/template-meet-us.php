@@ -105,12 +105,9 @@ get_header(); ?>
 	<div id="meetModal">
 		<div class="small-12 dark-overlay small-padding">
 			<div class="small-12 medium-10 row light-tan-bg modal">
-				<?php 
-					$submission = get_template_directory_uri() . '/meeting-submission.php'; 
-				?>
-				<h5>Schedule an in-person meeting<span>X</span></h5>
+				<span>X</span>
+				<h5>Schedule an in-person meeting</h5>
 				<form method="post" name="eventform" action="http://smashwebadmin.wpengine.com/wp-content/themes/smashburger/meeting-submission.php">
-					<label for="fnam"></label>
 					<input type="text" name="fname" value="First Name">
 					<input type="text" name="lname" value="Last Name">
 					<input type="text" name="event" value="Event you're attending">

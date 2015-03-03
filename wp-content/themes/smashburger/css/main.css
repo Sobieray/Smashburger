@@ -1091,6 +1091,7 @@ div[data-type="sprite"] {
 	text-transform: uppercase;
 	font-weight: 900;
 	font-size: 250%;
+	font-family: 'Bebas_Bold';
 }
 .page-template-template-nutritiondietary-php #main img {
 	position: absolute;
@@ -1144,10 +1145,11 @@ div.slider {
 	line-height: 200%;
 }
 .page-template-template-nutritiondietary-php #secondary h4 {
-	font-size: 190%;
+	font-family: 'Bebas_Bold';
+	font-size: 250%;
 	text-transform: uppercase;
 	font-weight: 900;
-	margin-bottom: 3%;
+	margin: 3% 0;
 }
 .page-template-template-nutritiondietary-php #secondary .slide h5 {
 	text-transform: uppercase;
@@ -1160,8 +1162,9 @@ div.slider {
 	font-size: 90%;
 }
 /*Angus Beef*/
-.page-template-template-angus-php #main {
-	background: url(../img/angus_hero.jpg) center no-repeat fixed;
+.page-template-template-angus-php .angus_hero {
+	background: url(../img/angus_hero.jpg) top center no-repeat;
+	background-size: cover;
 }
 .page-template-template-angus-php #main section {
 	background-color: white;
@@ -1176,7 +1179,7 @@ div.slider {
 	font-weight: 900;
 	font-size: 250%;
 	text-transform: uppercase;
-	letter-spacing: -3px;
+	font-family: 'Bebas_Bold';
 }
 .page-template-template-angus-php #main h2 {
 	font-weight: 900;
@@ -1522,6 +1525,11 @@ aside#comments h4 {
 	padding-top: 90px;
 	padding-bottom: 5%;
 }
+.page-template-template-chairman-php #main span {
+		font-size: 128%;
+		font-weight: 900;
+		color: #492e1e;
+}
 .page-template-template-chairman-php #main img {
 	width: 25%;
 	float: left;
@@ -1646,8 +1654,9 @@ div.css-triangle.right:before {
 }
 .page-template-template-food-story-php #secondary span,
 .page-template-template-food-story-php #fourth span {
+	font-family: 'Bebas_Bold';
 	float: left;
-	font-size: 300%;
+	font-size: 500%;
 	position: relative;
 	/* top: -10px; */
 	margin-right: .1em;
@@ -2128,7 +2137,8 @@ select optgroup {
 	margin-bottom: 10%;
 }
 .create h6, .options h6 {
-	font-size: 185%;
+	font-family: 'Gotham A', 'Gotham B';
+	font-size: 200%;
 	text-transform: uppercase;
 	font-weight: 900;
 	text-align: center;
@@ -2543,8 +2553,8 @@ body.page-template-template_smashclub-php  {
 #meetModal span, #modal1 span, #modal2 span {
 	color: gray;
 	position: absolute;
-	right: 10%;
-	top: 10%;
+	right: 5px;
+	top: 5px;
 	cursor: pointer;
 	font-size: 16px;
 	font-weight: normal;
@@ -3040,7 +3050,8 @@ article#steps footer a:hover, #inquiry-submit a:hover  {
 	font-size: 500%;
 	line-height: 90%;
 	width: 100%;
-	font-weight: 600;
+	font-family: 'Bebas_Bold';
+	font-weight: 900;
 }
 #awards div > div {
 	text-align: center;
@@ -3140,6 +3151,7 @@ article#steps footer a:hover, #inquiry-submit a:hover  {
 	top: 35%;
 }
 #award_tiles div span {
+	font-family: 'Bebas_Bold';
 	position: absolute;
 	bottom: 0;
 	font-size: 600%;
@@ -3931,6 +3943,7 @@ footer#colophon {
 		background-position: top center;
 		padding: 20%;
 	}
+	
 
 }
 @media (min-width: 960px) {
