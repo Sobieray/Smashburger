@@ -1522,13 +1522,13 @@ aside#comments h4 {
 	padding-top: 90px;
 	padding-bottom: 5%;
 }
-.page-template-template-chairman-php img {
+.page-template-template-chairman-php #main img {
 	width: 25%;
 	float: left;
 	margin: 0 2em;
 }
 .page-template-template-chairman-php .rick-shaden {
-	background: url(../img/rick_pro_challenge.jpg) center center no-repeat;
+	background: url(../img/rick_pro_challenge.jpg) 80% center no-repeat;
 	background-size: cover;
 }
 .page-template-template-chairman-php .rick-shaden h4 {
@@ -3922,6 +3922,13 @@ footer#colophon {
 	}
 	.location-widget .placeable li:first-child {
 		font-size: 120%;
+	}
+	.page-template-template-chairman-php .flex {
+		display: block;
+	}
+	.page-template-template-chairman-php .rick-shaden {
+		background-position: top center;
+		padding: 20%;
 	}
 
 }
