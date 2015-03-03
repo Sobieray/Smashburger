@@ -32,8 +32,7 @@ $email_body = "First name: $name\n".
     "Email: $visitor_email \n".
     "Phone: $phone \n".
     "Comments: $message \n";
-    //, smashburger@franconnect.com, mihai@franconnect.com
-$to = "matt@agencyzero.com";//<== update the email address
+$to = "smashburger@franconnect.com";//<== update the email address
 $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $visitor_email \r\n";
 //Send the email!
