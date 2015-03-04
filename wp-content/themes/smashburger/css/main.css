@@ -344,7 +344,8 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 .breadcrumbs {
   position: absolute;
-  padding: 0rem 0.875rem 0.5625rem 2%;
+  left: 1%;
+  padding: 0rem 0.875rem 0.5625rem 1.325rem;
   overflow: visible; 
   margin-left: 0;
   list-style: none; 
@@ -1456,6 +1457,7 @@ footer.entry-footer {
 }
 .single #main header h1,
 .archive header.page-header h1 {
+	font-family: 'Bebas_Bold';
 	position: static;
 	font-size: 250%;
 	text-indent: 0;
@@ -1532,6 +1534,7 @@ aside#comments h4 {
 	text-transform: uppercase;
 	font-weight: 900;
 	padding: 1em 0em;
+	font-family: 'Bebas_Bold';
 }
 
 /*==== Chairman ====*/
@@ -1971,7 +1974,7 @@ div.css-triangle.right:before {
 	transform: rotateY(0deg);
 }
 .front img {
-	padding-top: 15%;
+	padding-top: 25%;
 }
 .front, .back {
 	backface-visibility: hidden;
@@ -2032,7 +2035,7 @@ left: 0;
 	font-weight: 800;
 	color: #e9e2d2;
 	font-size: 120%;
-	padding: 0 .5em;
+	padding: 0 7%;
 	position: absolute;
 	margin-top: 1em;
 	width: 100%;
@@ -2045,10 +2048,10 @@ left: 0;
 	top: 0;
 }
 .page-template-template-menu-php h4:before {
-	left: 5%;
+	left: 3%;
 }
 .page-template-template-menu-php h4:after {
-	right: 5%;
+	right: 3%;
 }
 .page-template-template-menu-php .slick-dots {
 	bottom: 0;
@@ -3957,6 +3960,9 @@ footer#colophon {
 		background-position: top center;
 		padding: 20%;
 	}
+	.front img {
+	padding-top: 15%;
+}
 	
 
 }

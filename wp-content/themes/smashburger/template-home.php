@@ -15,8 +15,6 @@ get_header(); ?>
 				<?php get_template_part('hero_rotation'); ?>
 			</section><!-- #first -->
 		</main><!-- #main -->
-
-
 		<section id="second" class="parallax blue-bg flex clear hide-for-small" data-speed="7" data-offsetY="205" data-type="background">
 			<div class="parallax2 flex">
 				<div class="small-6 column no-padding">
@@ -26,7 +24,7 @@ get_header(); ?>
 				<div class="small-6 column brown-overlay no-padding">
 					<div class="box-padding">
 						<h2 class="white-text">local love</h2>
-						<p class="sub-text white-text">Thinking local is one thing, living it is something else all together. With the that in mind,  we&lsquo;ve created 44 unique burgers specifically for where you call home. To bring even more of the outside in, we&lsquo;ve sourced the best beers from your neck of the woods and have paired them thoughtfully with the perfect burgers from our menu.</p>
+						<p class="sub-text white-text">Thinking local is one thing, living it is something else all together. With the that in mind,  we&rsquo;ve created 44 unique burgers specifically for where you call home. To bring even more of the outside in, we&rsquo;ve sourced the best beers from your neck of the woods and have paired them thoughtfully with the perfect burgers from our menu.</p>
 					</div>
 					<a class="brown-btn right-side-btn" href="/eat/menu" data-hover="">discover yours<span></span></a>
 				</div>
@@ -41,7 +39,7 @@ get_header(); ?>
 					<div class="tomato" data-type="sprite" data-offsetY="350" data-Xposition="150%" data-speed="5"></div>
 					<div class="box-padding">
 						<h2 class="brown-text">Certified Angus Beef&reg;</h2>
-						<p class="sub-text brown-text">Great burgers start with great meat. That&lsquo;s why we only cook with fresh, never frozen, 100% Certified Angus beef. Period.</p>
+						<p class="sub-text brown-text">Great burgers start with great meat. That&rsquo;s why we only cook with fresh, never frozen, 100% Certified Angus beef. Period.</p>
 					</div>
 					<a class="tan-btn brown-text" href="/eat/our-food/angus-beef/" data-hover="">meet the meat<span></span></a>
 				</div>
@@ -100,7 +98,7 @@ get_header(); ?>
 						<div class="blue-overlay">
 							<div class="box-padding" data-speed="-5" data-offsetY="-50" data-type="background">
 								<h2 class="white-text">Usa Pro Challenge</h2>
-								<p class="sub-text white-text">We&lsquo;re absolutely head over wheels to be An Official Sponsor of the one of the largest Cycling events in US history- right here in the Rocky Mountains, our back yard.</p>
+								<p class="sub-text white-text">We&rsquo;re absolutely head over wheels to be An Official Sponsor of the one of the largest Cycling events in US history- right here in the Rocky Mountains, our back yard.</p>
 								<a class="blue-btn right-side-btn" href="/us/partnerships/">ride on!<span></span></a>
 							</div>
 						</div>
@@ -114,7 +112,7 @@ get_header(); ?>
 				<div class="small-6 column no-padding">
 					<div class="box-padding">
 						<h2 class="white-text">spread the love</h2>
-						<p class="sub-text white-text">When it&lsquo;s hard to tell that special someone just how you feel, we&lsquo;ve got you covered. Nothing says “I love you" quite like the gift of mouthwatering deliciousness.</p>
+						<p class="sub-text white-text">When it&rsquo;s hard to tell that special someone just how you feel, we&rsquo;ve got you covered. Nothing says “I love you" quite like the gift of mouthwatering deliciousness.</p>
 					</div>
 					<a class="red-btn" href="http://smashburgerdev.securetree.com/products/new-gift-cards/">buy a gift card<span></span></a>
 				</div>

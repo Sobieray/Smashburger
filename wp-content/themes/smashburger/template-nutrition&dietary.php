@@ -59,7 +59,7 @@ get_header(); ?>
 					<p>Our fries are not gluten free. They are fried in a common fryer with other items that contain gluten.</p>
 				</div>
 			</div>
-			<a href="" class="red-primary secondary-btn">I still have questions</a>
+			<a href="mailto:nutritioninfo@smashburger.com?subject=Smashburger%20Nutrition%20Question" target="_blank" class="red-primary secondary-btn">I still have questions</a>
 		</section><!-- #secondary -->
 	</div><!-- #primary -->
 

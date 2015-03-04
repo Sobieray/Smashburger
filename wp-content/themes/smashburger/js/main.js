@@ -87,10 +87,4 @@ $(document).ready(function() {
 	$('.left-off-canvas-menu li.menu-item-has-children > a').click(function() {
 		$(this).parent().find('.sub-menu').toggleClass('show');
 	});
-	$('.breadcrumbs span > span:nth-child(2) a').click(function() {
-		event.preventDefault();
-	});
-	$('.breadcrumbs span > span:nth-child(2) a').mouseenter(function() {
-		$(this).css({'text-decoration' : 'none', 'cursor' : 'text'});
-	});
 });

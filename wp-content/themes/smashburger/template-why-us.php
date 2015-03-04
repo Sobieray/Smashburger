@@ -74,8 +74,7 @@ get_header(); ?>
 		<h4 class="brown-text">Don&rsquo;t take our word for it</h4>
 		<p class="brown-text">Hear from one of our Franchisees</p>
 		<div class="small-12 medium-8 row">
-			<video>
-			</video>
+			<iframe src="https://player.vimeo.com/video/119094446" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 			<h6 class="brown-text">Irwin Kruger</h6>
 			<p class="brown-text">ISK Enterprises, Long Island, NY</p>
 		</div>
