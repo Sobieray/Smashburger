@@ -179,4 +179,7 @@ $(document).ready(function() {
 			});
 		});
 	});
+	$('.back-to-burgers a').click(function() {
+		$('.tab-title:first-child a').click();
+	});
 });

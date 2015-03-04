@@ -31,5 +31,13 @@ $(document).ready(function() {
         target.css('opacity', scrollPercent);
     };
   });
+  if ($(window).width() < 642) {
+		var deviceHeight = $(window).height() / 3.4;
+		$('.home #nine a').css({'height' : deviceHeight});
+		$(window).resize(function() {
+		  deviceHeight = $(window).height() / 3.4;
+		  $('.home #nine a').css({'height' : deviceHeight});
+		});
+	};
 });
 

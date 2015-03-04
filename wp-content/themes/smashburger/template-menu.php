@@ -62,7 +62,7 @@ get_header(); ?>
 				   		<p>Finding Your Local</p>
 				   		<h6>Burger</h6>
 				   		<select>
-				   			<option selected>More Local Burgers</option>
+				   			<option selected>Explore Local Recipes</option>
 				   			<option>Alabama</option>
 				   			<option>Arizona</option>
 				   			<option disabled>California</option>
@@ -264,7 +264,7 @@ get_header(); ?>
 				   		<p>Finding Your Local</p>
 				   		<h6>SmashChicken</h6>
 				   		<select>
-				   			<option selected>More Local Burgers</option>
+				   			<option selected>Explore Local Recipes</option>
 				   			<option>Alabama</option>
 				   			<option>Arizona</option>
 				   			<option disabled>California</option>
@@ -357,7 +357,7 @@ get_header(); ?>
 								</div>
 					  	</div>
 				  	</div>
-				  	<div class="small-12 medium-6 large-3 column red-secondary flip-container no-padding">
+				  	<div class="small-12 medium-6 large-3 column red-tertiary flip-container no-padding">
 				  		<div class="flip">
 				  			<div class="front">
 									<h4>Avocado Club</h4>
@@ -366,7 +366,7 @@ get_header(); ?>
 								<div class="back">
 									<h4>Avocado Club</h4>
 									<p>Fresh avocado, applewood smoked bacon, lettuce, tomato, ranch dressing &amp; mayo on a multi-grain bun. Choice of tender marinated grilled or crispy chicken.</p>
-									<a href="" class="red-btn">Hungry?<span></span></a>
+									<a href="" class="darkred-btn">Hungry?<span></span></a>
 								</div>
 							</div>
 				  	</div>
@@ -374,7 +374,7 @@ get_header(); ?>
 				  		<div class="flip">
 					  		<div class="front">
 									<h4>BBQ, Bacon &amp; Cheddar</h4>
-									<img src="<?php echo get_template_directory_uri() . '/img/bbq_burger.svg' ?>" alt="">
+									<img src="<?php echo get_template_directory_uri() . '/img/bbq_chicken_sandwich.svg' ?>" alt="">
 								</div>
 								<div class="back">
 									<h4>BBQ, Bacon &amp; Cheddar</h4>
@@ -383,7 +383,20 @@ get_header(); ?>
 								</div>
 							</div>
 				  	</div>
-				  	<div class="small-12 medium-6 large-3 column red-tertiary flip-container no-padding">
+	  	  		<div class="small-12 medium-6 large-3 column red-secondary flip-container no-padding">
+	  	  			<div class="flip">
+	  	  				<div class="front">
+	  			  			<h4>Buffalo &amp; Blue Cheese</h4>
+	  			  			<img src="<?php echo get_template_directory_uri() . '/img/buffalo_chicken_sandwich.svg' ?>" alt="smashburger buffalo blue cheese burger">
+	  			  		</div>
+	  			  		<div class="back">
+	  			  			<h4>Buffalo &amp; Blue Cheese</h4>
+	  			  			<p>Frank&rsquo;s&reg; RedHot&reg; Buffalo Sauce, blue cheese crumbles, lettuce, tomato &amp; mayo on an egg bun. Choice of tender marinated grilled or crispy chicken.</p>
+	  			  			<a class="red-btn">Hungry?<span></span></a>
+	  			  		</div>
+	  			  	</div>
+	  	    	</div>
+				  	<!-- <div class="small-12 medium-6 large-3 column red-tertiary flip-container no-padding">
 				  		<div class="flip">
 				  			<div class="front">
 									<h4>Undone</h4>
@@ -395,23 +408,10 @@ get_header(); ?>
 									<a class="darkred-btn">Hungry?<span></span></a>
 								</div>
 							</div>
-				  	</div>
+				  	</div> -->
 				  </section>
-			  	<section id="row3" class="clear flex">
-			  		<div class="small-12 medium-6 large-3 column light-brown-bg flip-container no-padding">
-			  			<div class="flip">
-			  				<div class="front">
-					  			<h4>Buffalo &amp; Blue Cheese</h4>
-					  			<img src="<?php echo get_template_directory_uri() . '/img/buffalo_chicken_sandwich.svg' ?>" alt="smashburger buffalo blue cheese burger">
-					  		</div>
-					  		<div class="back">
-					  			<h4>Buffalo &amp; Blue Cheese</h4>
-					  			<p>Frank&rsquo;s&reg; RedHot&reg; Buffalo Sauce, blue cheese crumbles, lettuce, tomato &amp; mayo on an egg bun. Choice of tender marinated grilled or crispy chicken.</p>
-					  			<a class="brown-btn">Hungry?<span></span></a>
-					  		</div>
-					  	</div>
-			    	</div>
-			    	<div class="small-12 medium-6 large-3 column red-tertiary flip-container no-padding">
+			  	<section id="row3" class="clear flex" data-equalizer>	
+			    	<div class="small-12 medium-6 large-3 column light-brown-bg flip-container no-padding">
 			    		<div class="flip">
 			    			<div class="front">
 					  			<h4>Spicy Jalape&Ntilde;o Baja</h4>
@@ -420,11 +420,11 @@ get_header(); ?>
 					  		<div class="back">
 					  			<h4>Spicy Jalape&Ntilde;o Baja</h4>
 					  			<p>Fresh jalape&ntilde;os, guacamole, pepper jack, lettuce, tomato, onion &amp; chipotle mayo on a spicy chipotle bun.  Choice of tender marinated grilled or crispy chicken.</p>
-					  			<a href="" class="darkred-btn">Hungry?<span></span></a>
+					  			<a href="" class="brown-btn">Hungry?<span></span></a>
 					  		</div>
 					  	</div>
 			    	</div>
-			    	<div class="small-12 medium-6 large-3 column dark-blue-bg flip-container no-padding">
+			    	<div class="small-12 medium-6 large-3 column red-secondary flip-container no-padding">
 			    		<div class="flip">
 			    			<div class="front">
 					  			<h4>Spinach &amp; Goat Cheese</h4>
@@ -433,11 +433,11 @@ get_header(); ?>
 					  		<div class="back">
 					  			<h4>Spinach &amp; Goat Cheese</h4>
 					  			<p>Cucumbers, spinach, goat cheese, tomato, onion &amp; balsamic vinaigrette on a multi-grain bun. Choice of tender marinated grilled or crispy chicken.</p>
-					  			<a href="" class="blue-btn">Hungry?<span></span></a>
+					  			<a href="" class="red-btn">Hungry?<span></span></a>
 					  		</div>
 					  	</div>
 			    	</div>
-			    	<div class="small-12 medium-6 large-3 column red-secondary flip-container no-padding">
+			    	<div class="small-12 medium-6 large-3 column dark-blue-bg flip-container no-padding" data-equalizer-watch>
 			    		<div class="flip">
 			    			<div class="front">
 					  			<h4>Truffle Mushroom Swiss</h4>
@@ -446,8 +446,14 @@ get_header(); ?>
 					  		<div class="back">
 					  			<h4>Truffle Mushroom Swiss</h4>
 					  			<p>Truffle mayo, sautéed crimini mushrooms &amp; aged Swiss on an egg bun. Choice of tender marinated grilled or crispy chicken.</p>
-					  			<a href="" class="red-btn">Hungry?<span></span></a>
+					  			<a href="" class="blue-btn">Hungry?<span></span></a>
 					  		</div>
+					  	</div>
+			    	</div>
+			    	<div class="hide-for-small-only small-12 medium-6 large-3 column red-tertiary back-to-burgers" data-equalizer-watch>
+			    		<h6>Mix it Up</h6>
+			    		<p>Have any of our chicken recipes with a burger</p>
+			    		<a href="javascript:void(0);" class="red-secondary secondary-btn">Explore Burger Recipes</a>
 			    	</div>
 			    </section>
 				</div><!-- #panel2  --><!-- Chicken -->
@@ -618,7 +624,7 @@ get_header(); ?>
 				   		<p>Finding Your Local</p>
 				   		<h6>Side</h6>
 				   		<select selected="More Local Burgers">
-				   			<option selected>More Local Burgers</option>
+				   			<option selected>Explore Local Recipes</option>
 				   			<option>Alabama</option>
 				   			<option>Kentucky</option>
 				   			<option>Louisiana</option>

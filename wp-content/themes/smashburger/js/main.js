@@ -87,4 +87,5 @@ $(document).ready(function() {
 	$('.left-off-canvas-menu li.menu-item-has-children > a').click(function() {
 		$(this).parent().find('.sub-menu').toggleClass('show');
 	});
+	
 });

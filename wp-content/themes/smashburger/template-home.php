@@ -11,6 +11,8 @@ get_header(); ?>
 			<header>
 				<h1>Smash Burger Home Page</h1>
 			</header>
+			<div class="header show-for-small-only">
+			</div>
 			<section id="first" class="clear flex hide-for-small" data-speed="8" data-type="background" >
 				<?php get_template_part('hero_rotation'); ?>
 			</section><!-- #first -->
@@ -162,17 +164,20 @@ get_header(); ?>
 		</section><!-- #eight -->
 		<section id="nine" class="clear">
 			<a class="small-12 medium-4 column red-primary no-padding locate" href="http://locations.smashburger.com/">
-				
-				<!-- <h6>Locate</h6> -->
 			</a>
 			<a class="small-12 medium-4 column red-secondary no-padding order" href="http://locations.smashburger.com/">
-				
 			</a>
 			<a class="small-12 medium-4 column brown no-padding utencile" href="/eat/menu">
-				
-				<!-- <h6>Menu</h6> -->
 			</a>
+			
 		</section><!-- #nine -->
+		<div class="show-for-small-only mobile-menu">
+			<ul>
+				<li><a class="tan-bg brown-text" href="clubs/smashclub">Smashclub</a></li>
+				<li><a class="tan-bg brown-text" href="/us/jobs">Jobs</a></li>
+				<li><a class="tan-bg brown-text" href="/franchise">Franchise</a></li>
+			</ul>
+		</div>
 		<article id="social" class="hide-for-small">
 			<h1 class="brown-text">#smashlife</h1>
 			<script async src="https://d36hc0p18k1aoc.cloudfront.net/public/js/modules/tintembed.js"></script><div class="tintup" data-id="smashburger" data-columns="4" style="height:500px;width:100%;"></div>

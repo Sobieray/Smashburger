@@ -358,7 +358,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 .left-small {
 	z-index: 99;
-	padding-top: .5em;
+	padding-top: 2.5em;
 	border-right: none;
 }
 .tab-bar, .top-bar, .top-bar-section ul li,
@@ -1042,7 +1042,6 @@ div[data-type="sprite"] {
 }
 .home #nine a.utencile {
 	background-image: url(../img/utencile_icon.svg);
-	background-size: 20%;
 }
 .home #nine h6 {
 	color: #fdfdfd;
@@ -1055,9 +1054,7 @@ div[data-type="sprite"] {
 .home #nine a:nth-child(2):hover  {
 	background-size: 40%;
 }
-.home #nine a:nth-child(3):hover {
-	background-size: 25%;
-}
+
 .home #nine a:hover h6 {
 	font-size: 190%;
 }
@@ -1879,7 +1876,7 @@ div.css-triangle.right:before {
 }
 .menu-files {
 	position: absolute;
-	top: -40px;
+	top: -35px;
 	right: 0;
 	width: 20%;
 }
@@ -1903,7 +1900,7 @@ div.css-triangle.right:before {
 	border-radius: 10px;
 	height: 5px;
 	width: 5px;
-	top: 45%;
+	top: 38%;
 	background: #c4161c;
 }
 .menu-files a:after {
@@ -2134,6 +2131,35 @@ select option:hover {
 }
 select optgroup {
 	padding-left: 1em;
+}
+.back-to-burgers {
+	display: block !important;
+}
+.back-to-burgers h6 {
+	font-family: 'Gotham A', 'Gotham B';
+	text-transform: uppercase;
+	text-align: center;
+	color: #e9e2d2;
+	font-size: 290%;
+	margin-top: 30%;
+}
+.back-to-burgers p {
+	text-transform: uppercase;
+	text-align: center;
+	color: #e9e2d2;
+	font-weight: 900;
+	font-size: 100%;
+	line-height: 120%;
+
+}
+.back-to-burgers a {
+	display: block;
+	color: #FFFFFF;
+	margin: 0 auto;
+	background-color: #c4161c;
+	font-weight: 900;
+
+
 }
 
 /*Create Your Own*/
@@ -2960,7 +2986,8 @@ article#steps footer a:hover, #inquiry-submit a:hover  {
 }
  #why-us div.red-primary {
  	background-image: url(../img/territories.jpg);
- }
+}
+
 #franchise-support {
 	text-align: center;
 	padding: 5% 3%;
@@ -3832,6 +3859,9 @@ footer#colophon {
 	.page-template-template-food-story-php #first img {
 		width: 85%;
 	}
+	.menu-files {
+		top: -40px;
+	}
 }
 @media (min-width: 1300px) {
 	body {
@@ -3843,6 +3873,9 @@ footer#colophon {
 	}
 	.page-template-template-our_story-php #sixth .no-padding img {
 		left: 50px;
+	}
+	.menu-files {
+		top: -40px;
 	}
 }
 @media (max-width: 1280px) {
@@ -3891,8 +3924,12 @@ footer#colophon {
 	}
 }
 @media (max-width: 1025px) {
+	.top-bar .name {
+	  float: none;
+	  margin: 0 auto;
+	}
 	.tab-bar-section.middle {
-		left: 3%;
+		left: 0%;
 		width: 100%;
 	}
 	#criteria form:after {
@@ -3961,8 +3998,11 @@ footer#colophon {
 		padding: 20%;
 	}
 	.front img {
-	padding-top: 15%;
-}
+		padding-top: 15%;
+	}
+	.locating img {
+		padding: 0;
+	}
 	
 
 }
@@ -4033,14 +4073,7 @@ footer#colophon {
 	.archive article.item {
 	  width: 50%;
 	}
-	.top-bar .name {
-		padding-top: 0;
-		width: 100%;
-	}
-	.top-bar .name img {
-		width: 50%;
-		
-	} 
+
 	#menu-franchise li {
 		width: 100%;
 		float: none;
@@ -4060,6 +4093,18 @@ footer#colophon {
 	body{
 		font-size: 100%;
 	}
+	.top-bar .name {
+		margin: 0 auto;
+		margin-top: .5em;
+		padding-top: 0;
+	}
+	.top-bar .name img {
+		width: 80%;
+	}
+	.left-small {
+		padding-top: .8em;
+	}
+	
 	.secondary-btn {
 		padding: 1.5em;	
 		min-width: 80%;
@@ -4250,6 +4295,50 @@ footer#colophon {
 	}
 	.single #main .main-image img {
 		padding-right: 0;
+	}
+	.home #nine a {
+		min-height: 130px;
+		padding: 0;
+	}
+	.home #nine a.locate {
+		background-image: url(../img/locate_mobile.png);
+		background-size: 60%;
+	}
+	.home #nine a.order {
+		background-image: url(../img/order_mobile.png);
+		background-size: 60%;
+	}
+	.home #nine a.utencile {
+		background-image: url(../img/menu_mobile.png);
+		background-size: 60%;
+		background-position: center 35%;
+	}
+	.home #nine a:hover {
+		background-size: 60% !important;
+	}
+	div.mobile-menu {
+		position: absolute;
+		bottom: 0;
+		left: 1%;
+		right: 0;
+	}
+	div.mobile-menu ul {
+		margin: 0 auto;
+	}
+	div.mobile-menu ul li {
+		display: inline-block;
+		width: 32%;
+	}
+	div.mobile-menu ul li a {
+	  padding: 1em;
+	  text-transform: uppercase;
+	  display: block;
+	  text-align: center;
+	  font-size: 75%;
+	  font-weight: 900;
+	}
+	div.mobile-menu ul li a:hover {
+		color: #c4161c;
 	}
 }
 @media (max-width: 540px) {
