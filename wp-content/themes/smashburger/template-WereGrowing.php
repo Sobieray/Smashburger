@@ -12,14 +12,24 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="map-container" class="site-main" role="main" >
 			<div id="map">
+				<div class="howto">
+					<i>*hover over an area and scroll to zoom in/out</i>
+				</div>
+				
 				<div class="zoom-slider">
+					<div class="cover"></div>
+				</div>
+				<div id="filters">
+					<a class="recent-openings" href="javascript:void(0);">Just Opened</a>
+					<a class="future-openings" href="javascript:void(0);">Coming Soon</a>
+					<a class="red-secondary secondary-btn" href="mailto:requestalocation@smashburger.com?&subject=I%20want%20a%20Smashburger%20near%20me&body=I'm%20craving%20the%20smash,%20but%20there%20isn't%20one%20in%20my%20neck%20of%20the%20woods.%0APLEASE%20Smashburger,%20open%20a%20restaurant%20right%20here:%0A(Neighborhood,City,State,Zip.)" target="_blank">Request A location</a>
 				</div>
 			</div>
-			<div class="range-slider round" data-slider data-options="start: 2007; end: 2015; step:1;">
+		<!-- 	<div class="range-slider round" data-slider data-options="start: 2007; end: 2015; step:1;">
 			  <span class="range-slider-handle" role="slider" tabindex="0"></span>
 			  <span class="range-slider-active-segment"></span>
 			  <input type="hidden">
-			</div>
+			</div> -->
 
 		</main><!-- #main -->
 		
