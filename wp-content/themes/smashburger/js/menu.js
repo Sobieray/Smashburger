@@ -15,7 +15,7 @@ $(document).ready(function() {
 	      success:function(data) {
 	      	console.log(data);
 	      	var jsonData = data.results.results[0];
-	      	var locationDescription =	jsonData["location description"];
+	      	var burgerDescription =	jsonData["Burger Menu Description"];
 	      	var localBurger =	jsonData["Burger Stack Image"]; 
 	      	var shakeDescription =	jsonData["Shake Description"];
 	      	var localShake =	jsonData["Shake Stack"];
@@ -26,7 +26,7 @@ $(document).ready(function() {
 	      	$('.menu-locate').append('<h5>'+jsonData.city+'</h5>');
 	      	if (localBurger !== "" ) {
 	      		$('.burgers .front img').removeClass('question').attr('src', localBurger);
-	      		$('.burgers div.back').append('<p class="localdescription">'+locationDescription+'</p>');
+	      		$('.burgers div.back').append('<p class="localdescription">'+burgerDescription+'</p>');
 	      		$('.burgers .front.locating h4').fadeOut(300);
 	      		$('.local-burger.burgers').addClass('flip-container');
 	      	}
@@ -102,11 +102,11 @@ $(document).ready(function() {
 			    success:function(data) {
 			    	console.log(data);
 			    	var jsonData = data.results.results[0];
-			    	var locationDescription =	jsonData["location description"];
+			    	var burgerDescription =	jsonData["Burger Menu Description"];
 			    	var localBurger =	jsonData["Burger Stack Image"];
 			    	$('.burgers .front img').removeClass('question').attr('src', localBurger);
 			    	$('.burgers div.back .localdescription').remove();
-			    	$('.burgers div.back').append('<p class="localdescription">'+locationDescription+'</p>');
+			    	$('.burgers div.back').append('<p class="localdescription">'+burgerDescription+'</p>');
 			    	$('.burgers .front.locating h4').fadeOut(300);
 			    	$('.local-burger.burgers').addClass('flip-container');
 			    }
