@@ -93,7 +93,7 @@ $(document).ready(function() {
 	/* Select Box To Change Local Burger*/
 	$('.menu-locate.burgers select').change(function() {
 		$('.menu-locate.burgers select option:selected').each(function() {
-			var selected= $(this).text();
+			var selected= $(this).attr('data-zip');
 			var placeableAPI = 'http://smashburger.test.placeablepages.com/v1/search?&q='+selected+'&app_id=05afe1e2&app_key=2d04fb54ad16be5108fd43941de76a82';
 			console.log(selected);
 			$.ajax({
@@ -115,7 +115,7 @@ $(document).ready(function() {
 	});
 	$('.menu-locate.chicken select').change(function() {
 		$('.menu-locate.chicken select option:selected').each(function() {
-			var selected= $(this).text();
+			var selected= $(this).attr('data-zip');
 			var placeableAPI = 'http://smashburger.test.placeablepages.com/v1/search?&q='+selected+'&app_id=05afe1e2&app_key=2d04fb54ad16be5108fd43941de76a82';
 			console.log(selected);
 			$.ajax({
@@ -137,7 +137,7 @@ $(document).ready(function() {
 	});
 	$('.menu-locate.sides select').change(function() {
 		$('.menu-locate.sides select option:selected').each(function() {
-			var selected= $(this).text();
+			var selected= $(this).attr('data-zip');
 			var placeableAPI = 'http://smashburger.test.placeablepages.com/v1/search?&q='+selected+'&app_id=05afe1e2&app_key=2d04fb54ad16be5108fd43941de76a82';
 			console.log(selected);
 			$.ajax({
@@ -159,7 +159,7 @@ $(document).ready(function() {
 	});
 	$('.menu-locate.shakes select').change(function() {
 		$('.menu-locate.shakes select option:selected').each(function() {
-			var selected= $(this).text();
+			var selected= $(this).attr('data-zip');
 			var placeableAPI = 'http://smashburger.test.placeablepages.com/v1/search?&q='+selected+'&app_id=05afe1e2&app_key=2d04fb54ad16be5108fd43941de76a82';
 			console.log(selected);
 			$.ajax({
@@ -179,7 +179,7 @@ $(document).ready(function() {
 			});
 		});
 	});
-	$('.back-to-burgers a').click(function() {
+	/*$('.back-to-burgers a').click(function() {
 		$('.tab-title:first-child a').click();
-	});
+	});*/
 });

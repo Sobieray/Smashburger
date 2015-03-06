@@ -63,70 +63,68 @@ get_header(); ?>
 				   		<h6>Burger</h6>
 				   		<select>
 				   			<option selected>Explore Local Recipes</option>
-				   			<option>Alabama</option>
-				   			<option>Arizona</option>
+				   			<option data-zip="35758">Alabama</option>
+				   			<option data-zip="T8H 0P5">Alberta</option>
+				   			<option data-zip="85712">Arizona</option>
+				   			<option data-zip="T1Y 5S5">Calgary</option>
 				   			<option disabled>California</option>
 				   			<optgroup>
 				   				<option>Orange County</option>
-				   				<option>Los Angeles</option>
-				   				<option>Sacramento</option>
-				   				<option>San Diego</option>
-				   				<option>The Bay</option>
+				   				<option data-zip="91360">Los Angeles</option>
+				   				<option data-zip="95815">Northern California</option>
+				   				<option data-zip="92108">San Diego</option>
+				   				<option data-zip="92606">Southern California</option>
+				   				<option data-zip="94103">The Bay</option>
 				   			</optgroup>
-				   			<option>Colorado</option>
-				   			<option>Connecticut</option>
+				   			<option data-zip="80207">Colorado</option>
+				   			<option data-zip="06385">Connecticut</option>
 				   			<option disabled>Florida</option>
 				   			<optgroup>
-				   				<option>Central Florida</option>
-				   				<option>Jacksonville</option>
-				   				<option>Miami</option>
-				   				<option>Tampa</option>
+				   				<option data-zip="32828">Central Florida</option>
+				   				<option data-zip="32266">Neptune Beach</option>
+				   				<option data-zip="33305">Miami</option>
 				   			</optgroup>
-				   			<option>Georgia</option>
-				   			<option>Idaho</option>
-				   			<option>Illinois</option>
-				   			<option>Iowa</option>
-				   			<option>Kansas</option>
-				   			<option>Kentucky</option>
-				   			<option disabled>Louisiana</option>
-			   				<optgroup>
-			   					<option>New Orleans</option>
-			   					<option>Shreveport</option>
-			   				</optgroup>
-			   				<option>Maryland</option>
-			   				<option>Massachusetts</option>
+				   			<option data-zip="30324">Georgia</option>
+				   			<option data-zip="83709">Idaho</option>
+				   			<option data-zip="60614">Illinois</option>
+				   			<option data-zip="50266">Iowa</option>
+				   			<option data-zip="66502">Kansas</option>
+				   			<option data-zip="40222">Kentucky</option>
+				   			<option data-zip="71105">Louisiana</option>
+			   				<option data-zip="70115">New Orleans</option>
+			   				<option data-zip="21231">Maryland</option>
+			   				<option data-zip="02090">Massachusetts</option>
 			   				<option disabled>Michigan</option>
 			   				<optgroup>
-			   					<option>Detroit</option>
-			   					<option>Grand Rapids/Kalamazoo</option>
+			   					<option data-zip="49503">Eastern Michigan</option>
+			   					<option data-zip="48322">Western Michigan</option>
 			   				</optgroup>
-			   				<option>Minnesota</option>
-			   				<option>Missouri</option>
-			   				<option>Nebraska</option>
-			   				<option>Nevada</option>
-			   				<option>New Jersey</option>
-			   				<option>New York</option>
-			   				<option disabled>New York</option>
+			   				<option data-zip="55116">Minnesota</option>
+			   				<option data-zip="63303">Missouri</option>
+			   				<option data-zip="68137">Nebraska</option>
+			   				<option data-zip="89119">Nevada</option>
+			   				<option data-zip="07974">New Jersey</option>
+			   				<option data-zip="10001">New York</option>
+			   				<option data-zip="27615">North Carolina</option>
+			   				<option data-zip="58103">North Dakota</option>
+			   				<option data-zip="45255">Ohio</option>
+			   				<option data-zip="73118">Oklahoma</option>
+			   				<option disabled>Pennsylvania</option>
 			   				<optgroup>
-			   					<option>Brooklyn</option>
-			   					<option>New York City</option>
-			   				</optgroup>
-			   				<option>North Carolina</option>
-			   				<option>North Dakota</option>
-			   				<option>Ohio</option>
-			   				<option>Oklahoma</option>
-			   				<option>Pennsylvania</option>
-			   				<option>South Carolina</option>
-			   				<option>Tennessee</option>
+				   				<option data-zip="15146">Moneroeville</option>
+				   				<option data-zip="19087">Radnor</option>
+				   			</optgroup>
+			   				<option data-zip="29483">South Carolina</option>
+			   				<option data-zip="37129">Tennessee</option>
 			   				<option disabled>Texas</option>
 			   				<optgroup>
-			   					<option>Dallas</option>
-			   					<option>Fort Bliss</option>
-			   					<option>San Antonio</option>			   	
+			   					<option data-zip="76116">Dallas/Fort Worth</option>
+			   					<option data-zip="79906">Fort Bliss</option>
+			   					<option data-zip="78723">Southern Texas</option>			   	
 			   				</optgroup>	
-			   				<option>Virgina</option>
-			   				<option>Utah</option>
-			   				<option>Wisconsin</option>
+			   				<option data-zip="84119">Utah</option>
+			   				<option data-zip="22030">Virgina</option>
+			   				<option data-zip="54016">Wisconsin</option>
 				   		</select>
 				   	</div>
 				   	<div class="red-secondary small-12 medium-6 large-3 column no-padding local-burger burgers">
@@ -265,70 +263,68 @@ get_header(); ?>
 				   		<h6>SmashChicken</h6>
 				   		<select>
 				   			<option selected>Explore Local Recipes</option>
-				   			<option>Alabama</option>
-				   			<option>Arizona</option>
+				   			<option data-zip="35758">Alabama</option>
+				   			<option data-zip="T8H 0P5">Alberta</option>
+				   			<option data-zip="85712">Arizona</option>
+				   			<option data-zip="T1Y 5S5">Calgary</option>
 				   			<option disabled>California</option>
 				   			<optgroup>
 				   				<option>Orange County</option>
-				   				<option>Los Angeles</option>
-				   				<option>Sacramento</option>
-				   				<option>San Diego</option>
-				   				<option>The Bay</option>
+				   				<option data-zip="91360">Los Angeles</option>
+				   				<option data-zip="95815">Northern California</option>
+				   				<option data-zip="92108">San Diego</option>
+				   				<option data-zip="92606">Southern California</option>
+				   				<option data-zip="94103">The Bay</option>
 				   			</optgroup>
-				   			<option>Colorado</option>
-				   			<option>Connecticut</option>
+				   			<option data-zip="80207">Colorado</option>
+				   			<option data-zip="06385">Connecticut</option>
 				   			<option disabled>Florida</option>
 				   			<optgroup>
-				   				<option>Central Florida</option>
-				   				<option>Jacksonville</option>
-				   				<option>Miami</option>
-				   				<option>Tampa</option>
+				   				<option data-zip="32828">Central Florida</option>
+				   				<option data-zip="32266">Neptune Beach</option>
+				   				<option data-zip="33305">Miami</option>
 				   			</optgroup>
-				   			<option>Georgia</option>
-				   			<option>Idaho</option>
-				   			<option>Illinois</option>
-				   			<option>Iowa</option>
-				   			<option>Kansas</option>
-				   			<option>Kentucky</option>
-				   			<option disabled>Louisiana</option>
-			   				<optgroup>
-			   					<option>New Orleans</option>
-			   					<option>Shreveport</option>
-			   				</optgroup>
-			   				<option>Maryland</option>
-			   				<option>Massachusetts</option>
+				   			<option data-zip="30324">Georgia</option>
+				   			<option data-zip="83709">Idaho</option>
+				   			<option data-zip="60614">Illinois</option>
+				   			<option data-zip="50266">Iowa</option>
+				   			<option data-zip="66502">Kansas</option>
+				   			<option data-zip="40222">Kentucky</option>
+				   			<option data-zip="71105">Louisiana</option>
+			   				<option data-zip="70115">New Orleans</option>
+			   				<option data-zip="21231">Maryland</option>
+			   				<option data-zip="02090">Massachusetts</option>
 			   				<option disabled>Michigan</option>
 			   				<optgroup>
-			   					<option>Detroit</option>
-			   					<option>Grand Rapids/Kalamazoo</option>
+			   					<option data-zip="49503">Eastern Michigan</option>
+			   					<option data-zip="48322">Western Michigan</option>
 			   				</optgroup>
-			   				<option>Minnesota</option>
-			   				<option>Missouri</option>
-			   				<option>Nebraska</option>
-			   				<option>Nevada</option>
-			   				<option>New Jersey</option>
-			   				<option>New York</option>
-			   				<option disabled>New York</option>
+			   				<option data-zip="55116">Minnesota</option>
+			   				<option data-zip="63303">Missouri</option>
+			   				<option data-zip="68137">Nebraska</option>
+			   				<option data-zip="89119">Nevada</option>
+			   				<option data-zip="07974">New Jersey</option>
+			   				<option data-zip="10001">New York</option>
+			   				<option data-zip="27615">North Carolina</option>
+			   				<option data-zip="58103">North Dakota</option>
+			   				<option data-zip="45255">Ohio</option>
+			   				<option data-zip="73118">Oklahoma</option>
+			   				<option disabled>Pennsylvania</option>
 			   				<optgroup>
-			   					<option>Brooklyn</option>
-			   					<option>New York City</option>
-			   				</optgroup>
-			   				<option>North Carolina</option>
-			   				<option>North Dakota</option>
-			   				<option>Ohio</option>
-			   				<option>Oklahoma</option>
-			   				<option>Pennsylvania</option>
-			   				<option>South Carolina</option>
-			   				<option>Tennessee</option>
+				   				<option data-zip="15146">Moneroeville</option>
+				   				<option data-zip="19087">Radnor</option>
+				   			</optgroup>
+			   				<option data-zip="29483">South Carolina</option>
+			   				<option data-zip="37129">Tennessee</option>
 			   				<option disabled>Texas</option>
 			   				<optgroup>
-			   					<option>Dallas</option>
-			   					<option>Fort Bliss</option>
-			   					<option>San Antonio</option>			   	
+			   					<option data-zip="76116">Dallas/Fort Worth</option>
+			   					<option data-zip="79906">Fort Bliss</option>
+			   					<option data-zip="78723">Southern Texas</option>			   	
 			   				</optgroup>	
-			   				<option>Virgina</option>
-			   				<option>Utah</option>
-			   				<option>Wisconsin</option>
+			   				<option data-zip="84119">Utah</option>
+			   				<option data-zip="22030">Virgina</option>
+			   				<option data-zip="54016">Wisconsin</option>
 				   		</select>
 				   	</div>
 				   	<div class="red-secondary small-12 medium-6 large-3 column no-padding local-burger chicken">
@@ -396,19 +392,6 @@ get_header(); ?>
 	  			  		</div>
 	  			  	</div>
 	  	    	</div>
-				  	<!-- <div class="small-12 medium-6 large-3 column red-tertiary flip-container no-padding">
-				  		<div class="flip">
-				  			<div class="front">
-									<h4>Undone</h4>
-									<img src="<?php echo get_template_directory_uri() . '/img/bacon_cheesburger.svg' ?>" alt="">
-								</div>
-								<div class="back">
-									<h4>Bacon Cheeseburger</h4>
-									<p>BBQ sauce, applewood smoked bacon, cheddar &amp; haystack onions on an egg bun.</p>
-									<a class="darkred-btn">Hungry?<span></span></a>
-								</div>
-							</div>
-				  	</div> -->
 				  </section>
 			  	<section id="row3" class="clear flex" data-equalizer>	
 			    	<div class="small-12 medium-6 large-3 column light-brown-bg flip-container no-padding">
@@ -453,7 +436,7 @@ get_header(); ?>
 			    	<div class="hide-for-small-only small-12 medium-6 large-3 column red-tertiary back-to-burgers" data-equalizer-watch>
 			    		<h6>Mix it Up</h6>
 			    		<p>Have any of our chicken recipes with a burger</p>
-			    		<a href="javascript:void(0);" class="red-secondary secondary-btn">Explore Burger Recipes</a>
+			    		<a href="" class="red-secondary secondary-btn">Explore Burger Recipes</a>
 			    	</div>
 			    </section>
 				</div><!-- #panel2  --><!-- Chicken -->
@@ -625,12 +608,16 @@ get_header(); ?>
 				   		<h6>Side</h6>
 				   		<select selected="More Local Burgers">
 				   			<option selected>Explore Local Recipes</option>
-				   			<option>Alabama</option>
-				   			<option>Kentucky</option>
-				   			<option>Louisiana</option>
-				   			<option>New Jersey</option>
-				   			<option>North Carolina</option>
-				   			<option>Pennsylvania</option>
+				   			<option data-zip="36066">Alabama</option>
+				   			<option data-zip="T3G 5T4">Calgary</option>
+				   			<option data-zip="28211">Charlotte</option>
+				   			<option data-zip="">Delran</option>
+				   			<option data-zip="40202">Kentucky</option>
+				   			<option data-zip="70115">New Orleans</option>
+				   			<option data-zip="45459">Ohio</option>
+				   			<option data-zip="19087">Radnor</option>
+				   			<option data-zip="27615">Raleigh</option>
+				   			<option data-zip="54016">Wisconsin</option>
 				   		</select>
 				   	</div>
 				   	<div class="red-secondary small-12 medium-6 large-3 column no-padding local-burger sides">
@@ -764,12 +751,14 @@ get_header(); ?>
 				   		<h6>Shake</h6>
 				   		<select>
 				   			<option selected>Explore Local Recipes</option>
-				   			<option>Jacksonville, Florida</option>
-				   			<option>Georgia</option>
-				   			<option>Idaho</option>
-				   			<option>Michigan</option>
-				   			<option>Missouri</option>
-				   			<option>Utah</option>
+				   			<option data-zip="T3G 5T4">Canada</option>
+				   			<option data-zip="28211">Charlotte</option>
+				   			<option data-zip="30324">Georgia</option>
+				   			<option data-zip="83642">Idaho</option>
+				   			<option data-zip="49546">Michigan</option>
+				   			<option data-zip="63017">Missouri</option>
+				   			<option data-zip="32266">Neptune Beach</option>
+				   			<option data-zip="84119">Utah</option>
 				   		</select>
 				   	</div>
 				   	<div class="red-secondary small-12 medium-6 large-3 column no-padding local-burger shakes">
