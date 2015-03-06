@@ -193,7 +193,7 @@ get_header(); ?>
 	       alert("Invalid e-mail address");
 	       return false;
 	    }
-	  }
+	  };
 	</script>
 <?php get_footer(); ?>
 
