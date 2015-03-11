@@ -113,9 +113,10 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
-<?php get_footer(); ?>
+<?php get_footer('custom'); ?>
 <script type="text/javascript">
 	$('#modal1 span, #modal2 span').click(function() {
 		$('#modal2, #modal1').fadeOut(250);
 	});
+	$('#menu-item-23').addClass('active');
 </script>

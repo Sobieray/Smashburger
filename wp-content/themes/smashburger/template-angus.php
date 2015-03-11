@@ -15,8 +15,8 @@ get_header(); ?>
 			<section class="flex">
 				<div class="small-12 column brown-text angus">
 					<h1 class="brown-text">it&rsquo;s not just any old angus beef</h1>
-					<p>At Smashburger taste and quality are at the top of the list. That’s why we only use 100% Certified Angus Beef® in our burgers. PERIOD. Full stop.</p>
-					<p>Angus is everywhere these days and over the last couple of decades it’s even become a bit of a buzzword. Angus beef is good. It's true. But the Certified Angus Beef® brand? It’s on an entirely different level. It defines the standard by which all beef is measured. No shortcuts and with a virtual obsession with flavor and juiciness.</p>
+					<p>At Smashburger taste and quality are at the top of the list. That’s why we only use 100% Certified Angus Beef&reg; in our burgers. PERIOD. Full stop.</p>
+					<p>Angus is everywhere these days and over the last couple of decades it’s even become a bit of a buzzword. Angus beef is good. It's true. But the Certified Angus Beef&reg; brand? It’s on an entirely different level. The folks at CAB have defined standards against which they measure all beef. They take no shortcuts and have a virtual obsession with flavor and juiciness.</p>
 					<p>How did those standards come into being? Glad you asked. It&rsquo;s an interesting story we never get tired of telling. It&rsquo;s the tale of a group of farmers who, in the 1970s, got together and said collectively, &#8220;We can do better. We can produce beef that&rsquo;s extremely tender, juicier and always packed with flavor.&#8221;</p>
 					<p>They then proceeded to set the exacting standards that have become the true mark of quality of an Angus brand. The Certified Angus Beef&reg; brand. From our family ranches to your family table.</p>
 					<h2 class="brown-text">pride. it has everything to do with taste.</h2>

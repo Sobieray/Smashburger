@@ -81,7 +81,7 @@ get_header(); ?>
 				<p class="smashtext smash-padding">Kosher salt, black pepper, garlic.</p>
 			</div>
 			<div id="secret" class="smash-bg smash-opacity" data-15400="opacity:0;" data-15500="opacity:1;" data-16000="opacity:0;">
-				<p class="smashtext smash-padding">Add a bit of "proprietary natural magic" (It's a secret).</p>
+				<p class="smashtext smash-padding">Add a bit of "proprietary magic" (It's a secret).</p>
 			</div>
 			<div id="dissolve" class="smash-bg smash-opacity" data-15900="opacity:0;" data-16000="opacity:1;" data-16500="opacity:0;">
 				<p class="smashtext smash-padding">The juices dissolve the seasonings and pull them deep into the burger creating that distinctive Smashburger flavor.</p>

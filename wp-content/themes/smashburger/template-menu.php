@@ -69,7 +69,6 @@ get_header(); ?>
 				   			<option data-zip="T1Y 5S5">Calgary</option>
 				   			<option disabled>California</option>
 				   			<optgroup>
-				   				<option>Orange County</option>
 				   				<option data-zip="91360">Los Angeles</option>
 				   				<option data-zip="95815">Northern California</option>
 				   				<option data-zip="92108">San Diego</option>
@@ -269,7 +268,6 @@ get_header(); ?>
 				   			<option data-zip="T1Y 5S5">Calgary</option>
 				   			<option disabled>California</option>
 				   			<optgroup>
-				   				<option>Orange County</option>
 				   				<option data-zip="91360">Los Angeles</option>
 				   				<option data-zip="95815">Northern California</option>
 				   				<option data-zip="92108">San Diego</option>
@@ -469,6 +467,7 @@ get_header(); ?>
 							    <li>multi-grain bun</li>
 							    <li>gluten free bun</li>
 							    <li>chipotle bun</li>
+							    <li>lettuce bun</li>
 							</ul>
 							<i>*additional buns may be available by region</i>
 				  	</div>
@@ -499,6 +498,7 @@ get_header(); ?>
 							    <li>goat cheese</li>
 							    <li>pepper jack</li>
 							    <li>sharp cheddar</li>
+							    <li>american cheese</li>
 							</ul>
 							<i>*additional cheeses may be available by region</i>
 				  	</div>
@@ -606,7 +606,7 @@ get_header(); ?>
 				   		<img src="<?php echo get_template_directory_uri() . '/img/sides_pin.png' ?>" alt="smashburger local sides">
 				   		<p>Finding Your Local</p>
 				   		<h6>Side</h6>
-				   		<select selected="More Local Burgers">
+				   		<select>
 				   			<option selected>Explore Local Recipes</option>
 				   			<option data-zip="36066">Alabama</option>
 				   			<option data-zip="T3G 5T4">Calgary</option>
@@ -782,7 +782,7 @@ get_header(); ?>
 								</div>
 								<div class="back">
 									<h4>Chocolate</h4>
-									<p>Hand-spun with vanilla H&auml;agen-Dazs ice cream &amp; chocolate syrup.</p>
+									<p>Hand-spun with vanilla H&auml;agen-Dazs&reg; ice cream &amp; chocolate syrup.</p>
 									<a href="" class="blue-btn">Hungry?<span></span></a>
 								</div>
 					  	</div>
@@ -795,7 +795,7 @@ get_header(); ?>
 								</div>
 								<div class="back">
 									<h4>Vanilla</h4>
-									<p>Hand-spun with vanilla H&auml;agen-Dazs ice cream</p>
+									<p>Hand-spun with vanilla H&auml;agen-Dazs&reg; ice cream</p>
 									<a href="" class="darkred-btn">Thirsty?<span></span></a>
 								</div>
 							</div>
@@ -808,7 +808,7 @@ get_header(); ?>
 								</div>
 								<div class="back">
 									<h4>Strawberry</h4>
-									<p>Hand-spun with vanilla H&auml;agen-Dazs ice cream &amp; strawberry syrup.</p>
+									<p>Hand-spun with vanilla H&auml;agen-Dazs&reg; ice cream &amp; strawberry syrup.</p>
 									<a class="brown-btn">Thirsty?<span></span></a>
 								</div>
 							</div>
@@ -821,7 +821,7 @@ get_header(); ?>
 								</div>
 								<div class="back">
 									<h4>Oreo</h4>
-									<p>Hand-spun with vanilla H&auml;agen-Dazs ice cream &amp; crushed Oreos.</p>
+									<p>Hand-spun with vanilla H&auml;agen-Dazs&reg; ice cream &amp; crushed Oreos.</p>
 									<a class="red-btn">Thirsty?<span></span></a>
 								</div>
 							</div>
@@ -836,7 +836,7 @@ get_header(); ?>
 					  		</div>
 					  		<div class="back">
 					  			<h4>Nutterbutter</h4>
-					  			<p>Hand-spun with vanilla H&auml;agen-Dazs ice cream &amp; crushed Nutter Butter cookies.</p>
+					  			<p>Hand-spun with vanilla H&auml;agen-Dazs&reg; ice cream &amp; crushed Nutter Butter cookies.</p>
 					  			<a class="brown-btn">thirsty?<span></span></a>
 					  		</div>
 					  	</div>
@@ -849,7 +849,7 @@ get_header(); ?>
 					  		</div>
 					  		<div class="back">
 					  			<h4>Butterfinger</h4>
-					  			<p>Hand-spun with vanilla H&auml;agen-Dazs ice cream &amp; crushed Butterfinger.</p>
+					  			<p>Hand-spun with vanilla H&auml;agen-Dazs&reg; ice cream &amp; crushed Butterfinger.</p>
 					  			<a class="red-btn">thirsty?<span></span></a>
 					  		</div>
 					  	</div>
@@ -862,7 +862,7 @@ get_header(); ?>
 					  		</div>
 					  		<div class="back">
 					  			<h4>Salted Carmel</h4>
-					  			<p>Hand-spun with vanilla H&auml;agen-Dazs ice cream &amp; Salted caramel syrup.</p>
+					  			<p>Hand-spun with vanilla H&auml;agen-Dazs&reg; ice cream &amp; Salted caramel syrup.</p>
 					  			<a class="blue-btn">thirsty?<span></span></a>
 					  		</div>
 					  	</div>
@@ -875,7 +875,7 @@ get_header(); ?>
 					  		</div>
 					  		<div class="back">
 					  			<h4>Chocolate Oreo</h4>
-					  			<p>Hand-spun with vanilla H&auml;agen-Dazs ice cream, chocolate syrup &amp; crushed Oreos.</p>
+					  			<p>Hand-spun with vanilla H&auml;agen-Dazs&reg; ice cream, chocolate syrup &amp; crushed Oreos.</p>
 					  			<a class="darkred-btn">thirsty?<span></span></a>
 					  		</div>
 			    	</div>
@@ -885,6 +885,9 @@ get_header(); ?>
 	  	    <section class="row1 clear flex">
 	  		      <div class="menu slider small-12 medium-12 large-6 column">
 			   				<div class="slide">
+			   					<img src="<?php echo get_template_directory_uri() . '/img/kids_smash.jpg' ?>" alt="kids smashburger">
+			   				</div>
+			   				<div class="slide">
 			   					<img src="<?php echo get_template_directory_uri() . '/img/grilled_cheese.jpg' ?>" alt="smashburger grilled cheese">
 			   				</div>
 			   				<div class="slide">
@@ -893,9 +896,7 @@ get_header(); ?>
 			   				<div class="slide">
 			   					<img src="<?php echo get_template_directory_uri() . '/img/hot_dog.jpg' ?>" alt="smashburger hot dog">
 			   				</div>
-			   				<div class="slide">
-			   					<img src="<?php echo get_template_directory_uri() . '/img/kids_smash.jpg' ?>" alt="kids smashburger">
-			   				</div>
+			   				
 			   			</div>
 	  		   	<div class="small-6 column kids">
 	  		   		<h6 class="redtext-primary">Get kudos from</h6>

@@ -8,7 +8,7 @@ $(document).ready(function() {
 		$('.page-template-template-angus-php .angus_hero').css({height: windowHeight - 125});
 	});
 	//Menu Locate and Search widget
-	$('#menu-item-6488').append('<div id="geolocation"><div class="located"><h6>closest to you</h6><img src="http://smashwebadmin.wp-engine.com/wp-content/themes/smashburger/img/loader.gif" /></div><div class="search"><h6>Find another</h6><form id="locations-search" action="http://locations.smashburger.com/search" method="get"><input class="form-text" type="text" id="q" name="q" value="Enter ZIP, City, or State"><input class="form-submit" type="submit" value="FIND"></form></div></div>');
+	$('#menu-item-6488').append('<div id="geolocation"><div class="located"><h6>closest to you</h6><img src="http://smashwebadmin.wpengine.com/wp-content/themes/smashburger/img/loader.gif" /></div><div class="search"><h6>Find another</h6><form id="locations-search" action="http://locations.smashburger.com/search" method="get"><input class="form-text" type="text" id="q" name="q" value="Enter ZIP, City, or State"><input class="form-submit" type="submit" value="FIND"></form></div></div>');
 	//Clear Input Values
 	$('input[type="text"], input[type="email"], textarea').each(function() {
 		var default_value = this.value;

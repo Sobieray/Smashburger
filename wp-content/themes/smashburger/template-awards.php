@@ -308,4 +308,7 @@ get_header(); ?>
 		</div><!-- #award_tiles -->
 	</div><!-- #primary -->
 
-<?php get_footer(); ?>
+<?php get_footer('custom'); ?>
+<script>
+	$('#menu-item-23').addClass('active');
+</script>

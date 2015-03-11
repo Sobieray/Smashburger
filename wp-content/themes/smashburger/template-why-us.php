@@ -35,7 +35,7 @@ get_header(); ?>
 		</aside>
 		<div class="brown small-12 medium-6 column small-padding" data-equalizer-watch>
 			<h2 class="white-text">Trailblazing</h2>
-			<p class="white-text">Smashburger is setting the standard among fast casual restaurants. Maybe we&rsquo;ve let all that smashing go to our heads, but we like to stay on top of the trends by offering an extensive menu with a local edge that includes regionalized burgers, sides and shakes, alongside hometown craft beer options. To elevate our guests&rsquo; experience off-menu, we renovate our restaurants every 1 to 2 years.</p>
+			<p class="white-text">Smashburger is setting the standard among fast casual restaurants. Maybe we&rsquo;ve let all that smashing go to our heads, but we like to stay on top of the trends by offering an extensive menu with a local edge that includes regionalized burgers, sides and shakes, alongside hometown craft beer options. To elevate our guests’ experience off-menu, we have award-winning décor in our restaurants and a design team that stays on top of new and innovative trends.</p>
 		</div>
 		<div class="red-primary small-12 medium-6 column small-padding" data-equalizer-watch>
 			<h2 class="white-text">Prime Territories</h2>
@@ -82,5 +82,8 @@ get_header(); ?>
 	<section id="inquiry-submit" class="red-secondary">
 		<a href="<?php echo site_url();?>/franchising/inquire-within/" class="secondary-btn tan-bg redtext-secondary">submit an inquiry</a>
 	</section>
-
-<?php get_footer(); ?>
+	
+<?php get_footer('custom'); ?>
+<script>
+	$('#menu-item-23').addClass('active');
+</script>

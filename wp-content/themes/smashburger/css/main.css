@@ -2633,15 +2633,15 @@ body.page-template-template_smashclub-php  {
 	background-color: #c4161c; 
 }
 .page-template-template-franchise-php article h3 {
-	font-family: 'Gotham';
+	font-family: 'Gotham SSm A', 'Gotham SSm B';
 	position: relative;
 	background: #7d0b0f;
-	color: #c4161c;
+	color: #FFFFFF;
 	text-transform: uppercase;
 	line-height: 64px;
 	padding-left: 2%;
 	float: left;
-	font-size: 120%;
+	font-size: 110%;
 	margin:0;
 	width: 15%;
 	font-weight: 900;
@@ -2656,9 +2656,8 @@ body.page-template-template_smashclub-php  {
 	border-left: 30px solid #7d0b0f;
 }
 .page-template-template-franchise-php article ul {
-	margin: 0;
-	float: right;
-	width: 85%;
+	margin: 0 auto;
+	width: 60%;
 	position: relative;
 }
 .page-template-template-franchise-php article ul li {
@@ -2666,11 +2665,10 @@ body.page-template-template_smashclub-php  {
 	list-style: none;
 	font-size: 110%;
 	color: #492e1e;
-	float: left;
 	width: 100%;
 	text-align: center;
-	position: absolute;
-	line-height: 64px;
+	line-height: 44px;
+	padding: 10px 0;
 }
 .page-template-template-franchise-php article ul li.active{
 	display: list-item;
@@ -4172,10 +4170,7 @@ footer#colophon {
 		padding: 0 0.5375rem;
 		text-align: center;
 	}
-	.page-template-template-franchise-php article ul {
-		width: 95%;
-		min-height: 180px
-	}
+
 }
 @media (max-width: 768px) {
 	body {
@@ -4199,6 +4194,9 @@ footer#colophon {
 		padding: 35% 5%;
 		font-size: 130%;
 		width: 200px;
+	}
+	.page-template-template-franchise-php article ul {
+		padding-top: 7%;
 	}
 }
 @media (max-width: 642px) {
@@ -4451,6 +4449,9 @@ footer#colophon {
 	}
 	div.mobile-menu ul li a:hover {
 		color: #c4161c;
+	}
+		.page-template-template-franchise-php article h3 {
+		width: 50%;
 	}
 }
 @media (max-width: 540px) {

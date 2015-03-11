@@ -13,13 +13,13 @@ get_header(); ?>
 		<main id="jobs" class="site-main clear" role="main">
 			<div class="small-12 medium-8 large-5 column chevron">
 				<h2 class="tan-text">We Want You!</h2>
-				<p class="tan-text">Smashburger is currently searching for enthusiastic, energetic people to join our team. If you have a big smile and a passion for teamwork, then we want to hear from you! We offer a competitive hourly rate plus the opportunity for bonuses and a strong commitment to promoting from within.</p>
+				<p class="tan-text">Smashburger is currently searching for enthusiastic, energetic people to join our team. We offer a competitive hourly rate plus the opportunity for bonuses at certain levels and a strong commitment to promoting from within.</p>
 			</div>
 		</main><!-- #main -->
 		<section id="job-types">
 			<div class="row" data-equalizer>
 				<div class="small-12 medium-6 column small-padding red-secondary" data-equalizer-watch>
-					<p class="white-text">work for the fastest-growing</br>fast casual chain 2 years in a row</p>
+					<p class="white-text">Work for one of America’s most promising companies named by Forbes in 2014</p>
 				</div>
 				<div class="small-12 medium-6 column tan-bg small-padding apply" data-equalizer-watch>
 					<a href="#job-openings" class="red-secondary secondary-btn">Apply Now</a>
@@ -94,7 +94,6 @@ get_header(); ?>
 			<ul>
 				<li class="clear"><p><?php echo get_field('job_title1'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $hourly_link1 ?>">Apply Now</a></li>
 				<li class="clear"><p><?php echo get_field('job_title2'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $hourly_link2 ?>">Apply Now</a></li>
-				<li class="clear"><p><?php echo get_field('job_title3'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $hourly_link3 ?>">Apply Now</a></li>
 			</ul>
 		</div>
 			<div id="managment">
@@ -106,12 +105,17 @@ get_header(); ?>
 			</ul>
 		</div>
 			<div id="corporate">
-			<h3>Corporate Restaurant</h3>
+			<h3>Corporate Office</h3>
 			<ul>
 				<li class="clear"><p><?php echo get_field('corporate_title1'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $corporate_link1 ?>">Apply Now</a></li>
 				<li class="clear"><p><?php echo get_field('corporate_title2'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $corporate_link2 ?>">Apply Now</a></li>
 				<li class="clear"><p><?php echo get_field('corporate_title3'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $corporate_link3 ?>">Apply Now</a></li>
+				<li class="clear"><p><?php echo get_field('corporate_title4'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $corporate_link4 ?>">Apply Now</a></li>
+				<li class="clear"><p><?php echo get_field('corporate_title5'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $corporate_link5 ?>">Apply Now</a></li>
+				<li class="clear"><p><?php echo get_field('corporate_title6'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $corporate_link6 ?>">Apply Now</a></li>
+				<li class="clear"><p><?php echo get_field('corporate_title7'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $corporate_link7 ?>">Apply Now</a></li>
+				<li class="clear"><p><?php echo get_field('corporate_title8'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $corporate_link8 ?>">Apply Now</a></li>
 			</ul>
 		</div>
 	</section>
-<?php get_footer(); ?>
+<?php get_footer('custom'); ?>

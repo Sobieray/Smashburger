@@ -3,12 +3,12 @@ $(document).ready(function() {
 	function fade() {
 		if ($('article li').hasClass('active')) {
 			setTimeout(function() {
-				$('article li.active').fadeOut(500).removeClass('active').next('li').fadeIn(500).addClass('active');
+				$('article li.active').delay(500).removeClass('active').next('li').delay(750).addClass('active');
 				fade();
-			}, 3000);
+			}, 7000);
 		}
 		else {
-			$('article li:first-child').fadeIn(500).addClass('active');		
+			$('article li:first-child').delay(500).addClass('active');		
 			fade();
 		}
 	}

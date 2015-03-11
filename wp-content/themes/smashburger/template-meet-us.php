@@ -19,7 +19,7 @@ get_header(); ?>
 		<?php get_template_part('franchise-navigation'); ?>
 		<main id="meet-us" class="clear" data-equalizer>
 			<div class="small-12 medium-8 column no-padding" data-equalizer-watch>
-				<h4 class="brown">Our fran dev team</h4>
+				<h4 class="brown">Our Franchise Development Team</h4>
 				<dl class="accordion" data-accordion>
 				  <dd class="accordion-navigation clear">
 				    <a class="clear" href="#panel1b"><img src="<?php echo $team_member_1_image['url']; ?>" alt="<?php echo $team_member_1_image['alt']; ?>"><h6><?php echo get_field('team_member_1'); ?></h6><p><?php echo get_field('team_member_1_title'); ?></p></a>
@@ -119,7 +119,7 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
-<?php get_footer(); ?>
+<?php get_footer('custom'); ?>
 <script type="text/javascript">
 	$('a.meetModal').click(function() {
 		$('#meetModal').fadeIn(250);
@@ -132,4 +132,5 @@ get_header(); ?>
 	frmvalidator.addValidation("lname","req","Please provide your last name"); 
 	frmvalidator.addValidation("email","req","Please provide your email"); 
 	frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+	$('#menu-item-23').addClass('active');
 </script>
