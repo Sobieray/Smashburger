@@ -696,26 +696,29 @@ div[data-type="sprite"] {
 	line-height: 4em;
 	font-weight: 900;
 	margin: 0; 
+	height: 105px;
 }
 .location-widget .placeable {
 	background-color: #980d12;
 	text-align: center;
-	padding-top: 1.5em;
 	min-height: 420px;
-}
-.location-widget ul.placeable-times {
-	list-style: none;
-	padding-bottom: 10%;
-	margin-left: 0;
 }
 .location-widget .placeable ul{
 	list-style: none;
 	padding-bottom: 2%;
+	padding-top: 5%;
+	margin-top: 5%;
+	margin-left: 0;
+}
+.location-widget ul.placeable-times {
+	list-style: none;
+	padding-bottom: 25%;
+	padding-top: 0;
 	margin-left: 0;
 }
 .location-widget .placeable li:first-child {
 	font-family: 'Gotham A', 'Gotham B', inherit;
-	font-size: 150%;
+	font-size: 200%;
 	font-weight: 900;
 	text-transform: uppercase;
 	color: #ebe4d4;
@@ -724,6 +727,7 @@ div[data-type="sprite"] {
 .location-widget .placeable img {
 	position: absolute;
 	left: 0;
+	top: 30%;
 	right: 0;
 	display: block;
 	margin: 0 auto;
@@ -738,14 +742,51 @@ div[data-type="sprite"] {
 }
 .location-widget .placeable li:nth-child(2),
 .location-widget .placeable li:nth-child(3) {
-	font-size: 120%;
+	font-size: 150%;
 	font-style: italic;
 	color: #f7f5ef;
 	font-weight: 900;
 	line-height: 1em;
 }
-.location-widget .placeable-img {
-	height: 420px;
+.location-widget .placeable-img .hero-form {
+	height: 105px;
+	background-color: #492e1e;
+	padding: 1em;
+}
+.location-widget .placeable-img .hero-form i {
+	font-size: 12px;
+	font-style: normal;
+	float: left;
+	color: #ebe4d4;
+}
+.location-widget .placeable-img input[type="text"] {
+	width: 85%;
+	float: left;
+	margin-bottom: 5px;
+	border: none;
+	box-shadow: none;
+	height: 2.9125rem;
+	text-transform: uppercase;
+	color: #c4161c;
+	font-weight: 800;
+	font-size: 105%;
+	background: #ebe4d4 url(../img/email_icon_red.svg) left center no-repeat;
+	background-size: 50px;
+	padding-left: 75px;
+	background-position: 10px;
+}
+.location-widget .placeable-img input[type="submit"] {
+	float: left;
+	border: none;
+	background-color: #c4161c;
+	color: #ffffff;
+	height: 2.9125rem;
+	padding: 0.5rem;
+	width: 15%;
+}
+
+.location-widget .placeable-img input[type="submit"]:focus {
+	outline: none;
 }
 .location-widget .placeable-img img {
 	height: 100%;
