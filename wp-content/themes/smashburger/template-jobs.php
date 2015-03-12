@@ -71,8 +71,19 @@ get_header(); ?>
 					<p>&ldquo;I love the people at Smashburger including my mentors. I have had many along the way that have devoted so much of their time to make sure that I was successful. The passion my peers and mentors show me is refreshing and it feels like a family.&rdquo;</p>
 				</div>
 				<div class="slide">
+					<p>&ldquo;Smashburger has helped me motivate myself to live and love myself as a manager. They have given me a chance to have a career with the company and help others live and love the company.&rdquo;</p>
 				</div>
 				<div class="slide">
+					<p>&ldquo;Smashburger really cares about its employees and building them up to a higher standard.&rdquo;</p>
+				</div>
+				<div class="slide">
+					<p>&ldquo;Everyone at Smashburger does what they have to do to make the food and dining experience special for everyone that comes through our doors. Smashburger has taught me that patience is key; work hard and you will succeed; and you will be recognized for you efforts.&rdquo;</p>
+				</div>
+				<div class="slide">
+					<p>&ldquo;I enjoy all the different people and interactions that I encounter at Smashburger and I love the team work. I also love the adrenaline rush of being busy and watching everybody do their part.&rdquo;</p>
+				</div>
+				<div class="slide">
+					<p>&ldquo;Smashburger is the first company that I have worked for that has shown recognition when I work hard. It is a friendly place to work with a lot of fun people on staff.&rdquo;</p>
 				</div>
 			</div>
 		</section>
