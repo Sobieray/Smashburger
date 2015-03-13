@@ -12,7 +12,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main clear light-tan-bg contacts" role="main" data-equalizer>
 			<div class="small-12 medium-6 column no-padding" data-equalizer-watch>
-				<h2 class="redtext-secondary">Smashburger master, LLC</h2>
+				<h2 class="redtext-secondary">Smashburger master LLC</h2>
 				<ul class="main-contact">
 					<li><address class="brown-text">3900 East Mexico Avenue, Suite 1200<br>Denver, CO 80210</address></li>
 					<li><a class="brown-text" href="tel:3036331500">303-633-1500</a></li>

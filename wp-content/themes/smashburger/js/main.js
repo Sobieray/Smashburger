@@ -87,5 +87,23 @@ $(document).ready(function() {
 	$('.left-off-canvas-menu li.menu-item-has-children > a').click(function() {
 		$(this).parent().find('.sub-menu').toggleClass('show');
 	});
+	/*Drop-in Navigation Background*/
+	$(window).scroll(function() {
+	/*	windowTop = $(window).scrollTop();
+		if (windowTop >= 98) {
+			$('nav#site-navigation').addClass('bg');
+		} else {
+			$('nav#site-navigation').removeClass('bg');
+		}*/
+		var windowTop = $(window).scrollTop();
+		var locationOffset = $('.location-widget, #primary:not(.home)').offset().top;
+		var navSize = locationOffset - 96;
+		if (windowTop >= navSize) {
+			$('nav#site-navigation').addClass('bg');
+		} else {
+			$('nav#site-navigation').removeClass('bg');
+		}
+
+	});
 	
 });

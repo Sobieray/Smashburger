@@ -14,7 +14,7 @@ get_header(); ?>
 			<div class="header show-for-small-only">
 			</div>
 			<section id="first" class="clear flex hide-for-small" data-speed="8" data-type="background" >
-				<?php get_template_part('hero_rotation'); ?>
+			<?php get_template_part('hero_rotation'); ?>
 			</section><!-- #first -->
 		</main><!-- #main -->
 		<section id="second" class="parallax blue-bg flex clear hide-for-small" data-speed="7" data-offsetY="205" data-type="background">
@@ -26,7 +26,7 @@ get_header(); ?>
 				<div class="small-6 column brown-overlay no-padding">
 					<div class="box-padding">
 						<h2 class="white-text">local love</h2>
-						<p class="sub-text white-text">Thinking local is one thing, living it is something else all together. With the that in mind,  we&rsquo;ve created 44 unique burgers specifically for where you call home. To bring even more of the outside in, we&rsquo;ve sourced the best beers from your neck of the woods and have paired them thoughtfully with the perfect burgers from our menu.</p>
+						<p class="sub-text white-text">Thinking local is one thing, living it is something else altogether. With the that in mind,  we&rsquo;ve created 44 unique burgers specifically for where you call home. To bring even more of the outside in, we&rsquo;ve sourced the best beers from your neck of the woods and have paired them thoughtfully with the perfect burgers from our menu.</p>
 					</div>
 					<a class="brown-btn right-side-btn" href="/eat/menu" data-hover="">discover yours<span></span></a>
 				</div>
@@ -38,7 +38,7 @@ get_header(); ?>
 			<div class="parallax3 clear flex">
 
 				<div class="small-6 column no-padding">
-					<div class="tomato" data-type="sprite" data-offsetY="350" data-Xposition="150%" data-speed="5"></div>
+					<div class="tomato" data-type="sprite" data-offsetY="250" data-Xposition="150%" data-speed="5"></div>
 					<div class="box-padding">
 						<h2 class="brown-text">Certified Angus Beef&reg;</h2>
 						<p class="sub-text brown-text">Great burgers start with great meat. That&rsquo;s why we only cook with fresh, never frozen, 100% Certified Angus beef. Period.</p>
@@ -136,9 +136,9 @@ get_header(); ?>
 						<div class="row burger-smash"></div>
 					</div>
 					<div class="small-8 column no-padding">
-						<div class="smasher" data-type="sprite" data-offsetY="-2000" data-Xposition="50%" data-speed="-2"></div><!--  -->
+						<div class="smasher" data-type="sprite" data-offsetY="-2475" data-Xposition="50%" data-speed="-2"></div><!--  -->
 						<h2 class="brown-text">Smashing Is <br><span>Better</span></h2>
-		  			<div class="burger-paddy" data-type="sprite" data-offsetY="2520" data-Xposition="36%" data-speed="2"></div><!--  -->
+		  			<div class="burger-paddy" data-type="sprite" data-offsetY="2550" data-Xposition="36%" data-speed="2"></div><!--  -->
 						<a class="tan-btn brown-text right-side-btn" href="/eat/our-food/smash-course/">see why<span></span></a>
 					</div>
 				</div>
@@ -152,7 +152,7 @@ get_header(); ?>
 				background-image: url(<?php echo $backgroundImage ;?>);
 			}
 		</style>
-		<section id="eight" class="clear flex hide-for-small" data-speed="7" data-offsetY="818" data-type="background">
+		<section id="eight" class="clear flex hide-for-small" data-speed="7" data-offsetY="816" data-type="background">
 			<div class="small-6 column blue-overlay no-padding">
 				<div class="box-padding">
 					<h2 class="white-text"><?php the_field('promotion-heading'); ?></h2>

@@ -33,9 +33,8 @@
 					</ul>
 				</div><!-- #privacy -->
 				<div id="small-print">
-					<p>&copy; <?php echo date('Y'); ?> Smashburger Master LLC. All rights reserved.</p>
-					<p>Smashburger&reg;, Smash. Sizzle. Savor.&reg; the concentric oval design, and related trademarks are the property of Icon Burger Development Company LLC.</p>
-					
+					<p>&copy; <?php echo date('Y'); ?> Smashburger IP Holder LLC. All rights reserved.</p>
+					<p>Smashburger&reg;, Smash. Sizzle. Savor.&reg; the concentric oval design, and related trademarks are the property of Smashburger IP Holder LLC.</p>
 				</div><!-- #small-print -->
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->

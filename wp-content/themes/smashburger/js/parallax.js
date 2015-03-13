@@ -16,21 +16,41 @@ $(document).ready(function(){
 
 	function responsive() {
 		
-		if (window.innerWidth > 1680)  {
+		if (window.innerWidth > 1580)  {
 	
 			$('div[data-type="sprite"]').each(function(){
-				boxPadding = $('.box-padding').height() - 120;
+				boxPadding = $('.box-padding').height() * 0.55;
 				offset = $(this).offset();
 				topOffset = offset.top;
 				offsetY = $(this).attr('data-offsetY');
 				dataSpeed = $(this).attr('data-speed');
-				newOffset1 = offsetY - boxPadding;
+				newOffset1 = offsetY - boxPadding * 0.2;
 				newOffset2 = offsetY +++ boxPadding;
+				newOffset3 = offsetY +++ boxPadding * 2;
+				newOffset4 = offsetY +++ boxPadding * 1.1;
+				newOffset5 = newOffset1 * 1.15;
+				if (window.innerWidth > 1800) {
+					newOffset1 = offsetY - boxPadding * 1;
+					newOffset2 = offsetY +++ boxPadding * 1.7;
+					newOffset3 = offsetY +++ boxPadding * 2.5;
+					newOffset4 = offsetY +++ boxPadding * 1.4;
+					newOffset5 = newOffset1 * 1.19;
+				}
 				//console.log(boxPadding);
-				if (dataSpeed > 0 && offsetY > 570) {
+				if (dataSpeed > 0 && offsetY > 570 && offsetY < 1599) {
 					$(this).attr('data-offsetY', newOffset2 );
-				} else if (dataSpeed < 0 && offsetY <= 0) {
+				}
+				if (dataSpeed < 0 && offsetY <= 0) {
 				 	$(this).attr('data-offsetY', newOffset1);
+				}
+				if (dataSpeed > 0 && offsetY > 1800) {
+					$(this).attr('data-offsetY', newOffset3 );
+				}
+				if (dataSpeed > 0 && offsetY > 1599 && offsetY < 1799) {
+					$(this).attr('data-offsetY', newOffset4 );
+				}
+				if (dataSpeed < 0 && offsetY < 2000) {
+					$(this).attr('data-offsetY', newOffset5);
 				}
 			});
 			/*$('div[data-type="sprite"]').each(function(){
@@ -41,17 +61,22 @@ $(document).ready(function(){
 				if (dataSpeed < 0 && offsetY < 0 ) {
 					$(this).attr('data-offsetY', newOffset );
 				}
-			});
+			});*/
 			$('section[data-type="background"]').each(function(){
-				boxPadding = $('.box-padding').height() / 0.7;
+				offset = $(this).offset();
+				topOffset = offset.top;
+				console.log(offset, topOffset);
+				boxPadding = $('.box-padding').height() / 2.2;
+				console.log(boxPadding);
 				offsetY = $(this).attr('data-offsetY');
 				dataSpeed = $(this).attr('data-speed');
 				newOffset = offsetY +++ boxPadding;
+
 				if (offsetY > 700 ) {
 					$(this).attr('data-offsetY', newOffset );
 				}
 			});
-		} else if (window.innerWidth > 1300) {
+		/*} else if (window.innerWidth > 1300) {
 			$('div[data-type="sprite"]').each(function(){
 				boxPadding = $('.box-padding').height();
 				offsetY = $(this).attr('data-offsetY');
@@ -172,7 +197,7 @@ $(document).ready(function(){
 		});
 		
 		// For each element that has a data-type attribute
-		$('section[data-type="background"]').each(function(){
+		$('[data-type="background"]').each(function(){
 		
 		
 			// Store some variables based on where we are
