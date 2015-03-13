@@ -130,3 +130,14 @@ get_header(); ?>
 		</div>
 	</section>
 <?php get_footer('custom'); ?>
+<script>
+		/*Drop-in Navigation Background*/
+	$(window).scroll(function() {
+		var windowTop = $(window).scrollTop();
+		if (windowTop >= 96) {
+			$('nav#site-navigation').addClass('bg');
+		} else {
+			$('nav#site-navigation').removeClass('bg');
+		}
+	});
+</script>

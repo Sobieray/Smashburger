@@ -1,7 +1,6 @@
 
 
 $(document).ready(function() {
-	
 	//Find Screen Orientation
 	function portrait() {
 		windowHeight = $(window).height();

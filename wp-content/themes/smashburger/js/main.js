@@ -88,22 +88,22 @@ $(document).ready(function() {
 		$(this).parent().find('.sub-menu').toggleClass('show');
 	});
 	/*Drop-in Navigation Background*/
-	$(window).scroll(function() {
-	/*	windowTop = $(window).scrollTop();
+	
+	/*$(window).scroll(function() {
+		windowTop = $(window).scrollTop();
 		if (windowTop >= 98) {
 			$('nav#site-navigation').addClass('bg');
 		} else {
 			$('nav#site-navigation').removeClass('bg');
-		}*/
+		}
 		var windowTop = $(window).scrollTop();
-		var locationOffset = $('.location-widget, #primary:not(.home)').offset().top;
-		var navSize = locationOffset - 96;
-		if (windowTop >= navSize) {
+		var locationOffset = $('.location-widget').offset().top;
+		console.log(locationOffset + ' : ' + windowTop);
+		//var navSize = locationOffset;
+		if (windowTop == locationOffset) {
 			$('nav#site-navigation').addClass('bg');
-		} else {
+		}else {
 			$('nav#site-navigation').removeClass('bg');
 		}
-
-	});
-	
+	});	*/
 });

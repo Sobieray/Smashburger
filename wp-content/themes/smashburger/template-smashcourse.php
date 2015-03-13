@@ -133,4 +133,4 @@ get_header(); ?>
 	$(window).resize(function(){
 		windowHieght();
 	});
-	</script>
+</script>

@@ -194,6 +194,16 @@ get_header(); ?>
 	       return false;
 	    }
 	  };
+	  /*Drop-in Navigation Background*/
+	  $(window).scroll(function() {
+	  	var locationTop = $('.home .location-widget').position().top;
+	  	if (locationTop >= -96) {
+	  		$('nav#site-navigation').addClass('bg');
+	  	} else {
+	  		$('nav#site-navigation').removeClass('bg');
+	  	}
+
+	  });	
 	</script>
 <?php get_footer(); ?>
 

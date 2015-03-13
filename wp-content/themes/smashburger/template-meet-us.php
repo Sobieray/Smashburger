@@ -133,4 +133,14 @@ get_header(); ?>
 	frmvalidator.addValidation("email","req","Please provide your email"); 
 	frmvalidator.addValidation("email","email","Please enter a valid email address"); 
 	$('#menu-item-23').addClass('active');
+		/*Drop-in Navigation Background*/
+	$(window).scroll(function() {
+		var windowTop = $(window).scrollTop();
+		if (windowTop >= 96) {
+			$('nav#site-navigation').addClass('bg');
+		} else {
+			$('nav#site-navigation').removeClass('bg');
+		}
+	});
+
 </script>
