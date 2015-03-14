@@ -603,7 +603,7 @@ letter-spacing: 1px;
 .top-bar-section li.menu-item-type-custom > a {
 	cursor: default;
 }
-
+a.menu-btn
 /*==== Home Page ====*/
 .home #masthead{
 	background:none;
@@ -613,6 +613,14 @@ letter-spacing: 1px;
 }
 .home .breadcrumbs {
 	display: none !important;
+}
+.home a.menu-btn {
+	cursor: url('../img/menu_cursor.png'), default;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
 }
 /*.home .box-padding {
 	padding: 190px 130px 280px 95px;
@@ -1001,11 +1009,11 @@ div[data-type="sprite"] {
 	background: url(../img/pro_cycle_bg.png);
 	background-size: cover;
 }
-.parallax5 .onion {
-	background-image: url(../img/sliced_onion.png);
+.parallax5 .pro-cycle-2 {
+	background-image: url(../img/pro_cycle2.jpg);
 	background-repeat: no-repeat;
-	background-size: 90%;
-	background-position: 150% 230px;
+	background-size: 600%;
+	background-position: 20% 0px;
 }
 .parallax5 .avocado {
 	background-image: url(../img/half_avocado.png);
@@ -2655,16 +2663,16 @@ body.page-template-template_smashclub-php  {
 .page-template-template-franchise-php #franchising {
 	background: url(../img/franchise_lp_hero.jpg) top center no-repeat;
 	background-size: cover;
-	padding: 10em 0 8em 0;
+	padding: 9em 0 1em 0;
 }
 .page-template-template-franchise-php h2 {
-	font-family: 'Gotham SSm a', 'Gotham SSm b', 'Gotham';
+	font-family: 'Bebas_Bold';
 	text-align: center;
 	margin-bottom: 0;
-	line-height: 36px;
 	font-weight: 800;
 	text-transform: uppercase;
-	font-size: 250%;
+	font-size: 450%;
+	line-height: 64px;
 }
 #menu-franchise {
 	margin: 0;
@@ -2673,21 +2681,31 @@ body.page-template-template_smashclub-php  {
 }
 #menu-franchise li {
 	width: 50%;
+	
 	float: left;
 	list-style: none;
 }
 #menu-franchise li a {
-	padding: 15% 20%;
+	font-family: 'Gotham A', 'Gotham B', inherit;
+	margin: 2px;
+	height: 100px;
+	padding-top: 9%;
 	color: #ffffff;
 	text-transform: uppercase;
 	font-weight: 900;
 	display: block;
 	text-align: center;
-	font-size: 110%;
-	background-size: 37%;
+	font-size: 150%;
+	transition: all ease .2s;
+}
+#menu-franchise li a:hover {
+	background-size: 100%;
+	font-size: 180%;
+	padding-top: 8%;
 }
 #menu-franchise li:first-child a {
-	background: #7898bd url(../img/franchise_lp_burger.svg) center center no-repeat;
+	background: #7898bd url(../img/question_mark2.svg) center center no-repeat;
+	background-size: 29%;
 	
 }
 #menu-franchise li:nth-child(2) a {
@@ -2695,19 +2713,35 @@ body.page-template-template_smashclub-php  {
 	background-size: 40%;
 }
 #menu-franchise li:nth-child(3) a {
-	background: #492e1e url(../img/criteria_icon.svg) center center no-repeat;
+	background: #7d0b0f url(../img/criteria_icon.svg) center center no-repeat;
 	background-size: 45%;
 }
 #menu-franchise li:nth-child(4) a {
-	background: #c8bda6 url(../img/laurel_icon.svg)center center no-repeat;
+	background: #7898bd url(../img/laurel_icon.svg)center center no-repeat;
 	background-size: 40%;
 }
 #menu-franchise li:last-child {
 	width: 100%;
 }
 #menu-franchise li:last-child a {
-	padding: 3%;
+	padding-top: 3%;
+	height: 80px;
 	background-color: #c4161c; 
+}
+#menu-franchise li a:hover {
+	background-size: 45%;
+	font-size: 180%;
+	padding-top: 8%;
+}
+#menu-franchise li:first-child a:hover {
+	background-size: 34%;
+}
+#menu-franchise li:nth-child(3) a:hover {
+	background-size: 50%;
+}
+#menu-franchise li:last-child a:hover {
+	padding-top: 2.3%;
+	background-color: #7d0b0f;
 }
 .page-template-template-franchise-php article h3 {
 	font-family: 'Gotham SSm A', 'Gotham SSm B';
@@ -2740,9 +2774,10 @@ body.page-template-template_smashclub-php  {
 .page-template-template-franchise-php article ul li {
 	display:  none;
 	list-style: none;
-	font-size: 110%;
+	font-size: 130%;
 	color: #492e1e;
 	width: 100%;
+	font-weight: 900;
 	text-align: center;
 	line-height: 44px;
 	padding: 10px 0;

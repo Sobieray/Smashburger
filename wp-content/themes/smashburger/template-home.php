@@ -88,8 +88,8 @@ get_header(); ?>
 		<section id="fifth" class="clear hide-for-small" data-speed="7" data-type="background">
 			<div class="parallax5 flex">
 				<div class="small-3 column no-padding">
-					<div class="onion" data-type="sprite" data-offsetY="500" data-Xposition="120%" data-speed="7"></div>
-	  		  <div class="avocado" data-type="sprite" data-offsetY="2180" data-Xposition="0%" data-speed="2"></div>
+					<div class="pro-cycle-2" data-type="sprite" data-offsetY="520" data-Xposition="20%" data-speed="4"></div>
+	  		 
 			  </div>
 				<div class="small-9 column no-padding flex">
 					<div class="small-4 column no-padding">
@@ -183,27 +183,27 @@ get_header(); ?>
 			<script async src="https://d36hc0p18k1aoc.cloudfront.net/public/js/modules/tintembed.js"></script><div class="tintup" data-id="smashburger" data-columns="4" style="height:500px;width:100%;"></div>
 		</article>
 	</div><!-- #primary -->
-	<script language="Javascript" type="text/javascript">
-	  function validateEmail(emailAddress) {
-	    /* NOTE:  This regular expression is identical to the one used by Enterprise for e-mail address validation */
-	    var regExp = /^\s*[a-zA-Z\d][a-zA-Z\d\.!#$%&'*+\-\/=?^_`{|}~]*@([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}\s*$/;
-	    if (emailAddress.length <= 200 && regExp.test(emailAddress)) {
-	       return true;
-	    } else {
-	       alert("Invalid e-mail address");
-	       return false;
-	    }
-	  };
-	  /*Drop-in Navigation Background*/
-	  $(window).scroll(function() {
-	  	var locationTop = $('.home .location-widget').position().top;
-	  	if (locationTop >= -96) {
-	  		$('nav#site-navigation').addClass('bg');
-	  	} else {
-	  		$('nav#site-navigation').removeClass('bg');
-	  	}
 
-	  });	
-	</script>
 <?php get_footer(); ?>
-
+<script language="Javascript" type="text/javascript">
+  function validateEmail(emailAddress) {
+    /* NOTE:  This regular expression is identical to the one used by Enterprise for e-mail address validation */
+    var regExp = /^\s*[a-zA-Z\d][a-zA-Z\d\.!#$%&'*+\-\/=?^_`{|}~]*@([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,6}\s*$/;
+    if (emailAddress.length <= 200 && regExp.test(emailAddress)) {
+       return true;
+    } else {
+       alert("Invalid e-mail address");
+       return false;
+    }
+  };
+  /*Drop-in Navigation Background*/
+  $(window).scroll(function() {
+  	var locationTop = $('.home .location-widget').position().top;
+  	console.log(locationTop);
+  	if (locationTop >= -96) {
+  		$('nav#site-navigation').addClass('bg');
+  	} else {
+  		$('nav#site-navigation').removeClass('bg');
+  	}
+  });	
+</script>
