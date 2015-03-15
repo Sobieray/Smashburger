@@ -20,7 +20,7 @@ get_header(); ?>
 			</main>
 		</article>
 	</div><!-- #primary -->
-<?php get_footer(); ?>
+<?php get_footer('fran'); ?>
 <script>
 		/*Drop-in Navigation Background*/
 	$(window).scroll(function() {

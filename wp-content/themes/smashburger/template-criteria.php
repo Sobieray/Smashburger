@@ -13,9 +13,9 @@ get_header(); ?>
 		<?php get_template_part('franchise-navigation'); ?>
 		<main id="criteria" class="clear">
 			<div class="small-12 medium-8 row">
-				<p class="center">Smashburger is seeking multi-unit development partners.</br>To be considered, individuals must meet the following.</p>
+				<p class="center brown-text">Smashburger is seeking multi-unit development partners.</br>To be considered, individuals must meet the following.</p>
 			</div>
-			<div class="red-secondary small-12 medium-5 row">
+			<div class="red-secondary small-12 medium-6 row">
 				<h2 class="white-text center hide-for-small-only">Please select the criteria that you meet</h2>
 			</div>
 			<form id="franchise-criteria" action="javascript:void(0)" onsubmit="checkBox()">
@@ -66,7 +66,7 @@ get_header(); ?>
 			</section>
 			<section>
 				<span>2</span>
-				<h5>Telephone interview with the Smashburger franchise team.</h5>
+				<h5>Telephone discussion with the Smashburger franchise team.</h5>
 			</section>
 			<section>
 				<span>3</span>
@@ -113,7 +113,7 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
-<?php get_footer('custom'); ?>
+<?php get_footer('fran'); ?>
 <script type="text/javascript">
 	$('#modal1 span, #modal2 span').click(function() {
 		$('#modal2, #modal1').fadeOut(250);

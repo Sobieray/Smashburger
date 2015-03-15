@@ -35,23 +35,23 @@ get_header(); ?>
 		</aside>
 		<div class="brown small-12 medium-6 column small-padding" data-equalizer-watch>
 			<h2 class="white-text">Trailblazing</h2>
-			<p class="white-text">Smashburger is setting the standard among fast casual restaurants. Maybe we&rsquo;ve let all that smashing go to our heads, but we like to stay on top of the trends by offering an extensive menu with a local edge that includes regionalized burgers, sides and shakes, alongside hometown craft beer options. To elevate our guests’ experience off-menu, we have award-winning décor in our restaurants and a design team that stays on top of new and innovative trends.</p>
+			<p class="white-text">Smashburger is setting the standard among fast casual restaurants. Maybe we&rsquo;ve let all that smashing go to our heads, but we like to stay on top of the trends by offering an extensive menu with a local edge that includes regionalized burgers, sides and shakes, alongside hometown craft beer options.</p>
 		</div>
 		<div class="red-primary small-12 medium-6 column small-padding" data-equalizer-watch>
 			<h2 class="white-text">Prime Territories</h2>
-			<p class="white-text">Even with hundreds of stores, we still have exceptional territory available in over 60% of the top markets to give you the competitive advantage. Room to grow and the drive to support franchisee success adds up to an incredible business opportunity in amazing locations across the U.S. and abroad.</p>
+			<p class="white-text">Even with hundreds of stores, we still have exceptional territory available in over 60% of the top markets. Room to grow and the drive to support franchisee adds up to an incredible business opportunity in amazing locations across the U.S. and abroad.</p>
 		</div>
 	</main><!-- main -->
 	<section id="franchise-support" class="tan-bg">
 		<h2 class="brown-text">Franchise Support</h2>
-		<p class="brown-text row small-12 medium-8">The Smashburger corporate team is dedicated to ensuring the success of the Smashburger franchisees as they become every city&rsquo;s favorite burger place.</p>
-		<p class="brown-text row small-12 medium-8">Our unique “One Smashburger” approach to operations will give you the support you need, beginning the day you make the decision to join our team. We are committed to your success and will provide you with the support you need to operate your business successfully.</p>
+		<!-- <p class="brown-text row small-12 medium-8">The Smashburger corporate team is dedicated to ensuring the success of the Smashburger franchisees as they become every city&rsquo;s favorite burger place.</p>
+		<p class="brown-text row small-12 medium-8">Our unique “One Smashburger” approach to operations will give you the support you need, beginning the day you make the decision to join our team. We are committed to your success and will provide you with the support you need to operate your business successfully.</p> -->
 	</section>
 	<section id="assist" class="brown clear">
 		<div class="small-12 medium-4 column">
 			<ul>
 				<li>real estate</li>
-				<li>site selection</li>
+				<li>site strategy</li>
 				<li>lease Approval</li>
 				<li>pre-opening Managment</li>
 				<li>training</li>
@@ -83,7 +83,7 @@ get_header(); ?>
 		<a href="<?php echo site_url();?>/franchising/inquire-within/" class="secondary-btn tan-bg redtext-secondary">submit an inquiry</a>
 	</section>
 	
-<?php get_footer('custom'); ?>
+<?php get_footer('fran'); ?>
 <script>
 	$('#menu-item-23').addClass('active');
 		/*Drop-in Navigation Background*/

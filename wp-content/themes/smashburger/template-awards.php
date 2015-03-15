@@ -308,7 +308,7 @@ get_header(); ?>
 		</div><!-- #award_tiles -->
 	</div><!-- #primary -->
 
-<?php get_footer('custom'); ?>
+<?php get_footer('fran'); ?>
 <script>
 	$('#menu-item-23').addClass('active');
 		/*Drop-in Navigation Background*/

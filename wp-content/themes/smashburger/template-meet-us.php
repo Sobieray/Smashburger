@@ -119,7 +119,7 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
-<?php get_footer('custom'); ?>
+<?php get_footer('fran'); ?>
 <script type="text/javascript">
 	$('a.meetModal').click(function() {
 		$('#meetModal').fadeIn(250);
