@@ -155,7 +155,7 @@ get_header(); ?>
 				background-image: url(<?php echo $backgroundImage ;?>);
 			}
 		</style>
-		<section id="eight" class="clear flex hide-for-small" data-speed="7" data-offsetY="816" data-type="background">
+		<section style="background-image: url(<?php echo $backgroundImage ;?>);" id="eight" class="clear flex hide-for-small" data-speed="7" data-offsetY="816" data-type="background">
 			<div class="small-6 column blue-overlay no-padding">
 				<div class="box-padding">
 					<h2 class="white-text"><?php the_field('promotion-heading'); ?></h2>

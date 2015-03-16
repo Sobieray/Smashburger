@@ -44,7 +44,13 @@
   div[data-type="sprite"] {
   	padding-bottom: 200%;
   }
-
+  .parallax1 p {
+    z-index: 0;
+  }
+  .location-widget .placeable-img input[type="text"] {
+    background-position: -60px center;
+    background-size: 200px 20px; 
+  }
   .home #forth form {
   	padding-bottom: 30%;
   }
