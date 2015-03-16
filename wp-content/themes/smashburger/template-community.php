@@ -25,7 +25,7 @@ get_header(); ?>
 	</div><!-- #primary -->
 	<section id="secondary">
 		<div class="small-12">
-			<img src="<?php echo $icon_image['url'] ?>" alt="<?php echo $icon_image['alt'] ?>">
+			<img src="<?php echo $icons['url'] ?>" alt="<?php echo $icons'alt'] ?>">
 		</div>
 		<div class="small-12">
 			<?php echo get_field('secondary_content'); ?>

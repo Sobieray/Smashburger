@@ -797,11 +797,17 @@ div[data-type="sprite"] {
 	background-color: #492e1e;
 	padding: 1em;
 }
-.location-widget .placeable-img .hero-form i {
+.location-widget .placeable-img .hero-form i, .parallax4 form i {
 	font-size: 12px;
 	font-style: normal;
 	float: left;
 	color: #ebe4d4;
+}
+.parallax4 form i {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 1em;
+  color: #ffffff;
 }
 .location-widget .placeable-img input[type="text"] {
 	width: 85%;

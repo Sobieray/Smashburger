@@ -75,8 +75,11 @@ get_header(); ?>
 						<input type="hidden" value="https://smashburger.com/thank-you/" name="ReturnURL">
 						<input type="hidden" value="we" name="InputSource">
 				    <input type="text" value="email address" name="EmailAddress" maxlength="200" id="EmailAddress">
+				    <i>By signing up for the Smashclub, you are verifying that you are over the age of 13.</i>
 						<input type="submit" name="submit" value="I'M IN!" class="form-submit">
+
 					</form>
+
 				</div>
 				<div class="small-3 column no-padding">
 					<div class="lettuce" data-type="sprite" data-offsetY="580" data-Xposition="100%" data-speed="4"></div>
@@ -100,7 +103,7 @@ get_header(); ?>
 						<div class="blue-overlay">
 							<div class="box-padding" data-speed="-5" data-offsetY="-50" data-type="background">
 								<h2 class="white-text">Usa Pro Challenge</h2>
-								<p class="sub-text white-text">We&rsquo;re absolutely head over wheels to be An Official Sponsor of the one of the largest Cycling events in US history- right here in the Rocky Mountains, our back yard.</p>
+								<p class="sub-text white-text">We&rsquo;re absolutely head over wheels to be An Official Sponsor of one of the largest Cycling events in US history- right here in the Rocky Mountains, our back yard.</p>
 								<a class="blue-btn right-side-btn" href="/us/partnerships/">ride on!<span></span></a>
 							</div>
 						</div>
