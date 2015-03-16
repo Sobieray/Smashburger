@@ -7,7 +7,7 @@
 get_header(); ?>
 <?php 
 	$hero_image = get_field('hero_image');
-	$icon_image = get_field('icon_image');
+	$icons = get_field('icons');
 	
 ?>
 	<div class="header">
