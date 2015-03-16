@@ -195,7 +195,7 @@ function smashburger_scripts() {
 	}
 
 
-	if (is_page(array('nutrition-dietary', 'menu', 'meet-us', 'jobs'))) {
+	if (is_page(array('nutrition-allergen', 'menu', 'meet-us', 'jobs'))) {
 		wp_enqueue_style( 'slick-style', get_template_directory_uri() . '/slick/slick.css' );
 		wp_enqueue_script( 'slick.init.js', get_template_directory_uri() . '/slick/slick.init.js', array(), '1',  true);
 		wp_enqueue_script( 'slick.js', get_template_directory_uri() . '/slick/slick.min.js', array(), '1',  true);
