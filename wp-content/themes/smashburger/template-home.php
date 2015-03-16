@@ -41,7 +41,7 @@ get_header(); ?>
 					<div class="tomato" data-type="sprite" data-offsetY="250" data-Xposition="150%" data-speed="5"></div>
 					<div class="box-padding">
 						<h2 class="brown-text">Certified Angus Beef&reg;</h2>
-						<p class="sub-text brown-text">Great burgers start with great meat. That&rsquo;s why we only cook with fresh, never frozen, 100% Certified Angus beef. Period.</p>
+						<p class="sub-text brown-text">Great burgers start with great meat. That&rsquo;s why we only cook with fresh, never frozen, 100% Certified Angus beef&reg;. Period.</p>
 					</div>
 					<a class="tan-btn brown-text" href="/eat/our-food/angus-beef/" data-hover="">meet the meat<span></span></a>
 				</div>
@@ -139,9 +139,9 @@ get_header(); ?>
 						<div class="row burger-smash"></div>
 					</div>
 					<div class="small-8 column no-padding">
-						<div class="smasher" data-type="sprite" data-offsetY="-2475" data-Xposition="50%" data-speed="-2"></div><!--  -->
+						<div class="smasher" data-type="sprite"></div><!--  -->
 						<h2 class="brown-text">Smashing Is <br><span>Better</span></h2>
-		  			<div class="burger-paddy" data-type="sprite" data-offsetY="2550" data-Xposition="36%" data-speed="2"></div><!--  -->
+		  			<div class="burger-paddy" data-type="sprite"></div><!--  -->
 						<a class="tan-btn brown-text right-side-btn" href="/eat/our-food/smash-course/">see why<span></span></a>
 					</div>
 				</div>
@@ -202,7 +202,6 @@ get_header(); ?>
   /*Drop-in Navigation Background*/
   $(window).scroll(function() {
   	var locationTop = $('.home .location-widget').position().top;
-  	console.log(locationTop);
   	if (locationTop >= -96) {
   		$('nav#site-navigation').addClass('bg');
   	} else {
