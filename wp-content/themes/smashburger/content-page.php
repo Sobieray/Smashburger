@@ -12,7 +12,10 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<?php the_content(); ?>
+		<div class="header"><?php the_title( '<h1 class="entry-title">', '</h1>' ); ?></div>
+		<div id="default" class="small-12 row">
+			<?php the_content(); ?>
+		</div>
 		<?php
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . __( 'Pages:', 'smashburger' ),

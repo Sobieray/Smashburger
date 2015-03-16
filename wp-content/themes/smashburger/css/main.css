@@ -2575,6 +2575,7 @@ ul.main-contact li a:focus {
 	color: #492e1e;
 	text-align: center;
 	font-weight: normal;
+	text-transform: uppercase;
 	padding: 1em 1.5em;
 	display: inline-block;
 	font-weight: 900;
@@ -4093,10 +4094,27 @@ footer nav#site-navigation {
  .left-off-canvas-menu .sub-menu li.menu-item-has-children > a, ul.off-canvas-list .sub-menu li.menu-item-has-children > a:hover {
  	background-image: none;
  }
-  .left-off-canvas-menu .sub-menu .menu-item-type-custom > a, .left-off-canvas-menu .sub-menu .menu-item-type-custom > a:hover {
-  	cursor: default;
-  	background-color: #980d12;
-  }
+.left-off-canvas-menu .sub-menu .menu-item-type-custom > a, .left-off-canvas-menu .sub-menu .menu-item-type-custom > a:hover {
+  cursor: default;
+  background-color: #980d12;
+}
+
+/*==== Default Template ====*/
+#default {
+	margin-top: 2em;
+	color: #492e1e;
+}
+#default h2 {
+	color: #c4161c;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+#default a {
+	color: #c4161c;
+}
+#default a:hover {
+	color: #374665;
+}
 /*==== Media Queries ====*/
 
 @media (min-width: 1300px) {
@@ -4116,6 +4134,9 @@ footer nav#site-navigation {
 	.breadcrumbs {
   	top: 85px;
 	}
+	nav#site-navigation.bg .breadcrumbs {
+		top: 65px;
+	}
 }
 @media (min-width: 1700px) {
 	.page-template-template-food-story-php #first img {
@@ -4124,8 +4145,11 @@ footer nav#site-navigation {
 	.menu-files {
 		top: -40px;
 	}
-	.breadcrumbs {
-  	top: 90px;
+	.breadcrumbs  {
+		top: 90px;
+	}
+	nav#site-navigation.bg .breadcrumbs {
+		top: 70px;
 	}
 }
 @media (max-width: 1280px) {
@@ -4174,6 +4198,9 @@ footer nav#site-navigation {
 	}
 }
 @media (max-width: 1025px) {
+	nav#site-navigation.bg .left-small {
+		padding-top: 1em;
+	}
 	.top-bar .name {
 	  float: none;
 	  margin: 0 auto;
