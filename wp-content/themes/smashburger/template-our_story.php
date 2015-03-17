@@ -16,7 +16,7 @@ get_header(); ?>
 					<img src="<?php echo get_template_directory_uri() . '/img/story_location.png' ?>" alt="smashburger storefront" />
 				</div>
 				<div class="small-12 large-6 column">
-					<p class="brown-text center-margin">In 2007 we opened the first Smashburger in with one simple notion in mind: despite the overwhelming number of restaurants serving burgers, Americans were starving for something better. And we could deliver. Our vision is to connect with America’s passion for its favorite food on a local level and in a space where “Smashed Fresh, Served Delicious” means dedication to crafting the best-tasting burger around. Our smashed burgers are always made-to-order, never frozen, smashed and seared to perfection on our grill. Our menu is also kid-friendly, vegetarian-approved and topped off with frosty milkshakes.</p>
+					<p class="brown-text center-margin">In 2007 we opened the first Smashburger with one simple notion in mind: despite the overwhelming number of restaurants serving burgers, Americans were starving for something better. And we could deliver. Our vision is to connect with America’s passion for its favorite food on a local level and in a space where “Smashed Fresh, Served Delicious” means dedication to crafting the best-tasting burger around. Our smashed burgers are always made-to-order, never frozen, smashed and seared to perfection on our grill. Our menu is also kid-friendly, vegetarian-approved and topped off with frosty milkshakes.</p>
 				</div>
 			</section>
 		</main><!-- #main -->
@@ -67,7 +67,7 @@ get_header(); ?>
 				<img src="<?php echo get_template_directory_uri() . '/img/heart_icon.svg' ?>" alt="smashburger heart" />
 			</div>
 			<div class="small-4 medium-3 column  dark-blue-bg">
-				<p class="white-text">we believe magic happens when meant and heat collide</p>
+				<p class="white-text">we believe magic happens when meat and heat collide</p>
 			</div>
 		</section><!-- #fifth -->
 		<section id="sixth" class="flex clear">

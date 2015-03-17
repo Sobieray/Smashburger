@@ -13,7 +13,7 @@ get_header(); ?>
 		<main id="map-container" class="site-main" role="main" >
 			<div id="map">
 				<div class="howto">
-					<i>*hover over an area and scroll to zoom in/out</i>
+					<i>Hover over an area and scroll to zoom in/out</i>
 				</div>
 				
 				<div class="zoom-slider">
