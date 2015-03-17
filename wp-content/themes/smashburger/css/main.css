@@ -4378,6 +4378,7 @@ footer nav#site-navigation {
 	}
 	.header {
 		height: 250px;
+		background-position: 0 -250%;
 	}
 	nav#site-navigation.bg .left-small {
 		padding-top: .5em;
@@ -4616,7 +4617,7 @@ footer nav#site-navigation {
 	}
 	div.mobile-menu ul li {
 		display: inline-block;
-		width: 32%;
+		width: 33%;
 	}
 	div.mobile-menu ul li a {
 	  padding: 1em;
@@ -4629,7 +4630,7 @@ footer nav#site-navigation {
 	div.mobile-menu ul li a:hover {
 		color: #c4161c;
 	}
-		.page-template-template-franchise-php article h3 {
+	.page-template-template-franchise-php article h3 {
 		width: 50%;
 	}
 	.franchise.slider blockquote {
