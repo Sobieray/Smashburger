@@ -71,7 +71,7 @@ get_header(); ?>
 			<h3 class="white-text">A Word from our Franchisees</h3>
 			<div class="franchise slider">
 				<div class="slide">
-					<blockquote>&ldquo;I came to Smashburger after 36 years of experience in the food industry, overseeing 5,200 McDonalds locations. My partner and I were looking for a brand with great food and enormous growth potential. Smashburger&rsquo;s brand buzz is incredible &ndash; everyone who knows the brand is excited about the brand. We look forward to building Smashburger restaurants to leave behind for our children so that they can become the next generation of entrepreneurs.&rdquo;</blockquote>
+					<blockquote>&ldquo;I came to Smashburger after 36 years of experience in the food industry, overseeing 5,200 McDonalds locations. My partner and I were looking for a brand with great food and enormous growth potential. Smashburger&rsquo;s brand buzz is incredible &ndash; everyone who knows the brand is excited about the brand.&rdquo;</blockquote>
 					<h5>Wes Broomfield</h5>
 					<p>Franchise Owner - Orlando and Jacksonville Markets</p>
 				</div>

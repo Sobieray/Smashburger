@@ -39,7 +39,7 @@ get_header(); ?>
 		</div>
 		<div class="red-primary small-12 medium-6 column small-padding" data-equalizer-watch>
 			<h2 class="white-text">Prime Territories</h2>
-			<p class="white-text">Even with hundreds of stores, we still have exceptional territory available in over 60% of the top markets. Room to grow and the drive to support franchisee adds up to an incredible business opportunity in amazing locations across the U.S. and abroad.</p>
+			<p class="white-text">Even with hundreds of stores, we still have exceptional territory available in over 60% of the top markets. We believe room to grow and the drive to support franchisee adds up to an incredible business opportunity in amazing locations across the U.S. and abroad.</p>
 		</div>
 	</main><!-- main -->
 	<section id="franchise-support" class="tan-bg">
