@@ -21,10 +21,10 @@ get_header(); ?>
 			</section>
 		</main><!-- #main -->
 		<section id="secondary" class="clear flex">
-				<div class="small-8 medium-6 column red-secondary">
+				<div class="small-12 medium-6 column red-secondary">
 						<p class="white-text">Our mission is to put burgers back into people&lsquo;s lives.  We want to change the way people think about burgers and the way they feel when they have a burger.  We want Smashburger to be an every occasion burger restaurant that people can call their own.</p>
 				</div>
-				<div class="small-4 medium-3 brown column our-mission css-triangle">
+				<div class="small-12 medium-3 brown column our-mission css-triangle">
 					<h2 class="white-text">Our Mission</h2>
 				</div>
 				<div class="hide-for-small-only medium-3 column no-padding">
@@ -60,24 +60,24 @@ get_header(); ?>
 			</div>
 		</section><!-- #fourth -->
 		<section id="fifth" class="clear flex">
-			<div class="small-8 medium-6 red-secondary column">
+			<div class="small-12 medium-6 red-secondary column">
 				<p class="white-text">we believe in fresh, wholesome, &amp; authentic ingredients like fresh, never frozen certified angus beef&reg;</p>
 			</div>
-			<div class="small-3 hide-for-small-only column tan-bg svg center-padding">
+			<div class="small-12 hide-for-small-only column tan-bg svg center-padding">
 				<img src="<?php echo get_template_directory_uri() . '/img/heart_icon.svg' ?>" alt="smashburger heart" />
 			</div>
-			<div class="small-4 medium-3 column  dark-blue-bg">
+			<div class="small-12 medium-3 column  dark-blue-bg">
 				<p class="white-text">we believe magic happens when meat and heat collide</p>
 			</div>
 		</section><!-- #fifth -->
 		<section id="sixth" class="flex clear">
-			<div class="small-3 hide-for-small-only column no-padding no-padding">
+			<div class="small-12 hide-for-small-only column no-padding no-padding">
 				<img src="<?php echo get_template_directory_uri() . '/img/email_onion.png' ?>" alt="fresh sliced onion" />
 			</div>
-			<div class="small-4 medium-3 column tan-bg svg center-padding">
+			<div class="small-12 medium-3 column tan-bg svg center-padding">
 				<img src="<?php echo get_template_directory_uri() . '/img/red_smasher_icon.svg' ?>" alt="smashburger burger smasher icon" />
 			</div>
-			<div class="small-8 medium-6 column  brown">
+			<div class="small-12 medium-6 column  brown">
 				<p class="white-text">We believe that choosing Smashburger means choosing happiness - You are one bite away from believing it too</p>
 			</div>
 		</section><!-- #sixth -->
@@ -139,13 +139,13 @@ get_header(); ?>
 			<div class="small-3 hide-for-small-only column no-padding">
 				<img src="<?php echo get_template_directory_uri() . '/img/lettuce_top.png' ?>" alt="lettuce">
 			</div>
-			<div class="small-5 medium-3 column red-secondary svg center-padding">
+			<div class="small-12 medium-3 column red-secondary svg center-padding">
 				<img src="<?php echo get_template_directory_uri() . '/img/dots_icon.svg' ?>" alt="smashburger dots">
 			</div>
 			<div class="small-3 hide-for-small-only column no-padding">
 				<img src="<?php echo get_template_directory_uri() . '/img/cropped_avocado.png' ?>" alt="smashburger avocados" />
 			</div>
-			<div class="small-7 medium-3 column  tan-bg">
+			<div class="small-12 medium-3 column  tan-bg">
 				<p class="brown-text">INC&lsquo;s #9 hire power award winner</p>
 			</div>
 		</section><!-- #eleven -->

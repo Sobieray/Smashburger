@@ -4376,6 +4376,12 @@ footer nav#site-navigation {
 	body{
 		font-size: 100%;
 	}
+	.header {
+		height: 250px;
+	}
+	nav#site-navigation.bg .left-small {
+		padding-top: .5em;
+	}
 	.top-bar .name {
 		margin: 0 auto;
 		margin-top: .5em;
@@ -4625,6 +4631,31 @@ footer nav#site-navigation {
 	}
 		.page-template-template-franchise-php article h3 {
 		width: 50%;
+	}
+	.franchise.slider blockquote {
+		width: 100%;
+	}
+	.franchise.slider .slick-next, .franchise.slider .slick-prev {
+		width: 5%;
+	}
+	#meet-us h4 {
+		font-size: 160%;
+	}
+	#award_tiles div h4 {
+		margin-top: 2em;
+	}
+	.page-template-template-menu-php h4:before, .page-template-template-menu-php h4:after {
+		display: none;
+	}
+	.back-to-burgers {
+		display: none !important;
+	}
+	.page-template-template-our_story-php #fourth h2, .page-template-template-our_story-php h2 {
+		margin-top: 14%;
+		margin-bottom: 14%;
+	}
+	.page-template-template-community-php #secondary p {
+		width: 90%;
 	}
 }
 @media (max-width: 540px) {
