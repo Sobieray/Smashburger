@@ -4658,6 +4658,9 @@ footer nav#site-navigation {
 	.page-template-template-community-php #secondary p {
 		width: 90%;
 	}
+	#panel3 ul {
+		padding-bottom: 2.5em;
+	}
 }
 @media (max-width: 540px) {
 	.page-template-template-menu-php .slick-dots {
