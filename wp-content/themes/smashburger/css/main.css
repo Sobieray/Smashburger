@@ -614,7 +614,7 @@ letter-spacing: 1px;
 	display: none !important;
 }
 .home a.menu-btn {
-	cursor: url(http://smashwebadmin.wpengine.com/wp-content/themes/smashburger/img/cursor.cur),pointer!important;
+	cursor: url(http://smashwebadmin.wpengine.com/wp-content/themes/smashburger/img/cursor.cur), pointer!important;
 	position: absolute;
 	top: 0;
 	width: 100%;
