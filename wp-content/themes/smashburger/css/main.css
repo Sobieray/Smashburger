@@ -4663,6 +4663,9 @@ footer nav#site-navigation {
 	.page-template-template-menu-php .slick-dots {
 		left: 30%;
 	}
+	.page-template-template-menu-php .row1 div:first-child img {
+		max-height: 159px;
+	}
 	.blog article.item,
 	.archive article.item {
 	  width: 100%;
