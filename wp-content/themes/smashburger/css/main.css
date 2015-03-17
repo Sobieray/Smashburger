@@ -4378,7 +4378,7 @@ footer nav#site-navigation {
 	}
 	.header {
 		height: 250px;
-		background-position: 0 -250%;
+		background-position: 0 -150%;
 	}
 	nav#site-navigation.bg .left-small {
 		padding-top: .5em;
