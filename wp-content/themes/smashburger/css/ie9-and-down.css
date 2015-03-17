@@ -44,6 +44,9 @@
   div[data-type="sprite"] {
   	padding-bottom: 200%;
   }
+  .home a.menu-btn {
+    cursor: url('../img/cursor.cur'), default;
+  }
   .parallax1 p {
     z-index: 0;
   }

@@ -603,7 +603,6 @@ letter-spacing: 1px;
 .top-bar-section li.menu-item-type-custom > a {
 	cursor: default;
 }
-a.menu-btn
 /*==== Home Page ====*/
 .home #masthead{
 	background:none;
@@ -4698,6 +4697,9 @@ footer nav#site-navigation {
     content: none;
     margin-right: 0;
     font-size: inherit;
+  }
+  .home a.menu-btn {
+    cursor: url('../img/cursor.cur'), default;
   }
   .tan-btn span {
     background-color: #c8bda6;
