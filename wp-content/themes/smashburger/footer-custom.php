@@ -28,8 +28,8 @@
 				</div><!-- #social-media -->
 				<div id="privacy">
 					<ul>
-						<li><a href="">Privacy Policy</a></li>
-						<li><a href="">T&amp;C&lsquo;s</a></li>
+						<li><a href="http://smashwebadmin.wpengine.com/wp-content/uploads/2015/03/Smashburger-Privacy-Policy-10-15-14.pdf">Privacy Policy</a></li>
+						<li><a href="/terms-condtions/">T&amp;C&lsquo;s</a></li>
 					</ul>
 				</div><!-- #privacy -->
 				<div id="small-print">
@@ -41,8 +41,6 @@
 		<a class="exit-off-canvas"></a>
 	</div><!-- #page -->
 </div><!-- .off-canvas-wrap -->
-
 <?php wp_footer(); ?>
-
 </body>
 </html>
