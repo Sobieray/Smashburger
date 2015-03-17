@@ -179,6 +179,10 @@ $(document).ready(function() {
 			});
 		});
 	});
+	$('.tab-title a').on('click', function() {
+		console.log('tab click');
+		$('.accordion-navigation, #menuPanel').removeClass('active');
+	});
 	/*$('.back-to-burgers a').click(function() {
 		$('.tab-title:first-child a').click();
 	});*/

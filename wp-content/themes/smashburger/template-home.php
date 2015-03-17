@@ -43,7 +43,7 @@ get_header(); ?>
 						<h2 class="brown-text">Certified Angus Beef&reg;</h2>
 						<p class="sub-text brown-text">Great burgers start with great meat. That&rsquo;s why we only cook with fresh, never frozen, 100% Certified Angus beef&reg;. Period.</p>
 					</div>
-					<a class="tan-btn brown-text" href="/eat/our-food/angus-beef/" data-hover="">meet the meat<span></span></a>
+					<a class="tan-btn brown-text" href="/eat/our-food/certified-angus-beef/" data-hover="">meet the meat<span></span></a>
 				</div>
 				
 				<div class="small-6 column no-padding-left">
