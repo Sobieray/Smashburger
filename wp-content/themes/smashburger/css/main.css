@@ -4699,7 +4699,7 @@ footer nav#site-navigation {
     font-size: inherit;
   }
   .home a.menu-btn {
-    cursor: url('../img/cursor.cur'), default;
+    cursor: url('../img/cursor.cur'), pointer;
   }
   .tan-btn span {
     background-color: #c8bda6;

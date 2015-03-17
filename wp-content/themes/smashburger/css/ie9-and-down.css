@@ -45,7 +45,7 @@
   	padding-bottom: 200%;
   }
   .home a.menu-btn {
-    cursor: url('../img/cursor.cur'), default;
+    cursor: url('../img/cursor.cur'), pointer;
   }
   .parallax1 p {
     z-index: 0;
