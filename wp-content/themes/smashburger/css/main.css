@@ -614,7 +614,7 @@ letter-spacing: 1px;
 	display: none !important;
 }
 .home a.menu-btn {
-	cursor: url('../img/menu_cursor.png'), default;
+	cursor: url('../img/cursor.cur'), pointer;
 	position: absolute;
 	top: 0;
 	width: 100%;
