@@ -29,7 +29,7 @@ $(document).ready(function() {
 	    },	   
 	});
 	$.ajax({
-	    url: 'http://smashwebadmin.wpengine.com/wp-content/themes/smashburger/data/smash2.json',
+	    url: 'http://smashburger.com/wp-content/themes/smashburger/data/smash2.json',
 	    dataType:'json',
 	    success:function(locations) {
 	    	var smashburgerLocations = [];
