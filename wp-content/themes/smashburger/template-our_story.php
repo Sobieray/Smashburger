@@ -63,7 +63,7 @@ get_header(); ?>
 			<div class="small-12 medium-6 red-secondary column">
 				<p class="white-text">we believe in fresh, wholesome, &amp; authentic ingredients like fresh, never frozen certified angus beef&reg;</p>
 			</div>
-			<div class="small-12 hide-for-small-only column tan-bg svg center-padding">
+			<div class="small-12 medium-3 hide-for-small-only column tan-bg svg center-padding">
 				<img src="<?php echo get_template_directory_uri() . '/img/heart_icon.svg' ?>" alt="smashburger heart" />
 			</div>
 			<div class="small-12 medium-3 column  dark-blue-bg">
@@ -71,7 +71,7 @@ get_header(); ?>
 			</div>
 		</section><!-- #fifth -->
 		<section id="sixth" class="flex clear">
-			<div class="small-12 hide-for-small-only column no-padding no-padding">
+			<div class="small-12 medium-3 hide-for-small-only column no-padding no-padding">
 				<img src="<?php echo get_template_directory_uri() . '/img/email_onion.png' ?>" alt="fresh sliced onion" />
 			</div>
 			<div class="small-12 medium-3 column tan-bg svg center-padding">
