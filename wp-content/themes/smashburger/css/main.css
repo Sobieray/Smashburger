@@ -3544,6 +3544,7 @@ article#steps footer a:hover, #inquiry-submit a:hover  {
 	margin-top: 6%;
 	font-style: italic;
 	font-weight: normal;
+	font-size: 110%;
 }
 .slick-next, .slick-prev {
 	opacity: .3;
