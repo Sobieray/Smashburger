@@ -135,7 +135,7 @@ get_header(); ?>
 					<h4 class="white-text">#1 on the top 100 &ldquo;movers and shakers&rdquo;</h4>
 					<span>2012</span>
 				</div>
-				<div class="small-612medium-3 column light-tan-bg" data-equalizer-watch>
+				<div class="small-12 medium-3 column light-tan-bg" data-equalizer-watch>
 					<p class="brown-text">Brooklyn</p>
 					<h4 class="brown-text">Best Burger</h4>
 					<span>2012</span>
