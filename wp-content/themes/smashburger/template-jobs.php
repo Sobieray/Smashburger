@@ -26,7 +26,7 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="row" data-equalizer>
-				<div class="small-12 medium-6 column tan-bg no-padding" data-equalizer-watch>
+				<div class="small-12 medium-6 column brown no-padding" data-equalizer-watch>
 					<div class="small-6 column no-padding">
 						<img src="<?php echo get_template_directory_uri() . '/img/jobs_employee.jpg' ?>" alt="smashburger employee photo">
 					</div>
