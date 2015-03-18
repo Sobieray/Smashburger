@@ -1,11 +1,11 @@
 /*==== Fonts ====*/
 @font-face {
     font-family: 'Bebas_Bold';
-    src: url('/fonts/bebas/BebasNeue Bold-webfont.eot');
-    src: url('/fonts/bebas/BebasNeue Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/bebas/BebasNeue Bold-webfont.woff') format('woff'),
-         url('/fonts/bebas/BebasNeue Bold-webfont.ttf') format('truetype'),
-         url('/fonts/bebas/BebasNeue Bold-webfont.svg#Bebas_Bold') format('svg');
+    src: url('http://smashburger.com/wp-content/themes/smashburger/css/fonts/bebas/BebasNeue Bold-webfont.eot');
+    src: url('http://smashburger.com/wp-content/themes/smashburger/css/fonts/bebas/BebasNeue Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://smashburger.com/wp-content/themes/smashburger/css/fonts/bebas/BebasNeue Bold-webfont.woff') format('woff'),
+         url('http://smashburger.com/wp-content/themes/smashburger/css/fonts/bebas/BebasNeue Bold-webfont.ttf') format('truetype'),
+         url('http://smashburger.com/wp-content/themes/smashburger/css/fonts/bebas/BebasNeue Bold-webfont.svg#Bebas_Bold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
