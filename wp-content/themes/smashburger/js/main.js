@@ -33,7 +33,7 @@ $(document).ready(function() {
 	  var crd = pos.coords;
 	  var latitude = crd.latitude;
 	  var longitude = crd.longitude;
-	  var placeableAPI = 'http://smashburger.test.placeablepages.com/v1/search?&q=latitude:'+latitude+';longitude:'+longitude+'&app_id=05afe1e2&app_key=2d04fb54ad16be5108fd43941de76a82';
+	  var placeableAPI = 'http://locations.smashburger.com/v1/search?&q=latitude:'+latitude+';longitude:'+longitude+'&app_id=05afe1e2&app_key=2d04fb54ad16be5108fd43941de76a82';
 	  $.ajax({
 	      url:placeableAPI,
 	      dataType:'jsonp',

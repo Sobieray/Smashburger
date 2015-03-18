@@ -8,7 +8,7 @@ $(document).ready(function() {
 	  var crd = pos.coords;
 	  var latitude = crd.latitude;
 	  var longitude = crd.longitude;
-	  var placeableAPI = 'http://smashburger.test.placeablepages.com/v1/search?&q=latitude:'+latitude+';longitude:'+longitude+'&app_id=05afe1e2&app_key=2d04fb54ad16be5108fd43941de76a82';
+	  var placeableAPI = 'http://locations.smashburger.com//v1/search?&q=latitude:'+latitude+';longitude:'+longitude+'&app_id=05afe1e2&app_key=2d04fb54ad16be5108fd43941de76a82';
 	  $.ajax({
 	      url:placeableAPI,
 	      dataType:'jsonp',
@@ -94,7 +94,7 @@ $(document).ready(function() {
 	$('.menu-locate.burgers select').change(function() {
 		$('.menu-locate.burgers select option:selected').each(function() {
 			var selected= $(this).attr('data-zip');
-			var placeableAPI = 'http://smashburger.test.placeablepages.com/v1/search?&q='+selected+'&app_id=05afe1e2&app_key=2d04fb54ad16be5108fd43941de76a82';
+			var placeableAPI = 'http://locations.smashburger.com/v1/search?&q='+selected+'&app_id=05afe1e2&app_key=2d04fb54ad16be5108fd43941de76a82';
 			console.log(selected);
 			$.ajax({
 			    url:placeableAPI,
@@ -116,7 +116,7 @@ $(document).ready(function() {
 	$('.menu-locate.chicken select').change(function() {
 		$('.menu-locate.chicken select option:selected').each(function() {
 			var selected= $(this).attr('data-zip');
-			var placeableAPI = 'http://smashburger.test.placeablepages.com/v1/search?&q='+selected+'&app_id=05afe1e2&app_key=2d04fb54ad16be5108fd43941de76a82';
+			var placeableAPI = 'http://locations.smashburger.com/v1/search?&q='+selected+'&app_id=05afe1e2&app_key=2d04fb54ad16be5108fd43941de76a82';
 			console.log(selected);
 			$.ajax({
 			    url:placeableAPI,
@@ -138,7 +138,7 @@ $(document).ready(function() {
 	$('.menu-locate.sides select').change(function() {
 		$('.menu-locate.sides select option:selected').each(function() {
 			var selected= $(this).attr('data-zip');
-			var placeableAPI = 'http://smashburger.test.placeablepages.com/v1/search?&q='+selected+'&app_id=05afe1e2&app_key=2d04fb54ad16be5108fd43941de76a82';
+			var placeableAPI = 'http://locations.smashburger.com/v1/search?&q='+selected+'&app_id=05afe1e2&app_key=2d04fb54ad16be5108fd43941de76a82';
 			console.log(selected);
 			$.ajax({
 			    url:placeableAPI,
@@ -160,7 +160,7 @@ $(document).ready(function() {
 	$('.menu-locate.shakes select').change(function() {
 		$('.menu-locate.shakes select option:selected').each(function() {
 			var selected= $(this).attr('data-zip');
-			var placeableAPI = 'http://smashburger.test.placeablepages.com/v1/search?&q='+selected+'&app_id=05afe1e2&app_key=2d04fb54ad16be5108fd43941de76a82';
+			var placeableAPI = 'http://locations.smashburger.com/v1/search?&q='+selected+'&app_id=05afe1e2&app_key=2d04fb54ad16be5108fd43941de76a82';
 			console.log(selected);
 			$.ajax({
 			    url:placeableAPI,

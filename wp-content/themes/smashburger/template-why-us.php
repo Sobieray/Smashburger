@@ -83,7 +83,7 @@ get_header(); ?>
 		<a href="<?php echo site_url();?>/franchising/inquire-within/" class="secondary-btn tan-bg redtext-secondary">submit an inquiry</a>
 	</section>
 	
-<?php get_footer('fran'); ?>
+<?php get_footer('why'); ?>
 <script>
 	$('#menu-item-23').addClass('active');
 		/*Drop-in Navigation Background*/

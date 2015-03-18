@@ -113,7 +113,7 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
-<?php get_footer('fran'); ?>
+<?php get_footer('criteria'); ?>
 <script type="text/javascript">
 	$('#modal1 span, #modal2 span').click(function() {
 		$('#modal2, #modal1').fadeOut(250);
