@@ -4800,12 +4800,17 @@ footer nav#site-navigation {
   }
   .flip-container .back {
   	opacity: 0;
+  	trasform: none;
+  	-ms-transform: none;
   }
   .flip-container:hover .front {
   	opacity: 0;
+
   }
   .flip-container:hover .back {
   	opacity: 1;
+  	trasform: rotateY(180deg);
+  	-ms-trasform: rotateY(180deg);
   }
   .front img {
   	padding-top: 100px;
