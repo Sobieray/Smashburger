@@ -176,9 +176,9 @@ get_header(); ?>
 		</section><!-- #nine -->
 		<div class="show-for-small-only mobile-menu">
 			<ul>
-				<li><a class="tan-bg brown-text" href="clubs/smashclub">Smashclub</a></li>
+				<li><a class="tan-bg brown-text" href="/club-cards/smashclub/">Smashclub</a></li>
 				<li><a class="tan-bg brown-text" href="/us/jobs">Jobs</a></li>
-				<li><a class="tan-bg brown-text" href="/franchise">Franchise</a></li>
+				<li><a class="tan-bg brown-text" href="/franchising/">Franchise</a></li>
 			</ul>
 		</div>
 		<article id="social" class="hide-for-small">
