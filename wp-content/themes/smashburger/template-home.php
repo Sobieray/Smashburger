@@ -72,7 +72,7 @@ get_header(); ?>
 						<input type="hidden" name="Action" id="Action" value="subscribe" size="30" maxlength="200">
 						<input type="hidden" value="45097156610" name="ListID">
 						<input type="hidden" value="4a1f3487-679e-4ca6-bccc-0ee2fb40dab5 " name="SiteGUID">  
-						<input type="hidden" value="https://smashburger.com/thank-you/" name="ReturnURL">
+						<input type="hidden" value="http://smashburger.com/thank-you/" name="ReturnURL">
 						<input type="hidden" value="we" name="InputSource">
 				    <input type="text" value="email address" name="EmailAddress" maxlength="200" id="EmailAddress">
 				    <i>By signing up for the Smashclub, you are verifying that you are over the age of 13.</i>
