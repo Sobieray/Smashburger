@@ -98,6 +98,10 @@ get_header(); ?>
 			$corporate_link1 = get_field('corporate_title1_link');
 			$corporate_link2 = get_field('corporate_title2_link');
 			$corportae_link3 = get_field('corporate_title3_link');
+			$corportae_link4 = get_field('corporate_title4_link');
+			$corportae_link5 = get_field('corporate_title5_link');
+			$corportae_link6 = get_field('corporate_title6_link');
+			$corportae_link7 = get_field('corporate_title7_link');
 		?>
 		<h2>Job Openings</h2>
 		<div id="hourly">
