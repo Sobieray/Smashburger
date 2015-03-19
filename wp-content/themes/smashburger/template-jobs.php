@@ -125,7 +125,7 @@ get_header(); ?>
 				<li class="clear"><p><?php echo get_field('corporate_title5'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $corporate_link5 ?>">Apply Now</a></li>
 				<li class="clear"><p><?php echo get_field('corporate_title6'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $corporate_link6 ?>">Apply Now</a></li>
 				<li class="clear"><p><?php echo get_field('corporate_title7'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $corporate_link7 ?>">Apply Now</a></li>
-				<li class="clear"><p><?php echo get_field('corporate_title8'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $corporate_link8 ?>">Apply Now</a></li>
+				<!-- <li class="clear"><p><?php echo get_field('corporate_title8'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $corporate_link8 ?>">Apply Now</a></li> -->
 			</ul>
 		</div>
 	</section>
