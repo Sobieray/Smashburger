@@ -4847,7 +4847,7 @@ footer nav#site-navigation {
   .page-template-template-food-story-php #third div:nth-child(3) img,
   .page-template-template-food-story-php #secondary div:nth-child(3) img {
   	position: static;
-  	height: 313px;
+  	/*height: 313px;*/
   	bottom: 0;
   }
   .page-template-template-food-story-php #fourth div {
@@ -4867,7 +4867,6 @@ footer nav#site-navigation {
   /* Angus Beef */ 
   .page-template-template-angus-php  #secondary div   {
   	/*height: 500px;*/
-
   }
   /* Chairman */
   .page-template-template-chairman-php .small-padding {
