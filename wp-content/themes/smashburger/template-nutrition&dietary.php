@@ -28,7 +28,7 @@ get_header(); ?>
 				<img class="small-7 hide-for-medium-down" src="<?php echo get_template_directory_uri() . '/img/spicybaja_burger.png' ?>" alt="baja burger">
 				<div class="small-12 medium-7 center">
 					<h3 class="brown-text">delicious is only the beginning</h3>
-					<p class="brown-text">At Smashburger, we believe in ingredient excellence. From our smashed-to-order burgers, to our tender chicken sandwiches, signature sides and handspun shakes, you can count on fresh and high-quality food. Please take the time to view our Nutrition and Special Dietary Information. If you have any questions regarding a food allergy, or really anything, all you have to do is ask.</p>
+					<p class="brown-text">At Smashburger, we believe in ingredient excellence. From our smashed-to-order burgers, to our tender chicken sandwiches, signature sides and handspun shakes, you can count on fresh and high-quality food. Please take the time to view our Nutrition and Allergen Information. If you have any questions regarding a food allergy, or really anything, all you have to do is ask.</p>
 					<img class="hide-for-medium-down" src="<?php echo get_template_directory_uri() . '/img/lettuce_top.png' ?>" alt="lettuce">
 					<img class="hide-for-medium-down" src="<?php echo get_template_directory_uri() . '/img/tomato_top.png' ?>" alt="tomato">
 				</div>

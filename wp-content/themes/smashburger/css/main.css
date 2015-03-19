@@ -2271,6 +2271,14 @@ left: 0;
 	height: auto;
 	padding: 9% 24%;
 }
+@-moz-document url-prefix() {
+    .page-template-template-menu-php select {
+        padding: 5% 24%;
+    }
+    .tom-ryan {
+    	padding-top: 10em;
+    }
+}
 .menu-locate {
 	background: url(../img/menu_location_bg.jpg) 57% -50px no-repeat;
 	background-size: cover;
@@ -3456,7 +3464,7 @@ article#steps footer a:hover, #inquiry-submit a:hover  {
 }
 /*==== Inquire ====*/
 #inquire {
-	background: #EBE8DE url(../img/inquire_bg.png) left bottom no-repeat;
+	background-color: #EBE8DE; /*url(../img/inquire_bg.png) left bottom no-repeat;*/
 }
 /*==== Jobs ====*/
 #jobs .chevron {
@@ -3496,6 +3504,10 @@ article#steps footer a:hover, #inquiry-submit a:hover  {
 #job-types .row {
 	max-width: 100%;
 	margin: 0;
+}
+#job-types .secondary-btn {
+	min-width: 60%;
+	padding: 1.5em;
 }
 #job-types img {
 	width: 100%;
@@ -4040,7 +4052,7 @@ footer nav#site-navigation {
 	position: static;
 }
 .top-bar-section ul#menu-primary-1 {
-	width: 685px;
+	width: 730px;
 	margin: 0 auto;
 }
 .top-bar-section #menu-primary-1 li.menu-item-6506 > ul.dropdown {
@@ -4788,6 +4800,9 @@ footer nav#site-navigation {
   }
 
   /*==== Menu ====*/
+  .menu-locate img, .puzzle img {
+  	margin-top: 7%; 
+  }
   .flip-container,  {
   	height: 100%;
   }
@@ -4809,8 +4824,8 @@ footer nav#site-navigation {
   }
   .flip-container:hover .back {
   	opacity: 1;
-  	trasform: rotateY(180deg);
-  	-ms-trasform: rotateY(180deg);
+  	trasform: rotateY(0deg);
+  	-ms-trasform: rotateY(0deg);
   }
   .front img {
   	padding-top: 100px;
