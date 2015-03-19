@@ -4818,6 +4818,10 @@ footer nav#site-navigation {
   	trasform: none;
   	-ms-transform: none;
   }
+  .flip-container .back p, .flip-container .back h4 {
+  	transform:rotateY(180deg);
+  	-ms-trasform: rotateY(180deg);
+  }
   .flip-container:hover .front {
   	opacity: 0;
 
