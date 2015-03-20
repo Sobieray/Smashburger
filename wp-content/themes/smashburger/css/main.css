@@ -4824,7 +4824,7 @@ footer nav#site-navigation {
   	opacity: 0;
 
   }
-  .flip-container:hover .back, .flip-container:hover .back h4 {
+  .flip-container:hover .back, .flip-container:hover .back a {
   	opacity: 1;
   	trasform: rotateY(0deg);
   	-ms-trasform: rotateY(0deg);
