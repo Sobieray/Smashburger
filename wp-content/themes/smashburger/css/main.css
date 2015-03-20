@@ -4828,6 +4828,7 @@ footer nav#site-navigation {
   	opacity: 1;
   	transform: rotateY(0deg);
   	-ms-transform: rotateY(0deg);
+  	z-index: 3;
   }
   .front img {
   	/*padding-top: 100px;*/
