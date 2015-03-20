@@ -30,7 +30,7 @@ get_header(); ?>
 					<blockquote><h6 class="redtext-primary">tom ryan</h6><p>Smashburger Founder</p><p>Chief Concept Officer</p></blockquote>
 				</div>
 			</div>
-			<div class="small-12 medium-6 column pyramid red-primary small-padding">
+			<div class="small-12 medium-6 column pyramid red-primary center-padding">
 				<div class="">
 					<img src="<?php echo get_template_directory_uri() . '/img/beef_pyramid.png' ?>" alt="Angus Beed USDA Select">
 					<h4 class="white-text">A cut above the usda prime, choice &amp; select</h4>

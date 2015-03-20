@@ -60,7 +60,7 @@ get_header(); ?>
 				<div class="small-3 column no-padding">
 					<div class="big-burger" data-type="sprite" data-offsetY="-1375" data-Xposition="0%" data-speed="-2"></div>
 				</div>
-				<div class="small-6 row">
+				<div class="small-6 column no-padding">
 					<h2 class="white-text">Welcome To The Smashclub</h2>
 					<ul>
 						<li>News</li>

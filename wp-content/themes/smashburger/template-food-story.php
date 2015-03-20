@@ -51,7 +51,7 @@ get_header(); ?>
 				<img src="<?php echo get_template_directory_uri() . '/img/food_tomato.png' ?>" />
 			</div>
 			<div class="small-4 medium-3 column tan-bg css-triangle right no-padding">
-				<img src="<?php echo get_template_directory_uri() . '/img/harvest_salad.svg' ?>" alt="smashburger salads" />
+				<img class="small-padding" src="<?php echo get_template_directory_uri() . '/img/harvest_salad.svg' ?>" alt="smashburger salads" />
 			</div>
 			<div class="small-12 medium-6 column red-secondary">
 				<p class="white-text"><span>E</span>very great burger needs a sidekick, and our selection of signature sides &mdash; like our Smashfries tossed with rosemary, olive oil and garlic, haystack onions and fried pickles, are the perfect complement to any meal. The same is true for our handspun Häagen&ndash;Dazs&reg; shakes, served in a frosted glass. And if you&lsquo;re in the mood for something other than a burger, our menu of grilled or crispy chicken sandwiches, fresh salads and veggie burgers is sure to satisfy. We believe that choosing Smashburger means choosing happiness. You are one bite away from believing it too.</p>
