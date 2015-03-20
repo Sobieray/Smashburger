@@ -4826,9 +4826,10 @@ footer nav#site-navigation {
   }
   .flip-container:hover .back, .flip-container:hover .back a {
   	opacity: 1;
-  	trasform: rotateY(0deg);
-  	-ms-trasform: rotateY(0deg);
+  	transform: rotateY(0deg);
+  	-ms-transform: rotateY(0deg);
   }
+   
   .front img {
   	/*padding-top: 100px;*/
   	height: 300px;
