@@ -4816,7 +4816,7 @@ footer nav#site-navigation {
   	trasform: none;
   	-ms-transform: none;
   }
-  .flip-container .back p, .flip-container .back h4 {
+  .flip-container .back p, .flip-container .back h4, .flip-container .back a {
   	transform:rotateY(180deg);
   	-ms-trasform: rotateY(180deg);
   }
@@ -4828,11 +4828,6 @@ footer nav#site-navigation {
   	opacity: 1;
   	transform: rotateY(0deg);
   	-ms-transform: rotateY(0deg);
-  }
-  .flip-container:hover .back a {
-  	opacity: 1;
-  	transform: rotateY(360deg);
-  	-ms-transform: rotateY(360deg);
   }
   .front img {
   	/*padding-top: 100px;*/
