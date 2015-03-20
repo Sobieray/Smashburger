@@ -4830,7 +4830,7 @@ footer nav#site-navigation {
   	-ms-trasform: rotateY(0deg);
   }
   .front img {
-  	padding-top: 100px;
+  	/*padding-top: 100px;*/
   	height: 300px;
   	display: block;
   	margin: 0 auto;
