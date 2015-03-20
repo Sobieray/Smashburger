@@ -4824,12 +4824,16 @@ footer nav#site-navigation {
   	opacity: 0;
 
   }
-  .flip-container:hover .back, .flip-container:hover .back a {
+  .flip-container:hover .back {
   	opacity: 1;
   	transform: rotateY(0deg);
   	-ms-transform: rotateY(0deg);
   }
-   
+  .flip-container:hover .back a {
+  	opacity: 1;
+  	transform: rotateY(360deg);
+  	-ms-transform: rotateY(360deg);
+  }
   .front img {
   	/*padding-top: 100px;*/
   	height: 300px;
