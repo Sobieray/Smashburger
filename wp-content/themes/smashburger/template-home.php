@@ -183,7 +183,7 @@ get_header(); ?>
 		</div>
 		<article id="social" class="hide-for-small">
 			<h1 class="brown-text">#smashlife</h1>
-			<script async src="https://d36hc0p18k1aoc.cloudfront.net/public/js/modules/tintembed.js"></script><div class="tintup" data-id="smashburger" data-columns="4" style="height:500px;width:100%;"></div>
+			<script async src="https://d36hc0p18k1aoc.cloudfront.net/public/js/modules/tintembed.js"></script><div class="tintup" data-id="smashburger" data-columns="" data-clickformore="true" style="height:500px;width:100%;"></div>
 		</article>
 	</div><!-- #primary -->
 
