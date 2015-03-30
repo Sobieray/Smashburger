@@ -1750,7 +1750,7 @@ aside#comments h4 {
 	margin: 0 2em;
 }
 .page-template-template-chairman-php .rick-shaden {
-	background: url(../img/rick_pro_challenge.jpg) 80% center no-repeat;
+	background: url(../img/rick_pro_challenge.jpg) 50% center no-repeat;
 	background-size: cover;
 }
 .page-template-template-chairman-php .rick-shaden h4 {
@@ -4289,7 +4289,6 @@ footer nav#site-navigation {
 		display: block;
 	}
 	.page-template-template-chairman-php .rick-shaden {
-		background-position: top center;
 		padding: 20%;
 	}
 	.front img {
