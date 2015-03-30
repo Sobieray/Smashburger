@@ -16,11 +16,11 @@ get_header(); ?>
 				<h2 class="white-text red-secondary">featured awards</h2>
 			</span>
 			<div data-equalizer class="clear">
-				<div class="small-12 medium-6 column dark-blue-bg no-padding" data-equalizer-watch>
+				<a href="#"><div class="small-12 medium-6 column dark-blue-bg no-padding" data-equalizer-watch>
 					<span>2014</span>
 					<h3 class="blue-bg white-text">#6 &ldquo;America’s Most Promising Company&rdquo;</h3>
 					<h3 class="blue-bg white-text">Forbes Magazine</h3>
-				</div>
+				</div></a>
 				<div class="small-12 medium-6 column dark-blue-bg no-padding" data-equalizer-watch>
 					<span>2014</span>
 					<h3 class="white-text">#1 on &ldquo;Top 100 Movers &amp; Shakers&rdquo; LIST </h3>
@@ -42,70 +42,70 @@ get_header(); ?>
 		</main>
 		<div id="award_tiles">
 			<section class="1 center" data-equalizer>
-				<div class="small-12 medium-3 column tan-bg" data-equalizer-watch>
+				<a href="#"><div class="small-12 medium-3 column tan-bg" data-equalizer-watch>
 					<p class="brown-text">Best of Boulder</p>
 					<h4 class="brown-text">Best Burger</h4>
 					<span>2014</span>
-				</div>
-				<div class="small-12 medium-3 column light-tan-bg" data-equalizer-watch>
+				</div></a>
+				<a href="#"><div class="small-12 medium-3 column light-tan-bg" data-equalizer-watch>
 					<p class="brown-text">Inc. 500|5000</p>
 					<h4 class="brown-text">featured on &ldquo;America&rsquo;s Fastest Growing Companies&rdquo;</h4>
 					<span>2014</span>
-				</div>
-				<div class="small-12 medium-3 column red-secondary" data-equalizer-watch>
+				</div></a>
+				<a href="#"><div class="small-12 medium-3 column red-secondary" data-equalizer-watch>
 					<p class="white-text">Franchise Times</p>
 					<h4 class="white-text">#2 smartest-growing brand ON &ldquo;2014 Fast &amp; Serious&rdquo; LIST</h4>
 					<span>2014</span>
-				</div>
-				<div class="small-12 medium-3 column dark-blue-bg" data-equalizer-watch>
+				</div></a>
+				<a href="#"><div class="small-12 medium-3 column dark-blue-bg" data-equalizer-watch>
 					<p class="white-text">Forbes Magazine</p>
 					<h4 class="white-text">#6 &ldquo;America&rsquo;s most promising company&rdquo;</h4>
 					<span>2014</span>
-				</div>
+				</div></a>
 			</section>
 			<section class="2 center" data-equalizer>
-				<div class="small-12 medium-3 column blue-bg" data-equalizer-watch>
+				<a href="#"><div class="small-12 medium-3 column blue-bg" data-equalizer-watch>
 					<p class="white-text">Certified Angus Beef&reg;</p>
 					<h4 class="white-text">Restaurant chain marketer of the year</h4>
 					<span>2014</span>
-				</div>
-				<div class="small-12 medium-3 column tan-bg" data-equalizer-watch>
+				</div></a>
+				<a href="#"><div class="small-12 medium-3 column tan-bg" data-equalizer-watch>
 					<p class="brown-text">Inc. 500|5000</p>
 					<h4 class="brown-text">ranked #2220</h4>
 					<span>2014</span>
-				</div>
-				<div class="small-12 medium-3 column light-tan-bg" data-equalizer-watch>
+				</div></a>
+				<a href="#"><div class="small-12 medium-3 column light-tan-bg" data-equalizer-watch>
 					<p class="brown-text"> Addison, TX </p>
 					<h4 class="brown-text">favorite burger joint</h4>
 					<span>2013</span>
-				</div>
-				<div class="small-12 medium-3 column tan-bg" data-equalizer-watch>
+				</div></a>
+				<a href="#"><div class="small-12 medium-3 column tan-bg" data-equalizer-watch>
 					<p class="brown-text">best of woodbury</p>
 					<h4 class="brown-text">Best Burger</h4>
 					<span>2013</span>
-				</div>
+				</div></a>
 			</section>
 			<section class="3 center" data-equalizer>
-				<div class="small-12 medium-3 column tan-bg" data-equalizer-watch>
+				<a href="#"><div class="small-12 medium-3 column tan-bg" data-equalizer-watch>
 					<p class="brown-text">fast casual</p>
 					<h4 class="brown-text">small brand of the year</h4>
 					<span>2013</span>
-				</div>
-				<div class="small-12 medium-3 column light-brown-bg" data-equalizer-watch>
+				</div></a>
+				<a href="#"><div class="small-12 medium-3 column light-brown-bg" data-equalizer-watch>
 					<p class="white-text">fast casual</p>
 					<h4 class="white-text">top 100 &ldquo;Movers &amp; shakers&rdquo; &amp; 50 &ldquo;brands of the year&rdquo;</h4>
 					<span>2013</span>
-				</div>
-				<div class="small-12 medium-3 column tan-bg" data-equalizer-watch>
+				</div></a>
+				<a href="#"><div class="small-12 medium-3 column tan-bg" data-equalizer-watch>
 					<p class="brown-text">Mid Rivers News Magazine</p>
 					<h4 class="brown-text">Best Burger</h4>
 					<span>2012</span>
-				</div>
-				<div class="small-12 medium-3 column red-secondary" data-equalizer-watch>
+				</div></a>
+				<a href="#"><div class="small-12 medium-3 column red-secondary" data-equalizer-watch>
 					<p class="white-text">Entrepreneur Magazine</p>
 					<h4 class="white-text">Ranked #265 on franchise 500</h4>
 					<span>2012</span>
-				</div>
+				</div></a>
 			</section>
 			<section class="4 center" data-equalizer>
 				<div class="small-12 medium-3 column light-tan-bg" data-equalizer-watch>
