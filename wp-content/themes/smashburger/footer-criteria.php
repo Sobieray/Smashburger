@@ -36,7 +36,7 @@
 					<p>&copy; <?php echo date('Y'); ?> Smashburger IP Holder LLC. All rights reserved.</p>
 					<p>Smashburger&reg;, Smash. Sizzle. Savor.&reg; the concentric oval design, and related trademarks are the property of Smashburger IP Holder LLC.</p>
 					<p>This information is not intended as an offer to sell, or the solicitation of an offer to buy, a franchise. It is for information purposes only. Currently, the following states in the United States regulate the offer and sale of franchises: California, Hawaii, Illinois, Indiana, Maryland, Michigan, Minnesota, New York, North Dakota, Oregon, Rhode Island, South Dakota, Virginia, Washington, and Wisconsin. If you are a resident of one of these states, we will not offer you a franchise unless and until we have complied with applicable pre-sale registration and disclosure requirements in your jurisdiction.</p>
-					<p>The required criteria for franchisees is specified as a minimum of $1.5 million net worth and a minimum of $500K in liquid assets. Larger development agreements may require further credentials.</p>
+					<p>*The required criteria for franchisees is specified as a minimum of $1.5 million net worth and a minimum of $500K in liquid assets. Larger development agreements may require further credentials.</p>
 				</div><!-- #small-print -->
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
