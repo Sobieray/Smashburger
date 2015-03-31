@@ -29,9 +29,10 @@ $(document).ready(function() {
 	    },	   
 	});
 	$.ajax({
-	    url: 'http://smashburger.com/wp-content/themes/smashburger/data/smash2.json',
+	    url: 'http://localhost:8888/wp-content/themes/smashburger/data/smash2.json',
 	    dataType:'json',
 	    success:function(locations) {
+	    	console.log(locations);
 	    	var smashburgerLocations = [];
 	      for (var i = 0; i < locations.results.length; i++) {
 	        var latitude = locations.results[i].geocode.lat;
@@ -69,8 +70,6 @@ $(document).ready(function() {
 	    		   futureOpenings.push(futureLocations);
 	  		  };
 	  		};
-	  		console.log(recentOpenings);
-	  		console.log(futureOpenings);
 	      smashBurger.bubbles(smashburgerLocations, {
 
 	       /*popupTemplate: function (geo, data) { 
