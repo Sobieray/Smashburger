@@ -6,6 +6,7 @@
  */
 
 get_header(); ?>
+
 	<div class="header">
 		<h1>We&rsquo;re Growing</h1>
 	</div>
