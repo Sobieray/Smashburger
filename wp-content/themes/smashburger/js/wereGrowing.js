@@ -29,7 +29,7 @@ $(document).ready(function() {
 	    },	   
 	});
 	$.ajax({
-	    url: 'http://localhost:8888/wp-content/themes/smashburger/data/smash2.json',
+	    url: 'http://smashburger.com/wp-content/themes/smashburger/data/smash2.json',
 	    dataType:'json',
 	    success:function(locations) {
 	    	console.log(locations);
@@ -41,6 +41,7 @@ $(document).ready(function() {
 	        var opened = locations.results[i].userFields["Opening Date"].value;
 	      	var date = new Date(opened);
 	      	var time = date.getTime();
+
 	      	
 	        var coordinates = {name: name, date: time, latitude: latitude, longitude: longitude, radius: 2, fillKey: 'BLUE', fillOpacity: 1, borderColor: '#4b5f8a', borderWidth: 0}; //
 	        smashburgerLocations.push(coordinates); 
@@ -54,15 +55,16 @@ $(document).ready(function() {
 	    		var today = Date.now();
       		var sixMonths = today - 15552000000;
       		var dates = smashburgerLocations[j].date;
+      		var coming = locations.results[j].userFields["alert_message"].value;
 
-	  		  if (dates >= sixMonths && dates <= today) { 
+	  		  if (dates >= sixMonths && dates <= today && coming != "Coming Soon!") { 
 	    		  var latitude =  smashburgerLocations[j].latitude;
 	    		  var longitude = smashburgerLocations[j].longitude;
 	    		  var name = smashburgerLocations[j].name;
 	    		  newLocations = {name: name, date: time, latitude: latitude, longitude: longitude, radius: 2, fillKey: 'BLUE', fillOpacity: 1, borderColor: '#4b5f8a', borderWidth: 0};
 	    	  	recentOpenings.push(newLocations);
 	  		  };
-	  		  if (dates > today) {
+	  		  if (coming === "Coming Soon!") {
 	  		  	 var latitude =  smashburgerLocations[j].latitude;
 	    		   var longitude = smashburgerLocations[j].longitude;
 	    		   var name = smashburgerLocations[j].name;
@@ -70,6 +72,7 @@ $(document).ready(function() {
 	    		   futureOpenings.push(futureLocations);
 	  		  };
 	  		};
+	  		console.log(futureLocations);
 	      smashBurger.bubbles(smashburgerLocations, {
 
 	       /*popupTemplate: function (geo, data) { 
