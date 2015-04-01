@@ -20,7 +20,8 @@ $(document).ready(function() {
 	      'SLV': {fillKey: 'RED'},
 	      'CRI': {fillKey: 'RED'},
 	      'PAN': {fillKey: 'RED'},
-	      'SAU': {fillKey: 'RED'}
+	      'SAU': {fillKey: 'RED'},
+	      'KWT': {fillKey: 'RED'}
 	    },
 	    geographyConfig: {
 	        highlightOnHover: false,
@@ -29,7 +30,7 @@ $(document).ready(function() {
 	    },	   
 	});
 	$.ajax({
-	    url: 'http://smashburger.com/wp-content/themes/smashburger/data/smash2.json',
+	    url: 'http://smashwebadmin.staging.wpengine.com/wp-content/themes/smashburger/data/smash2.json',
 	    dataType:'json',
 	    success:function(locations) {
 	    	console.log(locations);
@@ -38,12 +39,14 @@ $(document).ready(function() {
 	        var latitude = locations.results[i].geocode.lat;
 	        var longitude = locations.results[i].geocode.long;
 	        var name = locations.results[i].name;
+	        var state = locations.results[i].address.state;
+	        var city = locations.results[i].address.city;
 	        var opened = locations.results[i].userFields["Opening Date"].value;
 	      	var date = new Date(opened);
 	      	var time = date.getTime();
 
 	      	
-	        var coordinates = {name: name, date: time, latitude: latitude, longitude: longitude, radius: 2, fillKey: 'BLUE', fillOpacity: 1, borderColor: '#4b5f8a', borderWidth: 0}; //
+	        var coordinates = {name: name, state: state, city: city, date: time, latitude: latitude, longitude: longitude, radius: 2, fillKey: 'BLUE', fillOpacity: 1, borderColor: '#4b5f8a', borderWidth: 0}; //
 	        smashburgerLocations.push(coordinates); 
 	        //console.log(opened);
 	      };
@@ -61,27 +64,34 @@ $(document).ready(function() {
 	    		  var latitude =  smashburgerLocations[j].latitude;
 	    		  var longitude = smashburgerLocations[j].longitude;
 	    		  var name = smashburgerLocations[j].name;
-	    		  newLocations = {name: name, date: time, latitude: latitude, longitude: longitude, radius: 2, fillKey: 'BLUE', fillOpacity: 1, borderColor: '#4b5f8a', borderWidth: 0};
+	    		  var state = smashburgerLocations[j].state;
+	        	var city = smashburgerLocations[j].city;
+	    		  newLocations = {name: name, state: state, city: city, date: time, latitude: latitude, longitude: longitude, radius: 2, fillKey: 'BLUE', fillOpacity: 1, borderColor: '#4b5f8a', borderWidth: 0};
 	    	  	recentOpenings.push(newLocations);
 	  		  };
 	  		  if (coming === "Coming Soon!") {
 	  		  	 var latitude =  smashburgerLocations[j].latitude;
 	    		   var longitude = smashburgerLocations[j].longitude;
 	    		   var name = smashburgerLocations[j].name;
-	    		   futureLocations = {name: name, date: time, latitude: latitude, longitude: longitude, radius: 2, fillKey: 'BLUE', fillOpacity: 1, borderColor: '#4b5f8a', borderWidth: 0};
+	    		   var state = smashburgerLocations[j].state;
+	        	 var city = smashburgerLocations[j].city;
+	    		   futureLocations = {name: name, state: state, city: city, date: time, latitude: latitude, longitude: longitude, radius: 2, fillKey: 'BLUE', fillOpacity: 1, borderColor: '#4b5f8a', borderWidth: 0};
 	    		   futureOpenings.push(futureLocations);
 	  		  };
 	  		};
 	  		console.log(futureLocations);
 	      smashBurger.bubbles(smashburgerLocations, {
 
-	       /*popupTemplate: function (geo, data) { 
-	        return ['<div class="hoverinfo">' +  data.name, '</div>'].join('');
-	       }*/
+	       popupTemplate: function (geo, data) { 
+	        return ['<div class="hoverinfo">' + data.city +', '+ data.state +'<br>'+ data.name, '</div>'].join('');
+	       }
 	      });
 	      $('#filters a.recent-openings').click(function() {
 	      	console.log(recentOpenings);
 	      	smashBurger.bubbles(recentOpenings, {
+	      		popupTemplate: function (geo, data) { 
+	      		 return ['<div class="hoverinfo">' + data.city +', '+ data.state +'<br>'+ data.name, '</div>'].join('');
+	      		}
 		      });
 		      $(this).addClass('active');
 		      $('#filters a.future-openings').removeClass('active');
@@ -89,6 +99,9 @@ $(document).ready(function() {
 	      });
 	        $('#filters a.future-openings').click(function() {
 	      	smashBurger.bubbles(futureOpenings, {
+	      		popupTemplate: function (geo, data) { 
+	      		 return ['<div class="hoverinfo">' + data.city +', '+ data.state +'<br>'+ data.name, '</div>'].join('');
+	      		}
 		      });
 		      console.log('future');
 		      $(this).addClass('active');
