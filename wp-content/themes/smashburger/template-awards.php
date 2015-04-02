@@ -16,28 +16,36 @@ get_header(); ?>
 				<h2 class="white-text red-secondary">featured awards</h2>
 			</span>
 			<div data-equalizer class="clear">
-				<a href="#"><div class="small-12 medium-6 column dark-blue-bg no-padding" data-equalizer-watch>
-					<span>2014</span>
-					<h3 class="blue-bg white-text">#6 &ldquo;America’s Most Promising Company&rdquo;</h3>
-					<h3 class="blue-bg white-text">Forbes Magazine</h3>
-				</div></a>
-				<div class="small-12 medium-6 column dark-blue-bg no-padding" data-equalizer-watch>
-					<span>2014</span>
-					<h3 class="white-text">#1 on &ldquo;Top 100 Movers &amp; Shakers&rdquo; LIST </h3>
-					<h3 class="white-text">Fast Casual</h3>
-				</div>
+				<a href="#">
+					<div class="small-12 medium-6 column dark-blue-bg no-padding" data-equalizer-watch>
+						<span>2015</span>
+						<h3 class="blue-bg white-text">#3 &ldquo;List of smartest-growing brands&rdquo;</h3>
+						<h3 class="blue-bg white-text">Fast &amp; Serious</h3>
+					</div>
+				</a>
+				<a href="#">
+					<div class="small-12 medium-6 column dark-blue-bg no-padding" data-equalizer-watch>
+						<span>2014</span>
+						<h3 class="white-text">#1 on &ldquo;Top 100 Movers &amp; Shakers&rdquo; LIST </h3>
+						<h3 class="white-text">Fast Casual</h3>
+					</div>
+				</a>
 			</div>
 			<div data-equalizer class="clear">
-				<div class="small-12 medium-6 column dark-blue-bg no-padding" data-equalizer-watch>
-					<span>2012</span>
-					<h3 class="white-text">Best Franchise Deals</h3>
-					<h3 class="white-text">QSR Magazine</h3>
-				</div>
-				<div class="small-12 medium-6 column dark-blue-bg no-padding" data-equalizer-watch>
-					<span>2011</span>
-					<h3 class="white-text">Hot Retailer Award</h3>
-					<h3 class="white-text">International Council of Shopping Centers</h3>
-				</div>
+				<a href="#">
+					<div class="small-12 medium-6 column dark-blue-bg no-padding" data-equalizer-watch>
+						<span>2012</span>
+						<h3 class="white-text">Best Franchise Deals</h3>
+						<h3 class="white-text">QSR Magazine</h3>
+					</div>
+				</a>
+				<a href="#">
+					<div class="small-12 medium-6 column dark-blue-bg no-padding" data-equalizer-watch>
+						<span>2011</span>
+						<h3 class="white-text">Hot Retailer Award</h3>
+						<h3 class="white-text">International Council of Shopping Centers</h3>
+					</div>
+				</a>
 			</div>
 		</main>
 		<div id="award_tiles">
