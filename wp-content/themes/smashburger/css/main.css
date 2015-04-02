@@ -3421,6 +3421,7 @@ article#steps footer a:hover, #inquiry-submit a:hover  {
 	background-position: bottom center;
 	background-size: 80%;
 }
+
 #award_tiles div p {
 	margin-top: 5%;
 	font-size: 100%;
@@ -3459,6 +3460,12 @@ article#steps footer a:hover, #inquiry-submit a:hover  {
 	opacity: .06;
 	z-index: 1;
 
+}
+#award_tiles a:hover div {
+	background-color: #492e1e;
+}
+#award_tiles a:hover div p, #award_tiles a:hover div h4  {
+	color: #ffffff;
 }
 /*==== Inquire ====*/
 #inquire {
