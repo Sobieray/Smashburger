@@ -21,7 +21,7 @@ get_header(); ?>
 			<div class="small-12 medium-6 row">			
 				<h2 class="brown-text">Thank You For Joining the <span class='redtext-secondary'>smash</span>club!</h2>
 				<p>Within the next 24 hours you should receive a welcome email with your <span class='redtext-secondary'>delicious reward</span>. Please take some time to update your profile by clicking on the link below so you can receive a <span class='redtext-secondary'>free</span> shake on your birthday and promotions for your local Smashburger.</p>
-				<a href="" class="red-primary secondary-btn">Update Your Profile</a>
+				<a href="/club-cards/smashclub/update-profile/" class="red-primary secondary-btn">Update Your Profile</a>
 			</div>
 			<div class="hide-for-small-only">
 				<div class="medium-12">
