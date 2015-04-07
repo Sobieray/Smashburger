@@ -59,6 +59,7 @@ select:active,
 select:hover {
 	outline: none;
 	border: none;
+	cursor: pointer;
 }
 header .site-branding h1,
 header .site-branding h2,
