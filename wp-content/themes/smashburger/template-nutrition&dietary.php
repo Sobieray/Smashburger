@@ -15,12 +15,12 @@ get_header(); ?>
 			<section class="blue-bg clear">
 				<div class="small-12 medium-6 large-5 column calculator blue-bg blue-overlay">
 					<h2 class="white-text">Nutrition Info</h2>
-					<a href="http://smashwebadmin.wpengine.com/wp-content/uploads/2015/02/Nutritional-Information-February-2015.pdf" class="red-primary secondary-btn">Check it out</a>
+					<a href="http://smashburger.com/wp-content/uploads/2015/04/Nutritional-Information-April-2015.pdf" class="red-primary secondary-btn">Check it out</a>
 				</div>
 				<div class="small-12 medium-6 large-7 column blue-bg pdf">
 					<div class="small-12 large-6">
 						<h2 class="white-text">Allergen info</h2>
-						<a href="http://smashwebadmin.wpengine.com/wp-content/uploads/2015/02/Allergen-Menu-February-2015.pdf" class="red-primary secondary-btn">Download Pdf</a>
+						<a href="http://smashburger.com/wp-content/uploads/2015/04/Allergen-Menu-April-2015.pdf" class="red-primary secondary-btn">Download Pdf</a>
 					</div>
 				</div>
 			</section>
