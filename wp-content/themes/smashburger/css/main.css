@@ -2215,6 +2215,9 @@ left: 0;
 .local-burger .back p {
 	top: 10%;
 }
+section:not(.row1) .flip {
+	min-height: 400px;
+}
 
 /* Burgers */
 
