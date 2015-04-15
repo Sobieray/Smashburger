@@ -111,7 +111,7 @@ $(document).ready(function() {
 	    },
 	});
 	// Zoom 
-	setTimeout(zoomin, 1000);
+	//setTimeout(zoomin, 1000);
 	function zoomin() {
 		var width = 960,
 		    height = 550;
