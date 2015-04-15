@@ -6,15 +6,16 @@
  */
 
 get_header(); ?>
+
 	<div class="header">
 		<h1>We&rsquo;re Growing</h1>
 	</div>
 	<div id="primary" class="content-area">
 		<main id="map-container" class="site-main" role="main" >
 			<div id="map">
-				<div class="howto">
+				<!-- <div class="howto">
 					<i>Hover over an area and scroll to zoom in/out</i>
-				</div>
+				</div> -->
 				
 				<div class="zoom-slider">
 					<div class="cover"></div>
