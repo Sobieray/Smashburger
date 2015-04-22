@@ -46,11 +46,11 @@ get_header(); ?>
 		</main>
 		<div id="award_tiles">
 			<section class="1 center" data-equalizer>
-				<a href="http://www.forbes.com/sites/brettnelson/2011/11/30/americas-most-promising-companies-the-top-20/" target="_blank"><div class="small-12 medium-3 column light-tan-bg" data-equalizer-watch>
+				<div class="small-12 medium-3 column light-tan-bg" data-equalizer-watch>
 					<p class="brown-text">Inc. 500|5000</p>
 					<h4 class="brown-text">featured on &ldquo;America&rsquo;s Fastest Growing Companies&rdquo;</h4>
 					<span>2014</span>
-				</div></a>
+				</div>
 				<a href="http://www.franchisetimes.com/March-2014/Smashburger/" target="_blank"><div class="small-12 medium-3 column red-secondary" data-equalizer-watch>
 					<p class="white-text">Franchise Times</p>
 					<h4 class="white-text">#2 smartest-growing brand ON &ldquo;2014 Fast &amp; Serious&rdquo; LIST</h4>
