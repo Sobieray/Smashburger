@@ -384,10 +384,10 @@ nav#site-navigation.bg {
 	background-color: rgba(73,46,30,.9);
 }
 nav#site-navigation.bg li.name {
-	padding-top: 0;
+	padding-top: 15px;
 }
 nav#site-navigation.bg .breadcrumbs {
-	top: 50px;
+	top: 65px;
 }
 .tab-bar, .top-bar, .top-bar-section ul li,
 .top-bar-section li:not(.has-form) a:not(.button) {
@@ -4170,10 +4170,10 @@ footer nav#site-navigation {
 		top: -40px;
 	}
 	.breadcrumbs {
-  	top: 85px;
+		top: 85px;
 	}
 	nav#site-navigation.bg .breadcrumbs {
-		top: 65px;
+		top: 75px;
 	}
 }
 @media (min-width: 1700px) {
@@ -4183,11 +4183,11 @@ footer nav#site-navigation {
 	.menu-files {
 		top: -40px;
 	}
-	.breadcrumbs  {
-		top: 90px;
+	.breadcrumbs {
+		top: 95px;
 	}
 	nav#site-navigation.bg .breadcrumbs {
-		top: 70px;
+		top: 80px;
 	}
 }
 @media (max-width: 1280px) {
