@@ -47,14 +47,17 @@ get_header(); ?>
 			  <div class="content active" id="panel1">
 			    <section class="row1 clear flex">
 				    <div class="menu slider small-12 large-6 column">
+				    	<div class="slide">
+		   					<img src="<?php echo get_template_directory_uri() . '/img/Burgers-colorado.jpg' ?>" alt="colorado smashburger">
+		   				</div>
 		   				<div class="slide">
 		   					<img src="<?php echo get_template_directory_uri() . '/img/slide_classic_burger.jpg' ?>" alt="classic smashburger">
 		   				</div>
 		   				<div class="slide">
-		   					<img src="<?php echo get_template_directory_uri() . '/img/slide_baja_burger.jpg' ?>" alt="classic smashburger">
+		   					<img src="<?php echo get_template_directory_uri() . '/img/slide_baja_burger.jpg' ?>" alt="spicy baja smashburger">
 		   				</div>
 		   				<div class="slide">
-		   					<img src="<?php echo get_template_directory_uri() . '/img/slide_bbq_burger.jpg' ?>" alt="classic smashburger">
+		   					<img src="<?php echo get_template_directory_uri() . '/img/slide_bbq_burger.jpg' ?>" alt="bbq smashburger">
 		   				</div>
 		   			</div>
 				   	<div class="medium-6 large-3 column red-primary menu-locate burgers">
