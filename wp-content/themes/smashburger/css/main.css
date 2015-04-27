@@ -59,6 +59,7 @@ select:active,
 select:hover {
 	outline: none;
 	border: none;
+	cursor: pointer;
 }
 header .site-branding h1,
 header .site-branding h2,
@@ -383,10 +384,10 @@ nav#site-navigation.bg {
 	background-color: rgba(73,46,30,.9);
 }
 nav#site-navigation.bg li.name {
-	padding-top: 0;
+	padding-top: 15px;
 }
 nav#site-navigation.bg .breadcrumbs {
-	top: 50px;
+	top: 65px;
 }
 .tab-bar, .top-bar, .top-bar-section ul li,
 .top-bar-section li:not(.has-form) a:not(.button) {
@@ -576,7 +577,7 @@ letter-spacing: 1px;
 .top-bar-section div#geolocation .search h6 {
 	background-color: #8a6047;
 }
-.top-bar-section li.menu-item-6488:hover #geolocation {
+.top-bar-section li.menu-item-6864:hover #geolocation {
 	display: block;
 }
 
@@ -3352,7 +3353,7 @@ article#steps footer a:hover, #inquiry-submit a:hover  {
 	font-family: 'Bebas_Bold';
 	font-weight: 900;
 }
-#awards div > div {
+#awards div > div, #awards div > a {
 	text-align: center;
 	padding: 3% 0 12% 0;
 }
@@ -3385,7 +3386,7 @@ article#steps footer a:hover, #inquiry-submit a:hover  {
 #awards div h3:nth-of-type(2) {
 	padding-top: 0;
 }
-#awards div:nth-child(2) div:nth-of-type(1), #awards div:nth-child(3) div:nth-of-type(2) {
+#awards div:nth-child(2) a:nth-of-type(1), #awards div:nth-child(3) div:nth-of-type(2) {
 	background: #87afd1;
 }
 #awards div:nth-child(2) div:nth-of-type(1) h3, #awards div:nth-child(3) div:nth-of-type(2) h3  {
@@ -3394,23 +3395,23 @@ article#steps footer a:hover, #inquiry-submit a:hover  {
 #awards div:nth-child(2) div:nth-of-type(1) span, #awards div:nth-child(3) div:nth-of-type(2) span {
 	color: #7395b2;
 }
-#awards div:nth-child(2) div:nth-of-type(2) h3, #awards div:nth-child(3) div:nth-of-type(1) h3 {
+#awards div:nth-child(2) a:nth-of-type(2) h3, #awards div:nth-child(3) div:nth-of-type(1) h3 {
 	background-color: #394868;
 }
-#awards div:nth-child(2) div:nth-of-type(2) span, #awards div:nth-child(3) div:nth-of-type(1) span {
+#awards div:nth-child(2) a:nth-of-type(2) span, #awards div:nth-child(3) div:nth-of-type(1) span {
 	color: #394868;
 }
-#awards div:nth-child(2) div:nth-of-type(1) {
-	background-image: url(../img/forbes.jpg);
+#awards div:nth-child(2) a:nth-of-type(1) {
+	background-image: url(../img/franchise_times.png);
 	background-repeat: no-repeat;
 	background-position: bottom center;
-	background-size: 100% 57%;
+	background-size: 107% 38%;
 }
-#awards div:nth-child(2) div:nth-of-type(2) {
-	background-image: url(../img/fast_casual.jpg);
+#awards div:nth-child(2) a:nth-of-type(2) {
+	background-image: url(../img/fast_casual.png); /*../img/icsc.jpg*/
 	background-repeat: no-repeat;
 	background-position: bottom center;
-	background-size: 75%;
+	background-size: 100% 47%;
 }
 #awards div:nth-child(3) div:nth-of-type(1) {
 	background-image: url(../img/qsr.jpg);
@@ -3419,10 +3420,20 @@ article#steps footer a:hover, #inquiry-submit a:hover  {
 	background-size: 102% 57%;
 }
 #awards div:nth-child(3) div:nth-of-type(2) {
-	background-image: url(../img/icsc.jpg);
+	background-image: url(../img/forbes.jpg);
 	background-repeat: no-repeat;
 	background-position: bottom center;
-	background-size: 80%;
+	background-size: 100% 57%;
+}
+#awards div:nth-child(2) a:nth-of-type(1):hover, #awards div:nth-child(2) a:nth-of-type(2):hover {
+	background-color: #c4161c;
+
+}
+#awards div:nth-child(2) a:nth-of-type(1):hover span, #awards div:nth-child(2) a:nth-of-type(2):hover span {
+	color: #921015;
+}
+#awards div:nth-child(2) a:nth-of-type(1):hover h3, #awards div:nth-child(2) a:nth-of-type(2):hover h3 {
+	background-color: #921015;
 }
 #award_tiles div p {
 	margin-top: 5%;
@@ -3462,6 +3473,12 @@ article#steps footer a:hover, #inquiry-submit a:hover  {
 	opacity: .06;
 	z-index: 1;
 
+}
+#award_tiles a:hover div {
+	background-color: #492e1e;
+}
+#award_tiles a:hover div p, #award_tiles a:hover div h4  {
+	color: #ffffff;
 }
 /*==== Inquire ====*/
 #inquire {
@@ -4153,10 +4170,10 @@ footer nav#site-navigation {
 		top: -40px;
 	}
 	.breadcrumbs {
-  	top: 85px;
+		top: 85px;
 	}
 	nav#site-navigation.bg .breadcrumbs {
-		top: 65px;
+		top: 75px;
 	}
 }
 @media (min-width: 1700px) {
@@ -4166,11 +4183,11 @@ footer nav#site-navigation {
 	.menu-files {
 		top: -40px;
 	}
-	.breadcrumbs  {
-		top: 90px;
+	.breadcrumbs {
+		top: 95px;
 	}
 	nav#site-navigation.bg .breadcrumbs {
-		top: 70px;
+		top: 80px;
 	}
 }
 @media (max-width: 1280px) {
