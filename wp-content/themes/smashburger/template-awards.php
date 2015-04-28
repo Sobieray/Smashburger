@@ -78,11 +78,11 @@ get_header(); ?>
 					<h4 class="brown-text">top 50 brands of the year</h4>
 					<span>2013</span>
 				</div>
-				<a href="http://www.inc.com/hire-power/list" target="_blank"><div class="small-12 medium-3 column blue-bg" data-equalizer-watch>
+				<div class="small-12 medium-3 column blue-bg" data-equalizer-watch>
 					<p class="white-text">Inc. 500|5000</p>
 					<h4 class="white-text">#9 on &ldquo;Top 100 job creators&rdquo;</h4>
 					<span>2012</span>
-				</div></a>
+				</div>
 				<div class="small-12 medium-3 column red-secondary" data-equalizer-watch>
 					<p class="white-text">Entrepreneur Magazine</p>
 					<h4 class="white-text">Ranked #265 on franchise 500</h4>
@@ -90,11 +90,11 @@ get_header(); ?>
 				</div>
 			</section>
 			<section class="3 center" data-equalizer>
-				<a href="http://www.gourmet.com/food/gourmetlive/2012/080112/worlds-best-burgers" target="_blank"><div class="small-12 medium-3 column tan-bg" data-equalizer-watch>
+				<div class="small-12 medium-3 column tan-bg" data-equalizer-watch>
 					<p class="brown-text">gourmet magazine</p>
 					<h4 class="brown-text">Worlds Best Burger</h4>
 					<span>2012</span>
-				</div></a>
+				</div>
 				<div class="small-12 medium-3 column light-tan-bg" data-equalizer-watch>
 					<p class="brown-text">Brooklyn</p>
 					<h4 class="brown-text">Best Burger</h4>
