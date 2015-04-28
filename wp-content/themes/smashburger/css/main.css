@@ -4691,6 +4691,9 @@ footer nav#site-navigation {
 	#panel3 ul {
 		padding-bottom: 2.5em;
 	}
+	section:not(.row1) .flip {
+		min-height: 100%;
+	}
 }
 @media (max-width: 540px) {
 	.page-template-template-menu-php .slick-dots {
