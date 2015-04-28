@@ -443,8 +443,13 @@ get_header(); ?>
 				</div><!-- #panel2  --><!-- Chicken -->
 			  <div class="content" id="panel3">
 			    <section class="row1 clear flex">
-				    <div class="small-12 large-6 column no-padding">
-		   			  <img src="<?php echo get_template_directory_uri() . '/img/create_your_own.jpg' ?>" alt="create your own smashburger">
+			    	 <div class="menu slider small-12 large-6 column">
+		   				<div class="slide">
+		   					<img src="<?php echo get_template_directory_uri() . '/img/create_your_own.jpg' ?>" alt="create your own smashburger">
+		   				</div>
+		   				<div class="slide">
+		   					<img src="<?php echo get_template_directory_uri() . '/img/slide_chicken_avocado.jpg' ?>" alt="smashburger chicken avocado sandwich">
+		   				</div>
 		   			</div>
 				   	<div class="medium-6 large-3 column red-primary puzzle">
 				   		<img src="<?php echo get_template_directory_uri() . '/img/menu_create.svg' ?>" alt="make your own burger icon" width="50">
@@ -745,8 +750,13 @@ get_header(); ?>
 				</div><!-- #panel5  --><!-- Sides -->
 	  	  <div class="content" id="panel6">
 			    <section class="row1 clear flex">
-				    <div class="menu small-12 large-6 column no-padding">
-		   				<img src="<?php echo get_template_directory_uri() . '/img/shakes_hero.jpg' ?>" alt="smashburger hand-spun shakes">
+			    	 <div class="menu slider small-12 large-6 column">
+		   				<div class="slide">
+		   					<img src="<?php echo get_template_directory_uri() . '/img/shakes_hero.jpg' ?>" alt="smashburger hand-spun shakes">
+		   				</div>
+		   				<div class="slide">
+		   					<img src="<?php echo get_template_directory_uri() . '/img/Shakes-mintoreo.jpg' ?>" alt="smashburger haystack onion rings">
+		   				</div>
 		   			</div>
 				   	<div class="medium-6 large-3 column red-primary menu-locate shakes">
 				   		<img src="<?php echo get_template_directory_uri() . '/img/shake_pin.png' ?>" alt="local smashburger shakes">
