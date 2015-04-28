@@ -450,6 +450,9 @@ get_header(); ?>
 		   				<div class="slide">
 		   					<img src="<?php echo get_template_directory_uri() . '/img/slide_chicken_avocado.jpg' ?>" alt="smashburger chicken avocado sandwich">
 		   				</div>
+		   				<div class="slide">
+		   					<img src="<?php echo get_template_directory_uri() . '/img/slide_classic_burger.jpg' ?>" alt="classic smashburger">
+		   				</div>
 		   			</div>
 				   	<div class="medium-6 large-3 column red-primary puzzle">
 				   		<img src="<?php echo get_template_directory_uri() . '/img/menu_create.svg' ?>" alt="make your own burger icon" width="50">
