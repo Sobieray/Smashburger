@@ -167,6 +167,5 @@ get_header(); ?>
 			$('nav#site-navigation').removeClass('bg');
 		}
 	});
-	
 	$('#job-openings li a[href!=""]').parent('li').show();
 </script>
