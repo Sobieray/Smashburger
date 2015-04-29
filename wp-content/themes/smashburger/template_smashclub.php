@@ -19,7 +19,13 @@ get_header(); ?>
 			  <img src="<?php echo $image2['url']; ?>" alt="<?php echo $image2['alt']; ?>">
 			</div>
 			<p class="brown-text small-12 row"><?php echo get_field('page_info'); ?></p>
-			<iframe src="<?php echo get_field('iframe_url'); ?>" width="60%" height="720"></iframe>
+			<?php 
+				if (isset($_GET['inputsource'])){
+					echo '<iframe src="https://smashburger.fbmta.com/members/UpdateProfile.aspx?Action=Subscribe&_Theme=45097156821&InputSource=W-RAF2015" width="1000" height="800"></iframe>';
+				} else {
+					echo '<iframe src="https://smashburger.fbmta.com/members/UpdateProfile.aspx?Action=Subscribe&_Theme=45097156821&InputSource=wForm" width="1000" height="800"></iframe>';
+				}
+			?>
 			<div class="hide-for-small-only">
 				<div class="medium-12">
 					<img src="<?php echo $image1['url']; ?>" alt="<?php echo $image1['alt']; ?>">
