@@ -90,11 +90,17 @@ get_header(); ?>
 
 	<section id="job-openings">
 		<?php 
+			//hourly links
 			$hourly_link1 = get_field('job_title1_link');
 			$hourly_link2 = get_field('job_title2_link');
 			$hourly_link3 = get_field('job_title3_link');
+			//manager links
 			$manager_link1 = get_field('manager_title1_link');
 			$manager_link2 = get_field('manager_title2_link');
+			$manager_link3 = get_field('manager_title3_link');
+			$manager_link4 = get_field('manager_title4_link');
+			$manager_link5 = get_field('manager_title5_link');
+			//corporate links
 			$corporate_link1 = get_field('corporate_title1_link');
 			$corporate_link2 = get_field('corporate_title2_link');
 			$corporate_link3 = get_field('corporate_title3_link');
@@ -103,6 +109,13 @@ get_header(); ?>
 			$corporate_link6 = get_field('corporate_title6_link');
 			$corporate_link7 = get_field('corporate_title7_link');
 			$corporate_link8 = get_field('corporate_title8_link');
+			$corporate_link9 = get_field('corporate_title9_link');
+			$corporate_link10 = get_field('corporate_title10_link');
+			$corporate_link11 = get_field('corporate_title11_link');
+			$corporate_link12 = get_field('corporate_title12_link');
+			$corporate_link13 = get_field('corporate_title13_link');
+			$corporate_link14 = get_field('corporate_title14_link');
+			$corporate_link15 = get_field('corporate_title15_link');
 		?>
 		<h2>Job Openings</h2>
 		<div id="hourly">
@@ -117,7 +130,9 @@ get_header(); ?>
 			<ul>
 				<li class="clear"><p><?php echo get_field('manager_title1'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $manager_link1 ?>">Apply Now</a></li>
 				<li class="clear"><p><?php echo get_field('manager_title2'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $manager_link2 ?>">Apply Now</a></li>
-				<!-- <li class="clear"><p><?php echo get_field('manager_title3'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $hourly_link3 ?>">Apply Now</a></li> -->
+				<li class="clear"><p><?php echo get_field('manager_title3'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $hourly_link3 ?>">Apply Now</a></li>
+				<li class="clear"><p><?php echo get_field('manager_title4'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $hourly_link4 ?>">Apply Now</a></li>
+				<li class="clear"><p><?php echo get_field('manager_title5'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $hourly_link5 ?>">Apply Now</a></li>
 			</ul>
 		</div>
 			<div id="corporate">
@@ -131,6 +146,13 @@ get_header(); ?>
 				<li class="clear"><p><?php echo get_field('corporate_title6'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $corporate_link6 ?>">Apply Now</a></li>
 				<li class="clear"><p><?php echo get_field('corporate_title7'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $corporate_link7 ?>">Apply Now</a></li>
 				<li class="clear"><p><?php echo get_field('corporate_title8'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $corporate_link8 ?>">Apply Now</a></li>
+				<li class="clear"><p><?php echo get_field('corporate_title9'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $corporate_link9 ?>">Apply Now</a></li>
+				<li class="clear"><p><?php echo get_field('corporate_title10'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $corporate_link10 ?>">Apply Now</a></li>
+				<li class="clear"><p><?php echo get_field('corporate_title11'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $corporate_link11 ?>">Apply Now</a></li>
+				<li class="clear"><p><?php echo get_field('corporate_title12'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $corporate_link12 ?>">Apply Now</a></li>
+				<li class="clear"><p><?php echo get_field('corporate_title13'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $corporate_link13 ?>">Apply Now</a></li>
+				<li class="clear"><p><?php echo get_field('corporate_title14'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $corporate_link14 ?>">Apply Now</a></li>
+				<li class="clear"><p><?php echo get_field('corporate_title15'); ?></p><a class="secondary-btn red-secondary" href="<?php echo $corporate_link15 ?>">Apply Now</a></li>	
 			</ul>
 		</div>
 	</section>
@@ -145,4 +167,6 @@ get_header(); ?>
 			$('nav#site-navigation').removeClass('bg');
 		}
 	});
+	
+	$('#job-openings li a[href!=""]').parent('li').show();
 </script>

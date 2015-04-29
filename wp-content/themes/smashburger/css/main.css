@@ -3599,6 +3599,7 @@ article#steps footer a:hover, #inquiry-submit a:hover  {
  #job-openings ul li { 
  	padding: 2%;
  	line-height: 20px;
+ 	display: none;
  }
   #job-openings ul li:nth-child(odd){
   	background-color: #d9d0bd;
