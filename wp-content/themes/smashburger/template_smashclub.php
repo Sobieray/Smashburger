@@ -20,7 +20,7 @@ get_header(); ?>
 			</div>
 			<p class="brown-text small-12 row"><?php echo get_field('page_info'); ?></p>
 			<?php 
-				if (isset($_GET['inputsource'])){
+				if (isset($_GET['InputSource'])){
 					echo '<iframe src="https://smashburger.fbmta.com/members/UpdateProfile.aspx?Action=Subscribe&_Theme=45097156821&InputSource=W-RAF2015" width="1000" height="800"></iframe>';
 				} else {
 					echo '<iframe src="https://smashburger.fbmta.com/members/UpdateProfile.aspx?Action=Subscribe&_Theme=45097156821&InputSource=wForm" width="1000" height="800"></iframe>';
