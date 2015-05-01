@@ -80,4 +80,50 @@
 		<aside class="left-off-canvas-menu">
         <?php wp_nav_menu( array( 'menu' => 'mobile', 'menu_class' => 'off-canvas-list' ) ); ?>
     </aside>
+    <article id="pop">
+    	<div class="modal clear">
+    		<span class="x-out">x</span>
+    		<div class="small-4 column">
+    			<ul class="white-text">
+    				<li>NICK JONAS</li>
+    				<li>KELLY CLARKSON</li>
+    				<li>NICKI MINAJ</li>
+    				<li>CHRIS BROWN</li>
+    			</ul>
+    		</div>
+
+    		<div class="small-4 column">
+    			<img src="<?php echo get_template_directory_uri() . '/img/vegas_promo.jpg'; ?>" width="100%">
+    		</div>
+
+    		<div class="small-4 column">
+    			<ul class="white-text">
+    				<li>SHAGGY</li>
+    				<li>ECHOSMITH</li>
+    				<li>DAVID GUETTA</li>
+    				<li>YOU!</li>
+    			</ul>
+    		</div>
+    		<div class="small-12 column">
+    			<h4 class="white-text">&bullet; two vip trips available &bullet;</h4>
+    		</div>
+    		<div class="small-6 column">
+    			<div class="small-10">
+    				<p>Roundtrip airfare to Las Vegas for 2</br>Transportation to &amp; from the airport in Las Vegas</br>Hotel stay on the strip</p>
+    			</div>
+    		</div>
+    		<div class="small-6 column">
+    			<div class="small-10">
+    				<p>Welcome party hosted by iHeart Radio</br>2 tickets to the iHeart Radio Summer Pool Party</br>Smashburgers for a year!</p>
+    			</div>
+    		</div>
+    		<div class="small-12 column white-text">
+    			<h5 class="white-text">Get automatically entered when you</h5>
+    			<a class="secondary-btn red-primary" href="/club-cards/smashclub/">Join the Smashclub</a>
+    			<h6 class="white-text">Already a member? Look for an email from Smashburger with special instructions on how to enter.</h6>
+    			<p class="small-print">*NO PURCHASE NECESSARY. VOID WHERE PROHIBITED BY LAW. For Official Rules see smashburger.com. Sweepstakes Period: 5/4/15 to 5/21/15. Sweepstakes Sponsor: Smashburger Marketing Fund Trust. Legal residents of the 50 states or Washington, D.C., at least 21 years of age are eligible. 2 Prize(s): iHeartRadio Summer Pool Party prize packages (ARV: $3,286 per prize package). Odds of winning depends on number of entries. Enter on-line, in-store or by mail. Please visit smashburger.com for Smashclub™ terms and conditions.</p>
+    		</div>
+
+    	</div>
+    </article>
 		<div id="content" class="site-content">

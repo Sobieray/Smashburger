@@ -28,7 +28,7 @@
 				</div><!-- #social-media -->
 				<div id="privacy">
 					<ul>
-						<li><a href="http://smashwebadmin.wpengine.com/wp-content/uploads/2015/03/Smashburger-Privacy-Policy-10-15-14.pdf">Privacy Policy</a></li>
+						<li><a href="http://smashburger.com/wp-content/uploads/2015/05/05.01.15-privacy-policy.pdf">Privacy Policy</a></li>
 						<li><a href="/terms-and-conditions/">T&amp;C&lsquo;s</a></li>
 					</ul>
 				</div><!-- #privacy -->
