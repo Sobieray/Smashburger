@@ -79,5 +79,11 @@
 		</header><!-- #masthead -->
 		<aside class="left-off-canvas-menu">
         <?php wp_nav_menu( array( 'menu' => 'mobile', 'menu_class' => 'off-canvas-list' ) ); ?>
+        <div id="privacy">
+            <ul>
+                <li><a href="http://smashburger.com/wp-content/uploads/2015/05/05.01.15-privacy-policy.pdf">Privacy Policy</a></li>
+                <li><a href="/terms-and-conditions/">T&amp;C&lsquo;s</a></li>
+            </ul>
+        </div><!-- #privacy -->
     </aside>
 		<div id="content" class="site-content">

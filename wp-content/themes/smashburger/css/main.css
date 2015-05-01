@@ -4137,6 +4137,14 @@ footer nav#site-navigation {
   cursor: default;
   background-color: #980d12;
 }
+.left-off-canvas-menu #privacy ul {
+	margin-left: 0;
+	margin-top: 10px;
+}
+.left-off-canvas-menu #privacy ul li a {
+	color: white;
+
+}
 
 /*==== Default Template ====*/
 #default {
