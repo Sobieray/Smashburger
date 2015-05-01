@@ -4228,6 +4228,9 @@ footer nav#site-navigation {
 	font-size: 50%;
   line-height: 10px;
   margin-bottom: 0;
+  margin-top: 10px;
+  font-weight: normal;
+  text-transform: none;
 }
 
 .iheart-btn {
