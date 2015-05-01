@@ -4208,7 +4208,9 @@ footer nav#site-navigation {
   margin: 20px 0px 0px;
 }
 #pop .modal h6 {
-	font-weight: 700;
+	font-weight: 900;
+  text-transform: uppercase;
+  font-size: 90%;
 }
 #pop .modal ul {
 	margin: 0;

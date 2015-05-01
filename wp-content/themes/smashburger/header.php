@@ -120,7 +120,7 @@
     		<div class="small-12 column white-text">
     			<h5 class="white-text">Get automatically entered when you</h5>
     			<a class="secondary-btn red-primary" href="/club-cards/smashclub/">Join the Smashclub</a>
-    			<h6 class="white-text">Already a member? Look for an email from Smashburger with special instructions on how to enter.</h6>
+    			<h6 class="white-text">Already a member? Look for an email from Smashburger with special instructions on how to enter SENT ON MAY 4TH.</h6>
     			<p class="small-print">*NO PURCHASE NECESSARY. VOID WHERE PROHIBITED BY LAW. For Official Rules see smashburger.com. Sweepstakes Period: 5/4/15 to 5/21/15. Sweepstakes Sponsor: Smashburger Marketing Fund Trust. Legal residents of the 50 states or Washington, D.C., at least 21 years of age are eligible. 2 Prize(s): iHeartRadio Summer Pool Party prize packages (ARV: $3,286 per prize package). Odds of winning depends on number of entries. Enter on-line, in-store or by mail. Please visit smashburger.com for Smashclub™ terms and conditions.</p>
     	    </div>
     	</div>
