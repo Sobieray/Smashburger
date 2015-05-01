@@ -106,4 +106,29 @@ $(document).ready(function() {
 			$('nav#site-navigation').removeClass('bg');
 		}
 	});	*/
+	//iHeart Pop-up
+	$(".x-out").click(function(){
+		$('#pop .modal , #pop .mobile-modal').addClass('hide');
+		$('#pop .widget').removeClass('hide');
+		$('#pop').addClass('shrink');
+	});
+	$("#pop .widget").click(function(){
+		$('#pop .modal , #pop .mobile-modal').removeClass('hide');
+		$('#pop .widget').addClass('hide');
+		$('#pop').removeClass('shrink');
+	});
+  function vistorTracking() {
+       if (jQuery.cookie('iheart') == null) {
+       // If the cookie doesn't exist, save the cookie with the value of 1
+           jQuery.cookie('iheart', '1', {expires: 365});
+           $('#pop .modal , #pop .mobile-modal' ).removeClass('hide');
+       } else {
+       		$('#pop .modal , #pop .mobile-modal').addClass('hide');
+          $('#pop .widget').removeClass('hide');
+          $('#pop').addClass('shrink');
+       }
+   };
+  vistorTracking();
+
+   
 });

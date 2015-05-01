@@ -4167,6 +4167,113 @@ footer nav#site-navigation {
 #default a:hover {
 	color: #374665;
 }
+/*===== iheart Promo Pop-Up =====*/
+#pop {
+	position: fixed;
+	z-index: 9999;
+	left: 0;
+	right: 0;
+}
+#pop .modal {
+	background: white url(../img/iheart_bg.jpg) center no-repeat;
+	background-size: cover;
+	padding: 20px;
+	margin: 3%;
+	position: relative;
+}
+#pop .modal .x-out, #pop .mobile-modal .x-out{
+	position: absolute;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+	padding: 5px;
+	background-color: rgba(0,0,0,.3);
+	color: #ffffff;
+}
+#pop .modal .small-10 {
+	background: transparent url(../img/banner_bg.png) center center no-repeat;
+	margin: 0 auto;
+  background-size: 100%;
+}
+#pop .modal .small-10 p {
+	max-width: 90%;
+  text-align: center;
+  font-size: 70%;
+  margin: 0 auto;
+  padding: 1%;
+}
+#pop .modal h4 {
+	position: relative;
+	color: white;
+	padding: 0;
+	margin: 1em 0;
+	font-size: 130%;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+#pop .modal h4:before, #pop .modal h4:after {
+	display: none;
+}
+#pop .modal h5 {
+	font-size: 120%;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 20px 0px 0px;
+}
+#pop .modal h6 {
+	font-weight: 900;
+  text-transform: uppercase;
+  font-size: 80%;
+}
+#pop .modal ul {
+	margin: 0;
+	padding: 5% 0 0 0;
+}
+#pop .modal ul li {
+	list-style: none;
+	font-family: 'Bebas_Bold';
+	font-weight: 900;
+	font-size: 190%;
+	letter-spacing: 3px;
+	line-height: 130%;
+}
+#pop .modal .small-print {
+	font-size: 50%;
+  line-height: 10px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  font-weight: normal;
+  text-transform: none;
+}
+
+.iheart-btn {
+	position: absolute;
+	top: 58%;
+	width: 100%;
+}
+.iheart-btn a {
+	padding: .3em;
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+#pop .widget {
+	position: fixed;
+  bottom: -25px;
+  right: 0;
+  cursor: pointer;
+}
+#pop.shrink {
+	height: 162px;
+	width: 258px;
+	left: auto;
+	bottom: 0;
+}
+@media (min-width: 1300px) {
+	#pop .modal ul li {
+		font-size: 240%;
+	}
+}
 /*==== Media Queries ====*/
 
 @media (min-width: 1300px) {
