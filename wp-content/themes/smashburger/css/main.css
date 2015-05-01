@@ -4154,7 +4154,7 @@ footer nav#site-navigation {
 #default a:hover {
 	color: #374665;
 }
-/*===== Promo Pop-Up =====*/
+/*===== iheart Promo Pop-Up =====*/
 #pop {
 	position: fixed;
 	z-index: 9999;
@@ -4168,13 +4168,14 @@ footer nav#site-navigation {
 	margin: 6% 3%;
 	position: relative;
 }
-#pop .modal .x-out {
+#pop .modal .x-out, #pop .mobile-modal .x-out{
 	position: absolute;
 	right: 0;
 	top: 0;
 	cursor: pointer;
 	padding: 5px;
 	background-color: rgba(0,0,0,.3);
+	color: #ffffff;
 }
 #pop .modal .small-10 {
 	background: transparent url(../img/banner_bg.png) center center no-repeat;
@@ -4225,6 +4226,18 @@ footer nav#site-navigation {
 	font-size: 50%;
   line-height: 10px;
   margin-bottom: 0;
+}
+
+.iheart-btn {
+	position: absolute;
+	top: 58%;
+	width: 100%;
+}
+.iheart-btn a {
+	padding: .3em;
+	width: 50%;
+	display: block;
+	margin: 0 auto;
 }
 @media (min-width: 1300px) {
 	#pop .modal ul li {

@@ -106,4 +106,8 @@ $(document).ready(function() {
 			$('nav#site-navigation').removeClass('bg');
 		}
 	});	*/
+	//iHeart Pop-up
+	$(".x-out").click(function(){
+		$('#pop').addClass('hide');
+	})
 });
