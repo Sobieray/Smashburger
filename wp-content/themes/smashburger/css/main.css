@@ -4143,7 +4143,12 @@ footer nav#site-navigation {
 }
 .left-off-canvas-menu #privacy ul li a {
 	color: white;
-
+}
+.left-off-canvas-menu #privacy ul li {
+	float: left;
+}
+.left-off-canvas-menu #privacy ul li:last-child {
+	margin-left: 30px;
 }
 
 /*==== Default Template ====*/
