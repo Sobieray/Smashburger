@@ -4165,7 +4165,7 @@ footer nav#site-navigation {
 	background: white url(../img/iheart_bg.jpg) center no-repeat;
 	background-size: cover;
 	padding: 20px;
-	margin: 6% 3%;
+	margin: 3%;
 	position: relative;
 }
 #pop .modal .x-out, #pop .mobile-modal .x-out{
@@ -4238,6 +4238,18 @@ footer nav#site-navigation {
 	width: 50%;
 	display: block;
 	margin: 0 auto;
+}
+#pop .widget {
+	position: fixed;
+  bottom: -25px;
+  right: 0;
+  cursor: pointer;
+}
+#pop.shrink {
+	height: 162px;
+	width: 258px;
+	left: auto;
+	bottom: 0;
 }
 @media (min-width: 1300px) {
 	#pop .modal ul li {

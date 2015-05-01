@@ -168,6 +168,7 @@ function smashburger_scripts() {
 	wp_enqueue_script( 'foundation-js', get_template_directory_uri() . '/foundation/js/foundation/foundation.js', array(), '1', true );
 	wp_enqueue_script( 'foundation-topbar', get_template_directory_uri() . '/foundation/js/foundation/foundation.topbar.js', array(), '1', true );
 	wp_enqueue_script( 'foundation-offcanvas', get_template_directory_uri() . '/foundation/js/foundation/foundation.offcanvas.js', array(), '1', true );
+	wp_enqueue_script( 'jquery-cookie', get_template_directory_uri() . '/foundation/js/vendor/jquery.cookie.js', array(), '1', true );
 	if (is_page(array('growing'))) {
 		wp_enqueue_script( 'foundation-slider', get_template_directory_uri() . '/foundation/js/foundation/foundation.slider.js', array(), '1', true );
 	}

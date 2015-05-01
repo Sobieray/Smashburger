@@ -81,7 +81,7 @@
         <?php wp_nav_menu( array( 'menu' => 'mobile', 'menu_class' => 'off-canvas-list' ) ); ?>
     </aside>
     <article id="pop">
-    	<div class="modal clear show-for-medium-up">
+    	<div class="modal clear show-for-medium-up hide">
     		<span class="x-out">x</span>
     		<div class="small-4 column">
     			<ul class="white-text">
@@ -124,12 +124,16 @@
     			<p class="small-print">*NO PURCHASE NECESSARY. VOID WHERE PROHIBITED BY LAW. For Official Rules see smashburger.com. Sweepstakes Period: 5/4/15 to 5/21/15. Sweepstakes Sponsor: Smashburger Marketing Fund Trust. Legal residents of the 50 states or Washington, D.C., at least 21 years of age are eligible. 2 Prize(s): iHeartRadio Summer Pool Party prize packages (ARV: $3,286 per prize package). Odds of winning depends on number of entries. Enter on-line, in-store or by mail. Please visit smashburger.com for Smashclub™ terms and conditions.</p>
     	    </div>
     	</div>
-        <div class="mobile-modal show-for-small-only">
+        <div class="mobile-modal show-for-small-only hide">
             <span class="x-out">x</span>
             <img src="<?php echo get_template_directory_uri() . '/img/mobile_iheart.jpg'; ?>" width="100%">
             <div class="iheart-btn">
                 <a class="secondary-btn red-primary" href="/club-cards/smashclub/">Join the Smashclub</a>
             </div>
         </div>
+        <div class="widget show-for-medium-up hide">
+            <img src="<?php echo get_template_directory_uri() . '/img/iheart_widget.jpg'; ?>" width="100%">
+        </div>
     </article>
+   
 		<div id="content" class="site-content">
