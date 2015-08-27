@@ -1,2 +1,2 @@
 <h1>Smashburger Wordpress Theme</h1>
-<p>A theme built with underscore for the Smashburger website. This theme is built on the foundation framework and use 3rd party vendors: placeable, inmoment, FranConnect, and Aloha POS. It geolocates based on your IP Address and passes you lattitude and logitude to Placeables API to get the neares store. It also alows for online ordering through Aloha Online.</p> 
+<p>A theme built with underscore for the Smashburger website. This theme is built on the Foundation 5 framework and use 3rd party vendors: placeable, inmoment, FranConnect, and Aloha POS. It geolocates based on your IP Address and passes the lattitude and logitude to Placeables API to get the neares store. It also allows for online ordering through Aloha Online.</p> 
